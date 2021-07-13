@@ -1,0 +1,43 @@
+#EXTM3U
+
+ 
+
+#EXTINF:-1  group-title="WENDY FILM",CHANNEL[V] HD
+
+https://livecdn.fptplay.net/foxlive/channelvhd_hls.smil/chunklist_b2500000.m3u8
+
+ 
+
+#EXTINF:-1  tvg-logo="http://image.free.in.th/v/2013/ig/200528061617.jpg" group-title="WENDY FILM",HBO (VPN)
+
+https://liveorigin01.hbogoasia.com:8443/origin/live/main/HBO/index.m3u8
+
+ 
+
+#EXTINF:-1  tvg-logo="http://image.free.in.th/v/2013/ia/200528062232.jpg" group-title="WENDY FILM",HBO HITS (VPN)
+
+https://liveorigin01.hbogoasia.com:8443/origin/live/main/HITS/index.m3u8
+
+ 
+
+#EXTINF:-1  tvg-logo="http://image.free.in.th/v/2013/ie/200528062343.jpg" group-title="WENDY FILM",HBO SIGNATURE (VPN)
+
+https://liveorigin01.hbogoasia.com:8443/origin/live/main/SIG/index.m3u8
+
+ 
+
+#EXTINF:-1  tvg-logo="http://image.free.in.th/v/2013/ip/200528062433.jpg" group-title="WENDY FILM",HBO FAMILY (VPN)
+
+https://liveorigin01.hbogoasia.com:8443/origin/live/main/FAMILY/index.m3u8
+
+ 
+
+#EXTINF:-1  tvg-logo="http://image.free.in.th/v/2013/io/200528062517.jpg" group-title="WENDY FILM",HBO RED (VPN)
+
+https://liveorigin01.hbogoasia.com:8443/origin/live/main/RED/index.m3u8
+
+ 
+
+#EXTINF:-1  tvg-logo="http://image.free.in.th/v/2013/ip/200529062321.png" group-title="WENDY FILM",CINEMAX (VPN)
+3X TVRI
+https://liveorigin01.hbogoasia.com:8443/origin/live/main/MAX/index.m3u8
