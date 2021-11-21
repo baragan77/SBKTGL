@@ -3,10 +3,34 @@
 
 #EXTINF:-1 group-title="GP",RTSH
 http://tvlive.rtsh.dev/live/sport_mob_ppp2/playlist.m3u8
+#EXTINF:-1 tvg-id="" group-title="ASTRO" ,SUPERSPORT 1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp1.m3u8
+#EXTINF:-1 tvg-id="" group-title="ASTRO" ,SUPERSPORT 2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp2.m3u8
+#EXTINF:-1 tvg-id="" group-title="ASTRO" ,SUPERSPORT 3
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp3.m3u8
+#EXTINF:-1 tvg-id="" group-title="ASTRO" ,SUPERSPORT 4
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp4.m3u8
+#EXTINF:-1 tvg-id="" group-title="ASTRO" ,Bein 1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein1-En.m3u8
+#EXTINF:-1 tvg-id="" group-title="ASTRO" ,Bein 2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein2-En.m3u8
+#EXTINF:-1 tvg-id="" group-title="ASTRO" ,Andflix
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AndFlix.m3u8
+#EXTINF:-1 tvg-id="" group-title="ASTRO" ,Andprive
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AndPrive.m3u8
 
-#EXTINF:-1 group-title="GP",BT SPORT 2
-http://185.53.89.183/hls/bt2.m3u8?SBN
 
+
+
+
+
+
+
+
+
+
+//MNCVISION
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
 #EXTINF:-1 group-title="Local" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_80.png",RCTI
