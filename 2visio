@@ -589,7 +589,8 @@ https://liveanevia.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel
 https://liveanevia.mncnow.id/live/eds/AFC/sa_dash_vmx/AFC.mpd
 
 
-// Wendy channel
+Wendy channel
+
 #EXTINF:-1 group-title="WENDY CHANNEL" ,NBA
 http://tecnotv.club/26nv/smartv2.php?c=1875
 #EXTINF:-1 group-title="WENDY CHANNEL",ASTRO SPORT 1
