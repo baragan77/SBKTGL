@@ -587,3 +587,40 @@ https://liveanevia.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
 #EXTINF:-1 group-title="Lifestyle" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_240.jpg",Asian Food Network
 https://liveanevia.mncnow.id/live/eds/AFC/sa_dash_vmx/AFC.mpd
+
+
+// Wendy channel
+#EXTINF: -1 group-title = "WENDY CHANNEL",NBA
+http://tecnotv.club/26nv/smartv2.php?c=1875
+#EXTINF: -1 group-title = "WENDY CHANNEL",ASTRO SPORT 1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp1.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL",ASTRO SPORT 2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp2.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL",ASTRO SPORT 3
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp3.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL",ASTRO SPORT 4
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp4.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL",BT SPORT 1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP1HD.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL",BT SPORT 2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP2HD.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL",BT SPORT 3
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP3HD.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL",BEIN SPORT 1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein1-En.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL",BEIN SPORT 2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein2-En.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL",SONY TEN 1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Sony-Ten1.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL",SONY TEN 2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Sony-Ten2.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL",SONY TEN 3
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Sony-Ten3.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL", SONY SIX
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Sony-Six.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL", SONY PIX
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Sony-Pix.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL", STAR SELECT
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Star-Select.m3u8
+#EXTINF: -1 group-title = "WENDY CHANNEL", STAR SPORT
+http://jupiter.bdcabletv.com/StarSports_2-Enc/video.m3u8
