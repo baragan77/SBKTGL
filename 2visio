@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp4.m3u8
 https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein1-En.m3u8
 #EXTINF:-1 tvg-id="" group-title="ASTRO" ,Bein 2
 https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein2-En.m3u8
-#EXTINF:-1 tvg-id="" group-title="ASTRO" ,Andflix
+#EXTINF:-1 group-title="ASTRO" ,Andflix
 https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AndFlix.m3u8
 #EXTINF:-1 tvg-id="" group-title="ASTRO" ,Andprive
 https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AndPrive.m3u8
@@ -590,7 +590,7 @@ https://liveanevia.mncnow.id/live/eds/AFC/sa_dash_vmx/AFC.mpd
 
 
 // Wendy channel
-#EXTINF:-1 group-title="WENDY CHANNEL",NBA
+#EXTINF:-1 group-title="WENDY CHANNEL" ,NBA
 http://tecnotv.club/26nv/smartv2.php?c=1875
 #EXTINF:-1 group-title="WENDY CHANNEL",ASTRO SPORT 1
 https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp1.m3u8
