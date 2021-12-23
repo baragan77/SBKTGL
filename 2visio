@@ -1,33 +1,6 @@
 #EXTM3U $BorpasFileFormat="1"
 #EXTM3U url-tvg=https://macan.tv/xmltv.php?username=epg&password=epg
 
-#EXTINF:-1 group-title="GP",RTSH
-http://tvlive.rtsh.dev/live/sport_mob_ppp2/playlist.m3u8
-#EXTINF:-1 tvg-id="" group-title="ASTRO" ,SUPERSPORT 1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp1.m3u8
-#EXTINF:-1 tvg-id="" group-title="ASTRO" ,SUPERSPORT 2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp2.m3u8
-#EXTINF:-1 tvg-id="" group-title="ASTRO" ,SUPERSPORT 3
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp3.m3u8
-#EXTINF:-1 tvg-id="" group-title="ASTRO" ,SUPERSPORT 4
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp4.m3u8
-#EXTINF:-1 tvg-id="" group-title="ASTRO" ,Bein 1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein1-En.m3u8
-#EXTINF:-1 tvg-id="" group-title="ASTRO" ,Bein 2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein2-En.m3u8
-#EXTINF:-1 group-title="ASTRO" ,Andflix
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AndFlix.m3u8
-#EXTINF:-1 tvg-id="" group-title="ASTRO" ,Andprive
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AndPrive.m3u8
-
-
-
-
-
-
-
-
-
 
 
 //MNCVISION
@@ -589,39 +562,407 @@ https://liveanevia.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel
 https://liveanevia.mncnow.id/live/eds/AFC/sa_dash_vmx/AFC.mpd
 
 
-Wendy channel
+// Wendy channel
+############################
 
-#EXTINF:-1 group-title="WENDY_CHANNEL" ,NBA
-http://tecnotv.club/26nv/smartv2.php?c=1875
-#EXTINF:-1 group-title="WENDY_CHANNEL",ASTRO SPORT 1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp1.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL",ASTRO SPORT 2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp2.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL",ASTRO SPORT 3
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp3.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL",ASTRO SPORT 4
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp4.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL",BT SPORT 1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP1HD.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL",BT SPORT 2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP2HD.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL",BT SPORT 3
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP3HD.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL",BEIN SPORT 1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein1-En.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL",BEIN SPORT 2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein2-En.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL",SONY TEN 1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Sony-Ten1.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL",SONY TEN 2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Sony-Ten2.m3u8
-#EXTINF:-1 group-title = "WENDY_CHANNEL",SONY TEN 3
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Sony-Ten3.m3u8
-#EXTINF:-1 group-title = "WENDY_CHANNEL", SONY SIX
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Sony-Six.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL", SONY PIX
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Sony-Pix.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL", STAR SELECT
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Star-Select.m3u8
-#EXTINF:-1 group-title="WENDY_CHANNEL", STAR SPORT
-http://jupiter.bdcabletv.com/StarSports_2-Enc/video.m3u8
+#EXTINF:1 group-title="WENDY_CH",&FliX
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/And-Flix.m3u8
+#EXTINF:1 group-title="WENDY_CH",&PRive
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/And-Prive.m3u8
+#EXTINF:1 group-title="WENDY_CH",Astro arena
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Astro-Arena.m3u8
+#EXTINF:1 group-title="WENDY_CH",AstroSupersport1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp-1.m3u8
+#EXTINF:1 group-title="WENDY_CH",AstroSupersport2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp-2.m3u8
+#EXTINF:1 group-title="WENDY_CH",AstroSupersport3
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp-3.m3u8
+#EXTINF:1 group-title="WENDY_CH",AstroSupersport4
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp-4.m3u8
+#EXTINF:1 group-title="WENDY_CH",AstroSupersport5
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp-5.m3u8
+#EXTINF:1 group-title="WENDY_CH",BT SPORT 1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP-1.m3u8
+#EXTINF:1 group-title="WENDY_CH",BT SPORT 2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP-2.m3u8
+#EXTINF:1 group-title="WENDY_CH",BT SPORT 3
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP-3.m3u8
+#EXTINF:1 group-title="WENDY_CH",Bein 1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-1.m3u8
+#EXTINF:1 group-title="WENDY_CH",Bein 1Eng
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-1En.m3u8
+#EXTINF:1 group-title="WENDY_CH",Bein 2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-2.m3u8
+#EXTINF:1 group-title="WENDY_CH",Bein 2En
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-1En.m3u8
+#EXTINF:1 group-title="WENDY_CH",Bein 3
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-3.m3u8
+#EXTINF:1 group-title="WENDY_CH",Bein 1En
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-3En.m3u8
+#EXTINF:1 group-title="WENDY_CH",Sony Six
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SonySix.m3u8
+#EXTINF:1 group-title="WENDY_CH",Sony Pix
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SonyPix.m3u8
+#EXTINF:1 group-title="WENDY_CH",Sony Ten 1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SonyTen1.m3u8
+#EXTINF:1 group-title="WENDY_CH",Sony Ten 2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SonyTen2.m3u8
+#EXTINF:1 group-title="WENDY_CH",Sony Ten 3
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SonyTen3.m3u8
+#EXTINF:1 group-title="WENDY_CH",Spotv 1 kr
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpoTv1-kr.m3u8
+#EXTINF:1 group-title="WENDY_CH",Spotv 2 kr
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpoTv2-kr.m3u8
+#EXTINF:1 group-title="WENDY_CH",Sptv1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpTv1.m3u8
+#EXTINF:1 group-title="WENDY_CH",Sptv 2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpTv2.m3u8
+#EXTINF:1 group-title="WENDY_CH",Sptv 3
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpTv3.m3u8
+#EXTINF:1 group-title="WENDY_CH",Sptv 4
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpTv4.m3u8
+#EXTINF:1 group-title="WENDY_CH",Sptvn5
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpTv5.m3u8
+#EXTINF:1 group-title="WENDY_CH", ucek sport 1
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Usports1.m3u8
+#EXTINF:1 group-title="WENDY_CH",ucek sport 2
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Usports2.m3u8
+#EXTINF:1 group-title="WENDY_CH",Antv
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Antv.m3u8
+#EXTINF:1 group-title="WENDY_CH",Indosiar
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Indosiar.m3u8
+#EXTINF:1 group-title="WENDY_CH",Gtv
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Gtv.m3u8
+#EXTINF:1 group-title="WENDY_CH",Mnctv
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Mnctv.m3u8
+#EXTINF:1 group-title="WENDY_CH",Rcti
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Rcti.m3u8
+#EXTINF:1 group-title="WENDY_CH",Kompas
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Kompastv.m3u8
+#EXTINF:1 group-title="WENDY_CH",Net
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Nettv.m3u8
+#EXTINF:1 group-title="WENDY_CH",Rtv
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Rtv.m3u8
+#EXTINF:1 group-title="WENDY_CH",Trans7
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Trans7.m3u8
+#EXTINF:1 group-title="WENDY_CH",Transtv
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Transtv.m3u8
+#EXTINF:1 group-title="WENDY_CH",Tvone
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Tvone.m3u8
+#EXTINF:1 group-title="WENDY_CH",HBO
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Hbo.m3u8
+#EXTINF:1 group-title="WENDY_CH",HBO HITS
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Hbo-Hits.m3u8
+#EXTINF:1 group-title="WENDY_CH",CINEMAX
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Hbo-Max.m3u8
+#EXTINF:1 group-title="WENDY_CH",HBO FAM
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Hbo-Fam.m3u8
+#EXTINF:1 group-title="WENDY_CH",HBO SIGN
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Hbo-Sign.m3u8
+#EXTINF:1 group-title="WENDY_CH",FLIK
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Flik.m3u8
+#EXTINF:1 group-title="WENDY_CH",CCM
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Ccm.m3u8
+#EXTINF:1 group-title="WENDY_CH",MOVIE NOW
+https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/MoviNow.m3u8
+
+thailand
+
+
+#EXTINF:-1 tvg-id="hbohd" group-title="Quốc tế" tvg-logo="https://mytv.com.vn/upload/channel/173.png",HBO HD
+#https://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b2500000.m3u8
+https://livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b2500000.m3u8
+#https://bom.to/lBBCJCNHBD9oRP
+
+#EXTINF:-1 tvg-id="cinemaxhd" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png", Cinemax HD
+#https://vips-livecdn.fptplay.net/hda1/cinemax_hls.smil/chunklist_b2500000.m3u8
+https://livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:0 tvg-id="cinemaxhd" group-title="Quốc tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png",Cinemax
+
+#EXTINF:-1, tvg-id="cinemaxhd" tvg-logo="" tvg-name="Cinemax"  group-title="Quốc tế", Cinemax
+https://vips-livecdn.fptplay.net/hda1/cinemax_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:0 tvg-id="AXN-ClipTV" group-title="Quốc tế" tvg-logo="https://i.ibb.co/ck0mm20/AXN-BEARTV.png" ,AXN HD
+#EXTVLCOPT:http-user-agent="BearTV"
+http://livecdn.fptplay.net/hda3/axnhd_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="mtvhd" group-title="Quốc tế" tvg-logo="http://vthanhchannel.github.io/ic/246.png", MTV
+https://live2cdn.todayplus.com.vn/hdb/smil:mtv.smil/chunklist_b1596000.m3u8
+
+#EXTINF:-1 tvg-id="animaxhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/198.png", Animax HD
+https://livecdn.fptplay.net/hda3/animaxport_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="boomerang" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/199.png", Boomerang HD
+https://livecdn.fptplay.net/hda3/boomerang_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="babyfirst" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/203.png", BabyFirst
+https://livecdn.fptplay.net/hda1/babyfirst_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="cartoonhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/200.png", Cartoon Network HD
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CARTOON-SD-720p/playlist.m3u8?
+#https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CARTOON-SD/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="cartoonhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/200.png", Cartoon Network HD
+https://livecdn.fptplay.net/hda3/cartoonnetworkhd_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="warnertvhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/237.png", Warner TV || hlus
+
+#EXTINF:0 tvg-id="warnertvhd" group-title="Quốc tế" tvg-logo="https://i.ibb.co/S7BtNs4/WB-BEARTV.png",Warner TV
+#EXTVLCOPT:http-user-agent="BearTV"
+http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="fashionhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/233.png", Fashion TV
+https://livecdn.fptplay.net/hda2/fashiontvhd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="cinemaworldhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/232.png", CinemaWorld
+https://livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="drfithd" group-title="FOX" tvg-logo="http://vthanh.live/ic/196.png", Dr Fit HD
+
+
+#EXTINF:-1 tvg-id="hollywoodclassics" group-title="FOX" tvg-logo="http://vthanh.live/ic/193.png", Hollywood Classic HD
+
+
+#EXTINF:-1 tvg-id="happykids" group-title="FOX" tvg-logo="http://vthanh.live/ic/194.png", Happy Kids HD
+
+
+#EXTINF:-1 tvg-id="" group-title="FOX" tvg-logo="https://www.intheboxtv.eu/content/uploads/2018/10/MUSICBOX_KARTICA_V4.jpg", Music Box
+
+
+#EXTINF:-1 tvg-id="planetearthhd" group-title="FOX" tvg-logo="http://vthanh.live/ic/195.png", Planet Earth HD
+
+#EXTINF:-1 tvg-id="woman" group-title="FOX" tvg-logo="http://vthanh.live/ic/197.png", Woman HD
+
+#EXTINF:-1 tvg-id="blueantent" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/229.png", Blue Ant Entertainment
+
+
+#EXTINF:-1 tvg-id="blueantext" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/230.png", Blue Ant Extreme
+
+#EXTINF:-1 tvg-id="channelvhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/231.png", Channel V HD
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CHANNELV-HD-1080p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="kix" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/234.png", KIX HD
+https://livecdn.fptplay.net/hda1/kixhd_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="paramouthd" group-title="Quốc tế"tvg-logo="http://vthanh.live/ic/235.png", Paramount
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/PARAMOUNT-HD-720p/playlist.m3u8
+#EXTINF:-1 tvg-id="tlchd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/236.png", TLC
+https://livecdn.fptplay.net/hda2/travelliving_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="afnhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/221.png", Asian Food Network
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AFC-HD-1080p/playlist.m3u8
+#EXTINF:-1 tvg-id="davinci" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/204.png", Da Vinci HD
+#http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/DAVINCY-HD-1080p/playlist.m3u8
+https://livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b2500000.m3u8
+
+EXTINF:-1 tvg-id="bbcearth" group-title="Quốc tế" tvg-logo="http://vthanhtivi.cf/ic/205.png", BBC Earth
+https://livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="bbclifestyle" group-title="Quốc tế" tvg-logo="http://vthanhtivi.cf/ic/206.png", BBC Lifestyle
+https://livecdn.fptplay.net/qnetlive/bbclifestyle_2000.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="cbeebies" group-title="Quốc tế" tvg-logo="http://vthanhtivi.cf/ic/207.png", BBC Cbeebies
+https://livecdn.fptplay.net/hda3/cbeebies_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="bbcworldnews" group-title="Quốc tế" tvg-logo="http://vthanhtivi.cf/ic/208.png", BBC World News
+https://livecdn.fptplay.net/qnetlive/bbcnew_2000.stream/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="arirang" group-title="Quốc tế" tvg-logo="http://vthanhtivi.cf/ic/209.png", Arirang
+http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
+
+#EXTINF:-1 tvg-id="abcaustralia" group-title="Quốc tế" tvg-logo="http://vthanhtivi.cf/ic/210.png", ABC Australia
+https://livecdn.fptplay.net/qnetlive/australiaplus_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="bloomberg" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/211.png", Bloomberg
+https://liveprodapnortheast.global.ssl.fastly.net/ap1/Channel-APTVqvs-AWS-tokyo-1/Source-APTVqvs-1000-1_live.m3u8
+
+#EXTINF:-1 tvg-id="cnn" group-title="Quốc tế" tvg-logo="http://vthanhtivi.cf/ic/212.png", CNN
+https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist_1280x720_3000k.m3u8
+
+#EXTINF:-1 tvg-id="cna" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/213.png", CNA
+https://livecdn.fptplay.net/world/newsasia_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/214.png", CGTN
+https://live.cgtn.com/1000/prog_index.m3u8
+
+#EXTINF:-1 tvg-id="dw" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/215.png", DW
+
+
+#EXTINF:-1 tvg-id="france24eng" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/216.png", France 24
+http://f24hls-i.akamaihd.net/hls/live/221193-b/F24_EN_LO_HLS/master_old_900.m3u8
+
+#EXTINF:-1 tvg-id="kbsworld" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/217.png", KBS World
+https://livecdn.fptplay.net/sdb/kbs_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/218.png", NHK World
+https://nhkwlive-ojp.webcdn.stream.ne.jp/hls/live/2003459/nhkwlive-ojp/index_1M.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/219.png", TV5Monde
+https://livecdn.fptplay.net/world/tv5_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/220.png", TRT World
+https://tv-trtworld.live.trt.com.tr/master_1080.m3u8
+
+#EXTINF:-1 tvg-id="animalhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/222.png", Animal Planet
+https://livecdn.fptplay.net/qnetlive/animalplanet_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="discoveryhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/223.png", Discovery
+https://livecdn.fptplay.net/qnetlive/discovery_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="discoveryasiahd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/224.png", Discovery Asia
+https://livecdn.fptplay.net/qnetlive/discoveryasia_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="ngchd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/225.png", National Geographic HD
+https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="ngwhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/226.png", Nat Geo Wild HD
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NATGEOWILD-HD-720p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="outdoorhd" group-title="Quốc tế" tvg-logo="http://vthanh.live/ic/227.png", Outdoor Channel HD
+https://livecdn.fptplay.net/world/outdoorfhd_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:0 group-title="Quốc tế", tvg-logo="https://i.pinimg.com/236x/f7/c4/31/f7c431bce50ee3fd6cb5106a06090afd.jpg",Jasmin
+http://109.71.162.112:1935/live/sd.jasminchannel.stream/chunklist_w536800369.m3u8
+
+#EXTINF:0 group-title="Quốc tế", tvg-logo="https://i.pinimg.com/originals/26/0d/97/260d9789cdda7b9e85099e80f5ca0a2f.jpg",FTV MidNite
+http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
+#EXTINF:0 group-title="Quốc tế", tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMksaUXLmf5y_SCdCMRhYNVdcN3qdQ83R4NA&usqp=CAU",Kaloopy
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/274eb05b-7332-4a40-831a-cee9b0878469/0.m3u8
+#EXTINF:0 group-title="Quốc tế", tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrduHB7-0tFba9ZNCVKCytHJyq-necKbNoLpn-FOJ4DRQJC98jcNsqBT5z9Z_zjQXjNl4&usqp=CAU",
+
+#EXTINF:-1 tvg-id="" group-title="Quốc tế" tvg-logo="https://i.ibb.co/ggNS5F5/1hdtv-BEARTV.png", 1 HD Music TV
+http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/mono.m3u8
+
+#EXTINF:0 tvg-id="inthebox" group-title="🇧🌎🇽" tvg-logo="https://www.intheboxtv.eu/content/uploads/2018/10/KARTICA_BOXChannel_V1.jpg",❤️BOX ᵗᵉˢᵗ
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+#http://gg.gg/cc-box|Referer=http://sctvonline.vn/
+
+
+#EXTINF:0 tvg-id="boxhits" group-title="🇧🌎🇽" tvg-logo="https://www.intheboxtv.eu/content/uploads/2018/10/Kartica_BHits.jpg",/-❤️BOX Hits
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+#http://gg.gg/cc-hits|Referer=http://sctvonline.vn/
+#https://8387100975.vws.vegacdn.vn/live/box-hits/chunklist_1.m3u8
+
+#EXTINF:0 tvg-id="boxmovie1" group-title="🇧🌎🇽" tvg-logo="https://www.intheboxtv.eu/content/uploads/2018/10/540x540_BM1_2.png",❤️BOX Movie¹
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+#http://gg.gg/cc-movie|Referer=http://sctvonline.vn/
+https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#https://e4.endpoint.cdn.sctvonline.vn/secure/boxmovie1/sd1/index.m3u8?md5=x2aVyF4ODqD23-IuA2MPlg&cre=coca&expires=2556118740|Referer=http://sctvonline.vn/
+
+#EXTINF:0  tvg-id="musicbox" group-title="🇧🌎🇽" tvg-logo="https://i.imgur.com/V6eXMs9.png",BOX Music
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+#http://gg.gg/cc-music|Referer=http://sctvonline.vn/
+https://e4.endpoint.cdn.sctvonline.vn/hls/boxmusic/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#https://e4.endpoint.cdn.sctvonline.vn/secure/boxmusic/index.m3u8?md5=pR0QrkdxGuSRmHtTGT028A&expires=2556118740|Referer=http://sctvonline.vn/
+
+#EXTINF:0  tvg-id="man" group-title="🇧🌎🇽" tvg-logo="https://assets-vtvcab.gviet.vn/images/hq/posters/Man_150x901j3.jpg",Man
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+#https://e4.endpoint.cdn.sctvonline.vn/hls/man/index.m3u8|Referer=http://sctvonline.vn/
+#http://gg.gg/cc-man|Referer=http://sctvonline.vn/
+
+#EXTINF:0  tvg-id="woman" group-title="🇧🌎🇽" tvg-logo="https://8387a88d1b.vws.vegacdn.vn/Media/files/channels/thumb_1623743214c_Woman-193.png",Woman ¹⁰⁸⁰ᵖ 
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+#http://gg.gg/cc-woman|Referer=http://sctvonline.vn/
+https://e4.endpoint.cdn.sctvonline.vn/hls/woman/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#https://e4.endpoint.cdn.sctvonline.vn/secure/woman/index.m3u8?md5=nYLg_liiJXqdWAdw4D1wzw&expires=2556118740|Referer=http://sctvonline.vn/
+
+#EXTINF:0  tvg-id="drfithd" group-title="🇧🌎🇽" tvg-logo="https://8387a88d1b.vws.vegacdn.vn/Media/files/channels/thumb_1623743646c_DRFit.png",Dr. Fit
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+#http://gg.gg/cc-fit|Referer=http://sctvonline.vn/
+https://e4.endpoint.cdn.sctvonline.vn/hls/drfit/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#https://e4.endpoint.cdn.sctvonline.vn/secure/drfit/index.m3u8?md5=E5-H8WhpHUBeWV3JzaD5ng&expires=2556118740|Referer=http://sctvonline.vn/
+
+#EXTINF:0 tvg-id="happykids"  group-title="🇧🌎🇽" tvg-logo="https://8387a88d1b.vws.vegacdn.vn/Media/files/channels/thumb_1623744039c_Kids.png",Happy Kids ¹⁰⁸⁰ᵖ
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+#http://gg.gg/cc-kid|Referer=http://sctvonline.vn/
+https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#https://e4.endpoint.cdn.sctvonline.vn/secure/happykid/index.m3u8?md5=RoppAcvPHs-dCJI1jRxvgQ&expires=2556118740|Referer=http://sctvonline.vn/
+
+#EXTINF:0  tvg-id="planetearthhd" group-title="🇧🌎🇽" tvg-logo="https://d33wubrfki0l68.cloudfront.net/abb70413753ae27de2eb2b850e0ea1c7affb50c9/f94eb/assets/logoplayout_planetearth_3d_plain.png",Planet Earth
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+#http://gg.gg/cc-planet|Referer=http://sctvonline.vn/
+https://e4.endpoint.cdn.sctvonline.vn/hls/planetearth/sd2/index.m3u8|Referer=http://sctvonline.vn/
+#https://e4.endpoint.cdn.sctvonline.vn/secure/planetearth/index.m3u8?md5=6LuAM_K-RRvmm5Vq-zMaZw&expires=2556118740|Referer=http://sctvonline.vn/
+
+
+#EXTINF:0  tvg-id="bbcearth" group-title="🇧🌎🇽", tvg-logo="https://yt3.ggpht.com/ytc/AKedOLSpjPpSSMP-gWDUwk_lADoX-hL80Vd_4oimihhQuQ=s900-c-k-c0x00ffffff-no-rj",BBC Earth
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+http://vips-livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b2500000.m3u8
+#http://livecdn.fptplay.net/qnetlive/bbcearth_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0  tvg-id="bbclifestyle" group-title="🇧🌎🇽", tvg-logo="https://telegramchannels.me/storage/media-logo/1901/bbc_lifestyle.jpg",BBC Lifestyle
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/sdb/bbclifestyle_2000.stream/chunklist_b250000.m3u8
+#EXTINF:0  tvg-id="discoveryhd" group-title="🇧🌎🇽", tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bd/Discovery_Channel_logo.png/revision/latest/scale-to-width-down/200?cb=20141027100430",Discovery Channel
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b2500000.m3u8
+#http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/DISCOVERY-HD-1080p/playlist.m3u8
+#EXTINF:0  tvg-id="discoveryasiahd" group-title="🇧🌎🇽", tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Discovery_Asia_logo.svg/1200px-Discovery_Asia_logo.svg.png",Discovery Asia
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+http://vips-livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/chunklist_b2500000.m3u8
+#http://livecdn.fptplay.net/qnetlive/discoveryasia_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0  tvg-id="ngchd" group-title="🇧🌎🇽", tvg-logo="https://i.natgeofe.com/n/e76f5368-6797-4794-b7f6-8d757c79ea5c/ng-logo-2fl.png",National Geographic
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:0  tvg-id="ngwhd" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png",Nat Geo WILD
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NATGEOWILD-HD-1080p/playlist.m3u8
+#EXTINF:0  tvg-id="Blue blueantent" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Blue_ant_entertainment_logo.png",Blue Ant Entertainment
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:0  tvg-id="blueantext" group-title="🇧🌎🇽", tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/Blue_ant_extreme_logo.png",Blue Ant Extreme
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hda1/blueantext_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:0  tvg-id="afnhd" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Asian_Food_Network.svg/1200px-Asian_Food_Network.svg.png",Asian Food Network
+https://vips-livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b2500000.m3u8
+#http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AFC-HD-1080p/playlist.m3u8
+#EXTINF:0  tvg-id="animalhd" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/1200px-2018_Animal_Planet_logo.svg.png",Animal Planet
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+http://vips-livecdn.fptplay.net/hda2/animalplanet_vhls.smil/chunklist_b2500000.m3u8
+#http://livecdn.fptplay.net/qnetlive/animalplanet_2000.stream/chunklist.m3u8
+#EXTINF:0 tvg-id="channelvhd" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Channel_V_Logo.svg/892px-Channel_V_Logo.svg.png",Channel [V]
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CHANNELV-HD-1080p/chunks.m3u8
+#EXTINF:0  tvg-id="fashionhd" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/1200px-Fashion_TV_logo.svg.png",Fashion TV
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+
+#EXTINF:0 tvg-id="tlchd" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/TLC-Logo_2016.png/800px-TLC-Logo_2016.png",TLC
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hda2/travelliving_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:0  tvg-id="outdoorhd" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Outdoor_Channel_logo_2017.svg/1280px-Outdoor_Channel_logo_2017.svg.png",Outdoor Channel
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:0  tvg-id="dmaxhd" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DMAX_-_Logo_2016.svg/1200px-DMAX_-_Logo_2016.svg.png",Dmax
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXSPORT2-SD-720p/playlist.m3u8
+
+#EXTINF:0  tvg-id="arirang" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/Arirang_logo.png",Ariang
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#https://livecdn.fptplay.net/world/arirang_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="kbs_world" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/1280px-KBS_World_%282009%29.svg.png",KBS World
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/sdb/kbs_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="nhk_world" group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World.svg/1200px-NHK_World.svg.png",NHK World
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/hda2/nhkworld_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 tvg-id="abcaustralia" roup-title="🇧🌎🇽" tvg-logo="https://logodix.com/logo/1040606.png",ABC Australia
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/sdb/australiaplus_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/f/fc/Tivi5monde-1.jpg",TV5 Monde Asie
+#EXTVLCOPT:http-user-agent="CoocaaTV"
+https://vips-livecdn.fptplay.net/sdb/tv5_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:0 group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Nature_TV.png",Love Nature
+http://bamus-eng-roku.amagi.tv/playlist1080p.m3u8
+#https://bamus-eng-roku.amagi.tv/playlist.m3u8
+#EXTINF:0 group-title="🇧🌎🇽" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/1200px-HGTV_US_Logo_2015.svg.png",HGTV
+#http://5.101.140.110:8000/play/a01k/index.m3u8
+#EXTINF:0 group-title="🇧🌎🇽" tvg-logo="https://www.nasa.gov/sites/default/files/images/nasaLogo-570x450.png",Nasa TV
+http://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
+#EXTINF:0 group-title="🇧🌎🇽" tvg-logo="https://logos-download.com/wp-content/uploads/2016/09/Red_Bull_TV_logo.png",Red Bull
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
+
+
+
+
+
+
+
+
+
+
