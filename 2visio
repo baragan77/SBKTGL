@@ -958,6 +958,314 @@ http://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 
 
+####useetv#####//
+
+
+#EXTINF:-1 tvg-id="mycinema" tvg-logo="https://www.useetv.com/pimages/logo_mycinema_small.png" group-title="WENDY_USEETV", MY Cinema
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=mycinema&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="mycinemaasia" tvg-logo="https://www.useetv.com/pimages/logo_mycinemaasia_small.png" group-title="WENDY_USEETV", MY Cinema Asia
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=mycinemaasia&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="myfamily" tvg-logo="https://www.useetv.com/pimages/logo_myfamilychannel_small.png" group-title="WENDY_USEETV", MY FAMILY
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=myfamily&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="CartoonNetworkAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_cartoonnetwork_small.png",Cartoon Network
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=cartoonnetwork&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id= group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_outdoor_small.png",Outdoor
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=outdoor&bandwidth=default&sync=0
+#EXTINF:0 tvg-id="ChineseDrama.MACAN" tvg-logo="https://www.useetv.com/pimages/logo_chinesedrama_small.png?" group-title="WENDY_USEETV",Chinese Drama
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=chinesedrama&bandwidth=default&sync=0
+#EXTINF:1 tvg-id="RTV.MACAN" tvg-logo="https://www.useetv.com/pimages/logo_rtv_small1.png?v=2.0.0.13" group-title="WENDY_USEETV", RTV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=rtv&bandwidth=default&sync=0
+#EXTINF:1 tvg-logo="https://www.useetv.com/pimages/logo_atv_small.png" group-title="WENDY_USEETV",ATV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=atv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="ABC Australia" tvg-logo="https://www.useetv.com/pimages/logo_abcaustralia_small.png" group-title="WENDY_USEETV", AbcAustralia
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=abcaustralia&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="UChannel.MACAN" tvg-logo="https://www.useetv.com/pimages/logo_uchannel_small1.png" group-title="WENDY_USEETV", U Channel
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=uchannel&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id= tvg-logo="https://www.useetv.com/pimages/logo_muhammadiyahtv_small1.png?v=2.0.0.13" group-title="WENDY_USEETV", TVMUH
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=muhammadiyahtv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id= tvg-logo="https://www.useetv.com/pimages/logo_rri_small1.png" group-title="WENDY_USEETV", RRI NET
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=rrinet&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="IDXChannel.id" tvg-logo="https://www.useetv.com/pimages/logo_idx_small.png" group-title="WENDY_USEETV", IDX
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=idx&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="MNCNews.id" tvg-logo="https://www.useetv.com/pimages/logo_mncnews_small.png" group-title="WENDY_USEETV", MNC News
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=mncnews&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="DWEnglish.de" tvg-logo="https://www.useetv.com/pimages/logo_dwtv_small.png?v=2.0.0.13" group-title="WENDY_USEETV", DW English/TV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=dwtv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="France24English.fr" tvg-logo="https://www.useetv.com/pimages/logo_france24_small.png?v=2.0.0.13" group-title="WENDY_USEETV", France24
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=france24&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="ArirangWorld.kr" tvg-logo="https://www.useetv.com/pimages/logo_arirang_small.png" group-title="WENDY_USEETV", Arirang
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=arirang&bandwidth=default&sync=0
+
+
+#EXTINF:-1 tvg-id= tvg-logo="https://www.useetv.com/pimages/logo_trtworld_small.png" group-title="WENDY_USEETV", TRT World
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=trtworld&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id= tvg-logo="https://www.useetv.com/pimages/logo_eljhon_small.png?v=1.1" group-title="WENDY_USEETV", El John TV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=eljohn&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="BeritaSatuNewsChannel.id" tvg-logo="https://www.useetv.com/pimages/logo_beritasatu_small1.png?v=2.0.0.13" group-title="WENDY_USEETV", BeritaSatu
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=beritasatu&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id= tvg-logo="https://www.useetv.com/pimages/logo_mshop_small.png?v=1.1" group-title="WENDY_USEETV", MSHOP
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=mncshop&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="SEAToday.id" tvg-logo="https://www.useetv.com/pimages/logo_seatoday_small.png?v=1" group-title="WENDY_USEETV", SeaToday
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=seatoday&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="MetroTV.id" tvg-logo="https://www.useetv.com/pimages/logo_metrotv_small1.png?v=2.0.0.13" group-title="WENDY_USEETV", MetroTV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=metrotv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="UseeSports.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_useesport_small.png", UseeSports
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=useesport&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="UseeSports2.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_useesports2_small.png", UseeSports 2
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=useesports2&bandwidth=default&sync=0
+
+#EXTINF:-1 tvg-id="NationalGeographicWildAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_natgeowild_small.png",Nat Geo Wild
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=natgeowild&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id= group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_cgtndocumentary_small1.png?v=2.0.0.13",CGTN Documentary
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=cgtndocumentary&bandwidth=default&sync=0
+#EXTINFerror:-1 group-title="WENDY_USEETV" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv5_monde_asie.png",TV5 Monde Asie
+http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/v3plusinfo247hls_1_6.m3u8
+#EXTINFerror:-1 group-title="WENDY_USEETV" tvg-logo="https://myrepublic.co.id/wp-content/uploads/2019/05/bloomberg-TV-Asia.jpg",Bloomberg HD
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=bloomberg&bandwidth=default&sync=0
+
+
+
+#EXTINF:-1 tvg-id="WAKUWAKU JAPAN"" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_wakuwaku_small.png?v=2.0.0.13",Waku Waku Japan
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=wakuwaku&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Kplus.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_kplus_small1.png?v=2.0.0.13",K+
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=kplus&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="GEMChannel.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_sgem_small.png?v=2.0.0.13",Sony GEM TV
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=sgem&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="One.in" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_sone_small.png?v=2.0.0.13",Sony One
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=sone&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="LifetimeAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_lifetime_small.png",Lifetime
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=lifetime&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="CTIAsia.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_ctiasia_small.png",CTI Asia
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=ctiasia&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_cctv4_small1.png?v=2.0.0.13",CCTV4
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=cctv4&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_tv5monde_small1.png?v=2.0.0.13",TV5 Asia Monde
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=tv5monde&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="TV5 MONDE" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_tv5monde_small1.png?v=2.0.0.13",TV5 Monde _Astra
+http://103.226.232.199:8003/play/a04g/index.m3u8
+#EXTINF:-1 tvg-id="Formosa.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_formosa_small.png",Formosa
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=formosa&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="AsianFoodNetwork.sg" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_afc_small.png?v=2.0.0.17",AFN ___(AFC To AFN)
+http://gooserace.xyz:80/play/8RKaarZp2hb82YDzh8OYR80oPMbm00uz0p_t5ipT9s0/m3u8
+#EXTINF:-1 tvg-id="Eat&Go.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_eatgo_small1.png?v=2.0.0.13",Eat & Go
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=eatgo&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="NationalGeographicAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_natgeo_small.png?v=2.0.0.13",National Geographic
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=natgeo&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="NationalGeographicWildAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_nba_small1.png?v=2.0.0.13",NBA TV
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=nba&bandwidth=default&sync=0
+#EXTIF:-1 group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_nba_small1.png?v=2.0.0.13"gaNBA TV __FTA(@iptv_id)
+http://iptvindonesia.000webhostapp.com/TV/Gumisasak-MPD/chunklist-channel.m3u8?id=nbag&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="DiscoveryChannelSoutheastAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_discovery_small.png?v=2.0.0.13",Discovery Channel
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=disco&bandwidth=default&sync=0
+
+#EXTINF:-1 tvg-id="HistoryAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_history_small.png?v=2.0.0.13",History
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=history&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="GTV.id" group-title="WENDY_USEETV" tvg-logo="https://cdn-production-thumbor-vidio.akamaized.net/FOIsURlVUKzN0-ze2ZnkTQC5KpA=/200x113/filters:quality(75)/vidio-web-prod-livestreaming/uploads/livestreaming/image/778/global-tv-stream-1aea79.jpg",GTV
+https://livetv01.rctiplus.id/live/eds/GTV2021/live_fta/GTV2021-avc1_800000=6-mp4a_96000=2.m3u8
+//#EXgavgaTINFerror:-1 group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_history_small.png?v=2.0.0.13"History __FTA(@iptv_id)
+http://iptvindonesia.000webhostapp.com/TV/Gumisasak-MPD/chunklist-channel.m3u8?id=history&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="CrimePlusInvestigationAsia.us" tvg-logo="https://www.useetv.com/pimages/logo_crimeinvestigation_small.png?", group-title="WENDY_USEETV", Crime + Investigation
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=crimeinvestigation&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="AnimaxAsia.jp" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_animax_small.png",Animax
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=animax&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="AnimaxAsia.jp" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_animax_small.png",Animax (Siapapunitu) _BERAT-cuy
+http://Siapapunitu.github.io/:8278/streams/d/animax_siapapunitu-tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Aniplus.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_aniplus_small1.png?v=2.0.0.13",Aniplus
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=aniplus&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Mykidz.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_mykids_small.png",My Kidz
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=mykids&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="BabyFirst.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_babyfirst_small.png",Baby First _Astra
+http://103.226.232.199:8003/play/a059/index.m3u8
+
+
+#EXTINF:-1 tvg-id="horee.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_horee_small.png?v=2.0.0.13",Horee
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=horee&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="BoomerangSouthEastAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_boomerang_small.png",Boomerang
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=boomerang&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="BabyFirst.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_babyfirst_small.png",Baby First _USEE
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=babyfirst&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="DuniaAnak.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_duniaanak_small1.png?v=2.0.0.13",Dunia Anak
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=duniaanak&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="NickJrAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_nickjr_small.png",Nick Junior
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=nickjr&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="NickelodeonSouthEastAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_nickelodeon_small.png",Nickelodeon
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=nickelodeon&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="DaVinci.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_davinci_small1.png?v=2.0.0.13",Da Vinci
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=davinci&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Dreamworks.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_dreamworks_small1.png?v=2.0.0.13",Dreamworks
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=dreamworks&bandwidth=default&sync=0
+
+
+
+
+#EXTINF:-1 tvg-id="&amp;Flix HD" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_flik_small1.png?v=2.0.0.13",Flik
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=flik&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Galaxy.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_galaxy_small1.png?v=2.0.0.13",Galaxy
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=galaxy&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="GalaxyPremium.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_galaxypremium_small.png",Galaxy Premium
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=galaxypremium&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="IMC.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_imc_small.png?v=2.0.0.13",IMC
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=imc&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="ZeeBioskop.in" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_zbioskop_small1.png?v=2.0.0.13",Zee Bioskop
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=zbioskop&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="DuniaLain.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_dunialain_small.png?v=2.0.0.13",Dunia Lain
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=dunialain&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="WarnerTV.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_warner_small.png?v=2.0.0.13",Warner
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=warner&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Rock Entertainment HD" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_blueant_small.png",Rock entertainmet
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=blueant&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Rock Extreme HD" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_blueantext_small.png",Rock Ext
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=blueantextreme&bandwidth=default&sync=0
+
+#EXTINF:-1 tvg-id="KIX.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_kix_small.png",KIX
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=kix&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="BioskopIndonesia.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_bioskopindonesia_small1.png?v=2.0.0.13",Bioskop Indonesia
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=bioskopindonesia&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="TVNPremiumIndonesia.kr" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_tvn_small.png",TVN
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=tvn&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="TVNMoviesIndonesia.kr" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_tvnmoviews_small.png",TVN MOVIES
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=tvnmovies&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Thrill.hk" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_thrill_small.png",Thrill
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=thrill&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="CelestialMovies.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_celestialmovie_small.png",Celestial Movie
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=celestialmovie&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.useetv.com/pimages/logo_kungfutv_small.png?" group-title="WENDY_USEETV",Kungfu TV
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=kungfutv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="StarChineseMoviesSouthEastAsia.hk" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_starchinesemovies_small.png", Star Chinese Movies
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=starchinesemovies&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_starchinesechannel_small.png", Star Chinese Channel
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=starchinesechannel&bandwidth=default&sync=0
+
+#EXTINF:-1 tvg-id="INews.id" group-title="WENDY_USEETV" tvg-logo="https://cdn-production-thumbor-vidio.akamaized.net/1IM0VFU9BrDxEeJim87bpXpLSAo=/200x113/filters:quality(75)/vidio-web-prod-livestreaming/uploads/livestreaming/image/5409/inews-tv-stream-966ec1.jpg",iNEWS _RCTI+
+https://livetv01.rctiplus.id/live/eds/INEWS_2021/live_fta/INEWS_2021-avc1_800000=8-mp4a_96000=2.m3u8
+#EXTINF:-1 tvg-id="CNBCAsiaPacific.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_cnbcasia_small.png",CNBC Asia
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=cnbcasia&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="FashionTV.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_fashiontv_small1.png",Fashion TV
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=fashiontv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="FashionTV.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_ebcasia_small.png",EBC ASIA
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=ettvasia&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="AljazeeraEnglish.qa" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_aljazeera_small1.png?",Al-Jazeera _Astra
+http://103.226.232.199:8003/play/a04c/index.m3u8
+#EXTINF:-1 tvg-id="AljazeeraEnglish.qa" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_aljazeera_small1.png?",Al-Jazeera
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=aljazeera&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="CHANNEL NEWSASIA" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_newsasia_small.png?",News Asia _Astra
+http://103.226.232.199:8003/play/a057/index.m3u8
+#EXTINF:-1 tvg-id="CHANNEL NEWSASIA" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_newsasia_small.png?",News Asia 
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=newsasia&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_tvbsnews_small.png?",TVBS
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=tvbs&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="CNNInternationalAsiaPacific.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_cnninternational_small.png?",CNN International
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=cnninternational&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="BloombergTVAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_bloomberg_small1.png?",Bloomberg
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=bloomberg&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="HGTVAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_hgtv_small.png",HGTV __Usee
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=hgtv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Lingua.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_lingua_small.png",Lingua Channel
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=lingua&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="NHK WORLD JAPAN HD" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_nhkworld_small.png",NHK World
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=nhkworld&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="KBS World" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_kbsworld_small.png",KBS world
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=kbsworld&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_ikonser_small.png",iKonser
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=ikonser&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="MTVLive.nl" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_mtvlive_small.png",MTV LIVE
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=mtvlive&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg3McjNmEwSNrtZal8ezeS7ylhSBdt3Rqvaw&usqp=CAU",Culture Code Surrender
+https://github.com/Siapapunitu/music/raw/main/y2mate.com%20-%20Culture%20Code%20%20Surrender%20Lyrics%20feat%20Aloma%20Steele_1080p.mp4
+#EXTINF:-1 tvg-id="Trans7.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_trans7_small1.png?v=2.0.0.13",Trans 7
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=trans7&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="TransTV.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_transtv_small1.png?v=2.0.0.13",Trans TV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=transtv&bandwidth=default&sync=0
+
+
+#EXTINF:-1 tvg-id="SCTV.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_sctv_small1.png?v=2.0.0.15",SCTV
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=sctv&bandwidth=default&sync=0
+
+#EXTINF:-1 tvg-id="RCTI.id" group-title="WENDY_USEETV" tvg-logo="http://bit.ly/ThRCTI",RCTI _RCTI+
+https://livetv01.rctiplus.id/live/eds/RCTI_2021/live_fta/RCTI_2021-avc1_800000=7-mp4a_96000=2.m3u8
+
+#EXTINF:-1 tvg-id="iNewsTV.MACAN" group-title="WENDY_USEETV" tvg-logo="https://cdn-production-thumbor-vidio.akamaized.net/1IM0VFU9BrDxEeJim87bpXpLSAo=/200x113/filters:quality(75)/vidio-web-prod-livestreaming/uploads/livestreaming/image/5409/inews-tv-stream-966ec1.jpg",iNEWS
+https://liveanevia.mncnow.id/live/eds/InewsTV-Agustus/sa_dash/InewsTV-Agustus.mpd
+#EXTINF:-1 tvg-id="iNewsTV.MACAN" group-title="WENDY_USEETV" tvg-logo="https://cdn-production-thumbor-vidio.akamaized.net/1IM0VFU9BrDxEeJim87bpXpLSAo=/200x113/filters:quality(75)/vidio-web-prod-livestreaming/uploads/livestreaming/image/5409/inews-tv-stream-966ec1.jpg",iNEWS ___Usee
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=inews&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="MNCTV.id" group-title="WENDY_USEETV" tvg-logo="https://cdn-production-thumbor-vidio.akamaized.net/vJxaKaTBEh-jsZnPWRxld3sHNv0=/200x113/filters:quality(75)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/873185/e19958.jpg",MNCTV
+https://livetv01.rctiplus.id/live/eds/MNCTV_2021/live_fta/MNCTV_2021-avc1_800000=6-mp4a_96000=2.m3u8
+#EXTINF:-1 tvg-id="CNBCIndonesia.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_cnbcid_small.png",CNBC Indonesia _Asli
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1352897452_b280000_sleng.m3u8
+#EXTINF:-1 tvg-id="KompasTv.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_kompastv_small.png?v=2.0.0.13",Kompas tv
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=kompastv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="CNBCIndonesia.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_cnbcid_small.png",CNBC Indonesia
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=cnbcindonesia&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_insert_small1.png?v=2.0.0.13",Insert
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=insert&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.useetv.com/pimages/logo_indikids_small.png?" group-title="WENDY_USEETV", IndiKids
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=indikids&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.useetv.com/pimages/logo_indikids_small.png?" group-title="WENDY_USEETV", IndiKids _Astra
+http://103.226.232.199:8003/play/a058/index.m3u8
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_nusantaratv_small.png?v=1.1",NUSANTARA TV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=nusantaratv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="AntaraTV.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_antara_small1.png?v=2.0.0.13" group-title="Lokal",ANTARA TV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=antaratv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_ruangtrampil_small.png",Ruang Trampil
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=useeinfo&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_useephoto_small.png?v=2.0.0.13",Usee Photo
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=useephoto&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_useeprime_small1.png?v=2.0.0.13",Usee Prime
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=useeprime&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="BaliTV.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_balitv_small1.png?v=2.0.0.13",BALI TV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=balitv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="JakTV.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_jaktv_small1.png?v=2.0.0.13",JAK TV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=jaktv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="JTV" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_jtv_small1.png?v=2.0.0.13",JTV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=jtv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="TVEdukasi.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_tvedukasi_small1.png?v=2.0.0.13",TV edukasi
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=tvedukasi&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="TVRINasional.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_tvri_small1.png?v=2.0.0.13",TVRI __HD
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRINASIONAL)/Stream(04)/index.m3u8
+#EXTINF:-1 tvg-id="TVRINasional.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_tvri_small1.png?v=2.0.0.13",TVRI __Usee
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=tvri&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="DAAITV" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_daaitv_small1.png?v=2.0.0.13",DAAI TV
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=daaitv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="CNNIndonesia.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_cnnindonesia_small1.png?v=2.0.0.13",CNN INDONESIA
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=cnnindonesia&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_rri_small1.png?v=2.0.0.13",RRI NET
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=rrinet&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="CitraDangdut.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_citradangdut_small.png",Citra Dangdut
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=citradangdut&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="CitraDrama.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_citradrama_small.png?v=2.0.0.15",Citra Drama
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=cdrama&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Prambors.id" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_pramborstv_small1.png?v=2.0.0.13",Prambors
+https://usee.galleryiptv.my.id/TVONLINEMY/FTA-USEE/chunklist.m3u8?id=pramborstv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5O9A9wAbf5cOBU2Kp6xVIh7DyTbkrYTrUYg&usqp=CAU",blasterjaxx dream
+https://github.com/Siapapunitu/music/raw/main/y2mate.com%20-%20Blasterjaxx%20%20Mariana%20BO%20%20Dreams%20feat%20LUISAH%20Official%20Audio_v720P.mp4
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOxdgidk1vgBaM90KY0hhwCZ-62E5UIQaKWA&usqp=CAU",AW force
+https://github.com/Siapapunitu/music/raw/main/y2mate.com%20-%20Alan%20Walker%20%20Force_v720P.mp4
+#EXTINF:-1 tvg-id="BeInSports1Indonesia.qa" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_bein1_small1.png?v=2.0.0.13",Bein Sport 1
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=bein1&bandwidth=default&sync=0
+#EXTINF:0 tvg-logo="https://www.useetv.com/pimages/logo_pandatv_small.png?" group-title="WENDY_USEETV",Panda TV
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=pandatv&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="BeInSports2Indonesia.qa" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_bein2_small1.png?v=2.0.0.13",Bein Sport 2
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=bein2&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Tech Storm" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_techstorm_small.png",TechStorm
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=techstorm&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Paramount.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_paramount_small.png",Paramount Network
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=paramount&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Hits.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_hits_small.png",Hits
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=hits&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="HITSMovies.MACAN" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_hitsmovie_small.png",Hits Movies
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=hitsmovie&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_horizonsport_small.png",Horizon Sports
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=horizonsport&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="TLCSoutheastAsia.us" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_tlc_small.png",TLC
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=tlc&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="Golf HD" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_golf_small1.png?v=2.0.0.14",Golf
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=golfplus&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="egg" group-title="WENDY_USEETV" tvg-logo="https://www.useetv.com/pimages/logo_egg_small1.png?v=2.0.0.13",eGG TV
+https://usee.galleryiptv.my.id/TVONLINEMY/chunklist.m3u8?id=egg&bandwidth=default&sync=0
+
+
+
+
 
 
 
