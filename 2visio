@@ -965,4 +965,61 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 
 
 
-####
+#### VIDIO.COM
+
+#EXTINF:-1 group-title="VIDIO",SCTV
+https://iptv.mwafa.net/vidio/204/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Indosiar
+https://iptv.mwafa.net/vidio/205/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Trans TV
+https://iptv.mwafa.net/vidio/733/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Trans 7
+https://iptv.mwafa.net/vidio/734/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",O Channel
+https://iptv.mwafa.net/vidio/206/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",NET
+https://iptv.mwafa.net/vidio/875/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Metro TV
+https://iptv.mwafa.net/vidio/777/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Kompas TV
+https://iptv.mwafa.net/vidio/874/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Rajawali TV
+https://iptv.mwafa.net/vidio/1561/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",TVRI Nasional
+https://iptv.mwafa.net/vidio/6441/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Berita Satu News
+https://iptv.mwafa.net/vidio/6165/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Jak TV
+https://iptv.mwafa.net/vidio/5415/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",O Shop
+https://iptv.mwafa.net/vidio/6166/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",My TV
+https://iptv.mwafa.net/vidio/6711/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Nusantara TV
+https://iptv.mwafa.net/vidio/7432/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Da Ai TV Indonesia
+https://iptv.mwafa.net/vidio/6482/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Rans Channel
+https://iptv.mwafa.net/vidio/8241/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Magna Channel
+https://iptv.mwafa.net/vidio/7230/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Musica
+https://iptv.mwafa.net/vidio/7619/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",DW English
+https://iptv.mwafa.net/vidio/5075/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",SEA Today
+https://iptv.mwafa.net/vidio/7687/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",TV Tempo
+https://iptv.mwafa.net/vidio/7946/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Mentari TV
+https://iptv.mwafa.net/vidio/8237/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",TV Edukasi
+https://iptv.mwafa.net/vidio/6838/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Ajwa TV
+https://iptv.mwafa.net/vidio/7464/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Quran TV
+https://iptv.mwafa.net/vidio/6852/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",Reformed 21 TV
+https://iptv.mwafa.net/vidio/6853/index.m3u8?token=1999
+#EXTINF:-1 group-title="VIDIO",UChannel
+https://iptv.mwafa.net/vidio/6898/index.m3u8?token=1999
