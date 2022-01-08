@@ -569,109 +569,7 @@ https://liveanevia.mncnow.id/live/eds/TV9/sa_dash_vmx/TV9.mpd
 
 
 
-#Thai
-
-#EXTINF:1 group-title="WENDY_CH",&FliX
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/And-Flix.m3u8
-#EXTINF:1 group-title="WENDY_CH",&PRive
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/And-Prive.m3u8
-#EXTINF:1 group-title="WENDY_CH",Astro arena
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Astro-Arena.m3u8
-#EXTINF:1 group-title="WENDY_CH",AstroSupersport1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp-1.m3u8
-#EXTINF:1 group-title="WENDY_CH",AstroSupersport2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp-2.m3u8
-#EXTINF:1 group-title="WENDY_CH",AstroSupersport3
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp-3.m3u8
-#EXTINF:1 group-title="WENDY_CH",AstroSupersport4
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp-4.m3u8
-#EXTINF:1 group-title="WENDY_CH",AstroSupersport5
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/AstroSp-5.m3u8
-#EXTINF:1 group-title="WENDY_CH",BT SPORT 1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP-1.m3u8
-#EXTINF:1 group-title="WENDY_CH",BT SPORT 2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP-2.m3u8
-#EXTINF:1 group-title="WENDY_CH",BT SPORT 3
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/BTSP-3.m3u8
-#EXTINF:1 group-title="WENDY_CH",Bein 1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-1.m3u8
-#EXTINF:1 group-title="WENDY_CH",Bein 1Eng
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-1En.m3u8
-#EXTINF:1 group-title="WENDY_CH",Bein 2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-2.m3u8
-#EXTINF:1 group-title="WENDY_CH",Bein 2En
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-1En.m3u8
-#EXTINF:1 group-title="WENDY_CH",Bein 3
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-3.m3u8
-#EXTINF:1 group-title="WENDY_CH",Bein 1En
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Bein-3En.m3u8
-#EXTINF:1 group-title="WENDY_CH",Sony Six
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SonySix.m3u8
-#EXTINF:1 group-title="WENDY_CH",Sony Pix
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SonyPix.m3u8
-#EXTINF:1 group-title="WENDY_CH",Sony Ten 1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SonyTen1.m3u8
-#EXTINF:1 group-title="WENDY_CH",Sony Ten 2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SonyTen2.m3u8
-#EXTINF:1 group-title="WENDY_CH",Sony Ten 3
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SonyTen3.m3u8
-#EXTINF:1 group-title="WENDY_CH",Spotv 1 kr
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpoTv1-kr.m3u8
-#EXTINF:1 group-title="WENDY_CH",Spotv 2 kr
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpoTv2-kr.m3u8
-#EXTINF:1 group-title="WENDY_CH",Sptv1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpTv1.m3u8
-#EXTINF:1 group-title="WENDY_CH",Sptv 2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpTv2.m3u8
-#EXTINF:1 group-title="WENDY_CH",Sptv 3
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpTv3.m3u8
-#EXTINF:1 group-title="WENDY_CH",Sptv 4
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpTv4.m3u8
-#EXTINF:1 group-title="WENDY_CH",Sptvn5
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/SpTv5.m3u8
-#EXTINF:1 group-title="WENDY_CH", ucek sport 1
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Usports1.m3u8
-#EXTINF:1 group-title="WENDY_CH",ucek sport 2
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Usports2.m3u8
-#EXTINF:1 group-title="WENDY_CH",Antv
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Antv.m3u8
-#EXTINF:1 group-title="WENDY_CH",Indosiar
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Indosiar.m3u8
-#EXTINF:1 group-title="WENDY_CH",Gtv
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Gtv.m3u8
-#EXTINF:1 group-title="WENDY_CH",Mnctv
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Mnctv.m3u8
-#EXTINF:1 group-title="WENDY_CH",Rcti
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Rcti.m3u8
-#EXTINF:1 group-title="WENDY_CH",Kompas
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Kompastv.m3u8
-#EXTINF:1 group-title="WENDY_CH",Net
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Nettv.m3u8
-#EXTINF:1 group-title="WENDY_CH",Rtv
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Rtv.m3u8
-#EXTINF:1 group-title="WENDY_CH",Trans7
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Trans7.m3u8
-#EXTINF:1 group-title="WENDY_CH",Transtv
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Transtv.m3u8
-#EXTINF:1 group-title="WENDY_CH",Tvone
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Tvone.m3u8
-#EXTINF:1 group-title="WENDY_CH",HBO
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Hbo.m3u8
-#EXTINF:1 group-title="WENDY_CH",HBO HITS
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Hbo-Hits.m3u8
-#EXTINF:1 group-title="WENDY_CH",CINEMAX
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Hbo-Max.m3u8
-#EXTINF:1 group-title="WENDY_CH",HBO FAM
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Hbo-Fam.m3u8
-#EXTINF:1 group-title="WENDY_CH",HBO SIGN
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Hbo-Sign.m3u8
-#EXTINF:1 group-title="WENDY_CH",FLIK
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Flik.m3u8
-#EXTINF:1 group-title="WENDY_CH",CCM
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/Ccm.m3u8
-#EXTINF:1 group-title="WENDY_CH",MOVIE NOW
-https://raw.githubusercontent.com/Asependang/Belajar/main/saluran/MoviNow.m3u8
-
+#
 thailand
 
 
@@ -722,26 +620,6 @@ https://livecdn.fptplay.net/hda2/fashiontvhd_vhls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="Quá»c táº¿" tvg-logo="http://vthanh.live/ic/232.png", CinemaWorld
 https://livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b2500000.m3u8
 
-#EXTINF:-1 tvg-id="drfithd" group-title="FOX" tvg-logo="http://vthanh.live/ic/196.png", Dr Fit HD
-
-
-#EXTINF:-1 tvg-id="hollywoodclassics" group-title="FOX" tvg-logo="http://vthanh.live/ic/193.png", Hollywood Classic HD
-
-
-#EXTINF:-1 tvg-id="happykids" group-title="FOX" tvg-logo="http://vthanh.live/ic/194.png", Happy Kids HD
-
-
-#EXTINF:-1 tvg-id="" group-title="FOX" tvg-logo="https://www.intheboxtv.eu/content/uploads/2018/10/MUSICBOX_KARTICA_V4.jpg", Music Box
-
-
-#EXTINF:-1 tvg-id="planetearthhd" group-title="FOX" tvg-logo="http://vthanh.live/ic/195.png", Planet Earth HD
-
-#EXTINF:-1 tvg-id="woman" group-title="FOX" tvg-logo="http://vthanh.live/ic/197.png", Woman HD
-
-#EXTINF:-1 tvg-id="blueantent" group-title="Quá»c táº¿" tvg-logo="http://vthanh.live/ic/229.png", Blue Ant Entertainment
-
-
-#EXTINF:-1 tvg-id="blueantext" group-title="Quá»c táº¿" tvg-logo="http://vthanh.live/ic/230.png", Blue Ant Extreme
 
 #EXTINF:-1 tvg-id="channelvhd" group-title="Quá»c táº¿" tvg-logo="http://vthanh.live/ic/231.png", Channel V HD
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CHANNELV-HD-1080p/playlist.m3u8
@@ -965,7 +843,7 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 
 
 
-#### VIDIO.COM
+#### VIDIO 
 
 #EXTINF:-1 group-title="VIDIO",SCTV
 https://iptv.mwafa.net/vidio/204/index.m3u8?token=1999
@@ -1023,3 +901,142 @@ https://iptv.mwafa.net/vidio/6852/index.m3u8?token=1999
 https://iptv.mwafa.net/vidio/6853/index.m3u8?token=1999
 #EXTINF:-1 group-title="VIDIO",UChannel
 https://iptv.mwafa.net/vidio/6898/index.m3u8?token=1999
+
+
+####wendysport######
+
+
+####FightSports####
+
+
+
+
+
+#EXTINF:-1 group-title=" Wendy_sport",  Stadium Live
+https://stadiumlivein-i.akamaihd.net/hls/live/522512/mux_4/master.m3u8
+
+#EXTINF:-1 group-title=" Wendy_sport",  UFC
+https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8
+
+
+
+
+####All-Sports####
+
+
+
+#EXTINF:-1 group-title="Wendy_sport", SPO TV 1
+https://wopep.com/02_foxsport_720p/chunklist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", SPO TV 2
+https://wopep.com/02_FoxSport3_TH_720p/chunklist.m3u8
+
+
+
+
+
+
+
+#EXTINF:-1 group-title="Wendy_sport", Football 1
+https://95-213-224-179.livesports24.online/uafootballua1.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", Football 2
+https://95-213-224-179.livesports24.online/fooootball2.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", LookSport +
+https://stream1.1616.ro:1945/lookplus/livestream/playlist.m3u8?wowzatokenhash=NqSD4qaHc94SbTW05NBB-lXC78ZiAOIbnbUBOHj1DAM=
+
+#EXTINF:-1 group-title="Wendy_sport", LookSport 2
+https://stream1.1616.ro:1945/looksport2/livestream/playlist.m3u8?wowzatokenhash=NqSD4qaHc94SbTW05NBB-lXC78ZiAOIbnbUBOHj1DAM=
+
+#EXTINF:-1 group-title="Wendy_sport", LookSport 3
+https://stream1.1616.ro:1945/looksport3/livestream/playlist.m3u8?wowzatokenhash=NqSD4qaHc94SbTW05NBB-lXC78ZiAOIbnbUBOHj1DAM=
+
+
+
+####Arab Sports####
+
+#EXTINF:-1 group-title="Arab Sports", Dubai Sports 1
+https://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.smil/rifky_oku.m3u8
+
+#EXTINF:-1 group-title="Arab Sports", Dubai Sports 2
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/rifky_oku.m3u8
+
+#EXTINF:-1 group-title="Arab Sports", Dubai Sports 3
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/rifky_oku.m3u8
+
+#EXTINF:-1 group-title="Arab Sports", Abu Dhabi Sports 1
+https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/rifky_oku.m3u8
+
+#EXTINF:-1 group-title="Arab Sports", Abu Dhabi Sports 2
+https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/rifky_oku.m3u8
+
+#EXTINF:-1 group-title="Arab Sports", Abu Dhabi Sports 3
+http://admdn3.cdn.mangomolo.com/adsports3/smil:adsports3.stream.smil/rifky_oku.m3u8
+
+
+
+####SkyNet Sports####
+
+#EXTINF:-1 group-title="Wendy_sport", Skynet Sport 1
+http://916309128f3e.sn.mynetname.net:1935/aslive/skynetsports1/chunklist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", Skynet Sport 2
+http://916309128f3e.sn.mynetname.net:1935/aslive/skynetsports2/playlist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", Skynet Sport 3
+http://916309128f3e.sn.mynetname.net:1935/aslive/skynetsports3/playlist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", Skynet Sport 4
+http://916309128f3e.sn.mynetname.net:1935/aslive/skynetsports4/playlist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", Skynet Sport 5
+http://916309128f3e.sn.mynetname.net:1935/aslive/skynetsports5/playlist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", Skynet Sport 6
+http://916309128f3e.sn.mynetname.net:1935/aslive/skynetsports6/playlist.m3u8
+
+
+####TrueSports####
+
+#EXTINF:-1 group-title="Wendy_sport", True Premier 1
+https://www.wopep.com/02_PremierHD1_720p/chunklist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", True Premier 2
+https://www.wopep.com/02_PremierHD2_720p/chunklist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", True Premier 3
+https://www.wopep.com/02_PremierHD3_720p/chunklist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", True Premier 4
+https://www.wopep.com/02_PremierHD4_720p/chunklist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", True Premier 5
+https://www.wopep.com/02_PremierHD5_720p/chunklist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", True Sports 1
+https://wopep.com/02_2sporthd1_720p/chunklist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", True Sports 2
+https://wopep.com/02_2sporthd2_720p/chunklist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", True Sports 3
+https://wopep.com/02_2sporthd3_720p/chunklist.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", True Sports 4
+https://wopep.com/02_2sporthd4_720p/chunklist.m3u8
+
+
+####MatchSports####
+
+#EXTINF:-1 group-title="Wendy_sport", Match Futbool 1
+https://bal.varcdn1.ru/lb/m1/index.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", Match Futbool 2
+https://bal.varcdn1.ru/lb/m2/index.m3u8
+
+#EXTINF:-1 group-title="Wendy_sport", Match Futbool 3
+https://bal.varcdn1.ru/lb/m3/index.m3u8
+
+
+
