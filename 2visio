@@ -1058,4 +1058,137 @@ https://bal.varcdn1.ru/lb/m2/index.m3u8
 https://bal.varcdn1.ru/lb/m3/index.m3u8
 
 
+#########TRANSVISION#########
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", RCTI
+https://cubmu.superzap.xyz:8279/rcti/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", GLOBAL TV
+https://cubmu.superzap.xyz:8279/gtv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", MNC TV
+https://cubmu.superzap.xyz:8279/mnctv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", DUNIA LAIN
+https://cubmu.superzap.xyz:8279/dunialain/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", TMUSIC
+https://cubmu.superzap.xyz:8279/tmusic/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", MTV LIVE
+https://cubmu.superzap.xyz:8279/mtvlive/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", TRANSTV
+https://cubmu.superzap.xyz:8279/transtv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", TRANS 7
+https://cubmu.superzap.xyz:8279/trans7/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", CNN INDONESIA
+https://cubmu.superzap.xyz:8279/cnnid/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", CNBC INDONESIA
+https://cubmu.superzap.xyz:8279/cbncid/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", MUSIK INDO
+https://cubmu.superzap.xyz:8279/musikindo/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", INSERT
+https://cubmu.superzap.xyz:8279/insert/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", TVRI
+https://cubmu.superzap.xyz:8279/tvri/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", KOMPAS
+https://cubmu.superzap.xyz:8279/kompastv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", SCTV
+https://cubmu.superzap.xyz:8279/sctv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVISION", TV ONE
+https://cubmu.superzap.xyz:8279/tvone/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-zs6fh9g4qVw/XBNhMhNonmI/AAAAAAAAQ7s/2IlX7NKZ3o8nYMVY0VBD3QuhgAFt0C8LwCLcBGAs/s320/Trans%2BVision.png" group-title="TRANSVIS
+
+###########USEETV############
+
+
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_ruangtrampil_small1.png?v=2.0.0.13" group-title="WENDY | USEETV",Ruang Terampil 
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=979d472a84804b9f647bc185a877a8b5268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_useephoto_small.png?v=2.0.0.13" group-title="WENDY | USEETV", Usee Photo
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=ca46c1b9512a7a8315fa3c5a946e8265268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_useeprime_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", Usee Prime
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=fbd7939d674997cdb4692d34de8633c4268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_tvri_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", TVRI
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=c74d97b01eae257e44aa9d5bade97baf268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_kompastv_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", Kompas TV
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=9bf31c7ff062936a96d3c8bd1f8f2ff3268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_nettv_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", NET TV
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=d82c8d1619ad8176d665453cfb2e55f0268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_rtv_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", RTV
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=aab3238922bcc25a6f606eb525ffdc56268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_rri_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", RRI NET
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=38db3aed920cf82ab059bfccbd02be6a268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_trans7_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", Trans7
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=3416a75f4cea9109507cacd8e2f2aefc268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_transtv_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", TransTV
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=d645920e395fedad7bbbed0eca3fe2e0268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_antara_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", Antara
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=68d30a9594728bc39aa24be94b319d21268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_balitv_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", BaliTV
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=33e75ff09dd601bbe69f351039152189268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_beritasatu_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", BeritaSatu
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=1ff1de774005f8da13f42943881c655f268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_jaktv_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", JakTV
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=1c383cd30b7c298ab50293adfecb7b18268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_jtv_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", JTV
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=6ea9ab1baa0efb9e19094440c317e21b268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_tvedukasi_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", TV Edukasi
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=6f4922f45568161a8cdf4ad2299f6d23268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_daitv_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", DAI TV
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=54229abfcfa5649e7003b83dd4755294268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_nusantaratv_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", Nusantara TV
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=fe73f687e5bc5280214e0486b273a5f9268ef7e5a44f541a7cbde7626ef57566
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_mykids_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", MyKids
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=5737c6ec2e0716f3d8a7a5c4e0de0d9af93fb3c9879684db94f7af38b446022a
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_chinesedrama_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", Chinese Drama
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=c24cd76e1ce41366a4bbe8a49b02a028f93fb3c9879684db94f7af38b446022a
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_cgtndocumentary_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", CGTN Documentary
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=9f61408e3afb633e50cdf1b20de6f466f93fb3c9879684db94f7af38b446022a
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_arirang_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", Arirang
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=07cdfd23373b17c6b337251c22b7ea57f93fb3c9879684db94f7af38b446022a
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_cctv4_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", CCTV4
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=b53b3a3d6ab90ce0268229151c9bde11f93fb3c9879684db94f7af38b446022a
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_nhkworldjapan_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", NHK World Japan
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=c9e1074f5b3f9fc8ea15d152add07294f93fb3c9879684db94f7af38b446022a
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_prambors_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", Prambors
+https://cdnbpp1.useetv.com/dass/130/pramborstv/manifest_wuseetv.mpd?encp=vTFva7e45m8X_cKQ9vYhiQ&uid=&expp=1641579884
+
+
+
+
 
