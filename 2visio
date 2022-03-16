@@ -725,19 +725,17 @@ http://tvn.x10.bz/xchannel/master-31.m3u8
 ####Wendy_Sport############$$$######
 
 
-#EXTINF:-1 group-title=" Wendy_sport",  Stadium Live
-https://stadiumlivein-i.akamaihd.net/hls/live/522512/mux_4/master.m3u8
 
-#EXTINF:-1 group-title=" Wendy_sport",  UFC
+#EXTINF:-1 group-title="WENDY SPORT",  UFC
 https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8
 
-#EXTINF:-1 group-title="Wendy_sport", Football 1
+#EXTINF:-1 group-title="WENDY SPORT", Football 1
 https://95-213-224-179.livesports24.online/uafootballua1.m3u8
 
-#EXTINF:-1 group-title="Wendy_sport", Football 2
+#EXTINF:-1 group-title="WENDY SPORT", Football 2
 https://95-213-224-179.livesports24.online/fooootball2.m3u8
 
-#EXTINF:-1 group-title="Wendy_sport", LookSport +
+#EXTINF:-1 group-title="WENDY SPORT", LookSport +
 https://stream1.1616.ro:1945/lookplus/livestream/playlist.m3u8?wowzatokenhash=NqSD4qaHc94SbTW05NBB-lXC78ZiAOIbnbUBOHj1DAM=
 
 #EXTINF:-1 group-title="Wendy_sport", LookSport 2
@@ -746,7 +744,75 @@ https://stream1.1616.ro:1945/looksport2/livestream/playlist.m3u8?wowzatokenhash=
 #EXTINF:-1 group-title="Wendy_sport", LookSport 3
 https://stream1.1616.ro:1945/looksport3/livestream/playlist.m3u8?wowzatokenhash=NqSD4qaHc94SbTW05NBB-lXC78ZiAOIbnbUBOHj1DAM=
 
+#EXTINF:-1 group-title="WENDY SPORT",JuaraTv_1
+https://lnk.ec/shareext@juara1
+#EXTINF:-1 group-title="WENDY SPORT",JuaraTv_2
+https://lnk.ec/shareext@juara2
+#EXTINF:-1 group-title="WENDY SPORT",JuaraTv_3
+https://lnk.ec/shareext@juara3
+#EXTINF:-1 group-title="WENDY SPORT",JuaraTv_4
+https://lnk.ec/shareext@juara4
+#EXTINF:-1 group-title="WENDY SPORT",Astro_Arena
+https://lnk.ec/shareext@arena1
+#EXTINF:-1 group-title="WENDY SPORT",Astro_Arena_2
+https://lnk.ec/shareext@arena2
+#EXTINF:-1 group-title="WENDY SPORT",USEE.sports(Opt1)
+https://lnk.ec/shareext@useesport
+#EXTINF:-1 group-title="WENDY SPORT",USEE.sports_2(Opt1)
+https://lnk.ec/shareext@useesports2
+#EXTINF:-1 group-title="WENDY SPORT",Spotv_1*
+https://lnk.ec/shareext@spotv
+#EXTINF:-1 group-title="WENDY SPORT",Spotv_2*
+https://lnk.ec/shareext@spotv2
 
+
+
+
+#EXTINF:-1 group-title="WENDY SPORT",SONY_TEN-1(dec=native)
+http://103.166.253.222/hls/sonyten1.m3u8?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",SONY_TEN-2(dec=native)
+http://103.166.253.222/hls/sonyten2.m3u8?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",SONY_TEN-3(dec=native)
+http://103.166.253.222/hls/sonyten3.m3u8?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",SONY_SIX(dec=native)
+http://103.166.253.222/hls/sonysix.m3u8?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",VIVARO_SPORTS_HD
+http://135.181.178.91/vmedia_live/1/mono.m3u8?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",VIVARO_SPORTS+_HD
+http://135.181.178.91/vmedia_live/2/mono.m3u8?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",VIVARO_ARENA_HD 
+http://135.181.178.91/vmedia_live/3/mono.m3u8?shareext.ts
+
+#EXTINF:-1 group-title="WENDY SPORT",BT_SPORTS_1(opt1)
+https://16live00.akamaized.net/BTSPORTS1/index.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",BT_SPORTS_2(opt1)
+https://16live00.akamaized.net/BTSPORTS2/index.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",BT_SPORTS_3(opt1)
+https://16live00.akamaized.net/BTSPORTS3/index.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",EUROSPORT_1
+http://31.14.41.252:8000/play/a001/index.m3u8?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",RMC_SPORTS_1*
+http://31.14.41.252:8000/play/a00e/index.m3u8?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",RMC_SPORTS_2*
+http://31.14.41.252:8000/play/a011/index.m3u8?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",ASSP_1_opt1
+http://ky-iptv.com:80/live/nicholas/123456789/1391035.ts?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",ASSP_2_opt1
+http://ky-iptv.com:80/live/nicholas/123456789/1391036.ts?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",ASSP_3_opt1
+http://ky-iptv.com:80/live/nicholas/123456789/1391037.ts?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT",ASSP_4_opt1
+http://ky-iptv.com:80/live/nicholas/123456789/1391038.ts?shareext.ts
+
+
+#EXTINF:-1 group-title="WENDY SPORT",Okey_TV
+http://rtmlive02tv.secureswiftcontent.com/rtmchannel/02-manifest.mpd
+#EXTINF:-1 group-title="WENDY SPORT",SUKAN_RTM
+http://rtmlive02tv.secureswiftcontent.com/rtmchannel/06-manifest.mpd
+#EXTINF:-1 group-title="WENDY SPORT",UNIFI_SPORTS_1
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd
+#EXTINF:-1 group-title="WENDY SPORT",UNIFI_SPORTS_2
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd
 
 
 #########TRANSVISION#########
