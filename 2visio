@@ -661,6 +661,9 @@ https://95-213-224-179.livesports24.online/fooootball2.m3u8
 #EXTINF:-1 group-title="WENDY SPORT", LookSport +
 https://stream1.1616.ro:1945/lookplus/livestream/playlist.m3u8?wowzatokenhash=NqSD4qaHc94SbTW05NBB-lXC78ZiAOIbnbUBOHj1DAM=
 
+#EXTINF:-1 group-title="WENDY SPORT",LookSport 1
+https://stream1.1616.ro:1945/look/livestream/playlist.m3u8?per
+
 #EXTINF:-1 group-title="WENDY SPORT", LookSport 2
 https://stream1.1616.ro:1945/looksport2/livestream/playlist.m3u8?wowzatokenhash=NqSD4qaHc94SbTW05NBB-lXC78ZiAOIbnbUBOHj1DAM=
 
@@ -688,8 +691,8 @@ https://lnk.ec/shareext@spotv
 #EXTINF:-1 group-title="WENDY SPORT",Spotv_2*
 https://lnk.ec/shareext@spotv2
 
-
-
+#EXTINF:-1 group-title="WENDY SPORT",Beintrue
+https://youdooball.livedoomovies.com/02_sport2_480p/chunklist.m3u8
 
 #EXTINF:-1 group-title="WENDY SPORT",SONY_TEN-1(dec=native)
 http://103.166.253.222/hls/sonyten1.m3u8?shareext.ts
