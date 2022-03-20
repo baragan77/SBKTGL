@@ -739,6 +739,24 @@ http://rtmlive02tv.secureswiftcontent.com/rtmchannel/06-manifest.mpd
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd
 #EXTINF:-1 group-title="WENDY SPORT",UNIFI_SPORTS_2
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd
+#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 1
+http://geniuses-line.com:22455/live.ts?channelId=9666&uid=31975&deviceMac=00:1A:79:E1:9C:71
+#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 1 L2
+http://geniuses-line.com:22455/live.ts?channelId=11716&uid=31975&deviceMac=00:1A:79:E1:9C:71
+#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 2
+http://geniuses-line.com:22455/live.ts?channelId=9667&uid=31975&deviceMac=00:1A:79:E1:9C:71
+#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 2 L2
+http://geniuses-line.com:22455/live.ts?channelId=11717&uid=31975&deviceMac=00:1A:79:E1:9C:71
+#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 3
+http://geniuses-line.com:22455/live.ts?channelId=9668&uid=31975&deviceMac=00:1A:79:E1:9C:71
+#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 3 L2
+http://geniuses-line.com:22455/live.ts?channelId=11718&uid=31975&deviceMac=00:1A:79:E1:9C:71
+#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 4
+http://geniuses-line.com:22455/live.ts?channelId=9881&uid=31975&deviceMac=00:1A:79:E1:9C:71
+#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 4 L2
+http://geniuses-line.com:22455/live.ts?channelId=11719&uid=31975&deviceMac=00:1A:79:E1:9C:71
+#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 5
+http://geniuses-line.com:22455/live.ts?channelId=9882&uid=31975&deviceMac=00:1A:79:E1:9C:71
 
 
 #########TRANSVISION#########
