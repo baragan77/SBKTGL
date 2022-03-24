@@ -721,7 +721,24 @@ http://geniuses-line.com:22455/live.ts?channelId=11719&uid=31975&deviceMac=00:1A
 http://geniuses-line.com:22455/live.ts?channelId=9882&uid=31975&deviceMac=00:1A:79:E1:9C:71
 
 
-#########TRANSVISION#########
+#########NBA#########
+
+
+
+
+
+
+#EXTINF:-1 group-title="NBA",ESPN PISTONS
+https://d17f1mg1q6g54e.cloudfront.net/hls/pistons/playlist.m3u8
+#EXTINF:-1 group-title="NBA",ESPN HORNETS
+https://d17f1mg1q6g54e.cloudfront.net/hls/hornets/playlist.m3u8
+#EXTINF:-1 group-title="NBA",ESPN PACERS
+https://d17f1mg1q6g54e.cloudfront.net/hls/pacers/playlist.m3u8
+#EXTINF:-1 group-title="NBA",ESPN HEAT
+https://d17f1mg1q6g54e.cloudfront.net/hls/heat/playlist.m3u8
+#EXTINF:-1 group-title="NBA",ESPN 
+https://d17f1mg1q6g54e.cloudfront.net/hls/espn/playlist.m3u8
+
 
 
 
