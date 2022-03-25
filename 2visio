@@ -720,6 +720,20 @@ http://geniuses-line.com:22455/live.ts?channelId=11719&uid=31975&deviceMac=00:1A
 #EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 5
 http://geniuses-line.com:22455/live.ts?channelId=9882&uid=31975&deviceMac=00:1A:79:E1:9C:71
 
+#EXTINF:-1 group-title="WENDY SPORT",LIVE (IBL)
+https://etus.link/ibl
+#EXTINF:-1 group-title="WENDY SPORT",LIVE¹ 
+https://etus.link/ds_live1
+#EXTINF:-1 group-title="WENDY SPORT",LIVE²
+https://etus.link/ds_live2
+#EXTINF:-1 group-title="WENDY SPORT",LIVE³  
+https://etus.link/ds_live3
+#EXTINF:-1 group-title="WENDY SPORT",LIVE (BRI Liga 1)
+https://etus.link/briliga1
+#EXTINF:-1 group-title="WENDY SPORT",LIVE (Moto GP)
+https://etus.link/ds_trans7
+
+
 
 #########NBA#########
 
@@ -730,17 +744,42 @@ http://geniuses-line.com:22455/live.ts?channelId=9882&uid=31975&deviceMac=00:1A:
 
 #EXTINF:-1 group-title="NBA",ESPN PISTONS
 https://d17f1mg1q6g54e.cloudfront.net/hls/pistons/playlist.m3u8
-#EXTINF:-1 group-title="NBA",ESPN HORNETS
-https://d17f1mg1q6g54e.cloudfront.net/hls/hornets/playlist.m3u8
-#EXTINF:-1 group-title="NBA",ESPN PACERS
-https://d17f1mg1q6g54e.cloudfront.net/hls/pacers/playlist.m3u8
-#EXTINF:-1 group-title="NBA",ESPN HEAT
-https://d17f1mg1q6g54e.cloudfront.net/hls/heat/playlist.m3u8
-#EXTINF:-1 group-title="NBA",ESPN 
-https://d17f1mg1q6g54e.cloudfront.net/hls/espn/playlist.m3u8
 
-
-
+#EXTINF:-1 group-title="NBA",NBAᵗᵛ
+https://nonton.site:8443/Thopani/Haidir/3099  
+#EXTINF:-1 group-title="NBA",NBAᵗᵛ Alt  
+http://84.22.33.215/nbatv/tracks-v1a1/mono.m3u8  
+#EXTINF:-1 group-title="NBA",BeIn Sports NBA TV
+http://mytv.fun:8080/xhg36zuvv/vxj63lllg2/694111  
+#EXTINF:-1 group-title="NBA",NBA Live 1
+https://etus.link/nba
+#EXTINF:-1 group-title="NBA",BA Live 2
+https://etus.link/nba2
+#EXTINF:-1 group-title="NBA",NBA Live 3
+https://etus.link/nba3
+#EXTINF:-1 group-title="NBA",NBA Live 4
+https://etus.link/nba4
+#EXTINF:-1 group-title="NBA",NBA Live 5
+https://etus.link/nba5
+#EXTINF:-1 group-title="NBA",NBA Live 6
+https://etus.link/nba6
+#EXTINF:-1 group-title="NBA",NBA Live 7
+https://etus.link/nba7
+#EXTINF:-1 group-title="NBA",NBA Live 8  
+https://etus.link/nba8
+#EXTINF:-1 group-title="NBA",NBA Live 9
+https://etus.link/nba9 
+#EXTINF:-1 group-title="NBA",NBA Live 10
+https://etus.link/nba10
+#EXTINF:-1 group-title="NBA",NBA Live 11
+https://bananaxmelonstream.shortcm.li/NBA1.m3u8
+#EXTINF:-1 group-title="NBA",NBA Live 12
+https://bananaxmelonstream.shortcm.li/NBA2.m3u8
+#EXTINF:-1 group-title="NBA",NBA Live 13
+https://bananaxmelonstream.shortcm.li/NBA3.m3u8
+#EXTINF:-1 group-title="NBA",NBA Live 14
+https://bananaxmelonstream.shortcm.li/NBA4.m3u8
+  
 
 
 
