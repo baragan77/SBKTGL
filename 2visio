@@ -683,16 +683,41 @@ http://135.181.178.91/vmedia_live/2/mono.m3u8?shareext.ts
 #EXTINF:-1 group-title="WENDY SPORT",VIVARO_ARENA_HD 
 http://135.181.178.91/vmedia_live/3/mono.m3u8?shareext.ts
 
+#EXTINF:-1 group-title="WENDY SPORT", RMC 1
+https://stream.mmsiptv.com/droid/rmc1/playlist.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", RMC 2
+https://stream.mmsiptv.com/droid/rmc2/playlist.m3u8
 
-#EXTINF:-1 group-title="WENDY SPORT",EUROSPORT_2
-http://185.38.151.41:15001/live/5D4FZBLept/gnJ1X4dXDi/90.chunklist_w4667732286.m3u8?mvk
-#EXTINF:-1 group-title="WENDY SPORT",RMC_SPORTS_1*
-http://31.14.41.252:8000/play/a00e/index.m3u8?shareext.ts
-#EXTINF:-1 group-title="WENDY SPORT",RMC_SPORTS_2*
-http://31.14.41.252:8000/play/a011/index.m3u8?shareext.ts
+#EXTINF:-1 group-title="WENDY SPORT", STADIUM
+https://stadiumlivein-i.akamaihd.net/hls/live/522512/mux_4/master.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", ESPN HD
+https://stream2.grandma.fit/fs2.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", ESPN 2 HD
+https://stream2.grandma.fit/espn2.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", BEIN THAI
+http://4digital.ddns.net:11222/ts/0
+#EXTINF:-1 group-title="WENDY SPORT", SKYNET HD
+http://4digital.ddns.net:11225/ts/0
+#EXTINF:-1 group-title="WENDY SPORT", SPORT TV
+http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
 
+#EXTINF:-1 group-title="WENDY SPORT",TNT sports 1
+https://glxlmn026c.singularcdn.net.br/playout_01/playlist-720p.m3u8
 
+#EXTINF:-1 group-title="WENDY SPORT",TNT sports 2
+https://glxlmn026c.singularcdn.net.br/playout_02/playlist-720p.m3u8
 
+#EXTINF:-1 group-title="WENDY SPORT",TNT sports 3
+https://glxlmn026c.singularcdn.net.br/playout_03/playlist-720p.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",TNT sports 4
+https://glxlmn026c.singularcdn.net.br/playout_04/playlist-720p.m3u8
+
+#EXTINF:-1 group-title="WENDY SPORT",TNT sports 5
+https://glxlmn026c.singularcdn.net.br/playout_05/playlist-720p.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", VIASAT SPORT
+https://sc.id-tv.kz/ViasatSport_34_35.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", 2HD
+https://streamalkasscustom02.azureedge.net:443/livehttporigin/smil:YWxrYXNz2.smil/chunklist_b6628000_sleng.m3u8
 #EXTINF:-1 group-title="WENDY SPORT",Okey_TV
 http://rtmlive02tv.secureswiftcontent.com/rtmchannel/02-manifest.mpd
 #EXTINF:-1 group-title="WENDY SPORT",SUKAN_RTM
@@ -701,24 +726,6 @@ http://rtmlive02tv.secureswiftcontent.com/rtmchannel/06-manifest.mpd
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd
 #EXTINF:-1 group-title="WENDY SPORT",UNIFI_SPORTS_2
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd
-#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 1
-http://geniuses-line.com:22455/live.ts?channelId=9666&uid=31975&deviceMac=00:1A:79:E1:9C:71
-#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 1 L2
-http://geniuses-line.com:22455/live.ts?channelId=11716&uid=31975&deviceMac=00:1A:79:E1:9C:71
-#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 2
-http://geniuses-line.com:22455/live.ts?channelId=9667&uid=31975&deviceMac=00:1A:79:E1:9C:71
-#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 2 L2
-http://geniuses-line.com:22455/live.ts?channelId=11717&uid=31975&deviceMac=00:1A:79:E1:9C:71
-#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 3
-http://geniuses-line.com:22455/live.ts?channelId=9668&uid=31975&deviceMac=00:1A:79:E1:9C:71
-#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 3 L2
-http://geniuses-line.com:22455/live.ts?channelId=11718&uid=31975&deviceMac=00:1A:79:E1:9C:71
-#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 4
-http://geniuses-line.com:22455/live.ts?channelId=9881&uid=31975&deviceMac=00:1A:79:E1:9C:71
-#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 4 L2
-http://geniuses-line.com:22455/live.ts?channelId=11719&uid=31975&deviceMac=00:1A:79:E1:9C:71
-#EXTINF:-1 group-title="WENDY SPORT",SPORT KLUB 5
-http://geniuses-line.com:22455/live.ts?channelId=9882&uid=31975&deviceMac=00:1A:79:E1:9C:71
 
 #EXTINF:-1 group-title="WENDY SPORT",LIVE (IBL)
 https://etus.link/ibl
