@@ -755,24 +755,44 @@ https://etus.link/ds_assp3
 https://etus.link/ds_assp4
 #EXTINF:-1 group-title="WENDY SPORT",Astro SuperSPORT⁵ HD
 https://etus.link/ds_assp5
+#EXTINF:-1 group-title="WENDY SPORT", BTSPORT
+http://iptv.tvmalaysia.cc:80/live/128001/128001/6610.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",BTSPORT2
+http://iptv.tvmalaysia.cc:80/live/128001/128001/6611.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",BY SPORT 3
+http://iptv.tvmalaysia.cc:80/live/128001/128001/6612.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", premiere
+http://iptv.tvmalaysia.cc:80/live/128001/128001/7113.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",tsn1
+http://iptv.tvmalaysia.cc:80/live/128001/128001/8923.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", tsn2
+http://iptv.tvmalaysia.cc:80/live/128001/128001/8924.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", tsn3
+http://iptv.tvmalaysia.cc:80/live/128001/128001/8926.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", tsn4
+http://iptv.tvmalaysia.cc:80/live/128001/128001/8925.m3u8
+
+#EXTINF:-1 group-title="WENDY SPORT", spotv
+http://iptv.tvmalaysia.cc:80/live/128001/128001/9033.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", spotv 2
+http://iptv.tvmalaysia.cc:80/live/128001/128001/9034.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", assp1 
+http://iptv.tvmalaysia.cc:80/live/128001/128001/9024.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", assp2
+http://iptv.tvmalaysia.cc:80/live/128001/128001/9028.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", assp3 live only
+http://iptv.tvmalaysia.cc:80/live/128001/128001/6712.m3u8
+#EXTINF:-1 group-title="WENDY SPORT", assp4
+http://iptv.tvmalaysia.cc:80/live/128001/128001/6712.m3u8
 
 
 #########NBA#########
 
 
 
-
-
-
-#EXTINF:-1 group-title="NBA",ESPN PISTONS
-https://d17f1mg1q6g54e.cloudfront.net/hls/pistons/playlist.m3u8
-
-#EXTINF:-1 group-title="NBA",NBAᵗᵛ
-https://nonton.site:8443/Thopani/Haidir/3099  
 #EXTINF:-1 group-title="NBA",NBAᵗᵛ Alt  
 http://84.22.33.215/nbatv/tracks-v1a1/mono.m3u8  
-#EXTINF:-1 group-title="NBA",BeIn Sports NBA TV
-http://mytv.fun:8080/xhg36zuvv/vxj63lllg2/694111  
+
 #EXTINF:-1 group-title="NBA",NBA Live 1
 https://etus.link/nba
 #EXTINF:-1 group-title="NBA",BA Live 2
