@@ -563,91 +563,57 @@ https://liveanevia.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
 
 #### VIDIO ########################
 
-#EXTINF:-1 group-title="VIDIO",Indosiar liga 1 & 2
-http://tvn.x10.bz/xchannel/master.m3u8
 
-#EXTINF:-1 group-title="VIDIO",Citra Bioskop 
-http://tvn.x10.bz/xchannel/master-1.m3u8
-
-#EXTINF:-1 group-title="VIDIO",Citra Drama
-http://tvn.x10.bz/xchannel/master-2.m3u8
-
-#EXTINF:-1 group-title="VIDIO",LiverpoolTV
-http://tvn.x10.bz/xchannel/master-3.m3u8
-
-#EXTINF:-1 group-title="VIDIO",Hip Hip horee (Kids)
-http://tvn.x10.bz/xchannel/master-4.m3u8
-
-#EXTINF:-1 group-title="VIDIO",Horee (Kids)
-http://tvn.x10.bz/xchannel/master-5.m3u8
-
-#EXTINF:-1 group-title="VIDIO",Champions 1 PRO LIGA
-http://tvn.x10.bz/xchannel/master-6.m3u8
-
-#EXTINF:-1 group-title="VIDIO",Champions 2
-http://tvn.x10.bz/xchannel/master-7.m3u8
-
-#EXTINF:-1 group-title="VIDIO",Champions 3
-http://tvn.x10.bz/xchannel/master-8.m3u8
-
-
-#EXTINF:-1 group-title="VIDIO",Citra Dangdut
-http://tvn.x10.bz/xchannel/master-10.m3u8
-
-#EXTINF:-1 group-title="VIDIO",Citra Entertainment
-http://tvn.x10.bz/xchannel/master-11.m3u8
-
-#EXTINF:-1 group-title="VIDIO",ANTV
-http://tvn.x10.bz/xchannel/master-12.m3u8
-
-#EXTINF:-1 group-title="VIDIO",TV ONE
-http://tvn.x10.bz/xchannel/master-13.m3u8
-
-
-#EXTINF:-1 group-title="VIDIO",Zee Bioskop
-http://tvn.x10.bz/xchannel/master-15.m3u8
-
-#EXTINF:-1 group-title="VIDIO",TVN 
-http://tvn.x10.bz/xchannel/master-16.m3u8
 
 #EXTINF:-1 group-title="VIDIO",NBA
 https://d17f1mg1q6g54e.cloudfront.net/hls/nbatv/chunks.m3u8
 
-#EXTINF:-1 group-title="VIDIO",OCHANNEL support Liga & 2
-http://tvn.x10.bz/xchannel/master-18.m3u8
 
-#EXTINF:-1 group-title="VIDIO",KOMPAS TV
-http://tvn.x10.bz/xchannel/master-19.m3u8
 
-#EXTINF:-1 group-title="VIDIO",RTV
-http://tvn.x10.bz/xchannel/master-20.m3u8
 
-#EXTINF:-1 group-title="VIDIO",RANS ENTERTAINMENT
-http://tvn.x10.bz/xchannel/master-21.m3u8
+#EXTINF:-1 group-title="VIDIO", ANTV
+https://wendy82.000webhostapp.com/vidio/antv.m3u8
+#EXTINF:-1 group-title="VIDIO", CHAMPION 1
+https://wendy82.000webhostapp.com/vidio/champion-1.m3u8
+#EXTINF:-1 group-title="VIDIO", CHAMPION 2
+https://wendy82.000webhostapp.com/vidio/champion-2.m3u8
+#EXTINF:-1 group-title="VIDIO", CHAMPION 3
+https://wendy82.000webhostapp.com/vidio/champion-3.m3u8
+#EXTINF:-1 group-title="VIDIO", CITRA BIOSKOP
+https://wendy82.000webhostapp.com/vidio/citra-bioskop.m3u8
+#EXTINF:-1 group-title="VIDIO", CITRA DRAMA
+https://wendy82.000webhostapp.com/vidio/citra-drama.m3u8
+#EXTINF:-1 group-title="VIDIO", HIP HORE
+https://wendy82.000webhostapp.com/vidio/hiphore.m3u8
+#EXTINF:-1 group-title="VIDIO", HORE
+https://wendy82.000webhostapp.com/vidio/hore.m3u8
+#EXTINF:-1 group-title="VIDIO", INDOSIAR
+https://wendy82.000webhostapp.com/vidio/Indosiar.m3u8
+#EXTINF:-1 group-title="VIDIO", KOMPAS
+https://wendy82.000webhostapp.com/vidio/kompas.m3u8
+#EXTINF:-1 group-title="VIDIO", LIVERPOOL
+https://wendy82.000webhostapp.com/vidio/Liverpool.m3u8
+#EXTINF:-1 group-title="VIDIO", METRO TV
+https://wendy82.000webhostapp.com/vidio/metro.m3u8
+#EXTINF:-1 group-title="VIDIO", O CHANNEL
+https://wendy82.000webhostapp.com/vidio/ochannel.m3u8
+#EXTINF:-1 group-title="VIDIO", PRAMBORS
+https://wendy82.000webhostapp.com/vidio/prambors.m3u8
+#EXTINF:-1 group-title="VIDIO", RANS
+https://wendy82.000webhostapp.com/vidio/rans.m3u8
+#EXTINF:-1 group-title="VIDIO", RTV
+https://wendy82.000webhostapp.com/vidio/rtv.m3u8
+#EXTINF:-1 group-title="VIDIO", SCTV
+https://wendy82.000webhostapp.com/vidio/SCTV.m3u8
+#EXTINF:-1 group-title="VIDIO", TRANS 7
+https://wendy82.000webhostapp.com/vidio/Trans7.m3u8
+#EXTINF:-1 group-title="VIDIO", TRANS TV
+https://wendy82.000webhostapp.com/vidio/transtv.m3u8
+#EXTINF:-1 group-title="VIDIO", TVN
+https://wendy82.000webhostapp.com/vidio/tvn.m3u8
+#EXTINF:-1 group-title="VIDIO", TV ONE
+https://wendy82.000webhostapp.com/vidio/tvOne.m3u8
 
-#EXTINF:-1 group-title="VIDIO",MENTARI TV (KIDS)
-http://tvn.x10.bz/xchannel/master-22.m3u8
-
-#EXTINF:-1 group-title="VIDIO",METRO TV
-http://tvn.x10.bz/xchannel/master-23.m3u8
-
-#EXTINF:-1 group-title="VIDIO",SCTV 
-http://tvn.x10.bz/xchannel/master-24.m3u8
-
-#EXTINF:-1 group-title="VIDIO",ZooMoo
-http://tvn.x10.bz/xchannel/master-25.m3u8
-
-#EXTINF:-1 group-title="VIDIO",musica studio
-http://tvn.x10.bz/xchannel/master-26.m3u8
-
-#EXTINF:-1 group-title="VIDIO",prambors
-http://tvn.x10.bz/xchannel/master-28.m3u8
-
-#EXTINF:-1 group-title="VIDIO",TRANS7 HD
-http://tvn.x10.bz/xchannel/master-30.m3u8
-
-#EXTINF:-1 group-title="VIDIO",TRANSTV
-http://tvn.x10.bz/xchannel/master-31.m3u8
 
 
 
