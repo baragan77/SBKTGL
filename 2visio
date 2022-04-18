@@ -547,7 +547,8 @@ https://liveanevia.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
 https://liveanevia.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
 
 
-
+#EXTINF:-1 group-title="Sports",NBA
+https://d17f1mg1q6g54e.cloudfront.net/hls/nbatv/chunks.m3u8
 
 
 
@@ -565,61 +566,7 @@ https://liveanevia.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
 
 
 
-#EXTINF:-1 group-title="VIDIO",NBA
-https://d17f1mg1q6g54e.cloudfront.net/hls/nbatv/chunks.m3u8
-
-
-
-
-#EXTINF:-1 group-title="VIDIO", ANTV
-https://wendy82.000webhostapp.com/vidio/antv.m3u8
-#EXTINF:-1 group-title="VIDIO", CHAMPION 1
-https://wendy82.000webhostapp.com/vidio/champion-1.m3u8
-#EXTINF:-1 group-title="VIDIO", CHAMPION 2
-https://wendy82.000webhostapp.com/vidio/champion-2.m3u8
-#EXTINF:-1 group-title="VIDIO", CHAMPION 3
-https://wendy82.000webhostapp.com/vidio/champion-3.m3u8
-#EXTINF:-1 group-title="VIDIO", CITRA BIOSKOP
-https://wendy82.000webhostapp.com/vidio/citra-bioskop.m3u8
-#EXTINF:-1 group-title="VIDIO", CITRA DRAMA
-https://wendy82.000webhostapp.com/vidio/citra-drama.m3u8
-#EXTINF:-1 group-title="VIDIO", HIP HORE
-https://wendy82.000webhostapp.com/vidio/hiphore.m3u8
-#EXTINF:-1 group-title="VIDIO", HORE
-https://wendy82.000webhostapp.com/vidio/hore.m3u8
-#EXTINF:-1 group-title="VIDIO", INDOSIAR
-https://wendy82.000webhostapp.com/vidio/Indosiar.m3u8
-#EXTINF:-1 group-title="VIDIO", KOMPAS
-https://wendy82.000webhostapp.com/vidio/kompas.m3u8
-#EXTINF:-1 group-title="VIDIO", LIVERPOOL
-https://wendy82.000webhostapp.com/vidio/Liverpool.m3u8
-#EXTINF:-1 group-title="VIDIO", METRO TV
-https://wendy82.000webhostapp.com/vidio/metro.m3u8
-#EXTINF:-1 group-title="VIDIO", O CHANNEL
-https://wendy82.000webhostapp.com/vidio/ochannel.m3u8
-#EXTINF:-1 group-title="VIDIO", PRAMBORS
-https://wendy82.000webhostapp.com/vidio/prambors.m3u8
-#EXTINF:-1 group-title="VIDIO", RANS
-https://wendy82.000webhostapp.com/vidio/rans.m3u8
-#EXTINF:-1 group-title="VIDIO", RTV
-https://wendy82.000webhostapp.com/vidio/rtv.m3u8
-#EXTINF:-1 group-title="VIDIO", SCTV
-https://wendy82.000webhostapp.com/vidio/SCTV.m3u8
-#EXTINF:-1 group-title="VIDIO", TRANS 7
-https://wendy82.000webhostapp.com/vidio/Trans7.m3u8
-#EXTINF:-1 group-title="VIDIO", TRANS TV
-https://wendy82.000webhostapp.com/vidio/transtv.m3u8
-#EXTINF:-1 group-title="VIDIO", TVN
-https://wendy82.000webhostapp.com/vidio/tvn.m3u8
-#EXTINF:-1 group-title="VIDIO", TV ONE
-https://wendy82.000webhostapp.com/vidio/tvOne.m3u8
-
-
-
-
-
-
-####Wendy_Sport############$$$######
+####Wendy_Sport##################
 
 
 
@@ -633,39 +580,13 @@ https://95-213-224-179.livesports24.online/uafootballua1.m3u8
 https://95-213-224-179.livesports24.online/fooootball2.m3u8
 
 
-
-#EXTINF:-1 group-title="WENDY SPORT",SONY_TEN-1(dec=native)
-http://103.166.253.222/hls/sonyten1.m3u8?shareext.ts
-#EXTINF:-1 group-title="WENDY SPORT",SONY_TEN-2(dec=native)
-http://103.166.253.222/hls/sonyten2.m3u8?shareext.ts
-#EXTINF:-1 group-title="WENDY SPORT",SONY_TEN-3(dec=native)
-http://103.166.253.222/hls/sonyten3.m3u8?shareext.ts
-#EXTINF:-1 group-title="WENDY SPORT",SONY_SIX(dec=native)
-http://103.166.253.222/hls/sonysix.m3u8?shareext.ts
-#EXTINF:-1 group-title="WENDY SPORT",VIVARO_SPORTS_HD
-http://135.181.178.91/vmedia_live/1/mono.m3u8?shareext.ts
-#EXTINF:-1 group-title="WENDY SPORT",VIVARO_SPORTS+_HD
-http://135.181.178.91/vmedia_live/2/mono.m3u8?shareext.ts
-#EXTINF:-1 group-title="WENDY SPORT",VIVARO_ARENA_HD 
-http://135.181.178.91/vmedia_live/3/mono.m3u8?shareext.ts
-
-#EXTINF:-1 group-title="WENDY SPORT", RMC 1
-https://stream.mmsiptv.com/droid/rmc1/playlist.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", RMC 2
-https://stream.mmsiptv.com/droid/rmc2/playlist.m3u8
-
 #EXTINF:-1 group-title="WENDY SPORT", STADIUM
 https://stadiumlivein-i.akamaihd.net/hls/live/522512/mux_4/master.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", ESPN HD
-https://stream2.grandma.fit/fs2.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", ESPN 2 HD
-https://stream2.grandma.fit/espn2.m3u8
+
 #EXTINF:-1 group-title="WENDY SPORT", BEIN THAI
 http://4digital.ddns.net:11222/ts/0
 #EXTINF:-1 group-title="WENDY SPORT", SKYNET HD
 http://4digital.ddns.net:11225/ts/0
-#EXTINF:-1 group-title="WENDY SPORT", SPORT TV
-http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
 
 #EXTINF:-1 group-title="WENDY SPORT",TNT sports 1
 https://glxlmn026c.singularcdn.net.br/playout_01/playlist-720p.m3u8
@@ -680,30 +601,18 @@ https://glxlmn026c.singularcdn.net.br/playout_04/playlist-720p.m3u8
 
 #EXTINF:-1 group-title="WENDY SPORT",TNT sports 5
 https://glxlmn026c.singularcdn.net.br/playout_05/playlist-720p.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", VIASAT SPORT
-https://sc.id-tv.kz/ViasatSport_34_35.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", 2HD
-https://streamalkasscustom02.azureedge.net:443/livehttporigin/smil:YWxrYXNz2.smil/chunklist_b6628000_sleng.m3u8
+
+
 #EXTINF:-1 group-title="WENDY SPORT",Okey_TV
 http://rtmlive02tv.secureswiftcontent.com/rtmchannel/02-manifest.mpd
 #EXTINF:-1 group-title="WENDY SPORT",SUKAN_RTM
 http://rtmlive02tv.secureswiftcontent.com/rtmchannel/06-manifest.mpd
-#EXTINF:-1 group-title="WENDY SPORT",UNIFI_SPORTS_1
-https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd
-#EXTINF:-1 group-title="WENDY SPORT",UNIFI_SPORTS_2
-https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd
 
-#EXTINF:-1 group-title="WENDY SPORT",LIVE (IBL)
-https://etus.link/ibl
-#EXTINF:-1 group-title="WENDY SPORT",LIVE¹ 
-https://etus.link/ds_live1
-#EXTINF:-1 group-title="WENDY SPORT",LIVE²
-https://etus.link/ds_live2
-#EXTINF:-1 group-title="WENDY SPORT",LIVE³  
-https://etus.link/ds_live3
-#EXTINF:-1 group-title="WENDY SPORT",LIVE (BRI Liga 1)
+
+
+#EXTINF:-1 group-title="WENDY SPORT",LIVE (indosiar)
 https://etus.link/briliga1
-#EXTINF:-1 group-title="WENDY SPORT",LIVE (Moto GP)
+#EXTINF:-1 group-title="WENDY SPORT",LIVE (Trans7)
 https://etus.link/ds_trans7
 
 #EXTINF:-1 group-title="WENDY SPORT",ᵃˢᵗʳᵒARENA¹ 
@@ -711,89 +620,10 @@ https://etus.link/ds_arena
 #EXTINF:-1 group-title="WENDY SPORT",ᵃˢᵗʳᵒARENA² 
 https://etus.link/ds_arena2  
   
-#EXTINF:-1 group-title="WENDY SPORT",Astro SuperSPORT¹ HD
-https://etus.link/ds_assp1
-#EXTINF:-1 group-title="WENDY SPORT",Astro SuperSPORT² HD
-https://etus.link/ds_assp2
-#EXTINF:-1 group-title="WENDY SPORT",Astro SuperSPORT³HD 
-https://etus.link/ds_assp3
-#EXTINF:-1 group-title="WENDY SPORT",Astro SuperSPORT⁴ HD
-https://etus.link/ds_assp4
-#EXTINF:-1 group-title="WENDY SPORT",Astro SuperSPORT⁵ HD
-https://etus.link/ds_assp5
-#EXTINF:-1 group-title="WENDY SPORT", BTSPORT
-http://iptv.tvmalaysia.cc:80/live/128001/128001/6610.m3u8
-#EXTINF:-1 group-title="WENDY SPORT",BTSPORT2
-http://iptv.tvmalaysia.cc:80/live/128001/128001/6611.m3u8
-#EXTINF:-1 group-title="WENDY SPORT",BY SPORT 3
-http://iptv.tvmalaysia.cc:80/live/128001/128001/6612.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", premiere
-http://iptv.tvmalaysia.cc:80/live/128001/128001/7113.m3u8
-#EXTINF:-1 group-title="WENDY SPORT",tsn1
-http://iptv.tvmalaysia.cc:80/live/128001/128001/8923.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", tsn2
-http://iptv.tvmalaysia.cc:80/live/128001/128001/8924.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", tsn3
-http://iptv.tvmalaysia.cc:80/live/128001/128001/8926.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", tsn4
-http://iptv.tvmalaysia.cc:80/live/128001/128001/8925.m3u8
 
-#EXTINF:-1 group-title="WENDY SPORT", spotv
-http://iptv.tvmalaysia.cc:80/live/128001/128001/9033.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", spotv 2
-http://iptv.tvmalaysia.cc:80/live/128001/128001/9034.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", assp1 
-http://iptv.tvmalaysia.cc:80/live/128001/128001/9024.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", assp2
-http://iptv.tvmalaysia.cc:80/live/128001/128001/9028.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", assp3 live only
-http://iptv.tvmalaysia.cc:80/live/128001/128001/6712.m3u8
-#EXTINF:-1 group-title="WENDY SPORT", assp4
-http://iptv.tvmalaysia.cc:80/live/128001/128001/6712.m3u8
 
 
 #########NBA#########
-
-
-
-#EXTINF:-1 group-title="NBA",NBAᵗᵛ Alt  
-http://84.22.33.215/nbatv/tracks-v1a1/mono.m3u8  
-
-#EXTINF:-1 group-title="NBA",NBA Live 1
-https://etus.link/nba
-#EXTINF:-1 group-title="NBA",BA Live 2
-https://etus.link/nba2
-#EXTINF:-1 group-title="NBA",NBA Live 3
-https://etus.link/nba3
-#EXTINF:-1 group-title="NBA",NBA Live 4
-https://etus.link/nba4
-#EXTINF:-1 group-title="NBA",NBA Live 5
-https://etus.link/nba5
-#EXTINF:-1 group-title="NBA",NBA Live 6
-https://etus.link/nba6
-#EXTINF:-1 group-title="NBA",NBA Live 7
-https://etus.link/nba7
-#EXTINF:-1 group-title="NBA",NBA Live 8  
-https://etus.link/nba8
-#EXTINF:-1 group-title="NBA",NBA Live 9
-https://etus.link/nba9 
-#EXTINF:-1 group-title="NBA",NBA Live 10
-https://etus.link/nba10
-#EXTINF:-1 group-title="NBA",NBA Live 11
-https://bananaxmelonstream.shortcm.li/NBA1.m3u8
-#EXTINF:-1 group-title="NBA",NBA Live 12
-https://bananaxmelonstream.shortcm.li/NBA2.m3u8
-#EXTINF:-1 group-title="NBA",NBA Live 13
-https://bananaxmelonstream.shortcm.li/NBA3.m3u8
-#EXTINF:-1 group-title="NBA",NBA Live 14
-https://bananaxmelonstream.shortcm.li/NBA4.m3u8
-  
-
-
-
-
-
-
 
 ###########USEETV############
 
@@ -1058,4 +888,3 @@ http://rr.dens.tv/h/h153/index2.m3u8
 http://rr2.dens.tv/s/s50/01.m3u8
 
 ××××××××××End××××××××××
-
