@@ -695,7 +695,7 @@ http://51.178.65.238:80/RMC1/mpegts
 
 #EXTINF:-1 group-title="WENDY SPORT", BT Sport 1 HD
 #EXTVLCOPT:http-user-agent=identity
-http://wagmaott.com:8080mag00:1A:79:08:90:AE/VFm9gYQNhu/5773
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5773
 #EXTINF:-1 group-title="WENDY SPORT", BT Sport 2 HD
 #EXTVLCOPT:http-user-agent=identity
 http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5774
