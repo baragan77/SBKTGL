@@ -585,8 +585,7 @@ https://stadiumlivein-i.akamaihd.net/hls/live/522512/mux_4/master.m3u8
 
 #EXTINF:-1 group-title="WENDY SPORT", BEIN THAI
 http://4digital.ddns.net:11222/ts/0
-#EXTINF:-1 group-title="WENDY SPORT", SKYNET HD
-http://4digital.ddns.net:11225/ts/0
+
 
 #EXTINF:-1 group-title="WENDY SPORT",TNT sports 1
 https://glxlmn026c.singularcdn.net.br/playout_01/playlist-720p.m3u8
@@ -610,10 +609,7 @@ http://rtmlive02tv.secureswiftcontent.com/rtmchannel/06-manifest.mpd
 
 
 
-#EXTINF:-1 group-title="WENDY SPORT",LIVE (indosiar)
-https://etus.link/briliga1
-#EXTINF:-1 group-title="WENDY SPORT",LIVE (Trans7)
-https://etus.link/ds_trans7
+
 
 #EXTINF:-1 group-title="WENDY SPORT",ᵃˢᵗʳᵒARENA¹ 
 https://etus.link/ds_arena
@@ -652,6 +648,98 @@ https://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.smil/index.m3u
 https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8
 #EXTINF:-1 tvg-id="Dubai Sports 3 ARB" tvg-name="Dubai Sports 3 ARB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/hxxjMPJ.jpg" group-title="WENDY SPORT",Dubai Sports 3
 https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
+
+#EXTINF:-1 group-title="WENDY SPORT",UseeSport1
+http://nontonbola.my.id/hustv/useesport1.m3u8?punyanya=gasss
+#EXTINF:-1 group-title="WENDY SPORT",UseeSport2
+http://nontonbola.my.id/hustv/useesport2.m3u8?punyanya=gasss
+#EXTINF:-1 group-title="WENDY SPORT",Usee Sports 1
+https://miraeindaeyo.masuk.id/empede/masuk.m3u8?token2=koceng&channel=useesport
+#EXTINF:-1 group-title="WENDY SPORT",Usee Sports 2
+https://miraeindaeyo.masuk.id/empede/masuk.m3u8?token2=koceng&channel=useesports2
+#EXTINF:-1 group-title="WENDY SPORT",Spotv 1 B
+https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/playlist.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",Spotv 2 B
+http://ott-navigator.my.id/usee/index.m3u8?live=spotv2&type=url&streamtype=hls
+#EXTINF:-1 group-title="WENDY SPORT",SPoTV
+http://lnk.ec/Spotv.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",Astro Arena
+http://lnk.ec/astroarena.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",Astro Arena 2
+http://lnk.ec/arena2.m3u8
+
+#EXTINF:-1 group-title="WENDY SPORT",Astro Super Sport 1
+http://203.154.243.89:21201/nakhon
+#EXTINF:-1 group-title="WENDY SPORT",Astro Super Sport 2
+http://203.154.243.89:21202/nakhon
+#EXTINF:-1 group-title="WENDY SPORT",Astro Super Sport 3
+http://203.154.243.89:21203/nakhon
+#EXTINF:-1 group-title="WENDY SPORT",Astro Super Sport 4
+http://203.154.243.89:21204/nakhon
+#EXTINF:-1 group-title="WENDY SPORT",BEIN Sports 1 turki
+http://135.181.1.143:8085/live/bein1/mpegts
+#EXTINF:-1 group-title="WENDY SPORT", BEIN Sports 2 turki
+http://135.181.1.143:8085/live/bein2/mpegts
+
+
+
+
+#EXTINF:-1 group-title="WENDY SPORT",beIN Sports 1 France
+http://51.178.65.238:80/Bein1/mpegts
+#EXTINF:-1 group-title="WENDY SPORT",beIN Sports 2 France
+http://51.178.65.238:80/Bein2/mpegts
+#EXTINF:-1 group-title="WENDY SPORT",beIN Sports 3 France
+http://51.178.65.238:80/Bein3/mpegts
+#EXTINF:-1 group-title="WENDY SPORT",RMC SPORT 1
+http://51.178.65.238:80/RMC1/mpegts
+
+#EXTINF:-1 group-title="WENDY SPORT", BT Sport 1 HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080mag00:1A:79:08:90:AE/VFm9gYQNhu/5773
+#EXTINF:-1 group-title="WENDY SPORT", BT Sport 2 HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5774
+#EXTINF:-1 group-title="WENDY SPORT", BT Sport 3 HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5775
+#EXTINF:-1 group-title="WENDY SPORT",BT Sport ESPN HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5752
+
+#EXTINF:-1 group-title="WENDY SPORT",Sky Sport News HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5768
+#EXTINF:-1 group-title="WENDY SPORT",Sky Sport Premier League HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5762
+#EXTINF:-1 group-title="WENDY SPORT",Sky Sport Foot Ball HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5758
+#EXTINF:-1 group-title="WENDY SPORT",Sky Sport Mix HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5761
+#EXTINF:-1 group-title="WENDY SPORT",Sky Sport Arena HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5755
+#EXTINF:-1 group-title="WENDY SPORT",Sky Sport Cricket HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5756
+#EXTINF:-1 group-title="WENDY SPORT",Sky Sport F1 HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5757
+#EXTINF:-1 group-title="WENDY SPORT",Sky Sport Golf HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5759
+#EXTINF:-1 group-title="WENDY SPORT",Sky Sport Main Event HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5760
+#EXTINF:-1 group-title="WENDY SPORT",Sky Sport NFL HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5763
+#EXTINF:-1 group-title="WENDY SPORT",Sky Sport Racing HD
+#EXTVLCOPT:http-user-agent=identity
+http://wagmaott.com:8080/mag00:1A:79:08:90:AE/VFm9gYQNhu/5764
+
 
 
 
