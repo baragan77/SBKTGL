@@ -832,35 +832,23 @@ http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c476
 #EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_prambors_small1.png?v=2.0.0.13" group-title="WENDY | USEETV", Prambors
 https://cdnbpp1.useetv.com/dass/130/pramborstv/manifest_wuseetv.mpd?encp=vTFva7e45m8X_cKQ9vYhiQ&uid=&expp=1641579884
 
-#############VIDEO###########
+#############TVRI###########
 
-#EXTINF:-1 group-title="VIDIO",Indosiar liga 1 & 2
-http://tvn.x10.bz/TvN_ID/master.m3u8
-//https://wendy82.000webhostapp.com/vidio/Indosiar.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/TVRI_1999.svg/1024px-TVRI_1999.svg.png" group-title="TVRI Group",TVRI Nasional
+http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINasional)/Stream(04)/index.m3u8
 
-#EXTINF:-1 group-title="VIDIO",Citra Bioskop 
-//http://tvn.x10.bz/channel/master-1.m3u8
-http://tvn.x10.bz/TvN_ID/master-1.m3u8
-#EXTINF:-1 group-title="VIDIO",Citra Drama
-//http://tvn.x10.bz/xchannel/master-2.m3u8
-http://tvn.x10.bz/TvN_ID/master-2.m3u8
-#EXTINF:-1 group-title="VIDIO",LiverpoolTV
-//http://tvn.x10.bz/xchannel/master-3.m3u8
-http://tvn.x10.bz/TvN_ID/master-3.m3u8
-#EXTINF:-1 group-title="VIDIO",Hip Hip horee (Kids)
-//http://tvn.x10.bz/xchannel/master-4.m3u8
-http://tvn.x10.bz/TvN_ID/master-4.m3u8
-#EXTINF:-1 group-title="VIDIO",Horee (Kids)
-//http://tvn.x10.bz/xchannel/master-5.m3u8
-http://tvn.x10.bz/TvN_ID/master-5.m3u8
-#EXTINF:-1 group-title="VIDIO",Champions 1 PRO LIGA
-//http://tvn.x10.bz/xchannel/master-6.m3u8
-http://tvn.x10.bz/TvN_ID/master-6.m3u8
-#EXTINF:-1 group-title="VIDIO",Champions 2
-//http://tvn.x10.bz/xchannel/master-7.m3u8
-http://tvn.x10.bz/TvN_ID/master-7.m3u8
-#EXTINF:-1 group-title="VIDIO",Champions 3
-//http://tvn.x10.bz/xchannel/master-8.m3u8
-http://tvn.x10.bz/TvN_ID/master-8.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/TVRI_1999.svg/1024px-TVRI_1999.svg.png" group-title="TVRI Group",TVRI NASIONAL2
+http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRINASIONAL)/Stream(04)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/TVRI_1999.svg/1024px-TVRI_1999.svg.png" group-title="TVRI Group",TVRI WORLD
+http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI3)/Stream(03)/index.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://staging.tvri.go.id/assets/img_gallery/tvribali.png" group-title="TVRI Group",TVRI Bali
+http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIbali)/Stream(02)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://football-tribe.com/indonesia/wp-content/uploads/sites/10/2019/01/TVRI-Sport-HD.png" group-title="TVRI Group",TVRI SPORT
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/86/TVRI_3.png" group-title="TVRI Group",TVRI 3 Budaya
+http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI3)/Stream(02)/index.m3u8
