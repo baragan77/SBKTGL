@@ -223,3 +223,88 @@ http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/86/TVRI_3.png" group-title="TVRI Group",TVRI 3 Budaya
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI3)/Stream(02)/index.m3u8
+
+######SPORT######
+
+#EXTINF:-1 group-title="WENDY SPORT",  UFC
+https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8
+
+#EXTINF:-1 group-title="WENDY SPORT", Football 1
+https://95-213-224-179.livesports24.online/uafootballua1.m3u8
+
+#EXTINF:-1 group-title="WENDY SPORT", Football 2
+https://95-213-224-179.livesports24.online/fooootball2.m3u8
+
+
+#EXTINF:-1 group-title="WENDY SPORT", STADIUM
+https://stadiumlivein-i.akamaihd.net/hls/live/522512/mux_4/master.m3u8
+
+#EXTINF:-1 group-title="WENDY SPORT", BEIN THAI
+http://4digital.ddns.net:11222/ts/0
+
+
+#EXTINF:-1 group-title="WENDY SPORT",TNT sports 1
+https://glxlmn026c.singularcdn.net.br/playout_01/playlist-720p.m3u8
+
+#EXTINF:-1 group-title="WENDY SPORT",TNT sports 2
+https://glxlmn026c.singularcdn.net.br/playout_02/playlist-720p.m3u8
+
+#EXTINF:-1 group-title="WENDY SPORT",TNT sports 3
+https://glxlmn026c.singularcdn.net.br/playout_03/playlist-720p.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",TNT sports 4
+https://glxlmn026c.singularcdn.net.br/playout_04/playlist-720p.m3u8
+
+#EXTINF:-1 group-title="WENDY SPORT",TNT sports 5
+https://glxlmn026c.singularcdn.net.br/playout_05/playlist-720p.m3u8
+
+  
+#EXTINF:-1 group-title="WENDY SPORT",  UFC 2
+https://cdn-cf.fite.tv/linear/fite247/4038629_fite-247/live_722/chunks.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",  LA 2
+https://rtvelivestreamv3.akamaized.net/rtvesec/la2/la2_main_720.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",  STAR SPORT
+http://89.187.162.109/STARSPORTS1HINDIHD/mono.m3u8
+#EXTINF:-1 group-title="WENDY SPORT",  ELEVEN SPORT
+http://213.13.23.132/shls/LIVE%24Eleven_Sports_2_HD.CVL/index.m3u8?device=ANDROID_Live&start=LIVE&end=END
+#EXTINF:-1 group-title="WENDY SPORT",  UFC
+
+
+#EXTINF:-1 tvg-id="Abu Dhabi Sports 1 ARB" tvg-name="Abu Dhabi Sports ARB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/lKl2wZH.png" group-title="WENDY SPORT",Abu Dhabi Sports 1
+https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Abu Dhabi Sports 2 ARB" tvg-name="Abu Dhabi Sports 2 ARB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/9q8gFsq.png" group-title="WENDY SPORT",Abu Dhabi Sports 2
+https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Abu Dhabi Sports 3 ARB" tvg-name="Abu Dhabi Sports 3 ARB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/U6XDpXY.png" group-title="WENDY SPORT",Abu Dhabi Sports 3
+https://admdn3.cdn.mangomolo.com/adsports3/smil:adsports3.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Abu Dhabi Sports 4 ARB" tvg-name="Abu Dhabi Sports 4 ARB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/8VqomZ5.png" group-title="WENDY SPORT",Abu Dhabi Sports 4
+https://admdn4.cdn.mangomolo.com/adsports4/smil:adsports4.stream.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Dubai Racing ARB" tvg-name="Dubai Racing ARB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eytrf0Y.png" group-title="WENDY SPORT",Dubai Racing
+https://dmisvthvll.cdn.mangomolo.com/events/smil:events.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eytrf0Y.png" group-title="WENDY SPORT",Dubai Racing 2
+https://dmithrvll.cdn.mangomolo.com/dubairacing/smil:dubairacing.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eytrf0Y.png" group-title="WENDY SPORT",Dubai Racing 3
+https://dmithrvll.cdn.mangomolo.com/dubaimubasher/smil:dubaimubasher.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Dubai Sports 1 ARB" tvg-name="Dubai Sports 1 ARB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/iYgHR5D.png" group-title="WENDY SPORT",Dubai Sports
+https://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.smil/index.m3u8
+#EXTINF:-1 tvg-id="Dubai Sports 2 ARB" tvg-name="Dubai Sports 2 ARB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/qBdOZ1x.png" group-title="WENDY SPORT",Dubai Sports 2
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8
+#EXTINF:-1 tvg-id="Dubai Sports 3 ARB" tvg-name="Dubai Sports 3 ARB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/hxxjMPJ.jpg" group-title="WENDY SPORT",Dubai Sports 3
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
+
+
+#EXTINF:-1 group-title="WENDY SPORT",Spotv 1 B
+https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/playlist.m3u8
+
+#EXTINF:-1 group-title="WENDY SPORT",Astro Super Sport 1
+http://203.154.243.89:21201/nakhon
+#EXTINF:-1 group-title="WENDY SPORT",Astro Super Sport 2
+http://203.154.243.89:21202/nakhon
+#EXTINF:-1 group-title="WENDY SPORT",Astro Super Sport 3
+http://203.154.243.89:21203/nakhon
+#EXTINF:-1 group-title="WENDY SPORT",Astro Super Sport 4
+http://203.154.243.89:21204/nakhon
+#EXTINF:-1 group-title="WENDY SPORT",BEIN Sports 1 turki
+http://135.181.1.143:8085/live/bein1/mpegts
+#EXTINF:-1 group-title="WENDY SPORT", BEIN Sports 2 turki
+http://135.181.1.143:8085/live/bein2/mpegts
+
