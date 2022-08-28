@@ -831,6 +831,25 @@ https://liveanevia.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel
 https://on-load.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel-HD.mpd
 
 #########
+#EXTINF:-1  group-title="SPORT",Premier_Football_1 HD[ENG]
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115758
+#EXTINF:-1  group-title="SPORT",Premier_Football_1 HD[Thai]
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115759
+#EXTINF:-1  group-title="SPORT",Premier_Football_2.HD[ENG]
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115762
+#EXTINF:-1  group-title="SPORT",Premier_Football_2 HD.TH
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115508
+#EXTINF:-1  group-title="SPORT",Premier_Football_3HD.TH
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115510
+#EXTINF:-1  group-title="SPORT",Premier_Football_3 HD[ENG]
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115511
+#EXTINF:-1  group-title="SPORT",Premier_Football_4 HD
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115513
+#EXTINF:-1  group-title="SPORT",Premier_Football_4 HD.TH
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115768
+#EXTINF:-1  group-title="SPORT",Premier_Football_5 HD
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115515
+
 #EXTINF:-1   group-title="SPORT",premiere lig
 https://71c97b0096f1.eu-west-1.playback.live-video.net/api/video/v1/eu-west-1.273628872092.channel.piOrK1bx0Mh7.m3u8
 #EXTINF:-1   group-title="SPORT",star sport 1
