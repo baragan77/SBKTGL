@@ -850,36 +850,61 @@ http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115768
 #EXTINF:-1  group-title="SPORT",Premier_Football_5 HD
 http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115515
 
-#EXTINF:-1   group-title="SPORT",premiere lig
-https://71c97b0096f1.eu-west-1.playback.live-video.net/api/video/v1/eu-west-1.273628872092.channel.piOrK1bx0Mh7.m3u8
-#EXTINF:-1   group-title="SPORT",star sport 1
-http://31.172.87.52:2200/R-EX/SPORTS_STAR_SPORTS_TAMIL-in/tracks-v1a1/mono.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659=|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",star sport action 
-http://31.172.87.52:2200/AFR-EX/SuperSport_Action_FHD-dstv/tracks-v1a1/mono.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659=|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",BT SPORT
-http://31.172.87.52:2200/EX/UKSD_BT_Sport_1_SD-uk/tracks-v1a1/mono.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659=|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",BT SPORT 2
-http://31.172.87.52:2200/EX/UKSD_BT_Sport_2_SD-uk/tracks-v1a1/mono.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659=|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",BT SPORT 3
-http://31.172.87.52:2200/EX/UKSD_BT_Sport_3_SD-uk/tracks-v1a1/mono.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659=|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",BEIN SPORT 1
-http://31.172.87.52:2200//EX/bein11sd-ar/tracks-v1a1/mono.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",BEIN SPORT 2
-http://31.172.87.52:2200//EX/bein12sd-ar/tracks-v1a1/mono.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",BEIN SPORT 3
-http://31.172.87.52:2200//EX/bein13sd-ar/tracks-v1a1/mono.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",PTV SPORT
-http://31.172.87.52:2200/EX/ptvsportshd-pa/tracks-v1a1/mono.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659=|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",SONY SIX
-http://31.172.87.52:2200/R-EX/SPORTS_SONY_SIX_HD-in/tracks-v1a1/index.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",SONY TEN 1
-http://31.172.87.52:2200/R-EX/SPORTS_TEN_1_HD-in/index.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",SONY TEN 2
-http://31.172.87.52:2200/R-EX/SPORTS_TEN_2_HD-in/index.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659|User-agent=REDLINECLIENT
-#EXTINF:-1   group-title="SPORT",SONY TEN 3
-http://31.172.87.52:2200/R-EX/SPORTS_TEN_3_HD-in/index.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659|User-agent=REDLINECLIENT
+#EXTINF:-1  group-title="SPORT",Supersport 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=766852&extension=ts
+#EXTINF:-1  group-title="SPORT",Supersport 2 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=766853&extension=ts
+#EXTINF:-1  group-title="SPORT",Supersport 3 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=766854&extension=ts
+#EXTINF:-1  group-title="SPORT",Supersport 4 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=766855&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Premier Lig 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577996&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Football 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577995&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport News 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577994&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport nfl 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577993&extension=ts 
+#EXTINF:-1  group-title="SPORT",SY Sport UK Arena 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577992&extension=ts 
+#EXTINF:-1  group-title="SPORT",SY Sport UK Cricet 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577991&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport UK F1 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577990&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Mix Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577989&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Racing Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577988&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Golf Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577987&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Main event Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577997&extension=ts 
+#EXTINF:-1  group-title="SPORT",BT Sport 1 Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=578001&extension=ts
+#EXTINF:-1  group-title="SPORT",BT Sport 2 Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=578000&extension=ts
+#EXTINF:-1  group-title="SPORT",BT Sport 3 Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577999&extension=ts
+#EXTINF:-1  group-title="SPORT",BT Sport 4 Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577998&extension=ts
+#EXTINF:-1  group-title="SPORT",BT Sport 5 Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=774608&extension=ts
+#EXTINF:-1  group-title="SPORT",Free Sport Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577986&extension=ts
+#EXTINF:-1  group-title="SPORT",EUROSPORT1 Uhd UK 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577985&extension=ts
+#EXTINF:-1  group-title="SPORT",EUROSPORT2 Uhd UK 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577984&extension=ts
+#EXTINF:-1  group-title="SPORT",Premier sport LaLiga Uhd UK 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577983&extension=ts
+
+
+
+
+
 #EXTINF:-1   group-title="SPORT",indosiar
-http://tvn.x10.mx/vidio/master.m3u8
+http://tvn.x10.mx/vidio/master.m3u8?dl=1
 #EXTINF:-1   group-title="SPORT",Badminton1(Spotv)
 https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_2/chunklist.m3u8?hdnea=st=1658610734~exp=9007200913351725~acl=/99545824f51f4c1592b35314c6ece3b0/*/profile_2/chunklist.m3u8*~hmac=1a391d24f8a3fe045b6553920daa8fcfec1bfac57cf53b142ba3d75745b816f8
 #EXTINF:-1   group-title="SPORT",Badminton2(SPOtv2)
