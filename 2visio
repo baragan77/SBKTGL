@@ -830,7 +830,252 @@ https://liveanevia.mncnow.id/live/eds/Soccer-2/sa_dash_vmx/Soccer-2.mpd
 https://liveanevia.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel-HD.mpd
 https://on-load.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel-HD.mpd
 
-#########
+###############
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/CwlNjXQ.png" ,beIN Sports Premium 1
+https://ad2017.vhls.ru.com/lb/premium98/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/Ns7isEP.png" ,beIN Sports Premium 2
+https://ad2017.vhls.ru.com/lb/premium99/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/T7UlxCI.png" ,beIN Sports Premium 3
+https://ad2017.vhls.ru.com/lb/premium100/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/MRULdc8.png" ,beIN Sports 1
+https://ad2017.vhls.ru.com/lb/premium91/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/NDp6TlM.png" ,beIN Sports 2
+https://ad2017.vhls.ru.com/lb/premium92/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/j8VC6nB.png" ,beIN Sports 3
+https://ad2017.vhls.ru.com/lb/premium93/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/Lu26Yho.png" ,beIN Sports 4
+https://ad2017.vhls.ru.com/lb/premium94/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/pA5by2y.png",beIN Sports 5
+https://ad2017.vhls.ru.com/lb/premium95/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/mbFoSUX.png" ,beIN Sports 6
+https://ad2017.vhls.ru.com/lb/premium96/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/eHCosqi.png" ,beIN Sports 7
+https://ad2017.vhls.ru.com/lb/premium97/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/o8zT78o.png" ,beIN Sports English 1
+https://ad2017.vhls.ru.com/lb/premium61/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/RJ17vOc.png" ,beIN Sports English 2
+https://ad2017.vhls.ru.com/lb/premium90/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/sKFx2QF.png" ,beIN Sports English 3
+https://ad2017.vhls.ru.com/lb/premium46/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/MRULdc8.png" ,beIN Sports 1 HD France
+https://ad2017.vhls.ru.com/lb/premium116/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/NDp6TlM.png" ,beIN Sports 2 HD France
+https://ad2017.vhls.ru.com/lb/premium117/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/j8VC6nB.png" ,beIN Sports 3 France
+https://ad2017.vhls.ru.com/lb/premium118/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/MRULdc8.png" ,beIN Sports 1 Türkiye
+https://ad2017.vhls.ru.com/lb/premium62/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/NDp6TlM.png" ,beIN Sports 2 Türkiye
+https://ad2017.vhls.ru.com/lb/premium63/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/j8VC6nB.png" ,beIN Sports 3 Türkiye
+https://ad2017.vhls.ru.com/lb/premium64/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/Lu26Yho.png" ,beIN Sports 4 Türkiye
+https://ad2017.vhls.ru.com/lb/premium67/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/7dg7EB7.png" ,BT Sport 1
+https://ad2017.vhls.ru.com/lb/premium31/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/sIIFREX.png" ,BT Sport 2
+https://ad2017.vhls.ru.com/lb/premium32/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/8IzsrMb.png" ,BT Sport 3
+https://ad2017.vhls.ru.com/lb/premium33/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/gyTJhVr.png" ,BT Sport 4
+https://ad2017.vhls.ru.com/lb/premium34/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/gwV31E0.png" ,Eurosport 1 UK
+https://ad2017.vhls.ru.com/lb/premium41/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/lTnKDju.png" ,Eurosport 2 UK
+https://ad2017.vhls.ru.com/lb/premium42/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/tPxIkmd.png" ,Premier Sports 1
+https://ad2017.vhls.ru.com/lb/premium451/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/PhUx6yK.png" ,Premier Sports 2
+https://ad2017.vhls.ru.com/lb/premium550/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/d81P4qV.jpg" ,Racing TV
+https://ad2017.vhls.ru.com/lb/premium555/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/jM1FeOX.png" ,Sky Sports Action
+https://ad2017.vhls.ru.com/lb/premium37/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/eZwExGu.png" ,Sky Sports Arena
+https://ad2017.vhls.ru.com/lb/premium36/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/J8zzS2v.png" ,Sky Sports Cricket
+https://ad2017.vhls.ru.com/lb/premium65/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/2kPW5qw.png" ,Sky Sports F1
+https://ad2017.vhls.ru.com/lb/premium60/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/EcFwNdj.png" ,Sky Sports Football
+https://ad2017.vhls.ru.com/lb/premium35/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/Q2ztKWZ.png" ,Sky Sports Golf
+https://ad2017.vhls.ru.com/lb/premium70/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/KHiae2e.png" ,Sky Sports Main Event
+https://ad2017.vhls.ru.com/lb/premium38/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/PRF0DsV.png" ,Sky Sports Mix
+https://ad2017.vhls.ru.com/lb/premium449/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+https://ad2017.vhls.ru.com/cdn/premium449/mono.m3u8
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/jcFnVbi.png" ,Sky Sports News UK
+https://ad2017.vhls.ru.com/lb/premium366/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/wA3DieO.png" ,Sky Sports Premier League
+https://ad2017.vhls.ru.com/lb/premium130/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/vhYstlz.png" ,Sky Sports Racing
+https://ad2017.vhls.ru.com/lb/premium554/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/1g9mYwr.png" ,CBS Sports Network
+https://ad2017.vhls.ru.com/lb/premium308/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" ,ESPN 1 US
+https://ad2017.vhls.ru.com/lb/premium44/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/1280px-ESPN2_logo.svg.png" ,ESPN 2 US
+https://ad2017.vhls.ru.com/lb/premium45/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/YhuEewa.png" ,ESPN Deportes
+https://ad2017.vhls.ru.com/lb/premium375/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/qimdreM.png" ,FS1
+https://ad2017.vhls.ru.com/lb/premium39/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/800px-MLBNetworkLogo.svg.png" ,MLB Network
+https://ad2017.vhls.ru.com/lb/premium399/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/gZXSAhf.png" ,NFL Network
+https://ad2017.vhls.ru.com/lb/premium405/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/TUDN_Logo.svg/1920px-TUDN_Logo.svg.png" group-title="SPORTS",TUDN USA
+https://ad2017.vhls.ru.com/lb/premium66/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/lcpZ5CC.png" ,WWE Network
+https://ad2017.vhls.ru.com/lb/premium376/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/b7TO49Q.png" ,Fox Sports 501
+https://ad2017.vhls.ru.com/lb/premium369/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/bpS1hON.png" ,Sportsnet 360
+https://ad2017.vhls.ru.com/lb/premium409/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/W8d65IY.png" ,Sportsnet One
+https://ad2017.vhls.ru.com/lb/premium411/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/gSK6eN9.png" ,Sportsnet World
+https://ad2017.vhls.ru.com/lb/premium410/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imgur.com/v48ueao.png" ,TSN1
+https://ad2017.vhls.ru.com/lb/premium111/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HvPyPov.png" group-title="SPORTS",TSN2
+https://ad2017.vhls.ru.com/lb/premium112/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NwjWSff.png" group-title="SPORTS",TSN3
+https://ad2017.vhls.ru.com/lb/premium113/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5aQ01F1.png" group-title="SPORTS",TSN4
+https://ad2017.vhls.ru.com/lb/premium114/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uoy75nW.png" group-title="SPORTS",TSN5
+https://ad2017.vhls.ru.com/lb/premium115/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1  tvg-logo="https://i.imgur.com/p0k54D9.png" group-title="SPORTS",Canal + Sport Polska
+https://ad2017.vhls.ru.com/lb/premium48/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1  tvg-logo="https://i.imgur.com/Xz33IHR.png" group-title="SPORTS",Canal + Sport 2 Polska
+https://ad2017.vhls.ru.com/lb/premium73/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1  tvg-logo="https://i.imgur.com/cSVAkg0.png" group-title="SPORTS",Eleven Sports 1 Polska
+https://ad2017.vhls.ru.com/lb/premium71/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1  tvg-logo="https://i.imgur.com/TlNAO45.png" group-title="SPORTS",Eleven Sports 2 Polska
+https://ad2017.vhls.ru.com/lb/premium72/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1  tvg-logo="https://i.imgur.com/pM6Q5n1.png" group-title="SPORTS",Polsat Sport
+https://ad2017.vhls.ru.com/lb/premium47/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1  tvg-logo="https://i.imgur.com/mnohjlI.png" group-title="SPORTS",Polsat Sport Extra
+https://ad2017.vhls.ru.com/lb/premium50/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1  tvg-logo="https://i.imgur.com/QJIzCGa.png" group-title="SPORTS",Polsat Sport News
+https://ad2017.vhls.ru.com/lb/premium129/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-id="TVPSport.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d7/Logo_TVP_Sport.jpg" group-title="SPORTS",TVP Sport
+https://ad2017.vhls.ru.com/lb/premium128/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-id="CanalPlusSportFrance.fr" tvg-logo="https://i.imgur.com/p0k54D9.png" group-title="SPORTS",Canal + Sport France
+https://ad2017.vhls.ru.com/lb/premium122/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-id="CanalPlusSportFrance.fr" tvg-logo="https://www.telesatellite.com/images/actu/c/canal-plus-moto-gp.jpg" group-title="SPORTS",Canal + MotoGP
+https://ad2017.vhls.ru.com/lb/premium76/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-id="RMCSport1.fr" tvg-logo="https://i.imgur.com/30785UJ.png" group-title="SPORTS",RMC Sport 1
+https://ad2017.vhls.ru.com/lb/premium119/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-id="RMCSport2.fr" tvg-logo="https://i.imgur.com/5Rh2s8k.png" group-title="SPORTS",RMC Sport 2
+https://ad2017.vhls.ru.com/lb/premium120/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kaUN9Uw.png" group-title="SPORTS",Digi Sport 1
+https://ad2017.vhls.ru.com/lb/premium400/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xxLvKJD.png" group-title="SPORTS",Digi Sport 2
+https://ad2017.vhls.ru.com/lb/premium401/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WiynV2K.png" group-title="SPORTS",Digi Sport 3
+https://ad2017.vhls.ru.com/lb/premium402/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kBsQd2d.png" group-title="SPORTS",Digi Sport 4
+https://ad2017.vhls.ru.com/lb/premium403/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4mc9xs0.png" group-title="SPORTS",Orange Sport 1
+https://ad2017.vhls.ru.com/lb/premium439/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2DY6BwT.png" group-title="SPORTS",Orange Sport 2
+https://ad2017.vhls.ru.com/lb/premium440/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gSQTD0Q.png" group-title="SPORTS",Orange Sport 3
+https://ad2017.vhls.ru.com/lb/premium441/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/M6o25QC.png" group-title="SPORTS",Orange Sport 4
+https://ad2017.vhls.ru.com/lb/premium442/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+
+
+
+#########SPORT######################
 #EXTINF:-1  group-title="SPORT",Premier_Football_1 HD[ENG]
 http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115758
 #EXTINF:-1  group-title="SPORT",Premier_Football_1 HD[Thai]
