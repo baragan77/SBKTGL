@@ -7,6 +7,7 @@ http://tv.zonanime.my.id/vidio/sctv.m3u8
 
 #EXTINF: -1 tvg-logo="https://www.useetv.com/pimages/logo_indosiar_small1.png?v=2.0.0.15" group-title="NASIONAL", INDOSIAR
 http://iptvid.my.id/hmm/indosiar.m3u8
+http://tvn.x10.mx/1/master-11.m3u8?dl=1
 http://tv.zonanime.my.id/vidio/indosiar.m3u8
 
 #EXTINF:0 tvg-id="" tvg-name="MNC" tvg-logo="https://cdn-production-thumbor-vidio.akamaized.net/NZy4IEZXngGp5YlqpIQOWM3pH1U=/372x211/filters:quality(75)/vidio-web-prod-livestreaming/uploads/livestreaming/image/870/mnc-tv-stream-f8ee1c.jpg" group-title="NASIONAL", MNCTV
