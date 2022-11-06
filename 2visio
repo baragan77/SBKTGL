@@ -568,56 +568,6 @@ http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115768
 #EXTINF:-1  group-title="SPORT",Premier_Football_5 HD
 http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115515
 
-#EXTINF:-1  group-title="SPORT",Supersport 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=766852&extension=ts
-#EXTINF:-1  group-title="SPORT",Supersport 2 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=766853&extension=ts
-#EXTINF:-1  group-title="SPORT",Supersport 3 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=766854&extension=ts
-#EXTINF:-1  group-title="SPORT",Supersport 4 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=766855&extension=ts
-#EXTINF:-1  group-title="SPORT",SY Sport Premier Lig 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577996&extension=ts
-#EXTINF:-1  group-title="SPORT",SY Sport Football 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577995&extension=ts
-#EXTINF:-1  group-title="SPORT",SY Sport News 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577994&extension=ts
-#EXTINF:-1  group-title="SPORT",SY Sport nfl 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577993&extension=ts 
-#EXTINF:-1  group-title="SPORT",SY Sport UK Arena 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577992&extension=ts 
-#EXTINF:-1  group-title="SPORT",SY Sport UK Cricet 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577991&extension=ts
-#EXTINF:-1  group-title="SPORT",SY Sport UK F1 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577990&extension=ts
-#EXTINF:-1  group-title="SPORT",SY Sport Mix Uhd 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577989&extension=ts
-#EXTINF:-1  group-title="SPORT",SY Sport Racing Uhd 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577988&extension=ts
-#EXTINF:-1  group-title="SPORT",SY Sport Golf Uhd 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577987&extension=ts
-#EXTINF:-1  group-title="SPORT",SY Sport Main event Uhd 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577997&extension=ts 
-#EXTINF:-1  group-title="SPORT",BT Sport 1 Uhd 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=578001&extension=ts
-#EXTINF:-1  group-title="SPORT",BT Sport 2 Uhd 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=578000&extension=ts
-#EXTINF:-1  group-title="SPORT",BT Sport 3 Uhd 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577999&extension=ts
-#EXTINF:-1  group-title="SPORT",BT Sport 4 Uhd 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577998&extension=ts
-#EXTINF:-1  group-title="SPORT",BT Sport 5 Uhd 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=774608&extension=ts
-#EXTINF:-1  group-title="SPORT",Free Sport Uhd 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577986&extension=ts
-#EXTINF:-1  group-title="SPORT",EUROSPORT1 Uhd UK 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577985&extension=ts
-#EXTINF:-1  group-title="SPORT",EUROSPORT2 Uhd UK 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577984&extension=ts
-#EXTINF:-1  group-title="SPORT",Premier sport LaLiga Uhd UK 
-http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:02:05:65&stream=577983&extension=ts
-
-
 
 
 
@@ -643,26 +593,55 @@ http://tv.zonanime.my.id/vidio/championstv2.m3u8
 http://tv.zonanime.my.id/vidio/championstv3.m3u8
 
 
-#######
-#EXTINF:-1   group-title="SPORTS",Fox Sport 
-https://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Motors_TV_old.svg/1112px-Motors_TV_old.svg.png" group-title="SPORTS",Motorvision
-http://playlist.urfan.web.id/uq2663/h/h09/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Motors_TV_old.svg/1112px-Motors_TV_old.svg.png" group-title="SPORTS",Motorvision
-https://dai2.xumo.com/xumocdn/p=/amagi_hls_data_xumo1212A-motorvisiontv/CDN/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://playtv.unifi.com.my:7053/CPS/images/universal/film/logo/202108/20210811/2021081116172640657u.png" group-title="SPORTS" tvg-id="" tvg-name="", Unifi Sport 1
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I
-https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd
-
-#EXTINF:-1 tvg-logo="https://playtv.unifi.com.my:7053/CPS/images/universal/film/logo/202108/20210811/20210811161847362lc0.png" group-title="SPORTS" tvg-id="" tvg-name="", Unifi Sport 2
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I
-https://unifi-live04.secureswiftcontent.com/UnifiHD/live12.mpd
-
+#EXTINF:-1  group-title="SPORT",Supersport 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=766852&extension=ts
+#EXTINF:-1  group-title="SPORT",Supersport 2 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=766853&extension=ts
+#EXTINF:-1  group-title="SPORT",Supersport 3 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=766854&extension=ts
+#EXTINF:-1  group-title="SPORT",Supersport 4 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=766855&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Premier Lig 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577996&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Football 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577995&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport News 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577994&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport nfl 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577993&extension=ts 
+#EXTINF:-1  group-title="SPORT",SY Sport UK Arena 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577992&extension=ts 
+#EXTINF:-1  group-title="SPORT",SY Sport UK Cricet 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577991&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport UK F1 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577990&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Mix Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577989&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Racing Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577988&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Golf Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577987&extension=ts
+#EXTINF:-1  group-title="SPORT",SY Sport Main event Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577997&extension=ts 
+#EXTINF:-1  group-title="SPORT",BT Sport 1 Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=578001&extension=ts
+#EXTINF:-1  group-title="SPORT",BT Sport 2 Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=578000&extension=ts
+#EXTINF:-1  group-title="SPORT",BT Sport 3 Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577999&extension=ts
+#EXTINF:-1  group-title="SPORT",BT Sport 4 Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577998&extension=ts
+#EXTINF:-1  group-title="SPORT",BT Sport 5 Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=774608&extension=ts
+#EXTINF:-1  group-title="SPORT",Free Sport Uhd 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bfstream=577986&extension=ts
+#EXTINF:-1  group-title="SPORT",EUROSPORT1 Uhd UK 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577985&extension=ts
+#EXTINF:-1  group-title="SPORT",EUROSPORT2 Uhd UK 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577984&extension=ts
+#EXTINF:-1  group-title="SPORT",Premier sport LaLiga Uhd UK 
+http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577983&extension=ts
 
 
 
