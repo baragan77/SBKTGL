@@ -589,12 +589,7 @@ https://bcovlive-a.akamaihd.net/81662517c7df42848bfa48818a71f1f4/ap-southeast-1/
 http://iptvid.my.id/hmm/useetl1.m3u8
 #EXTINF:-1   group-title="SPORT",UseeSports_2 
 http://iptvid.my.id/hmm/useetl2.m3u8
-#EXTINF:-1   group-title="SPORT",ChampionTv1
-http://tv.zonanime.my.id/vidio/championstv1.m3u8
-#EXTINF:-1   group-title="SPORT",ChampionTv2
-http://tv.zonanime.my.id/vidio/championstv2.m3u8
-#EXTINF:-1   group-title="SPORT",ChampionTv3
-http://tv.zonanime.my.id/vidio/championstv3.m3u8
+
 
 
 
@@ -648,28 +643,16 @@ http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577984&ext
 http://eu.majes-line.co:80/play/live.php?mac=00:1A:79:b6:b8:bf&stream=577983&extension=ts
 
 
-
-
-#EXTINF:0 group-title="SPORT" tvg-logo="https://cloudtv.akamaized.net/anyott/images/CMS_BD/de2d2947-554f-4c31-932f-de74ae027c80_180x180_Ten1.jpg" tvg-logo-small="https://cloudtv.akamaized.net/anyott/images/CMS_BD/de2d2947-554f-4c31-932f-de74ae027c80_180x180_Ten1.jpg" ,SONY TEN 1
-https://tvs1.aynaott.com/Ten1/tracks-v1a1/mono.m3u8?token=931a9d028b52331bb81c6eb54a21ccb8bc450288-NtgCpTEZN5SX6Viw-
-#EXTINF:0 group-title="SPORT" tvg-logo="https://cloudtv.akamaized.net/anyott/images/CMS_BD/f17b81cb-6339-47a4-9492-71cb68af4be2_180x180_ten-2-hd.jpg" tvg-logo-small="https://cloudtv.akamaized.net/anyott/images/CMS_BD/f17b81cb-6339-47a4-9492-71cb68af4be2_180x180_ten-2-hd.jpg" ,SONY TEN 2
-https://tvs1.aynaott.com/Ten2HD/tracks-v1a1/mono.m3u8?token=1635aac676a005952592be2c3ea8dd3aec74eed2-MujaPW065bwdUSUC-
-#EXTINF:0 group-title="SPORT" tvg-logo="https://cloudtv.akamaized.net/anyott/images/CMS_BD/ed43b998-2e56-48bb-8d0e-f81e47d87d7d_180x180_Ten3.jpg" tvg-logo-small="https://cloudtv.akamaized.net/anyott/images/CMS_BD/ed43b998-2e56-48bb-8d0e-f81e47d87d7d_180x180_Ten3.jpg" ,SONY TEN 3
-https://tvs1.aynaott.com/Ten3/tracks-v1a1/mono.m3u8?token=14878349070372d061443c788c27eaef075f9ad5-YCLHax0OhwibUc2e-
-#EXTINF:0 group-title="SPORT" tvg-logo="https://cloudtv.akamaized.net/anyott/images/CMS_BD/ff1a8370-4477-43ee-8ad0-15caa7e5bf89_180x180_SonySix.jpeg" tvg-logo-small="https://cloudtv.akamaized.net/anyott/images/CMS_BD/ff1a8370-4477-43ee-8ad0-15caa7e5bf89_180x180_SonySix.jpeg" ,SONY SIX
-https://tvs1.aynaott.com/SonySix/tracks-v1a1/mono.m3u8?token=07495f826f644f6dbc5df70203fe543a305409bd-tsyrti9xCg1meFMh-
-#EXTINF:0 group-title="SPORT" tvg-logo="https://cloudtv.akamaized.net/anyott/images/CMS_BD/25270783-6de5-4ddf-b207-b6376ae989bc_180x180_ASports.jpg" tvg-logo-small="https://cloudtv.akamaized.net/anyott/images/CMS_BD/25270783-6de5-4ddf-b207-b6376ae989bc_180x180_ASports.jpg" ,A SPORTS
-https://tvs2.aynaott.com/asports/tracks-v1a1/mono.m3u8?token=1e04f2ba1ae8adb5ec82de70397c9ae1dbb1e551-DQvvCsgvNEJK001x-
-#EXTINF:0 group-title="SPORT" tvg-logo="https://cloudtv.akamaized.net/anyott/images/CMS_BD/f628edc7-701f-4d64-97eb-623efd39d80f_180x180_Start-Sports-1-hd.jpg" tvg-logo-small="https://cloudtv.akamaized.net/anyott/images/CMS_BD/f628edc7-701f-4d64-97eb-623efd39d80f_180x180_Start-Sports-1-hd.jpg" ,STAR SPORTS 1
-https://tvs1.aynaott.com/sspts1/tracks-v1a1/mono.m3u8?token=3d64b30896e48a47fc29014c8b50fe768a7949bc-HauS0xvK1iupONZF-
-#EXTINF:0 group-title="SPORT" tvg-logo="https://cloudtv.akamaized.net/anyott/images/CMS_BD/43a3065c-206b-4bac-99bf-be503e9c6008_180x180_Star-Sports-2-HD.jpg" tvg-logo-small="https://cloudtv.akamaized.net/anyott/images/CMS_BD/43a3065c-206b-4bac-99bf-be503e9c6008_180x180_Star-Sports-2-HD.jpg" ,STAR SPORTS 2
-https://tvs1.aynaott.com/ssport2hd/tracks-v1a1/mono.m3u8?token=b5f6191b4322377e86ab2f269cf70e9ac8e43eb0-jIbcJRnUmakoGj8I-
-#EXTINF:0 group-title="SPORT" tvg-logo="https://cloudtv.akamaized.net/anyott/images/CMS_BD/5613629e-48b2-4bf1-918e-f0adc3abc394_180x180_tsports.png" tvg-logo-small="https://cloudtv.akamaized.net/anyott/images/CMS_BD/5613629e-48b2-4bf1-918e-f0adc3abc394_180x180_tsports.png" ,T-SPORTS
-https://tvs2.aynaott.com/tsportshd/tracks-v1a1/index-1667566800-now.m3u8?token=52ca37390782aa5b130c1fb81816299cf939b369-xlfPxUfjS5vGNatX-
- 
-
-
-
+#EXTINF:-1 group-title="SPORT",J.sport_1_HD
+http://redlabmcdn.s.llnwi.net/nv02/bs15hd/index.m3u8
+#EXTINF:-1 group-title="SPORT",J.sport_2_HD
+http://redlabmcdn.s.llnwi.net/nv02/bs11hd/index.m3u8
+#EXTINF:-1 group-title="SPORT",J.sport_3_HD
+http://redlabmcdn.s.llnwi.net/nv02/bs12hd/index.m3u8
+#EXTINF:-1 group-title="SPORT",GAZI 
+http://103.78.255.178:8080/gtv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="SPORT",Tsport
+http://103.78.255.178:8080/starselect1/tracks-v1a1/mono.m3u8
 
 
 
