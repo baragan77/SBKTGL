@@ -585,10 +585,7 @@ https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/
 https://bcovlive-a.akamaihd.net/8dbe9fecaaf3445da9dc68101293d99c/ap-southeast-1/6271486521001/profile_2/chunklist.m3u8?hdnea=st=1661136405~exp=9007200915877396~acl=/8dbe9fecaaf3445da9dc68101293d99c/*/profile_2/chunklist.m3u8*~hmac=a6e18124577714ae26820abb6bf00220e3b19d587e8f9d4f95923e3711d06888
 #EXTINF:-1   group-title="SPORT",Badminton4(live)
 https://bcovlive-a.akamaihd.net/81662517c7df42848bfa48818a71f1f4/ap-southeast-1/6271486521001/profile_2/chunklist.m3u8?hdnea=st=1661229481~exp=9007200915970472~acl=/81662517c7df42848bfa48818a71f1f4/*/profile_2/chunklist.m3u8*~hmac=431e5130e4624b3fd122b7e63ce0806bf7107f1117267fde117ec1a30ef9dab1
-#EXTINF:-1   group-title="SPORT",UseeSports_1
-http://iptvid.my.id/hmm/useetl1.m3u8
-#EXTINF:-1   group-title="SPORT",UseeSports_2 
-http://iptvid.my.id/hmm/useetl2.m3u8
+
 
 
 
@@ -649,12 +646,41 @@ http://redlabmcdn.s.llnwi.net/nv02/bs15hd/index.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs11hd/index.m3u8
 #EXTINF:-1 group-title="SPORT",J.sport_3_HD
 http://redlabmcdn.s.llnwi.net/nv02/bs12hd/index.m3u8
-#EXTINF:-1 group-title="SPORT",GAZI 
-http://103.78.255.178:8080/gtv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="SPORT",Tsport
-http://103.78.255.178:8080/starselect1/tracks-v1a1/mono.m3u8
 
 
+
+#EXTINF:-1 group-title="SPORT",usee.1
+http://iptvid.my.id/hmm/useetl1.m3u8 
+#EXTINF:-1 group-title="SPORT",usee.2
+http://iptvid.my.id/hmm/useetl2.m3u8 
+#EXTINF:-1 group-title="SPORT",Eleven1(Taiwan)
+http://50.7.220.74:8278/golfchannel_twn/playlist.m3u8?tid=MFBF2798068027980680&ct=18393&tsum=d8204023f67120512c75a8882f121120
+#EXTINF:-1 group-title="SPORT",Eleven_1.TW(backup)
+http://50.7.220.74:8278/golfchannel_twn/playlist.m3u8?tid=m43df9270caf7&ct=18335&tsum=3bcc02e810e7073b86bb40d392e95f23
+
+#EXTINF:-1 group-title="SPORT",Cctv_5(sports)
+http://tvindexlive01.yn.ysten.com:8080/ysten-business/live/cctv-5/1.m3u8|User-Agent=0151
+
+#EXTINF:-1 group-title="SPORT",INDOSIAR BACKUP
+http://15.235.166.26:8080/live/SmileFree/PakaiYangBijak/3.ts
+#EXTINF:-1 group-title="SPORT",DAZN 1 DE
+https://webudi.openhd.lol/lb/premium426/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORT",DAZN 2 DE
+https://webudi.openhd.lol/lb/premium427/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+#EXTINF:-1 group-title="SPORT",beIN Sports English 1
+https://webudi.openhd.lol/lb/premium61/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORT",beIN Sports English 2
+https://webudi.openhd.lol/lb/premium90/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="SPORT",beIN Sports English 3
+https://webudi.openhd.lol/lb/premium46/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+#EXTINF:-1 group-title="SPORT",rusia WC
+https://bl.uma.media/live/407384/HLS/6307840_7,4280320/2/1/playlist.m3u8
+#EXTINF:-1 group-title="SPORT",RTV WC
+https://stream.raajje.mv/live/rtv_live/index.m3u8
+#EXTINF:-1 group-title="SPORT",
 
 
 
