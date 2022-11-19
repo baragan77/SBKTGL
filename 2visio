@@ -680,7 +680,21 @@ https://webudi.openhd.lol/lb/premium46/index.m3u8?|referer=https://widevine.lice
 https://bl.uma.media/live/407384/HLS/6307840_7,4280320/2/1/playlist.m3u8
 #EXTINF:-1 group-title="SPORT",RTV WC
 https://stream.raajje.mv/live/rtv_live/index.m3u8
-#EXTINF:-1 group-title="SPORT",
+
+
+#EXTINF:-1 group-title="SPORT",BEIN1 
+https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/Bn1.m3u8
+#EXTINF:-1 group-title="SPORT",BEIN2
+https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/Bn2.m3u8
+#EXTINF:-1 group-title="SPORT",BEIN3
+https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/Bn3.m3u8
+#EXTINF:-1 group-title="SPORT",BEIN4
+https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/Bn4.m3u8
+#EXTINF:-1 group-title="SPORT",BEIN5
+https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/Bn5.m3u8
+#EXTINF:-1 group-title="SPORT",BEIN6
+https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/Bn6.m3u8
+
 
 
 
