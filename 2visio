@@ -573,6 +573,10 @@ http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/115515
 
 #EXTINF:-1   group-title="SPORT",indosiar
 http://tvn.x10.mx/1/master.m3u8?dl=1
+#EXTINF:-1   group-title="SPORT",SCTV
+http://tvn.x10.mx/1/master-1.m3u8?dl=1
+#EXTINF:-1   group-title="SPORT",MOJI
+http://tvn.x10.mx/1/master-2.m3u8?dl=1
 #EXTINF:-1   group-title="SPORT",Badminton1(Spotv)
 https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_2/chunklist.m3u8?hdnea=st=1658610734~exp=9007200913351725~acl=/99545824f51f4c1592b35314c6ece3b0/*/profile_2/chunklist.m3u8*~hmac=1a391d24f8a3fe045b6553920daa8fcfec1bfac57cf53b142ba3d75745b816f8
 #EXTINF:-1   group-title="SPORT",Badminton2(SPOtv2)
