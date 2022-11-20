@@ -1511,9 +1511,129 @@ http://203.77.246.50:5000/udp/239.1.2.162:5000
 
 
 
+#########worldcup#######
 
 
 
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 1 (A Sports HD)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 1 (A Sports HD)
+https://etus.link/motogp_livesoccer1
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 2 (TV2)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 2 (TV2)
+https://etus.link/motogp_livesoccer2
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 3 (Okey)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 3 (Okey)
+https://etus.link/motogp_livesoccer3
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 4 (Sukan)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 4 (Sukan)
+https://etus.link/motogp_livesoccer4
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 5 (RTS 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 5 (RTS 1)
+https://etus.link/motogp_livesoccer5
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 6 (ANT 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 6 (ANT 1)
+https://etus.link/motogp_livesoccer6
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 7 (ATN)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 7 (ATN)
+https://etus.link/motogp_livesoccer7
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 8 (Bein Max 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 8 (Bein Max 1)
+https://etus.link/motogp_livesoccer8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 9 (Bein Max 2)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 9 (Bein Max 2)
+https://etus.link/motogp_livesoccer9
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 10 (Bein Max 3)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 10 (Bein Max 3)
+https://etus.link/motogp_livesoccer10
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 11 (Bein Max 4)" tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 11 (Bein Max 4)
+https://etus.link/motogp_livesoccer11
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 12 (Bein Max 5)" tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 12 (Bein Max 5)
+https://etus.link/motogp_livesoccer12
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 13 (Bein Max 6)" tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 13 (Bein Max 6)
+https://etus.link/motogp_livesoccer13
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 14 (SS PSL)" tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 14 (SS PSL)
+https://etus.link/motogp_livesoccer14
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 15 (SS Football)" tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 15 (SS Football)
+https://etus.link/motogp_livesoccer15
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 16 (SS Laliga)" tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 16 (SS Laliga)
+https://etus.link/motogp_livesoccer16
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 17 (Teledeporte)" tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 17 (Teledeporte)
+https://etus.link/motogp_livesoccer17
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 18 (Gol Mundial)" tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 18 (Gol Mundial)
+https://etus.link/motogp_livesoccer18
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 19 (Gol Mundial 2)" tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 19 (Gol Mundial 2)
+https://etus.link/motogp_livesoccer19
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 20 (TYC Sports)" tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 20 (TYC Sports)
+https://etus.link/motogp_livesoccer20
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 21 (FS 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 21 (FS 1)
+https://etus.link/motogp_livesoccer21
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 22 (FS 2)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 22 (FS 2)
+https://etus.link/motogp_livesoccer22
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 23 (BBC 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 23 (BBC 1)
+https://etus.link/motogp_livesoccer23
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 24 (BBC 2)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 24 (BBC 2)
+https://etus.link/motogp_livesoccer24
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 25 (ITV)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 25 (ITV)
+https://etus.link/motogp_livesoccer25
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 26 (Match TV)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 26 (Match TV)
+https://etus.link/motogp_livesoccer36
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 27 (Match Premier)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 27 (Match Premier)
+https://etus.link/motogp_livesoccer27
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 28 (Match Football 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 28 (Match Football 1)
+https://etus.link/motogp_livesoccer28
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 29 (TSN 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 29 (TSN 1)
+https://etus.link/motogp_livesoccer29
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 30 (TSN 2)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 30 (TSN 2)
+https://etus.link/motogp_livesoccer30
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 31 (RTSH 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 31 (RTSH 1)
+https://etus.link/motogp_livesoccer31
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 32 (RTSH Sport)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 32 (RTSH Sport)
+https://etus.link/motogp_livesoccer32
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 33 (Direct TV)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 33 (Direct TV)
+https://etus.link/motogp_livesoccer33
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 34 (TRT 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 34 (TRT 1)
+https://etus.link/motogp_livesoccer34
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 35 (TRT Sport)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 35 (TRT Sport)
+https://etus.link/motogp_livesoccer35
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 36 (Gazi TV)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 36 (Gazi TV)
+https://etus.link/motogp_livesoccer36
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 37 (Sports 18 HD)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 37 (Sports 18 HD)
+https://etus.link/motogp_livesoccer37
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 38 (DD Sports)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 38 (DD Sports)
+https://etus.link/motogp_livesoccer38
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 39 (Sports 18 SD)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 39 (Sports 18 SD)
+https://etus.link/motogp_livesoccer39
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="LIVE 40 (Thailand Digital TV Groups)" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" group-title="FIFA WORLD CUP QATAR 2022" tvg-shift="+24",LIVE 40 (Thailand Digital TV Groups)
+https://etus.link/motogp_livesoccer40
 
 
 
