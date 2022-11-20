@@ -1518,22 +1518,11 @@ https://bl.uma.media/live/407384/HLS/6307840_7,4280320/2/1/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022",LIVE 2
-https://iptv.lancartech.co.id:443/play/l85Ox8jXw_29d6e7hYGDgqi5mfDY9yV6AjjlITlX-LLUSxWqGPwTBDovl95dAFj-
+https://1740288887.rsc.cdn77.org:443/1740288887/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022",LIVE 3
-https://iptv.lancartech.co.id:443/play/l85Ox8jXw_29d6e7hYGDgqi5mfDY9yV6AjjlITlX-LLpVnEsgkvLvbsWpAejsedj
+
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022",LIVE 4
-https://iptv.lancartech.co.id:443/play/l85Ox8jXw_29d6e7hYGDgqi5mfDY9yV6AjjlITlX-LI6Jwpu9baemqq2Q6EEjGT1
 
 
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022",CHAMPION TV 1
-http://tvn.x10.mx/1/master-14.m3u8?dl=1
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022",CHAMPION TV 2
-http://tvn.x10.mx/1/master-15.m3u8?dl=1
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022",CHAMPION TV 3
-http://tvn.x10.mx/1/master-16.m3u8?dl=1
 
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://makanja.xyz/clearkey/astro/5027
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022",TV2
-http://1.makanja.online/dash-wv/linear/5027/default_primary.mpd
