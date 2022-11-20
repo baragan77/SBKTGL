@@ -1531,3 +1531,6 @@ http://tvn.x10.mx/1/master-14.m3u8?dl=1
 http://tvn.x10.mx/1/master-15.m3u8?dl=1
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022",CHAMPION TV 3
 http://tvn.x10.mx/1/master-16.m3u8?dl=1
+
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="FIFA WORLD CUP QATAR 2022",TV2
+http://1.makanja.online/dash-wv/linear/5027/default_primary.mpd
