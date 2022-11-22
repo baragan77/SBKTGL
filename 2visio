@@ -1535,6 +1535,17 @@ https://nflarcadia.xyz/hls/s1.m3u8?|Referer=https://techclips.net/
 http://redlabmcdn.s.llnwi.net:80/nv02/ryowa7hd/tracks-v1a1/mono.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 8
+http://hez1-flu.iptvstream.site/131/index.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 9
+http://89.187.175.143:80/3056/mpegts
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 10
+http://45.90.105.74:25461/live/budtvsports/wTu27rKVNU/21796.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 11
+http://cdn01.palki.tv/live/TSports-M/index.fmp4.m3u8
+
+
+
 
 #EXTM3U
 
