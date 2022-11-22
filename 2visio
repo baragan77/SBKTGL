@@ -1553,84 +1553,25 @@ http://cdn01.palki.tv/live/TSports-M/index.fmp4.m3u8
 
 #EXTM3U
 
-#EXTINF:-1 group-title="WENDY WORLDCUP",ll BELGIQUE ll
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457130&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BE LA UNE FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457131&extension=ts
+
 #EXTINF:-1 group-title="WENDY WORLDCUP",BE Tipik FHD
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457134&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",FRAMCE ll
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457137&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",FR INFOSPORT FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457138&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",FR TF1  4K
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457174&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",FR TF1  FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457140&extension=ts 
-#EXTINF:-1 group-title="WENDY WORLDCUP",FR TF1  1 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457142&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",FR  TMC FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457143&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",FR BEIN SPORT 1 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457145&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",FR BEIN SPORT 2 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457148&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",ITALIA ll
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457151&extension=ts
+
 #EXTINF:-1 group-title="WENDY WORLDCUP",IT RAI 1 FULL HD
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457152&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",IT SKY SPORT UNO FULL HD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457155&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",ll ESPAGNE ll
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457592&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",ES LA 1 HD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457593&extension=ts
+
 #EXTINF:-1 group-title="WENDY WORLDCUP",ES GOL MUNDIAL1  FHD
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457594&extension=ts
 #EXTINF:-1 group-title="WENDY WORLDCUP",ES GOL MUNDIAL2  FHD
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457595&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",ll PORTUGAL ll
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457587&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",PT RTR 1 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457588&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",PT RTP 2 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457589&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",PT SPORT TV
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457590&extension=ts
+
 #EXTINF:-1 group-title="WENDY WORLDCUP",PT SPORT TV 1 FHD
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457591&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",SUISSE ll
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457580&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",RTS 1 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457581&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",RTS 2 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457582&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",SRl LA1 HD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457583&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",SRl LA2 HD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457584&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",SRF 1 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457585&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",SRF 2 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457586&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",DEUTCHLAND  ll
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457601&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",DE ZDF HD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457603&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",NEDERLANDS  ll
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457598&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",NPO 1 HD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457599&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",NPO 2 HD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457600&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",ENGLAND  ll
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457596&extension=ts
+
 #EXTINF:-1 group-title="WENDY WORLDCUP",BBC 1
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457597&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",ARABE  ll
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457158&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORT NEWS
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457159&extension=ts
+
+
 #EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS MAX 1 FHD
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457604&extension=ts
 #EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS MAX 2 FHD
@@ -1645,19 +1586,3 @@ http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457610&extensio
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457612&extension=ts
 #EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS MAX 6 FHD
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457614&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS 1 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457160&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS 2 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457162&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS 3 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457164&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS 4 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457166&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS 5 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457168&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS 6 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457170&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS 7 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457172&extension=ts
-
-
