@@ -1539,7 +1539,7 @@ http://redlabmcdn.s.llnwi.net:80/nv02/ryowa7hd/tracks-v1a1/mono.m3u8
 http://hez1-flu.iptvstream.site/131/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 9
-http://89.187.175.143:80/3056/mpegts
+https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/Ts2.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 10
