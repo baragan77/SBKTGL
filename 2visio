@@ -1601,18 +1601,12 @@ http://51.79.82.208:16417
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP", SPORTTV WC
 http://51.79.82.208:16461
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.3; WOV64; rv:31.0) Gecko/20101201 Firefox/31.0
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://dukun.masuk.id/drm/tv1
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/9WhthSV/slazzer-edit-image-modified.png" group-title="WENDY WORLDCUP",Champions TV World Cup 1
-https://prod-drm-vidio-com-ctv-worldcup1.akamaized.net/out/v1/39d65abedd7c448c81463429b73288a0/index.mpd
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.3; WOV64; rv:31.0) Gecko/20101201 Firefox/31.0
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/HzT1Vg6/Picsart-22-11-18-19-18-19-950.png" group-title="WENDY WORLDCUP", SAKTI 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://dukun.masuk.id/drm/tv2
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/J7rtjtc/slazzer-edit-image-1-modified.png" group-title="WENDY WORLDCUP",Champions TV World Cup 2
+#KODIPROP:inputstream.adaptive.license_key=https://4d39-112-215-154-252.ap.ngrok.io/vvip/vidio.php?id=9431
 https://prod-drm-vidio-com-ctv-worldcup2.akamaized.net/out/v1/c8e8c362328d4b0fa97b2c3a8b934114/index.mpd
-
 
 
 
