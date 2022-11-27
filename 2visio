@@ -1497,7 +1497,7 @@ http://203.77.246.50:5000/udp/239.1.2.162:5000
 #####worldcup#####$
 
 
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 1
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 1 (DNS 1.1.1.1)
 https://bl.uma.media/live/407384/HLS/6307840_7,4280320/2/1/playlist.m3u8
 
 
@@ -1506,15 +1506,15 @@ https://bl.uma.media/live/407384/HLS/6307840_7,4280320/2/1/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 2
-http://135.125.234.9:8081/cbcsport/index.m3u8
+https://wendy82.000webhostapp.com/vidio/champion-1.m3u8
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 3
 https://v-px.mybtv.net:443/live/39/1280x720.m3u8
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 4
-https://webudi.openhd.lol/ddy1/premium39/tracks-v1a1/mono.m3u8?|Referer=https://streamservicehd.click/&e=.m3u8
+https://murthyneeraj231.s3.amazonaws.com:443/worldcup_1080.m3u8
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 5
-https://webudi.openhd.lol/cdn/eplayerTSN_1_HD/index.m3u8?|Referer=https://player.licenses4.me/player.php?id=private
+http://cdn.spmr.tv:8080/pr8kvn/video.m3u8?token=WYPW6GSH4H
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 6
 https://nflarcadia.xyz/hls/s1.m3u8?|Referer=https://techclips.net/
