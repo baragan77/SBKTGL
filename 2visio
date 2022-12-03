@@ -1507,7 +1507,7 @@ https://bl.uma.media/live/407384/HLS/6307840_7,4280320/2/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 2(MATh backup)
 http://livetv.mylifeisgood.ml/channels/matchhd_nocensored.m3u8
-http://iptv.ktkru.ru:8003/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 3(Tsport)
 https://v-px.mybtv.net:443/live/39/1280x720.m3u8
 
@@ -1540,41 +1540,6 @@ http://cdn01.palki.tv/live/TSports-M/index.fmp4.m3u8
 
 
 
-#EXTM3U
-
-
-#EXTINF:-1 group-title="WENDY WORLDCUP",BE Tipik FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457134&extension=ts
-
-#EXTINF:-1 group-title="WENDY WORLDCUP",IT RAI 1 FULL HD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457152&extension=ts
-
-#EXTINF:-1 group-title="WENDY WORLDCUP",ES GOL MUNDIAL1  FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457594&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",ES GOL MUNDIAL2  FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457595&extension=ts
-
-#EXTINF:-1 group-title="WENDY WORLDCUP",PT SPORT TV 1 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457591&extension=ts
-
-#EXTINF:-1 group-title="WENDY WORLDCUP",BBC 1
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457597&extension=ts
-
-
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS MAX 1 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457604&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS MAX 2 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457606&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS MAX 3 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457608&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS MAX 3 HD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457609&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS MAX 4 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457610&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS MAX 5 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457612&extension=ts
-#EXTINF:-1 group-title="WENDY WORLDCUP",BEIN SPORTS MAX 6 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:5a:17:76&stream=457614&extension=ts
 
 
 
@@ -1587,12 +1552,32 @@ http://51.79.82.208:16417
 http://51.79.82.208:16461
 
 
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP", MIGU 1
-http://39.135.134.67/000000001000/3000000001000028638/index.m3u8
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP", MIGU 2
-http://39.135.134.67/000000001000/3000000001000031494/index.m3u8
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP", MIGU 3
-http://39.135.134.67/000000001000/3000000001000026778/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",VTV2 (1080p)
+http://live.tv360.vn/manifest/vtv2/playlist_VTV2-1080-3_6M.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",VTV3 (1080p)
+http://live-zlr1.tv360.vn/manifest/VTV3/playlist_1080p-3M.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",VTV5 (1080p)
+http://live.tv360.vn/manifest/VTV5_HD/playlist_1080p.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",Japan TV (1080p)
+http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",MBC (1080p)
+http://123.254.72.24:1935/tvlive/livestream2/chunklist_w431937155.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",PTC1 (1080p)
+http://89.216.39.24/cloud/stream/4ef949d15a0a444280c4d598a0af4286/39/index.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",bein sport
+http://clientsportals.com:2095/live/zsjc2FSW/mrFswGP1/14415.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",fifa live
+https://talgach.xyz/bdix14Join:@fifaxlive.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",toffee 1
+https://mprod-cdn.toffeelive.com/toffee/fifa-paid/match-1/master_1000.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",toffe 2
+https://mprod-cdn.toffeelive.com/toffee/fifa-paid/match-1/master_850.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",cctv5
+http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv5hd/2300000/mnf.m3u8
+
+
 
 
 
