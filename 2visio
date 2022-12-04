@@ -1578,6 +1578,25 @@ https://mprod-cdn.toffeelive.com/toffee/fifa-paid/match-1/master_850.m3u8
 http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv5hd/2300000/mnf.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",ARENA 1 (DNS)
+https://webudi.openhd.lol/lb/premium432/index.m3u8|ExoPlayerLib/2.13.2=&referer=https://streamservicehd.click/.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",ARENA 2 (DNS)
+https://webudi.openhd.lol/lb/premium433/index.m3u8|ExoPlayerLib/2.13.2=&referer=https://streamservicehd.click/.m3u8
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",ARENA 3 (DNS)
+https://webudi.openhd.lol/lb/premium434/index.m3u8|ExoPlayerLib/2.13.2=&referer=https://streamservicehd.click/.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",BEINMAX1 (DNS)
+https://webudi.openhd.lol/lb/premium296/index.m3u8|ExoPlayerLib/2.13.2=&referer=https://streamservicehd.click/.m3u8
+
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",BEINMAX 2 (DNS)
+https://webudi.openhd.lol/lb/premium297/index.m3u8|ExoPlayerLib/2.13.2=&referer=https://streamservicehd.click/.m3u8
+
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",BEINMAX 3 (DNS)
+https://webudi.openhd.lol/lb/premium298/index.m3u8|ExoPlayerLib/2.13.2=&referer=https://streamservicehd.click/.m3u8
+
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",BEINMAX 4 (DNS)
+https://webudi.openhd.lol/lb/premium299/index.m3u8|ExoPlayerLib/2.13.2=&referer=https://streamservicehd.click/.m3u8
 
 
 
