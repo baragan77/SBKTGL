@@ -1524,8 +1524,8 @@ https://nflarcadia.xyz/hls/s1.m3u8?|Referer=https://techclips.net/
 http://redlabmcdn.s.llnwi.net:80/nv02/ryowa7hd/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 8
-
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 8 
+https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/wc.m3u8
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",LIVE 9 (TRUE SP)
 https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/Ts2.m3u8
@@ -1571,9 +1571,9 @@ http://clientsportals.com:2095/live/zsjc2FSW/mrFswGP1/14415.m3u8
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",fifa live
 https://talgach.xyz/bdix14Join:@fifaxlive.m3u8
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",toffee 1
-https://mprod-cdn.toffeelive.com/toffee/fifa-paid/match-1/master_1000.m3u8
+https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/wc.m3u8
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",toffe 2
-https://mprod-cdn.toffeelive.com/toffee/fifa-paid/match-1/master_850.m3u8
+https://raw.githubusercontent.com/tvbolaonline98/sopporot/main/wc2.m3u8
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",cctv5
 http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv5hd/2300000/mnf.m3u8
 
