@@ -1581,13 +1581,13 @@ http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv5hd/2300000/mn
 
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",BEINMAX1 (DNS)
-https://webdi.openhd.lol/lb/premium296/index.m3u8|Referer=https://streamservicehd.click/&e=.m3u8
+https://sami@cdn-live.rtvslo.si/hls/live/2095063/slo2_ott/hdntl=exp=1671461781~acl=%2f*~data=hdntl~hmac=4c2813e5e3361591c8989a44cb1cbf10b9d9463dd669a9c003b037409dc78603/slo2_720p-new.m3u8
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",BEINMAX 2 (DNS)
-https://webdi.openhd.lol/lb/premium297/index.m3u8|Referer=https://streamservicehd.click/&e=.m3u8
+https://bal02.vivartec.com.br:8088/hls/livechannel1.m3u8
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",BEINMAX 3 (DNS)
-https://webdi.openhd.lol/lb/premium298/index.m3u8|Referer=https://streamservicehd.click/&e=.m3u8
+https://live1.bee-cdn.com/akm/4848090343538689.m3u8
 
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" group-title="WENDY WORLDCUP",BEINMAX 4 (DNS)
 https://webdi.openhd.lol/lb/premium299/index.m3u8|Referer=https://streamservicehd.click/&e=.m3u8
