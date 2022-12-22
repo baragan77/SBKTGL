@@ -434,7 +434,8 @@ https://anevia114.mncnow.id/live/eds/Arirang/sa_dash_vmx/Arirang.mpd
 
 ######SPORT##########
 
-
+#EXTINF:0 group-title="Sports",LIGA 1 
+http://golive.yn.lt/live/liga1/01.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZGFkZmZkZjItYzQ1Mi0zM2RiLTk0OWQtM2M2YmY1YzZjMDNi
