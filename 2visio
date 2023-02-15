@@ -727,3 +727,141 @@ https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd
 
 
+
+
+
+
+##########Sports########
+
+#EXTINF:-1   group-title="Sports", Beinsport 1 arb
+http://62.182.82.104/L_1_PREMIUM/index.m3u8?token=test&v=697229347
+#EXTINF:-1   group-title="Sports",Beinsport 2 arb
+http://62.182.82.104/L_2_PREMIUM/index.m3u8?token=test&v=697229347
+#EXTINF:-1   group-title="Sports",Beinsport 3 arb
+http://62.182.82.104/L_3_PREMIUM/index.m3u8?token=test&v=697229347
+#EXTINF:-1   group-title="Sports",Indosiar(live.only)
+http://golive.yn.lt/live/liga1/01.m3u8
+#EXTINF:-1   group-title="Sports", sport rolling24
+http://4digital.ddns.net:11224/ts/0
+#EXTINF:-1   group-title="Sports", sport rolling22
+http://4digital.ddns.net:11222/ts/0
+#EXTINF:-1   group-title="Sports", Eleven sport taiwan
+http://61.221.81.93:8078/hls/26/80/esport2.m3u8
+
+#EXTINF:0 group-title="Sports",BT SPORT 1
+http://195.154.179.234:1234/stream/btsport1/master.m3u8
+#EXTINF:0 group-title="Sports",BT SPORT 2
+http://195.154.179.234:1234/stream/btsport2/master.m3u8
+#EXTINF:0 group-title="Sports",BT SPORT 3
+http://195.154.179.234:1234/stream/btsport3/master.m3u8
+#EXTINF:0 group-title="Sports",BEINSPORT 1 HLS
+http://162.19.67.213:49214/BEIN_SPORTS_1/hls/playlist.m3u8
+#EXTINF:0 group-title="Sports",BEINSPORT 2 HLS
+http://162.19.67.213:49214/BEIN_SPORTS_2/hls/playlist.m3u8
+#EXTINF:0 group-title="Sports",BEINSPORT 3 HLS
+http://162.19.67.213:49214/BEIN_SPORTS_3/hls/playlist.m3u8
+#EXTINF:0 group-title="Sports",STAR SPORT ENG
+http://212.224.84.217:2200/R-EX/SPORTS_STAR_SPORTS_1_ENGLISH_HD-in/tracks-v1a1/mono.m3u8?token=RED_Hqqv1c3nXjqlzBGFPhFuTg==,165803831455.4814651659=|User-agent=REDLINECLIENT
+#EXTINF:0 group-title="Sports",BEINSPORT 1 PREMIUM
+http://167.172.17.19/BeinPremuim1HD/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Sports",BEINSPORT 2 PREMIUM
+http://167.172.17.19/BeinPremuim2HD/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Sports",BEINSPORT 3 PREMIUM
+http://167.172.17.19/BeinPremuim3HD/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Sports",CANAL +
+http://162.19.67.213:49214/CANAL_PLUS_PREMIER_LEAGUE/hls/playlist.m3u8
+#EXTINF:0 group-title="Sports",ARENASPORT 1
+http://93.155.227.38:555/m3u8/arenasport1.m3u8
+#EXTINF:0 group-title="Sports",ARENASPORT 2
+http://93.155.227.38:555/m3u8/arenasport2.m3u8
+#EXTINF:0 group-title="Sports",ARENASPORT 3
+http://93.155.227.38:555/m3u8/arenasport3.m3u8
+#EXTINF:0 group-title="Sports",ARENASPORT 4
+http://93.155.227.38:555/m3u8/arenasport4.m3u8
+#EXTINF:0 group-title="Sports",ARENASPORT 5
+http://93.155.227.38:555/m3u8/arenasport5.m3u8
+#EXTINF:0 group-title="Sports",TSPORT
+https://live.tsports.com/live/tsports_live_720/index.m3u8
+#EXTINF:0 group-title="Sports",EUROSPORT 1
+http://51.15.9.155/EUROSPORT_1/index.m3u8
+#EXTINF:0 group-title="Sports",EUROSPORT 2
+http://51.15.9.155/EUROSPORT_2/index.m3u8
+
+#EXTINF:0 group-title="Sports",Fox_Sports_1 HD
+http://212.102.60.10/Fox_Sports_1/index.m3u8?token=test
+#EXTINF:0 group-title="Sports",MSNBC
+http://212.102.60.10/MSNBC/index.m3u8?token=test
+
+
+#EXTINF:0 group-title="Sports",
+
+#EXTINF:0 group-title="Sports", SkyspArena
+http://195.154.179.234:1234/stream/skysparena/master.m3u8
+#EXTINF:0 group-title="Sports",SkyspCricet
+http://195.154.179.234:1234/stream/skyspcricet/master.m3u8
+#EXTINF:0 group-title="Sports",skyspEvent
+http://195.154.179.234:1234/stream/skyspevent/master.m3u8
+#EXTINF:0 group-title="Sports",SkyspF1
+http://195.154.179.234:1234/stream/skyspf1/master.m3u8
+#EXTINF:0 group-title="Sports",SkyspFootbol
+http://195.154.179.234:1234/stream/skyspfootbol/master.m3u8
+#EXTINF:0 group-title="Sports",SkyspGolf
+http://195.154.179.234:1234/stream/skyspgolf/master.m3u8
+#EXTINF:0 group-title="Sports",skyspNewst
+http://195.154.179.234:1234/stream/skyspnewst/master.m3u8
+#EXTINF:0 group-title="Sports",SkySpNFL
+http://195.154.179.234:1234/stream/skyspnfl/master.m3u8
+#EXTINF:50, SkyspPremier
+http://195.154.179.234:1234/stream/skysppremier/master.m3u8
+#EXTINF:0 group-title="Sports",SkySpRecing
+http://195.154.179.234:1234/stream/skysprecing/master.m3u8
+#EXTINF:0 group-title="Sports",fishing
+http://96.236.153.234:8183/play/world_fishing_network.m3u8
+#EXTINF:0 group-title="Sports",Diema Sport HD_r6
+http://212.5.59.2:9882/play/a015/index.m3u8
+#EXTINF:0 group-title="Sports",Diema Sport 2 HD_r6
+http://212.5.59.2:9882/play/a016/index.m3u8
+#EXTINF:0 group-title="Sports",MAX Sport 1 HD_r6
+http://212.5.59.2:9882/play/a017/index.m3u8
+#EXTINF:0 group-title="Sports",MAX Sport 2 HD_r6
+http://212.5.59.2:9882/play/a018/index.m3u8
+#EXTINF:0 group-title="Sports",ESPN vivo
+http://206.1.95.14:8004/play/a01o
+#EXTINF:0 group-title="Sports",ESPN 2 vivo
+http://206.1.95.14:8004/play/a027
+#EXTINF:0 group-title="Sports",ESPN 4 vivo
+http://206.1.95.14:8004/play/a015
+#EXTINF:0 group-title="Sports",SporTV vivo
+http://206.1.95.14:8004/play/a00f
+#EXTINF:0 group-title="Sports",SporTV 2 vivo
+http://206.1.95.14:8004/play/a025
+#EXTINF:0 group-title="Sports",SporTV 2 Alternativo vivo
+http://206.1.95.14:8004/play/a00y
+#EXTINF:0 group-title="Sports",SporTV 3 vivo
+http://206.1.95.14:8004/play/a04k
+#EXTINF:0 group-title="Sports",SporTV Alternativo vivo
+http://206.1.95.14:8004/play/a050
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/VvfnNP7v/Unifi-TV-Logo.png",Unifi Sports 1
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/VvfnNP7v/Unifi-TV-Logo.png",Unifi Sports 2
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd
+#EXTINF:-1 group-title="Sports" tvg-logo="https://raw.githubusercontent.com/Paijo29/1/main/live.jpg", CH2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-017/stream.mpd
+      
+#EXTINF:-1 group-title="Sports" tvg-logo="https://raw.githubusercontent.com/Paijo29/1/main/live.jpg", CH3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-039/stream.mpd
+
+#EXTINF:-1 group-title="Sports" tvg-logo="https://raw.githubusercontent.com/Paijo29/1/main/live.jpg", CH1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-043/stream.mpd
+
+
+
