@@ -468,8 +468,7 @@ http://167.172.17.19/BeinPremuim1HD/tracks-v1a1/mono.m3u8
 http://167.172.17.19/BeinPremuim2HD/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Sports",BEINSPORT 3 PREMIUM
 http://167.172.17.19/BeinPremuim3HD/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Sports",CANAL +
-http://162.19.67.213:49214/CANAL_PLUS_PREMIER_LEAGUE/hls/playlist.m3u8
+
 #EXTINF:0 group-title="Sports",ARENASPORT 1
 http://93.155.227.38:555/m3u8/arenasport1.m3u8
 #EXTINF:0 group-title="Sports",ARENASPORT 2
@@ -489,11 +488,21 @@ http://51.15.9.155/EUROSPORT_2/index.m3u8
 
 #EXTINF:0 group-title="Sports",Fox_Sports_1 HD
 http://212.102.60.10/Fox_Sports_1/index.m3u8?token=test
-#EXTINF:0 group-title="Sports",MSNBC
-http://212.102.60.10/MSNBC/index.m3u8?token=test
+#EXTINF:0 group-title="Sports",Eleven_Sports_1_HD
+http://213.13.16.138/shls/LIVE%24Eleven_Sports_1_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
+#EXTINF:0 group-title="Sports",Eleven_Sports_2_HD
+http://213.13.16.138/shls/LIVE%24Eleven_Sports_2_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
+#EXTINF:0 group-title="Sports",Eleven_Sports_3_HD
+http://213.13.16.138/shls/LIVE%24Eleven_Sports_3_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
+#EXTINF:0 group-title="Sports",Eleven_Sports_4_HD
+http://213.13.16.138/shls/LIVE%24Eleven_Sports_4_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
+#EXTINF:0 group-title="Sports",Eleven_Sports_5_HD
+http://213.13.16.138/shls/LIVE%24Eleven_Sports_5_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
+#EXTINF:0 group-title="Sports",Eleven_Sports_6_HD
+http://213.13.16.138/shls/LIVE%24Eleven_Sports_6_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
 
 
-#EXTINF:0 group-title="Sports",
+
 
 #EXTINF:0 group-title="Sports", SkyspArena
 http://195.154.179.234:1234/stream/skysparena/master.m3u8
@@ -525,22 +534,7 @@ http://212.5.59.2:9882/play/a016/index.m3u8
 http://212.5.59.2:9882/play/a017/index.m3u8
 #EXTINF:0 group-title="Sports",MAX Sport 2 HD_r6
 http://212.5.59.2:9882/play/a018/index.m3u8
-#EXTINF:0 group-title="Sports",ESPN vivo
-http://206.1.95.14:8004/play/a01o
-#EXTINF:0 group-title="Sports",ESPN 2 vivo
-http://206.1.95.14:8004/play/a027
-#EXTINF:0 group-title="Sports",ESPN 4 vivo
-http://206.1.95.14:8004/play/a015
-#EXTINF:0 group-title="Sports",SporTV vivo
-http://206.1.95.14:8004/play/a00f
-#EXTINF:0 group-title="Sports",SporTV 2 vivo
-http://206.1.95.14:8004/play/a025
-#EXTINF:0 group-title="Sports",SporTV 2 Alternativo vivo
-http://206.1.95.14:8004/play/a00y
-#EXTINF:0 group-title="Sports",SporTV 3 vivo
-http://206.1.95.14:8004/play/a04k
-#EXTINF:0 group-title="Sports",SporTV Alternativo vivo
-http://206.1.95.14:8004/play/a050
+#
 
 #EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE EVENT", LIVE SPORT 1
 http://cdn.raino.xyz/hls/stream1.m3u8|Referer=http://bdnewszh.com/
