@@ -895,6 +895,34 @@ http://cdn.raino.xyz/hls/stream9.m3u8|Referer=http://bdnewszh.com/
 http://cdn.raino.xyz/hls/stream10.m3u8|Referer=http://bdnewszh.com/
 
 
+
+#EXTINF:-1 tvg-id="epl1.id" tvg-logo="https://i.ibb.co/Px0MpqN/Picsart-22-09-03-09-32-53-852.png" group-title="LIVE SPORT", LIVE FOOTBALL 1
+https://live.cett.my.id/hls/s1.m3u8
+#EXTINF:-1 tvg-id="epl2.id" tvg-logo="https://i.ibb.co/Px0MpqN/Picsart-22-09-03-09-32-53-852.png" group-title="LIVE SPORT", LIVE FOOTBALL 2
+https://live.cett.my.id/hls/s2.m3u8
+#EXTINF:-1 tvg-id="seria.id" tvg-logo="https://i.ibb.co/Px0MpqN/Picsart-22-09-03-09-32-53-852.png" group-title="LIVE SPORT", LIVE FOOTBALL 3
+https://live.cett.my.id/hls/s3.m3u8
+#EXTINF:-1 tvg-id="ligue1.id" tvg-logo="https://i.ibb.co/Px0MpqN/Picsart-22-09-03-09-32-53-852.png" group-title="LIVE SPORT", LIVE FOOTBALL 4
+https://live.cett.my.id/hls/s4.m3u8
+#EXTINF:-1 tvg-id="bundesliga.id" tvg-logo="https://i.ibb.co/Px0MpqN/Picsart-22-09-03-09-32-53-852.png" group-title="LIVE SPORT", LIVE FOOTBALL 5
+https://live.cett.my.id/hls/s5.m3u8
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/Px0MpqN/Picsart-22-09-03-09-32-53-852.png" group-title="LIVE SPORT", LIVE FOOTBALL 6
+https://live.cett.my.id/hls/s6.m3u8
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/Px0MpqN/Picsart-22-09-03-09-32-53-852.png" group-title="LIVE SPORT", LIVE FOOTBALL 7
+https://live.cett.my.id/hls/s7.m3u8
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/Px0MpqN/Picsart-22-09-03-09-32-53-852.png" group-title="LIVE SPORT", LIVE FOOTBALL 8
+https://live.cett.my.id/hls/s8.m3u8
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/Px0MpqN/Picsart-22-09-03-09-32-53-852.png" group-title="LIVE SPORT", LIVE FOOTBALL 9
+https://live.cett.my.id/hls/s9.m3u8
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/Px0MpqN/Picsart-22-09-03-09-32-53-852.png" group-title="LIVE SPORT", LIVE FOOTBALL 10
+https://live.cett.my.id/hls/s10.m3u8
+
+
+
+
+
+
+
 #EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT",Alfa•Sports™
 https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqu
 #EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT", SPORTTV•1_🇧🇷
