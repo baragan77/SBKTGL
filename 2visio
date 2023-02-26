@@ -534,28 +534,6 @@ http://212.5.59.2:9882/play/a016/index.m3u8
 http://212.5.59.2:9882/play/a017/index.m3u8
 #EXTINF:0 group-title="Sports",MAX Sport 2 HD_r6
 http://212.5.59.2:9882/play/a018/index.m3u8
-#
-
-#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE EVENT", LIVE SPORT 1
-http://cdn.raino.xyz/hls/stream1.m3u8|Referer=http://bdnewszh.com/
-#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE EVENT", LIVE SPORT 2
-http://cdn.raino.xyz/hls/stream2.m3u8|Referer=http://bdnewszh.com/
-#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE EVENT", LIVE SPORT 3
-http://cdn.raino.xyz/hls/stream3.m3u8|Referer=http://bdnewszh.com/
-#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE EVENT", LIVE SPORT 4
-http://cdn.raino.xyz/hls/stream4.m3u8|Referer=http://bdnewszh.com/
-#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE EVENT", LIVE SPORT 5
-http://cdn.raino.xyz/hls/stream5.m3u8|Referer=http://bdnewszh.com/
-#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE EVENT", LIVE SPORT 6
-http://cdn.raino.xyz/hls/stream6.m3u8|Referer=http://bdnewszh.com/
-#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE EVENT", LIVE SPORT 7
-http://cdn.raino.xyz/hls/stream7.m3u8|Referer=http://bdnewszh.com/
-#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE EVENT", LIVE SPORT 8
-http://cdn.raino.xyz/hls/stream8.m3u8|Referer=http://bdnewszh.com/
-#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE EVENT", LIVE SPORT 9
-http://cdn.raino.xyz/hls/stream9.m3u8|Referer=http://bdnewszh.com/
-#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE EVENT", LIVE SPORT 10
-http://cdn.raino.xyz/hls/stream10.m3u8|Referer=http://bdnewszh.com/
 
 
 
@@ -921,7 +899,7 @@ http://cdn.raino.xyz/hls/stream10.m3u8|Referer=http://bdnewszh.com/
 https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqu
 #EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT", SPORTTV•1_🇧🇷
 http://213.13.16.138/shls/LIVE$SPORTTV1_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
-#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT⚽", SPORTTV•2_🇧🇷
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT", SPORTTV•2_🇧🇷
 http://213.13.16.138/shls/LIVE$SPORTTV2_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
 #EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT",SPORTTV•3_🇧🇷
 http://213.13.16.138/shls/LIVE$SPORTTV3_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
