@@ -887,3 +887,55 @@ http://rr2.dens.tv/s/s20/index10.m3u8
 http://rr2.dens.tv/s/s28/index10.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pic.dens.tv/wp/img/adv_asset_1_1/1280x720/1650611662_adv_asset_1_1.png" group-title="DENSTV",Sunna TV
 http://rr2.dens.tv/s/s27/index10.m3u8
+
+
+
+
+
+LIVE SPORT
+
+
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE SPORT", LIVE SPORT 1
+http://cdn.raino.xyz/hls/stream1.m3u8|Referer=http://bdnewszh.com/
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE SPORT", LIVE SPORT 2
+http://cdn.raino.xyz/hls/stream2.m3u8|Referer=http://bdnewszh.com/
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE SPORT", LIVE SPORT 3
+http://cdn.raino.xyz/hls/stream3.m3u8|Referer=http://bdnewszh.com/
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE SPORT", LIVE SPORT 4
+http://cdn.raino.xyz/hls/stream4.m3u8|Referer=http://bdnewszh.com/
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE SPORT", LIVE SPORT 5
+http://cdn.raino.xyz/hls/stream5.m3u8|Referer=http://bdnewszh.com/
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE SPORT", LIVE SPORT 6
+http://cdn.raino.xyz/hls/stream6.m3u8|Referer=http://bdnewszh.com/
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE SPORT", LIVE SPORT 7
+http://cdn.raino.xyz/hls/stream7.m3u8|Referer=http://bdnewszh.com/
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE SPORT", LIVE SPORT 8
+http://cdn.raino.xyz/hls/stream8.m3u8|Referer=http://bdnewszh.com/
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE SPORT", LIVE SPORT 9
+http://cdn.raino.xyz/hls/stream9.m3u8|Referer=http://bdnewszh.com/
+#EXTINF:-1 tvg-id="live1.id" tvg-logo="https://i.ibb.co/ZJGX8pV/Picsart-22-08-24-10-13-15-956.png" group-title="LIVE SPORT", LIVE SPORT 10
+http://cdn.raino.xyz/hls/stream10.m3u8|Referer=http://bdnewszh.com/
+
+
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT",Alfa•Sports™
+https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqu
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT", SPORTTV•1_🇧🇷
+http://213.13.16.138/shls/LIVE$SPORTTV1_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT⚽", SPORTTV•2_🇧🇷
+http://213.13.16.138/shls/LIVE$SPORTTV2_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT",SPORTTV•3_🇧🇷
+http://213.13.16.138/shls/LIVE$SPORTTV3_HD/index.m3u8?device=TVOS_Live&start=LIVE&end=END
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT",SSC 1 HD
+http://starshare.live:8080/live/775577/775577/36251.ts
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT",SSC 2 HD
+http://starshare.live:8080/live/775577/775577/36252.ts
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT",SSC 3 HD
+http://starshare.live:8080/live/775577/775577/36253.ts
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT",SSC 4 HD
+http://starshare.live:8080/live/775577/775577/36254.ts
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT",SSC 5 HD
+http://starshare.live:8080/live/775577/775577/36255.ts
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT",SSC 6 HD
+http://starshare.live:8080/live/775577/775577/36256.ts
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="LIVE SPORT",SSC 7 HD
+http://starshare.live:8080/live/775577/775577/36257.ts
