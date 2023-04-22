@@ -22,7 +22,7 @@ https://nyanv-live-cdn.mncnow.id/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTINF:0 CUID="691" tvg-name="INDOSIAR" tvg-id="indosiar.id" tvg-logo="https://logo.iptveditor.com/indosiar.png" group-title="Lokal HD",INDOSIAR
-https://nyanv-live-cdn.mncnow.id/live/eds/INDOSIAR/sa_dash_vmx/INDOSIAR.mpd
+https://nyanv-live-cdn.mncnow.id/live/eds/Indosiar/sa_dash_vmx/Indosiar.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTINF:0 CUID="692" tvg-name="SCTV" tvg-id="sctv.id" tvg-logo="https://logo.iptveditor.com/sctv.png" group-title="Lokal HD",SCTV
