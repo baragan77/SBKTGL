@@ -746,399 +746,414 @@ https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856c3db2cc016d0552e0c
 
 #############$$$$###############
 
-="PREMIUM", TSN 2
-http://37.49.230.161:8080/googleiptvex/8XsdD8qVstQhcjuy/771
-#EXTINF:-1  group-title="PREMIUM", TSN 3
-http://37.49.230.161:8080/googleiptvex/8XsdD8qVstQhcjuy/772
-#EXTINF:-1  group-title="PREMIUM", TSN 4
-http://37.49.230.161:8080/googleiptvex/8XsdD8qVstQhcjuy/773
-#EXTINF:-1  group-title="PREMIUM", TSN 5
-http://37.49.230.161:8080/googleiptvex/8XsdD8qVstQhcjuy/774
+           PREMIUM
 
 
-#EXTINF:-1  group-title="PREMIUM", Sony Sports Ten 1
-http://37.49.230.161:8080/googleiptvex/8XsdD8qVstQhcjuy/16622
-#EXTINF:-1  group-title="PREMIUM", Sony Sports Ten 2
-http://37.49.230.161:8080/googleiptvex/8XsdD8qVstQhcjuy/16621
-#EXTINF:-1  group-title="PREMIUM", Sony Sports Ten 3
-http://37.49.230.161:8080/googleiptvex/8XsdD8qVstQhcjuy/56191
 
-##########################
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SPOTV_asia
+http://edge.linknetott.swiftserve.com/channelgroup2/cg234production/ch329/03.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SPOTV_2_asia
+http://edge.linknetott.swiftserve.com/channelgroup2/cg235production/ch3300/02.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",soccer•channel🇮🇩_maper
+https://maper.info/SoccerChannel_shareext
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",inews🇮🇩_maper
+https://maper.info/INEWS_shareext
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",spotv🇮🇩_maper
+https://maper.info/SPOTV_shareext
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",sportstar•2🇮🇩_maper
+https://maper.info/SportStart2_shareext
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",sportstar•3🇮🇩_maper
+https://maper.info/StarSport3_shareext
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Okey🇲🇾_maper
+https://maper.info/OKEY_shareext
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Rtm_Sukan🇲🇾_maper
+https://maper.info/Rtm_Sukan_shareext
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SPOTV°🇮🇩
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=683117&extension=ts&play_spotv
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SPORTSTAR•🇮🇩
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=683133&extension=ts&play_sportstar
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB*SPORTS_1°🇸🇬
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=941573&extension=ts&play_hubsports1SG
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB*SPORTS_2°🇸🇬
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=941572&extension=ts&play_hubsports2SG
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB*SPORTS_3°🇸🇬
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=941571&extension=ts&play_hubsports3SG
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASSP°1°🇲🇾
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=571245&extension=ts&play_assp1
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASSP°2°🇲🇾
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=571248&extension=ts&play_assp2
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASSP°3°🇲🇾
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=571247&extension=ts&play_assp3
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASSP°4°🇲🇾
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=571246&extension=ts&play_assp4
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASTROSPORTS°1°🇲🇾
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=918986&extension=ts&play_astro1
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASTROSPORTS°2°🇲🇾
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=918985&extension=ts&play_astro2
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASTROSPORTS°3°🇲🇾
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=918984&extension=ts&play_astro3
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASTROSPORTS°4°🇲🇾
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=918983&extension=ts&play_astro4
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",W°SPORT°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=918982&extension=ts&play_Wsport
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°1°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032529&extension=ts&play_hubpremier1
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°2°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032528&extension=ts&play_hubpremier2
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°3°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032527&extension=ts&play_hubpremier3
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°4°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032526&extension=ts&play_hubpremier4
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°5°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032525&extension=ts&play_hubpremier5
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°6°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032524&extension=ts&play_hubpremier6
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°7°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032523&extension=ts&play_hubpremier7
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°8°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032522&extension=ts&play_hubpremier8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°9°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032521&extension=ts&play_hubpremier9
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°10°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032520&extension=ts&play_hubpremier10
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°11°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032519&extension=ts&play_hubpremier11
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",HUB°PREMIER°2°UHD°
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032518&extension=ts&play_hubpremier2UHD
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",OPTUS°SPORTS°1_live_only
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032471&extension=ts&play_optussport1
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",OPTUS°SPORTS°2_live_only
+http://shareext@connect-uk.proxytx.cloud/play/live.php?mac=00:1A:79:6F:5A:5D&stream=1032470&extension=ts&play_optussport2
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",I•BERITA•2•_🇮🇩_dec=auto
+http://nyanv-live-cdn.mncnow.id/live/eds/inews-hdd/sa_hls/inews-hdd.m3u8|user-agent=Iphone
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",W•sports
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=918982&extension=ts&shareext@Wsports
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",SPOTV🇲🇾
+http://shareext@4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=683117&extension=ts&play_token=shareext.ts
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",SPOTV🇮🇩
+http://shareext@4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=941564&extension=ts&play_token=shareext.ts
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",SPOTV•2🇮🇩
+http://shareext@4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=941563&extension=ts&play_token=shareext.ts
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",PERSIANA•SPORTS
+https://af.ayas.ir/hls2/persiana.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",AIO•SPORTS•2
+https://af.ayas.ir/hls2/aiosport2.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Indosiar|HD_kc
+http://kuchini.site:8080/GenIptvLast/cGW7qTY5txZ3DOfz/162138
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Indosiar|HD_iptvmk
+http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/162138
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Indosiar|HD_ott
+http://edge.linknetott.swiftserve.com/channelgroup3/cg331production/ch8/index.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Indosiar|HD_gamsgo
+http://gamsgo.cyou:8080/adastream/J2DVrYWnpTu3Sk4W/162138
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",RCTI_now
+http://nyanv-live-cdn.mncnow.id/live/eds/rcti-2/sa_hls/rcti-2-avc1_2499968=3.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",GTV|line
+http://shareext@line.gofast-tv.me/play/live.php?mac=00:1A:79:6F:5A:5D&stream=683121&extension=ts&play_token=shareext
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",ER|C|T|I|line
+http://shareext@line.gofast-tv.me/play/live.php?mac=00:1A:79:6F:5A:5D&stream=683099&extension=ts&play_token=shareext
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",M|N|C|TV|line
+http://shareext@line.gofast-tv.me/play/live.php?mac=00:1A:79:6F:5A:5D&stream=683098&extension=ts&play_token=shareext
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",AstroSports_1_epg
+https://epg.pw/stream/54046d1e9e18a5d6fa94ace83492086f9d305f0dd71836285bfa9a5da1897a73.ctv
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Astro-sports-2_epg
+https://epg.pw/stream/3882e3db8bb5fca1356f4b1d7a9f4fabf2909b3e1a78bf5fa385127f6a4131ce.ctv
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",AstroSports_2
+https://qyfb8377447rtirq.fordems.live/live/for-dems1/chunks.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ESPN_2
+https://qyfb8377447rtirq.fordems.live/live/for-dems2/chunks.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",FS_1
+https://qyfb8377447rtirq.fordems.live/live/for-dems3/chunks.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",NowSports_1_HK
+http://pro7ip.ddnsking.com:80/live/i7P3XoRRlG/7qEOZbpXZl/246323.ts
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",NOW•SPORTS•1_🇭🇰
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1032479&extension=ts&shareext@NowSports1
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",NOW•SPORTS•2_🇭🇰
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1032478&extension=ts&shareext@NowSports2
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",NOW•SPORTS•3_🇭🇰
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1032477&extension=ts&shareext@NowSports3
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",NOW•SPORTS•4_🇭🇰
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1032476&extension=ts&shareext@NowSports4
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",NOW•SPORTS•5_🇭🇰
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1032475&extension=ts&shareext@NowSports5
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",NOW•SPORTS•6_🇭🇰
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1032474&extension=ts&shareext@NowSports6
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",NOW•SPORTS•7_🇭🇰
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1032473&extension=ts&shareext@NowSports7
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SSC•SPORTS•1•HD_🇸🇦
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1002801&extension=ts&shareext@sscHD1
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SSC•SPORTS•2•HD_🇸🇦
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1002793&extension=ts&shareext@sscHD2
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SSC•SPORTS•3•HD_🇸🇦
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1002785&extension=ts&shareext@sscHD3
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SSC•SPORTS•4•HD_🇸🇦
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1002778&extension=ts&shareext@sscHD4
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SSC•SPORTS•5•HD_🇸🇦
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1002774&extension=ts&shareext@sscHD5
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SSC•EXTRA•1_🇸🇦
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1002797&extension=ts&shareext@sscExtra1
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SSC•EXTRA•2_🇸🇦
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1002789&extension=ts&shareext@sscExtra2
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SSC•EXTRA•3_🇸🇦
+http://shareext@line.linedigitaltv.com/play/live.php?mac=00:1A:79:BF:F1:21&stream=1002781&extension=ts&shareext@sscExtra3
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",UseePrime_dec=auto
+https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(18564c27-ff44-4d62-9fab-dcb417fcb93f)/index.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/hPvrZvT4/SHAREEXT-KOREAN-TEVE-LOGO.png" group-title="PREMIUM",SPOTV•🇰🇷
+http://180.69.179.235:9981/stream/channelid/2136767334?ticket=1EF7B2A44EBA80DF1187047B67C862BCBF9D8B49&profile=pass
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/hPvrZvT4/SHAREEXT-KOREAN-TEVE-LOGO.png" group-title="PREMIUM",SPOTV•Golf&Health🇰🇷
+http://180.69.179.235:9981/stream/channelid/1137647664?ticket=134961E70F0636A3DBDCCD15DD63CF89A0F4A63D&profile=pass
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/hPvrZvT4/SHAREEXT-KOREAN-TEVE-LOGO.png" group-title="PREMIUM",SPOTV•2🇰🇷
+http://180.69.179.235:9981/stream/channelid/1020777144?ticket=A674EE899E3098E6137C3894C6A7E922503BE2BA&profile=pass
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/hPvrZvT4/SHAREEXT-KOREAN-TEVE-LOGO.png" group-title="PREMIUM",MBC•SPORTS+🇰🇷
+http://180.69.179.235:9981/stream/channelid/1916452331?ticket=B6263A8C4ACCF865D3996D261FA151E11D6C3F73&profile=pass
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/hPvrZvT4/SHAREEXT-KOREAN-TEVE-LOGO.png" group-title="PREMIUM",SBS•Golf🇰🇷
+http://180.69.179.235:9981/stream/channelid/1824089347?ticket=469C4F3D12FD752DA9F7FAD254A79F94409539E0&profile=pass
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/hPvrZvT4/SHAREEXT-KOREAN-TEVE-LOGO.png" group-title="PREMIUM",SBS•SPORTS🇰🇷
+http://180.69.179.235:9981/stream/channelid/1087323101?ticket=ACDC3BB11F98E9679668B9D299303FDC5081086C&profile=pass
 
-#EXTINF:-1  group-title="PREMIUM", 01. ETV Live Event
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298491
-#EXTINF:-1  group-title="PREMIUM", 02. ETV Live Event 02
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298492
-#EXTINF:-1  group-title="PREMIUM", 24/7 Angry Birds Toons
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298493
-#EXTINF:-1  group-title="PREMIUM", 24/7 BabyBus Indonesia
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298494
-#EXTINF:-1  group-title="PREMIUM", 24/7 Donald Ducks
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298495
-#EXTINF:-1  group-title="PREMIUM", 24/7 Doraemon
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298496
-#EXTINF:-1  group-title="PREMIUM", 24/7 Just For Laughs
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298497
-#EXTINF:-1  group-title="PREMIUM", 24/7 Mr Bean Cartoon
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298498
-#EXTINF:-1  group-title="PREMIUM", 24/7 Mr. Bean Classic
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298499
-#EXTINF:-1  group-title="PREMIUM", 24/7 Tom And Jerry
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298500
-#EXTINF:-1  group-title="PREMIUM", 24/7 Upin Ipin
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298501
-#EXTINF:-1  group-title="PREMIUM", 24/7 Warkop DKI
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298502
-#EXTINF:-1  group-title="PREMIUM", AMTV &#40;Aula Media TV&#41;
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/299484
-#EXTINF:-1  group-title="PREMIUM", ANIMAL PLANET
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157532
-#EXTINF:-1  group-title="PREMIUM", Animax
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165081
-#EXTINF:-1  group-title="PREMIUM", AniPlus
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298504
-#EXTINF:-1  group-title="PREMIUM", ANTV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165072
-#EXTINF:-1  group-title="PREMIUM", Arirang
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/247447
-#EXTINF:-1  group-title="PREMIUM", Asian Food Network
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298503
-#EXTINF:-1  group-title="PREMIUM", AXN
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165079
-#EXTINF:-1  group-title="PREMIUM", Baby TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157605
-#EXTINF:-1  group-title="PREMIUM", Bali TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/197962
-#EXTINF:-1  group-title="PREMIUM", BBC Earth
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165106
-#EXTINF:-1  group-title="PREMIUM", BBC Lifestyle
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264747
-#EXTINF:-1  group-title="PREMIUM", beIN Sports 1
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165105
-#EXTINF:-1  group-title="PREMIUM", beIN Sports 3
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298506
-#EXTINF:-1  group-title="PREMIUM", Berita Satu
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162513
-#EXTINF:-1  group-title="PREMIUM", Berita Satu news
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/287421
-#EXTINF:-1  group-title="PREMIUM", Berita Satu World
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162136
-#EXTINF:-1  group-title="PREMIUM", Besmart
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165087
-#EXTINF:-1  group-title="PREMIUM", Bioskop Indonesia
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264801
-#EXTINF:-1  group-title="PREMIUM", Bloomberg TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157599
-#EXTINF:-1  group-title="PREMIUM", Boomerang
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165109
-#EXTINF:-1  group-title="PREMIUM", Boomerang EN
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298507
-#EXTINF:-1  group-title="PREMIUM", Cartoon Network
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157593
-#EXTINF:-1  group-title="PREMIUM", CBeebies
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/247448
-#EXTINF:-1  group-title="PREMIUM", CCM
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165103
-#EXTINF:-1  group-title="PREMIUM", Celestial Movies
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165065
-#EXTINF:-1  group-title="PREMIUM", CGTN
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298510
-#EXTINF:-1  group-title="PREMIUM", CGTN Documentary
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298511
-#EXTINF:-1  group-title="PREMIUM", Champion TV 1
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298512
-#EXTINF:-1  group-title="PREMIUM", Champion TV 2
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298513
-#EXTINF:-1  group-title="PREMIUM", Champion TV 3
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298514
-#EXTINF:-1  group-title="PREMIUM", Channel News Asia
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157602
-#EXTINF:-1  group-title="PREMIUM", Chinese Drama
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298516
-#EXTINF:-1  group-title="PREMIUM", CinemaWorld
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165082
-#EXTINF:-1  group-title="PREMIUM", Cinemax
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/197964
-#EXTINF:-1  group-title="PREMIUM", Citra Bioskop
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298519
-#EXTINF:-1  group-title="PREMIUM", Citra Dangdut
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/247446
-#EXTINF:-1  group-title="PREMIUM", Citra Drama
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264748
-#EXTINF:-1  group-title="PREMIUM", Citra Entertainment
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298520
-#EXTINF:-1  group-title="PREMIUM", CNBC Indonesia
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165062
-#EXTINF:-1  group-title="PREMIUM", CNN Indonesia
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162137
-#EXTINF:-1  group-title="PREMIUM", CNN International
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264778
-#EXTINF:-1  group-title="PREMIUM", Crime+ Investigation
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165052
-#EXTINF:-1  group-title="PREMIUM", Da Ai TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165061
-#EXTINF:-1  group-title="PREMIUM", Discovery Asia
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/197968
-#EXTINF:-1  group-title="PREMIUM", Discovery World
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157597
-#EXTINF:-1  group-title="PREMIUM", Disney Channel
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165075
-#EXTINF:-1  group-title="PREMIUM", Disney Junior
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162511
-#EXTINF:-1  group-title="PREMIUM", Disney XD
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/276564
-#EXTINF:-1  group-title="PREMIUM", DreamWorks
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157610
-#EXTINF:-1  group-title="PREMIUM", Dunia Anak
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264753
-#EXTINF:-1  group-title="PREMIUM", Dunia Lain
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298524
-#EXTINF:-1  group-title="PREMIUM", Eat&Go
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264765
-#EXTINF:-1  group-title="PREMIUM", Ent
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157581
-#EXTINF:-1  group-title="PREMIUM", Etv Bioskop
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298526
-#EXTINF:-1  group-title="PREMIUM", Etv Bioskop 02
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298527
-#EXTINF:-1  group-title="PREMIUM", Etv Bioskop 03
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298528
-#EXTINF:-1  group-title="PREMIUM", Etv Bioskop 04
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298529
-#EXTINF:-1  group-title="PREMIUM", Fashion TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298530
-#EXTINF:-1  group-title="PREMIUM", Fight Sport
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298531
-#EXTINF:-1  group-title="PREMIUM", FLIK
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165095
-#EXTINF:-1  group-title="PREMIUM", FMN
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165057
-#EXTINF:-1  group-title="PREMIUM", Fox Life
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165083
-#EXTINF:-1  group-title="PREMIUM", Galaxy
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264773
-#EXTINF:-1  group-title="PREMIUM", Galaxy Premium
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264774
-#EXTINF:-1  group-title="PREMIUM", GEM
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298533
-#EXTINF:-1  group-title="PREMIUM", Golf
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298534
-#EXTINF:-1  group-title="PREMIUM", GTV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157578
-#EXTINF:-1  group-title="PREMIUM", HBO
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/197972
-#EXTINF:-1  group-title="PREMIUM", HBO Family
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/197055
-#EXTINF:-1  group-title="PREMIUM", HBO Hits
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/196480
-#EXTINF:-1  group-title="PREMIUM", HBO Signature
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/221948
-#EXTINF:-1  group-title="PREMIUM", HGTV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298535
-#EXTINF:-1  group-title="PREMIUM", Hip Hip Horee!
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298536
-#EXTINF:-1  group-title="PREMIUM", History
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162519
-#EXTINF:-1  group-title="PREMIUM", Hits
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165085
-#EXTINF:-1  group-title="PREMIUM", Hits Movies
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/221947
-#EXTINF:-1  group-title="PREMIUM", Horee!
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264750
-#EXTINF:-1  group-title="PREMIUM", Huma Betang TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/299486
-#EXTINF:-1  group-title="PREMIUM", Hunan TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/247443
-#EXTINF:-1  group-title="PREMIUM", I AM Channel
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/287423
-#EXTINF:-1  group-title="PREMIUM", I Konser
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264760
-#EXTINF:-1  group-title="PREMIUM", IDX
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157590
-#EXTINF:-1  group-title="PREMIUM", Ie
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157582
-#EXTINF:-1  group-title="PREMIUM", IMC
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264769
-#EXTINF:-1  group-title="PREMIUM", Indi Kids
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298539
-#EXTINF:-1  group-title="PREMIUM", Indosiar
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162138
-#EXTINF:-1  group-title="PREMIUM", INews
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157579
-#EXTINF:-1  group-title="PREMIUM", Infotainment
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298541
-#EXTINF:-1  group-title="PREMIUM", Insert
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264766
-#EXTINF:-1  group-title="PREMIUM", Izzah TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/275984
-#EXTINF:-1  group-title="PREMIUM", Jak TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157601
-#EXTINF:-1  group-title="PREMIUM", Jakarta Globe News
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/166399
-#EXTINF:-1  group-title="PREMIUM", JTV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165091
-#EXTINF:-1  group-title="PREMIUM", K+
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/197969
-#EXTINF:-1  group-title="PREMIUM", KBS World
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/197053
-#EXTINF:-1  group-title="PREMIUM", Kids TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162505
-#EXTINF:-1  group-title="PREMIUM", KIX
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165068
-#EXTINF:-1  group-title="PREMIUM", Kompas TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165060
-#EXTINF:-1  group-title="PREMIUM", Life
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157585
-#EXTINF:-1  group-title="PREMIUM", Lifestyle & Fashion
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157592
-#EXTINF:-1  group-title="PREMIUM", Lifetime
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298543
-#EXTINF:-1  group-title="PREMIUM", Love Nature
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264756
-#EXTINF:-1  group-title="PREMIUM", Mentari TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298546
-#EXTINF:-1  group-title="PREMIUM", Metro TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165059
-#EXTINF:-1  group-title="PREMIUM", Miao Mi
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/266805
-#EXTINF:-1  group-title="PREMIUM", MNC News
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165058
-#EXTINF:-1  group-title="PREMIUM", MNC Sports
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157589
-#EXTINF:-1  group-title="PREMIUM", MNC Sports 2
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298548
-#EXTINF:-1  group-title="PREMIUM", MNC Sports 3
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298549
-#EXTINF:-1  group-title="PREMIUM", MNC TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165054
-#EXTINF:-1  group-title="PREMIUM", Moji
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298550
-#EXTINF:-1  group-title="PREMIUM", MQTV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298551
-#EXTINF:-1  group-title="PREMIUM", MTA 7 Asia
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162522
-#EXTINF:-1  group-title="PREMIUM", MTA TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298552
-#EXTINF:-1  group-title="PREMIUM", Music TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165108
-#EXTINF:-1  group-title="PREMIUM", My Cinema
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298553
-#EXTINF:-1  group-title="PREMIUM", My Cinema Asia
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298554
-#EXTINF:-1  group-title="PREMIUM", My Family
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298555
-#EXTINF:-1  group-title="PREMIUM", My Kidz
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298556
-#EXTINF:-1  group-title="PREMIUM", Nat Geo
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165094
-#EXTINF:-1  group-title="PREMIUM", Nat Geo Wild
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/197967
-#EXTINF:-1  group-title="PREMIUM", NBA TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298558
-#EXTINF:-1  group-title="PREMIUM", Net
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/80292
-#EXTINF:-1  group-title="PREMIUM", NHK World
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298560
-#EXTINF:-1  group-title="PREMIUM", Nick Jr
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165107
-#EXTINF:-1  group-title="PREMIUM", Nick Jr EN
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298561
-#EXTINF:-1  group-title="PREMIUM", nickelodeon
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162510
-#EXTINF:-1  group-title="PREMIUM", Nusantara TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/166410
-#EXTINF:-1  group-title="PREMIUM", OK TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/221956
-#EXTINF:-1  group-title="PREMIUM", ONE
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298563
-#EXTINF:-1  group-title="PREMIUM", Paramount Network
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298564
-#EXTINF:-1  group-title="PREMIUM", Prambors
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264761
-#EXTINF:-1  group-title="PREMIUM", Radar Cirebon Televisi
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/299483
-#EXTINF:-1  group-title="PREMIUM", Rajawali TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/196457
-#EXTINF:-1  group-title="PREMIUM", RCTI
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157591
-#EXTINF:-1  group-title="PREMIUM", Rock Action
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298490
-#EXTINF:-1  group-title="PREMIUM", Rock Entertaiment
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298565
-#EXTINF:-1  group-title="PREMIUM", Rock Extreme
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298566
-#EXTINF:-1  group-title="PREMIUM", Rodja TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264758
-#EXTINF:-1  group-title="PREMIUM", RRI Net
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/266816
-#EXTINF:-1  group-title="PREMIUM", SCTV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162141
-#EXTINF:-1  group-title="PREMIUM", SEA Today
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298568
-#EXTINF:-1  group-title="PREMIUM", Sindonews TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/299485
-#EXTINF:-1  group-title="PREMIUM", Smithsonian Channel
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264767
-#EXTINF:-1  group-title="PREMIUM", Sony One
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165077
-#EXTINF:-1  group-title="PREMIUM", SpoTV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298570
-#EXTINF:-1  group-title="PREMIUM", SpoTV 2
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298571
-#EXTINF:-1  group-title="PREMIUM", Tech Storm
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298572
-#EXTINF:-1  group-title="PREMIUM", Thrill
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157580
-#EXTINF:-1  group-title="PREMIUM", TLC
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/165086
-#EXTINF:-1  group-title="PREMIUM", Trans 7
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162502
-#EXTINF:-1  group-title="PREMIUM", Trans TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162503
-#EXTINF:-1  group-title="PREMIUM", TV 9 Nusantara
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162509
-#EXTINF:-1  group-title="PREMIUM", TV Mu
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/196459
-#EXTINF:-1  group-title="PREMIUM", TV One
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/296214
-#EXTINF:-1  group-title="PREMIUM", TVN
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/197965
-#EXTINF:-1  group-title="PREMIUM", TVN Movies
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157596
-#EXTINF:-1  group-title="PREMIUM", TVRI
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162504
-#EXTINF:-1  group-title="PREMIUM", TVRI 4
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/287433
-#EXTINF:-1  group-title="PREMIUM", TVRI Gorontalo
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/166698
-#EXTINF:-1  group-title="PREMIUM", TVRI Jambi
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/166692
-#EXTINF:-1  group-title="PREMIUM", TVRI Jawa Barat
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/166688
-#EXTINF:-1  group-title="PREMIUM", TVRI Kalimantan Barat
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/166701
-#EXTINF:-1  group-title="PREMIUM", TVRI Kalimantan Tengah
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/166702
-#EXTINF:-1  group-title="PREMIUM", TVRI Sport
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/166686
-#EXTINF:-1  group-title="PREMIUM", TVRI Sulawesi Selatan
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/166699
-#EXTINF:-1  group-title="PREMIUM", TVRI World
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/295291
-#EXTINF:-1  group-title="PREMIUM", U Channel
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162146
-#EXTINF:-1  group-title="PREMIUM", Usee Prime
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/162524
-#EXTINF:-1  group-title="PREMIUM", Usee Sport 1
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298577
-#EXTINF:-1  group-title="PREMIUM", Usee Sport 2
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/298578
-#EXTINF:-1  group-title="PREMIUM", Vision Prime
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/197958
-#EXTINF:-1  group-title="PREMIUM", Warner TV
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157594
-#EXTINF:-1  group-title="PREMIUM", Zee Bioskop
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/157584
-#EXTINF:-1  group-title="PREMIUM", ZooMoo
-http://iptvtree.net:8080/EyQcvdQmdH/abef7a3a83/264751
+#EXTINF:1 tvg-logo="https://i.postimg.cc/CLPr6gq6/IMG-20220828-165715.jpg" group-title="PREMIUM",J°Sports 1		
+https://stream01.willfonk.com/live_playlist.m3u8?cid=BS242&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+#EXTINF:1 tvg-logo="https://i.postimg.cc/CLPr6gq6/IMG-20220828-165715.jpg" group-title="PREMIUM",J°Sports 2		
+https://stream01.willfonk.com/live_playlist.m3u8?cid=BS243&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+#EXTINF:1 tvg-logo="https://i.postimg.cc/CLPr6gq6/IMG-20220828-165715.jpg" group-title="PREMIUM",J°Sports 3		
+https://stream01.willfonk.com/live_playlist.m3u8?cid=BS244&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+#EXTINF:1 tvg-logo="https://i.postimg.cc/CLPr6gq6/IMG-20220828-165715.jpg" group-title="PREMIUM",J=Sports 4		
+https://stream01.willfonk.com/live_playlist.m3u8?cid=BS245&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+#EXTINF:1 tvg-logo="https://i.postimg.cc/CLPr6gq6/IMG-20220828-165715.jpg" group-title="PREMIUM",Golf°Network
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS262&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+#EXTINF:1 tvg-logo="https://i.postimg.cc/CLPr6gq6/IMG-20220828-165715.jpg" group-title="PREMIUM",Gaora°Sports
+https://stream01.willfonk.com/live_playlist.m3u8?cid=CS254&r=HD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",RTM_SUKAN*
+http://198.16.100.90:8278/Rtmsport/playlist.m3u8?tid=MF8F1702154217021542&ct=19249&tsum=e027d4717db55d11df07ebe27f5eb3a5
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASSP_2*
+http://198.16.100.90:8278/Assp2/playlist.m3u8?tid=ME1E4056565440565654&ct=19249&tsum=1bf59bebb8a43a859eae9f1b3759f844
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASSP_3*
+http://198.16.100.90:8278/Assp3/playlist.m3u8?tid=MB4B2552451125524511&ct=19249&tsum=f6cb45a995e37dfc7c40d515f29924e4
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASSP_4*
+http://198.16.100.90:8278/Assp4/playlist.m3u8?tid=MC3C8659251086592510&ct=19249&tsum=94b1b760d8384a41d62be6113bfc36a5
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Prima*
+http://198.16.100.90:8278/Prima/playlist.m3u8?tid=MDCD7525162675251626&ct=19249&tsum=baa42cb947105579e476ec0c5b71043d
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Oasis*
+http://198.16.100.90:8278/Oasis/playlist.m3u8?tid=MABA2020629120206291&ct=19249&tsum=46be05252007b1efaae28ae3ab4cc7bb
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Cctv_5
+http://198.16.100.90:8278/cctv5/playlist.m3u8?tid=MD2D5656337456563374&ct=19225&tsum=29861256a9ff86acc68cce955fb93829
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Cctv_5++
+http://198.16.100.90:8278/cctv5plus/playlist.m3u8?tid=MF6F3069243930692439&ct=19225&tsum=7f79687e9afcfd2a0757b7b74c32fedd
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Elta.sports.1_twn
+http://198.16.100.90:8278/eltasport_twn/playlist.m3u8?tid=MF1F8884668388846683&ct=19249&tsum=b676f636b8ef285596dc6512fc4659d4
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Elta.sports.2
+http://198.16.100.90:8278/eltasport2_twn/playlist.m3u8?tid=MB2B3966739039667390&ct=19249&tsum=20bdbd3a22909e8d89aabe7a923c8c5b
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",WWE*
+http://198.16.100.90:8278/Wwe/playlist.m3u8?tid=MAFA6271885362718853&ct=19249&tsum=087e1206a291a44e120fba9b3c0ddb2d
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",博斯运动_1_bosisport1_twn
+http://198.16.100.90:8278/bosisport1_twn/playlist.m3u8?tid=MDAD4087844840878448&ct=19249&tsum=0a23fd28e83ff8205a515273a4c1b421
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",博斯运动_2_bosisport2_twn
+http://198.16.100.90:8278/bosisport2_twn/playlist.m3u8?tid=ME9E7698135376981353&ct=19249&tsum=9eadcc8585f74357f09f1465844024c9
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",博斯网球 HD_tenis_twn
+http://198.16.100.90:8278/bositennis_twn/playlist.m3u8?tid=MDCD2148551721485517&ct=19249&tsum=bab41ccd3843b938886a64a656463af0
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",纬来体育台_videolandsport
+http://198.16.100.90:8278/videolandsport/playlist.m3u8?tid=MF0F9609085796090857&ct=19254&tsum=6bf853a68e195475b4892428199568c7
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",博斯高球2 HD_golf_twn
+http://198.16.100.90:8278/bosigolf2_twn/playlist.m3u8?tid=MC1C7192072371920723&ct=19249&tsum=fbea99cd84e7284f2cd3f8eab29435dc
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",BT_Sports1*
+http://198.16.100.90:8278/beeone/playlist.m3u8?tid=ME4E5665100556651005&ct=19254&tsum=caea1a674ddae23ddac022c6f734bbe9
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",BT_Sports2*
+http://198.16.100.90:8278/beetwo/playlist.m3u8?tid=ME8E7161918071619180&ct=19254&tsum=5a361ecdfed8be71815bc378f08714c6*
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",BT_Sports3
+http://198.16.100.90:8278/beethree/playlist.m3u8?tid=MD8D2705762227057622&ct=19254&tsum=5f67e864d74200ddfa93a55f5f897168
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",BT_ESPN*
+http://198.16.100.90:8278/btespn/playlist.m3u8?tid=MB5B6304580563045805&ct=19254&tsum=80d2ec53bd2391dea02424aad8c648c7
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Beinsports_2_HD
+HD,http://198.16.100.90:8278/Bein2hd/playlist.m3u8?tid=MA7A5079743450797434&ct=19254&tsum=c97a6b025c61971f186c219016353275
+
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Cctv.5🇨🇳
+https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8
+http://jiandjh.51vip.biz:5678/sxg.php?id=CCTV-5H265_4000
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Cctv.5+🇨🇳
+http://39.135.138.59:18890/PLTV/88888910/224/3221225649/index.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Cctv16.sport_hd1
+http://tvindexlive01.yn.ysten.com:8080/ysten-business/live/cctv-16yn/1.m3u8|User-Agent=0151
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Cctv.16.sport.Hd2
+http://111.20.35.103:6610/yinhe/2/ch00000090990000002395/index.m3u8?virtualDomain=yinhe.live_hls.zte.com&IASHttpSessionId=
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Sony•sports•1🇮🇳
+http://shareext@4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1114576&extension=ts&play_token=shareext.ts
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Sony•sports•2🇮🇳
+http://shareext@4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1114577&extension=ts&play_token=shareext.ts
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Sony•sports•3🇮🇳
+http://shareext@4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1114578&extension=ts&play_token=shareext.ts
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",Sony•sports•4🇮🇳
+http://shareext@4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1114579&extension=ts&play_token=shareext.ts
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SWISS•sports
+https://cdn02.upstream-cloud.ch/sstvlinear/ngrp:sstvlinear_all/manifesto.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",RTM_1_dec=native🇲🇾
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/playlist.m3u8?id=1
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",0KEY_dec=native🇲🇾
+https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",SUKAN_RTM_dec=native🇲🇾
+https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/playlist.m3u8?id=4
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",RTB_SUKMA.INDERA
+https://d1211whpimeups.cloudfront.net/smil:rtb1/chunklist_b608000_sleng.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",RTB_ANEKA
+https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist_b608000_sleng.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",BTV_5_🇻🇳
+https://code.vthanhtivi.pw/getlink/tv360/2380/2.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",VTV_CAnThO
+http://171.238.181.52:18080/156.m3u8?Shareext/ts
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Vtv_2
+http://171.238.181.52:18080/192.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Vtv_5
+http://171.238.181.52:18080/194.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SPORT_18_🇮🇳
+http://shareex@195.26.87.217/live?channelId=102479&deviceMac=00:1A:79:33:E9:41|id=sport18|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",A_SPORTS_🇮🇳
+http://shareex@195.26.87.217/live?channelId=12217&deviceMac=00:1A:79:33:E9:41|id=Asport|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",DAZN_1_🇭🇷
+http://shareex@195.26.87.217/live?channelId=104607&deviceMac=00:1A:79:33:E9:41|id=DAZN1|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",ASTRO_CRICKET_🇲🇾
+http://shareex@195.26.87.217/live?channelId=26034&deviceMac=00:1A:79:33:E9:41|id=astrocricket|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",BT_SPORT_1_🇬🇧
+http://shareex@195.26.87.217/live?channelId=267&deviceMac=00:1A:79:33:E9:41|id=btsport1|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",BT_SPORT_2_🇬🇧
+http://shareex@195.26.87.217/live?channelId=268&deviceMac=00:1A:79:33:E9:41|id=btsport2|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",BT_SPORT_3_🇬🇧
+http://shareext@195.26.87.217/live?channelId=269&deviceMac=00:1A:79:33:E9:41|id=btsport3|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",BT_SPORT_4_🇬🇧
+http://shareext@195.26.87.217/live?channelId=270&deviceMac=00:1A:79:33:E9:41|id=btsport4|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SPORTS_LIVE_🇮🇳
+http://shareext@195.26.87.217/live?channelId=74567&deviceMac=00:1A:79:33:E9:41|id=sportslive|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",GEO_SUPER_🇮🇳
+http://shareext@195.26.87.217/live?channelId=274&deviceMac=00:1A:79:33:E9:41|id=geosuper|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",JIO_CRIC_ENG_🇮🇳
+http://shareext@195.26.87.217/live?channelId=294&deviceMac=00:1A:79:33:E9:41|id=jiocricketenglish|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",LIVE_KABADDI_🇮🇳
+http://shareext@195.26.87.217/live?channelId=276&deviceMac=00:1A:79:33:E9:41|id=livekabaddi|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",PTV_SPORTS_🇮🇳
+http://shareext@195.26.87.217/live?channelId=278&deviceMac=00:1A:79:33:E9:41|id=ptvsports|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SONY_SPORTS_5_🇮🇳🇮🇳
+http://shareext@195.26.87.217/live?channelId=288&deviceMac=00:1A:79:33:E9:41|id=sonysport5|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SONY_SPORTS_1_🇮🇳🇮🇳
+http://shareext@195.26.87.217/live?channelId=289&deviceMac=00:1A:79:33:E9:41|id=sonysport1|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SONY_SPORTS_2_🇮🇳🇮🇳
+http://shareext@195.26.87.217/live?channelId=290&deviceMac=00:1A:79:33:E9:41|id=sonysport2|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SONY_SPORTS_3_🇮🇳🇮🇳
+http://shareext@195.26.87.217/live?channelId=291&deviceMac=00:1A:79:33:E9:41|id=sonysport3|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",DD_SPORTS_🇮🇳
+http://shareext@195.26.87.217/live?channelId=292&deviceMac=00:1A:79:33:E9:41|id=ddsport|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",STAR_SPORT_1_HD_🇮🇳
+http://shareext@195.26.87.217/live?channelId=293&deviceMac=00:1A:79:33:E9:41|id=starsport1HD|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",STAR_SPORT_2_HD_🇮🇳
+http://shareext@195.26.87.217/live?channelId=298&deviceMac=00:1A:79:33:E9:41|id=starsport2HD|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",STAR_SPORT_3_HD_🇮🇳
+http://shareext@195.26.87.217/live?channelId=39098&deviceMac=00:1A:79:33:E9:41|id=starsport3HD|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",STARSPORT_SELECT_1_🇮🇳
+http://shareext@195.26.87.217/live?channelId=299&deviceMac=00:1A:79:33:E9:41|id=starsportS1|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",STARSPORT_SELECT_2_🇮🇳
+http://shareext@195.26.87.217/live?channelId=300&deviceMac=00:1A:79:33:E9:41|id=starsportS2|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",T_SPORTS_🇮🇳
+http://shareext@195.26.87.217/live?channelId=48010&deviceMac=00:1A:79:33:E9:41|id=tsports|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",TEN_SPORTS_🇮🇳
+http://shareext@195.26.87.217/live?channelId=301&deviceMac=00:1A:79:33:E9:41|id=tensports|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",TSN_1
+http://shareext@195.26.87.217/live?channelId=28961&deviceMac=00:1A:79:33:E9:41|id=tsn1|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",TSN_2
+http://shareext@195.26.87.217/live?channelId=28962&deviceMac=00:1A:79:33:E9:41|id=tsn2|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",TSN_3
+http://shareext@195.26.87.217/live?channelId=28963&deviceMac=00:1A:79:33:E9:41|id=tsn3|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",TSN_4
+http://shareext@195.26.87.217/live?channelId=28964&deviceMac=00:1A:79:33:E9:41|id=tsn4|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",TSN_5
+http://shareext@195.26.87.217/live?channelId=28965&deviceMac=00:1A:79:33:E9:41|id=tsn5|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",WILLOW_HD
+http://shareext@195.26.87.217/live?channelId=302&deviceMac=00:1A:79:33:E9:41|id=willowHD|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",WWE_NETWORK
+http://shareext@195.26.87.217/live?channelId=4244&deviceMac=00:1A:79:33:E9:41|id=wwenetwork|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",PREMIER_SPORTS_1
+http://shareext@195.26.87.217/live?channelId=91158&deviceMac=00:1A:79:33:E9:41|id=premiersports1|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",PREMIER_SPORTS_2
+http://shareext@195.26.87.217/live?channelId=91159&deviceMac=00:1A:79:33:E9:41|id=premiersports2|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SONY@SPORT@_5
+http://shareext@195.26.87.217/live?channelId=105350&deviceMac=00:1A:79:33:E9:41|id=sonysports5HD|shareext.m3u8
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/5y5vyQ4R/Shareext-Sports.jpg" group-title="PREMIUM",SONY@SPORT@_4
+http://shareext@195.26.87.217/live?channelId=105349&deviceMac=00:1A:79:33:E9:41|id=sonysports4HD|shareext.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",RealMadrid tv
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",SETANTA_1鈩�
+http://31.146.176.94:80/setanta1/index.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",SETANTA_2鈩�
+http://31.146.176.94:80/setanta2/index.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",RMC•Sport鈥�1_FHD
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:00:00:05&stream=2808&extension=ts&play_token=IqnJp0hGLf
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",RMC•SPORT鈥�2_FHD
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:00:00:05&stream=2810&extension=ts&play_token=CCeUyoMoHe
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",RMC•SPORT鈥�3_FHD
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:00:00:05&stream=2812&extension=ts&play_token=SIJWlGm92o
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",RMC•SPORT鈥�4_FHD
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:00:00:05&stream=2815&extension=ts&play_token=0SWd5Ozroh
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",RMC•SPORT鈥�5_FHD
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:00:00:05&stream=58388&extension=ts&play_token=z0kKwB8jRa
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",MUtv
+https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-west-1/6058004203001/profile_2/chunklist.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Elta_1_taiwan
+https://dispatch.ulivetv.net/v/live/clecyhjewngg.m3u8?stream_id=clecyhjewngg&timestamp=1685059556&rand=Qf3NisplXH&uuid=9b647b3816b2a66a&from=web&sign=acb9e1e8e128368fb8472cc0a8035ce6
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Eleven_2_taiwan
+http://61.221.81.93:8078/hls/26/80/esport2.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg" group-title="PREMIUM",TVRI_SPORTS.
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg"group-title="PREMIUM",UNIFI_SPORT.1
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg"group-title="PREMIUM",UNIFI_SPORT.2
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MTNqHbfs/Share-Ext-Multi-Sport.jpg"group-title="PREMIUM",sportstv 
+http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",StrongmanChampionLeague
+https://3f4b9dde8740443b9b90459fc7b67cdd.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-gb_StrongmanChampionsLeague/e21d95be-bbb1-442c-bd84-71813dc764ce/0.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",FightSports
+http://rr1.dens.tv/h/h05/02.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",WWE.network
+https://d2p372oxiwmcn1.cloudfront.net/hls/1080p/playlist.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Techstrom
+https://cdn01-telkomsel-01.akamaized.net/Content/HLS/Live/channel(abe4ead2-1a88-4330-9f41-382fcf94bba2)/01.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Egg
+http://210.210.155.35/session/3dc625d6-e3ba-11ec-aead-b82a72d63267/uq2663/h/h22/02.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Dunia_Games
+https://cdn01-telkomsel-01.akamaized.net/Content/HLS/Live/channel(ec41a5e2-09e4-431d-b92e-383fa7abe25c)/01.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Beaches Live
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95396f932c837b49397360/playlist.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Mountains Live
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95387b932c837b49397357/playlist.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Rivers Live
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95388f932c837b4939735a/playlist.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Tropics Live
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538b9932c837b4939735c/playlist.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Lakes Live
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95385c932c837b49397356/playlist.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Animals Live
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9537b8932c837b49397343/playlist.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Forests Live
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953836932c837b49397355/playlist.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Sunsets Live
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538a5932c837b4939735b/playlist.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Aurora Live
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953819932c837b49397345/playlist.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",Nature
+http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.biznetnetworks.com/assets/list-logo/logo-large/biznet_logo.jpg" group-title="PREMIUM", Bisnet Lifestyle
+http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/chunklist_w109806785_b2256000_slen_tkYml6a2V5bGl2ZXN0YXJ0dGltZT0wJmJpemtleWxpdmVlbmR0aW1lPTAmYml6a2V5bGl2ZUN1c3RvbVBhcmFtZXRlcj1teVBhcmFtZXRlciZiaXprZXlsaXZlaGFzaD1qZ0RLUGNsY0dkWmZ2cklEeGZNZHBUN3Zfc3JNV0NidWJudEdvOWNDWVdwY0JCUWFsTWxMUXhIc3dtNDNQYlZS.m3u8
+#EXTINF:-1 tvg-logo="https://www.biznetnetworks.com/assets/list-logo/logo-large/biznet_logo.jpg" group-title="PREMIUM", Bisnet Adventure 4K
+http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.biznethome.net/bin/images/tv-program/channel/BiznetHomeKids.jpg" group-title="PREMIUM", Biznet Kids
+http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/chunklist_w417362857_b2256000_slen_tkYml6a2V5bGl2ZXN0YXJ0dGltZT0wJmJpemtleWxpdmVlbmR0aW1lPTAmYml6a2V5bGl2ZUN1c3RvbVBhcmFtZXRlcj1teVBhcmFtZXRlciZiaXprZXlsaXZlaGFzaD1xQXJpMU0yeHVfTUFsbkh3VlJ0T3MyNGxSOFlfSFNEaWpOMkNSTmdoaWZVbGxoWXFRU0Rsa2QwcUU4Q2tad3hD.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",MUZIC HIT
+http://hitmusic.hu/hitmusic.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",MTV Biggest Pop
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",MTV Block Party
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS03/master.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",MTV WMA
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS08/master.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",MTV Spankin\'New
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS07/master.m3u8
+#EXTINF:-1   tvg-logo="https://i.postimg.cc/8C3TkKc3/TVKUSHAREEXT.png" group-title="PREMIUM",MTV Yo!
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
 
