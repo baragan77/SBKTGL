@@ -20,7 +20,7 @@ https://nyanv-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
 #EXTINF:0 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/9/9c/GTV_(2017).svg/revision/latest/scale-to-width-down/200?cb=20180321091517" group-title="NATIONAL",GTV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=88f6c7cbd793374cb5f12d7e26dcd63b:e82daa7c7bfb03d99327463fdbd37336
-https://nyanv-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
+https://av-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
 
 #EXTINF:0 tvg-logo="https://e7.pngegg.com/pngimages/445/777/png-clipart-mnc-corporation-media-nusantara-citra-business-indonesia-business-text-people-thumbnail.png" group-title="NATIONAL",MNC TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -40,7 +40,7 @@ https://nyanv-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd
 #EXTINF:0 tvg-logo="http://3.bp.blogspot.com/-HQ0BoR9WfbA/VM5wXxFjkoI/AAAAAAAAAG0/UIAegQIiXqU/s1600/trans7-amiz.png" group-title="NATIONAL",Trans 7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=26bd60e03bbed7819eea0b27075a1897:d221ba6a6ab66e3083c001d2c4a3e5c5
-https://nyanv-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd
+https://av-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd
 
 #EXTINF:0 tvg-logo="http://images1.wikia.nocookie.net/__cb20120824053509/logopedia/images/2/24/Trans-tv-1575255.png" group-title="NATIONAL",Trans TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
