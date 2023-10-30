@@ -100,7 +100,7 @@ http://210.210.155.37/qwr9ew/s/s104/index.m3u8
 https://b1news.beritasatumedia.com/Beritasatu/B1News_manifest.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.dens.tv/images/channel-logo/9.jpg" group-title="DENSTV", SCTV
-http://210.210.155.37/qwr9ew/s/s03/index.m3u8
+https://raw.githubusercontent.com/baragan77/TIVI-github.io/main/Esceteve.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.dens.tv/images/channel-logo/10.jpg" group-title="DENSTV", INDOSIAR
 http://210.210.155.37/qwr9ew/s/s04/index.m3u8
