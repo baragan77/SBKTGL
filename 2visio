@@ -742,7 +742,7 @@ https://nyanv-live-cdn.mncnow.id/live/eds/HitsMovies/sa_dash_vmx/HitsMovies.mpd
 ///////////////////////SPORT////////////////////////
 
 #EXTINF:-1 group-title="SPORTS",U17
-https://raw.githubusercontent.com/aufannada/streaming/main/tv-00-astrosupersport1.m3u8
+http://line.gofast-tv.me/play/live.php?mac=00:1a:79:b5:63:3c&stream=1016544&extension=m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
