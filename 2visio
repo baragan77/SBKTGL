@@ -741,7 +741,7 @@ https://nyanv-live-cdn.mncnow.id/live/eds/HitsMovies/sa_dash_vmx/HitsMovies.mpd
 
 ///////////////////////SPORT////////////////////////
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_308.png",U17
+#EXTINF:-1 group-title="SPORTS",U17
 https://raw.githubusercontent.com/aufannada/streaming/main/tv-00-astrosupersport1.m3u8
 
 
