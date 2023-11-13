@@ -813,10 +813,6 @@ https://i.mjh.nz/SamsungTVPlus/ATBA3300007PT.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",KUCIT 2
 https://i.mjh.nz/SamsungTVPlus/GBBD1100008YW.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",KUCIT 3
-https://i.mjh.nz/SamsungTVPlus/ITBD1000002HF.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",KUCIT 4
-https://i.mjh.nz/SamsungTVPlus/ESBC2700009B4.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",FIFA+ 1
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha 
