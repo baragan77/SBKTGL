@@ -840,5 +840,5 @@ https://d2h3grlsj8f9qu.cloudfront.net/out/v1/df357e7da00b4f528989176850153919/in
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",LIVE FIFA+ 2
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha 
-#KODIPROP:inputstream.adaptive.license_key=https://www.plus.fifa.com/flux-capacitor/api/v1/licensing/widevine/modular?sessionId=Zmx1eF9jYXBhY2l0b3I6Y2VjNjg3N2ItNGNkNy00ZTVhLTgyZGUtMTMyMDFjYzRjODIz 
+#KODIPROP:inputstream.adaptive.license_key=https://www.plus.fifa.com/flux-capacitor/api/v1/licensing/widevine/modular?sessionId=Zmx1eF9jYXBhY2l0b3I6OGNhZjE3MDYtMzk1Ny00MGIzLTkzZDctMjk2OWNjNTRlMTZj 
 https://d16v4rolnwizs0.cloudfront.net/out/v1/b6dd5174fe0d499ea082b588dbedf9f5/index.mpd?aws.manifestfilter=audio_language:eng;video_codec:h264;video_height:0-1080
