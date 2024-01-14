@@ -785,7 +785,8 @@ https://nyanv-live-cdn.mncnow.id/live/eds/Sportstar4/sa_dash_vmx/Sportstar4.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTVLCOPT:http-referrer=https://visionplus.id
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_101.png",Soccer Channel
-https://nyanv-live-cdn.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel-HD.mpd
+#https://nyanv-live-cdn.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel-HD.mpd
+https://nyanv-live-cdn.mncnow.id/live/eds/Soccer-2/sa_dash_vmx/Soccer-2.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
@@ -814,17 +815,3 @@ https://i.mjh.nz/SamsungTVPlus/ATBA3300007PT.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",KUCIT 2
 https://i.mjh.nz/SamsungTVPlus/GBBD1100008YW.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA", (ASSP 1 FHD) ⚽ world cup U17
-https://sc2022.stream-link.org/tv2306.php?id=s19
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",(ASSP 2 HD) ⚽ world cup U17
-http://shareext@ss123.pro/play/live.php?mac=00:1A:79:00:19:E7&stream=918985&extension=ts&play_shareext@assp2_my
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",(ASSP 2 FHD) ⚽ world cup U17
-https://sc2022.stream-link.org/tv2306.php?id=s20
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",(ASSP 3 FHD) ⚽ world cup U17
-https://sc2022.stream-link.org/tv2306.php?id=s21
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",(ASSP 4 FHD)v⚽ world cup U17
-https://sc2022.stream-link.org/tv2306.php?id=s22
