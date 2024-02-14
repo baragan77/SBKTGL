@@ -1,4 +1,4 @@
-
+saya
 
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/id/mncvision.id.epg.xml, https://iptv-org.github.io/epg/guides/id/vidio.com.epg.xml, https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml, https://macan.tv/xmltv.php?username=epg&password=epg, http://ppmk.my.id/epg/epg.xml"  refresh="3600"
 
@@ -810,9 +810,956 @@ https://ctrl.laotv.la/live/Bsport2/index.m3u8
 
 
 ############## FIFA ###############
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",KUCIT 1
-https://i.mjh.nz/SamsungTVPlus/ATBA3300007PT.m3u8
+#EXTM3U
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",INDOSIAR SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h207/01.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/baragan77/SBKTGL/main/Logo/20231112_145809.png" group-title="U 17 FIFA",KUCIT 2
-https://i.mjh.nz/SamsungTVPlus/GBBD1100008YW.m3u8
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",INDOSIAR HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",SCTV SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h217/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",SCTV HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TRANSTV
+https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TRANSV
+https://filmovie.github.io/by/transtv.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TRANS7
+https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TRANS7
+https://filmovie.github.io/by/trans7.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",ANTV SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h235/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",ANTV HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",ANTV HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/s/s07/01.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="DENS TV",RCTI
+http://iptv2077.com:80/play/live.php?mac=00:1A:79:C6:20:7D&stream=683099&extension=ts&play_token=GVZS088tcf 
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",RTV SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://210.210.155.37/session/01ec4c78-827b-11ee-93b3-aa38b7050ceb/uq2663/h/h10/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",RTV HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(41869351-4a9c-4e57-b54b-8cf5dfc919e1)/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MOJI SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h210/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MOJI HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h210/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",NET SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h223/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",NET HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h223/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVONE SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h224/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVONE HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h224/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",METRO TV SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h211/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",METRO TV HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h211/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CELESTIAL MOVIES SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h212/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CELESTIAL MOVIES HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h212/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",ROCK ENTERTAINMENT SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h213/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",ROCK ENTERTAINMENT HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h213/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVN MOVIES SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h214/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVN MOVIES HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h214/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVN SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h215/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVN HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h215/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",NHK WORLD SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h216/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",NHK WORLD HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h216/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",ROCK ACTION SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h218/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",ROCK ACTION HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h218/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",K+ SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h219/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",K+ HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h219/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",KIX SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h220/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",KIX HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h220/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",BNTV SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h221/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",BNTV HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h221/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MAGNA SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h222/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MAGNA HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h222/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",KARTUN SIS SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h226/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",KARTUN SIS HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h227/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CCTV 4 SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h228/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CCTV 4 HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h228/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",PHOENIX SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h232/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",PHOENIX HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h232/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",KOMPAS SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h234/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",KOMPAS HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h234/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TBN ASIA SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h236/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TBN ASIA HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h236/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVRI SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h237/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVRI HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h237/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVRI SPORT SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h238/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVRI SPORT HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h238/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CCM SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h239/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CCM HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h239/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Thrill SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h240/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Thrill HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h240/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MEKKAH LIVE SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h241/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MEKKAH LIVE HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h241/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",M+ SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h242/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",M+ HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h242/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MADINAH LIVE SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h243/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MADINAH LIVE HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h243/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",RTP SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h244/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",RTP HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h244/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVE SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h245/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVE HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h245/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",ALJAZEERA ARAB SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h246/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",ALJAZEERA ARAB HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h246/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TV5 SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h247/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TV5 HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h247/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CGTN SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h248/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CGTN HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h248/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MCE SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h208/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MCE HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h208/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",HITS MOVIES SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h206/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",HITS MOVIES HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h206/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",HITS SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h205/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",HITS HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h205/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",FIGHT SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h204/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",FIGHT HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h204/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",M SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h203/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",M HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h203/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TV 5 Style SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h209/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TV 5 Style HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h209/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CINEMAWORLD SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h202/01.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CINEMAWORLD HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h202/02.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MY KIDZ HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservesd-1.dens.tv/h/h191/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MY CINEMA HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservesd-1.dens.tv/h/h192/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",DENS PLAY HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservesd-1.dens.tv/s/s101/live.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MY CINEMA ASIA HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservesd-1.dens.tv/h/h193/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MY FAMILY CHANNEL HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservesd-1.dens.tv/h/h194/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",DAAI HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservesd-1.dens.tv/s/s182/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",DENS SHOWBIZ HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-krgroup1-swiftservesd-1.dens.tv/s/s35/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",DENS FOOD CHANNEL HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-krgroup1-swiftservesd-1.dens.tv/s/s38/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",DENS LEARNING HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-krgroup1-swiftservesd-1.dens.tv/s/s36/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",DENS LIVE EVENT HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservesd-1.dens.tv/s/s100/live.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",DENS Commerce HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h126/live.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",DENS Korean HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-krgroup1-swiftservehd-1.dens.tv/h/h125/live.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",BTV HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://b1news.beritasatumedia.com/Beritasatu/B1News_960x540.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",DENS life Style HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservesd-1.dens.tv/s/s51/live.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",ELSHINTA HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservesd-1.dens.tv/s/s12/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",JAKTV HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservesd-1.dens.tv/s/s123/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CREMA HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h228/index2.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",STINGRAY HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h229/index2.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Deluxe Lounge HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h172/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Dance TV HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservesd-1.dens.tv/s/s21/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Motorvision HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h242/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MotoR Racing HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h25/index2.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",HORIZON SPORT HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h127/live.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",DW-TV HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservesd-1.dens.tv/s/s25/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",W-SPORT HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h26/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",France 24 HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h226/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",FREEDOM HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h101/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",WION HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h91/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TRT WORLD HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://op-group1-swiftservehd-1.dens.tv/h/h156/index2.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Biznet Adventure
+http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8?checkedby:iptvcat.org
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Biznet Kids
+http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/chunklist_w417362857_b2256000_slen_tkYml6a2V5bGl2ZXN0YXJ0dGltZT0wJmJpemtleWxpdmVlbmR0aW1lPTAmYml6a2V5bGl2ZUN1c3RvbVBhcmFtZXRlcj1teVBhcmFtZXRlciZiaXprZXlsaXZlaGFzaD1xQXJpMU0yeHVfTUFsbkh3VlJ0T3MyNGxSOFlfSFNEaWpOMkNSTmdoaWZVbGxoWXFRU0Rsa2QwcUU4Q2tad3hD.m3u8?checkedby:iptvcat.org
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TVRI World (720p)
+http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI3)/index.m3u8?checkedby:iptvcat.org
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Biznet Lifestyle
+http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/chunklist_w109806785_b2256000_slen_tkYml6a2V5bGl2ZXN0YXJ0dGltZT0wJmJpemtleWxpdmVlbmR0aW1lPTAmYml6a2V5bGl2ZUN1c3RvbVBhcmFtZXRlcj1teVBhcmFtZXRlciZiaXprZXlsaXZlaGFzaD1qZ0RLUGNsY0dkWmZ2cklEeGZNZHBUN3Zfc3JNV0NidWJudEdvOWNDWVdwY0JCUWFsTWxMUXhIc3dtNDNQYlZS.m3u8?checkedby:iptvcat.org
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CNN INDONESIA
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w472172163_b384000_sleng.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",CNBC INDONESIA
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1325163276_b384000_sleng.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",DETIK TV
+https://vod.detik.com/mc/_definst_/smil:http/mc/video/detiktv/videoservice/AdminTV/2023/11/19/49d7019754274b5a9eb6536d3e79bdb8.smil/chunklist_w784631946_b1628001.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",LOTUS
+http://anren.live/HK/BiIOU11uLA.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",HBO
+http://208.115.225.174:14136
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",HBO 2
+http://208.115.225.174:14140
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",HBO Family
+http://208.115.225.174:14144
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",HBO Signature
+http://208.115.225.174:14160
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",HBO Hits
+https://astrompd.kalinggap3workersdev.workers.dev/https://linearjitp-playback.astro.com.my/dash-wv/linear/5055/default_primar
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Hbo Plus
+http://208.115.225.174:14152
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Hbo Extrem
+http://208.115.225.174:14165
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Wb Tv
+http://208.115.225.174:14132
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Galaxy
+http://gamsgo.cyou:8080/Vladisergeevic/7eef2c4388/264773
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Galaxy Premium
+http://gamsgo.cyou:8080/Vladisergeevic/7eef2c4388/264774
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Mce
+http://210.210.155.35/session/0c29f2d2-dd99-11eb-a245-b82a72d63267/uq2663/h/h18/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",XINGKONG
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch206%29/Stream(03)/index.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",TV9 NUSANTARA
+https://5bf7b725107e5.streamlock.net/tv9/tv9/chunklist_w180392404.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",MADU TV NUSANTARA
+https://v6.siar.us:443/madutv/hd720/chunks.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",JAWA POS TV
+https://v2.siar.us/jawapostv/live/chunks.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",JITV
+https://mam.jogjaprov.go.id:1937/tv/jitv_720p/chunklist_w1534412918.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Wb Ind
+http://103.150.197.226:25461/hometv@226/Wdk8VzyYTG/3005
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Wb Tv
+http://208.115.225.174:14132
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Paramounth
+http://103.150.197.226:25461/hometv@226/Wdk8VzyYTG/3004
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",Mbc
+https://ns1.tjmbc.co.kr/live/myStream.sdp/chunklist_w1150278138.m3u8
+
+#EXTINF:0 tvg-id="outdoor" group-title="DENS TV",WARNER TV
+https://delivery.ksa.my.id/stream/warnertv/playlist.m3u8?token=ym1wtrp&v=20200807
+
+#EXTINF:-1 group-title="Premium Movies" tvg-id="PARAMOUNT HD - [Channel 441].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9d/Paramount_Network_%28Blue%29_Logo.png",Paramount Network
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch309%29/index.m3u8
+
+#EXTINF:-1 tvg-id="HITS - [Channel 160].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/Hits.png" group-title="Premium Movies",Hits
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch326%29/index.m3u8
+
+#EXTINF:-1 tvg-id="HITS MOVIES HD - [Channel 409].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/Hits%20Movies.png" group-title="Premium Movies",HitsMovies
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch324%29/index.m3u8
+
+#EXTINF:-1 tvg-id="Rock Action - [Channel 248].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://static.mncnow.id/images/channel/b104eede/2fe8_r32.jpg" group-title="Premium Movies",Rock Action
+http://op-group1-swiftservehd-1.dens.tv/h/h218/02.m3u8
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 group-title="Premium Movies" tvg-id="Galaxy Premium - [Channel 12].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_12.png",Galaxy Premium
+https://nyanv-live-cdn.mncnow.id/live/eds/GalaxyPremium-HD/sa_dash_vmx/GalaxyPremium-HD.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 group-title="Premium Movies" tvg-id="Galaxy - [Channel 13].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/Galaxy%20Premium.png",Galaxy
+https://nyanv-live-cdn.mncnow.id/live/eds/Galaxy-HD/sa_dash_vmx/Galaxy-HD.mpd
+
+#EXTINF:-1 group-title="Premium Movies" tvg-id= "KIX - [Channel 161].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/KIX_LOGO_150x150.jpg",KIX
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch336%29/index.m3u8
+
+#EXTINF:-1 tvg-id="Thrill - [Channel 19].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/thrill_150x150px.jpg" group-title="Premium Movies",Thriil
+http://op-group1-swiftservehd-1.dens.tv/h/h240/02.m3u8
+
+#EXTINF:-1 tvg-id="Celestial Movies - [Channel 20].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/Celestial%20Movies.png" group-title="Premium Movies",Celestial Movies
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch204%29/index.m3u8
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="CCM - [Channel 22].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/CCM.png" group-title="Premium Movies",Celestial Classic
+https://nyanv-live-cdn.mncnow.id/live/eds/CelestialClassic/sa_dash_vmx/CelestialClassic.mpd
+
+#EXTINF:-1 group-title="Premium Movies" tvg-id= "CinemaWorld HD" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://yt3.googleusercontent.com/kLDF64sdHJiS3n7t59yPqtNTsp3xjx4FhnTXg5RDubB2Ps7Pxc-mZpV8YezhdsJl7xB6r4Kpqg=s900-c-k-c0x00ffffff-no-rj",Cinema World HD
+https://op-group1-swiftservehd-1.dens.tv/h/h202/02.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Premium Movies" group-logo="https://astrogo.astro.com.my/staticFiles/images/icons/fav-icon.png" tvg-logo="https://ws.kapallayar.cc//image//Logo//ENT//New//E_SonyPix.png",SONY PIX
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ohGIruj8XFbQFvz/zGsilQ", "kid":"zhcmSzF9sQjxnNwRqhqeZg" } ], "type":"temporary" }
+https://dai.google.com/linear/hls/event/x7rXWd2ERZ2tvyQWPmO1HA/master.m3u8
+
+#EXTINF:-1 tvg-id="SGEM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Gem_TV_logo_2020.png/800px-Gem_TV_logo_2020.png" group-title="Premium Movies",Sony GEM
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch3400%29/index.m3u8
+
+#EXTINF:-1 tvg-id="My Cinema - [Channel 16].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_16.jpg" group-title="Premium Movies",MyCinema
+https://op-group1-swiftservehd-1.dens.tv/h/h192/index.m3u8
+
+#EXTINF:-1 tvg-id="My Cinema Asia - [Channel 17].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_17.jpg" group-title="Premium Movies",MyCinema Asia
+https://op-group1-swiftservesd-1.dens.tv/h/h193/index.m3u8
+
+#EXTINF:-1 tvg-id="My Family - [Channel 15].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_15.jpg" group-title="Premium Movies",My Family
+https://op-group1-swiftservesd-1.dens.tv/h/h194/index.m3u8
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="CINEMACHI HD - [Channel 401].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/Cinemachi.png" group-title="Premium Movies",Cinemachi HD
+https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-HD/sa_dash_vmx/Cinemachi-HD.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="CINEMACHI KIDS HD - [Channel 403].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/Cinemachi%20Kids.png" group-title="Premium Movies",Cinemachi Kids HD
+https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Kids-HD/sa_dash_vmx/Cinemachi-Kids-HD.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="CINEMACHI ACTION HD - [Channel 402].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/Cinemachi%20Action.png" group-title="Premium Movies",Cinemachi Action HD
+https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Action/sa_dash_vmx/Cinemachi-Action.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="CINEMACHI MAX HD - [Channel 404].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/Cinemachi%20MAX.png" group-title="Premium Movies",Cinemachi Max HD
+https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Max-HD/sa_dash_vmx/Cinemachi-Max-HD.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="CINEMACHI XTRA HD - [Channel 405].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/Cinemachi%20Xtra.png" group-title="Premium Movies",Cinemachi Xtra HD
+https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Xtra-HD/sa_dash_vmx/Cinemachi-Xtra-HD.mpd
+
+#EXTINF:-1 tvg-id="IMC - [Channel 14].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/IMC.png" group-title="Premium Movies",Indonesia Movie Channel
+http://103.113.116.150:25461/mtm1/12345/21
+
+#EXTINF:-1 tvg-id="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://images.indihometv.com/tvposter/flik.png" group-title="Premium Movies",Flik
+http://103.113.116.150:25461/mtm1/12345/22
+
+#EXTINF:-1 tvg-id="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://upload.wikimedia.org/wikipedia/id/a/a7/Bioskop_Indonesia_TV.png" group-title="Premium Movies",Bioskop Indonesia
+http://103.113.116.150:25461/mtm1/12345/23
+
+#EXTINF: -1 tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/Citra%20Bioskop.png" group-title="Premium Movies",Citra Bioskop
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch376%29/index.m3u8
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="FMN - [Channel 150].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://raw.githubusercontent.com/hendroagung2904/LOGO/main/FMN.png" group-title="Premium Movies",FMN (Telenovela)
+https://nyanv-live-cdn.mncnow.id/live/eds/FMN/sa_dash_vmx/FMN.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 group-title="Premium Movies" tvg-id="Zee Bioskop - [Channel 23].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_23.png",Zee Bioskop
+https://nyanv-live-cdn.mncnow.id/live/eds/ZeeBIOSKOP/sa_dash_vmx/ZeeBIOSKOP.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b6/Sony_Max_new.png" group-title="Premium Movies",Sony Max
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch174%29/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/de/Sony_TV_new.png" group-title="Premium Movies",Sony TV
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch173%29/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFbLfqLOSDv-houfb34E1x9k9pNsl2dd59A&usqp=CAU" group-title="Premium Movies",ETV BIOSKOP 1
+http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/298526
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFbLfqLOSDv-houfb34E1x9k9pNsl2dd59A&usqp=CAU" group-title="Premium Movies",ETV BIOSKOP 2
+http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/298527
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFbLfqLOSDv-houfb34E1x9k9pNsl2dd59A&usqp=CAU" group-title="Premium Movies",ETV BIOSKOP 3
+http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/298528
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFbLfqLOSDv-houfb34E1x9k9pNsl2dd59A&usqp=CAU" group-title="Premium Movies",ETV BIOSKOP 4
+http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/298529
+
+#EXTINF:-1 tvg-id="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" tvg-name="" group-title="Kids",Disney Channel
+http://m3u.4klion.xyz:80/play/live.php?mac=00:1A:79:78:59:F9&stream=479217&extension=ts
+
+#EXTINF:-1 tvg-id="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Disney_Junior_2019_logo.png/640px-Disney_Junior_2019_logo.png" tvg-name="" group-title="Kids",Disney Junior
+http://m3u.4klion.xyz:80/play/live.php?mac=00:1A:79:78:59:F9&stream=479219&extension=ts
+
+#EXTINF:-1 tvg-id="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="" tvg-name="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="Kids",Disney XD
+http://m3u.4klion.xyz:80/play/live.php?mac=00:1A:79:78:59:F9&stream=479221&extension=ts
+
+#EXTINF:-1 tvg-id="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://image.pngaaa.com/583/3120583-middle.png" tvg-name="" group-title="Kids",ABC ME
+https://c.mjh.nz/abc-me.m3u8
+
+#EXTINF:-1 tvg-id="Cartoon Network" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.freepnglogos.com/uploads/cartoon-network-png-logo/c-n-png-logo-3.png" tvg-id="CartoonNetworkAsia.sg" tvg-name="Cartoon Network" group-title="Kids",Cartoon Network
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch103%29/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Mentari_TV.png" group-title="Kids",Mentari TV
+http://103.113.116.150:25461/mtm1/12345/25
+
+#EXTINF:-1 tvg-id="Boomerang HD" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/2560px-Cartoonito_-_Logo_2021.svg.png" group-title="Kids",Cartoonito
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch372%29/index.m3u8
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="My Kidz - [Channel 50].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_50.jpg" group-title="Kids",MyKids
+https://nyanv-live-cdn.mncnow.id/live/eds/My-Kids/sa_dash_vmx/My-Kids.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="Zoomoo - [Channel 39].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_39.png" group-title="Kids",ZooMoo
+https://nyanv-live-cdn.mncnow.id/live/eds/Zoomoo/sa_dash_vmx/Zoomoo.mpd
+
+#EXTINF:-1 tvg-id="Horee" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/HOREE_logo.png" group-title="Kids",Horee
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch375%29/index.m3u8
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="Dreamworks - [Channel 47].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_47.png" group-title="Kids",Dreamworks HD
+https://nyanv-live-cdn.mncnow.id/live/eds/Dreamwork-HD/sa_dash_vmx/Dreamwork-HD.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="Kids TV - [Channel 46].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_46.png" group-title="Kids",Kids TV
+https://nyanv-live-cdn.mncnow.id/live/eds/Kids-HD/sa_dash_vmx/Kids-HD.mpd
+
+#EXTINF:-1 tvg-id="Nickelodeon - [Channel 49].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/nickelodeon.png" group-title="Kids",Nickelodeon
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch105%29/index.m3u8
+
+#EXTINF:-1 tvg-id="Nick Jr. HD - [Channel 472].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/nickjr.jpg" group-title="Kids",Nickelodeon Junior
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch124%29/index.m3u8
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="CBeebies - [Channel 41].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/cbeebies_150.png" group-title="Kids",Cbeebies
+https://nyanv-live-cdn.mncnow.id/live/eds/Cbeebies/sa_dash_vmx/Cbeebies.mpd
+
+#EXTINF:-1 tvg-id="Animax - [Channel 157].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://static.mncnow.id/images/channel/7f3aed08/01ac_r32.jpg" group-title="Kids",Animax
+#http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch52)/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b8/Aniplus_Asia_Logo.png" group-title="Kids",Aniplus
+http://op-group1-swiftservehd-1.dens.tv/h/h114/S4/mnf.m3u8
+
+#EXTINF:-1 group-title="Sports" tvg-id="Sportstars - [Channel 102].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_102.png",Sportstars 1 HD
+http://103.113.116.150:25461/mtm1/12345/140
+
+#EXTINF:-1 group-title="Sports" tvg-id="Sportstars 2 HD - [Channel 422].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_98.png",Sportstars 2 HD
+http://103.113.116.150:25461/mtm1/12345/141
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 group-title="Sports" tvg-id="Sportstars 3 - [Channel 99].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_99.png",Sportstars 3 HD
+https://nyanv-live-cdn.mncnow.id/live/eds/MNCSports3-HD/sa_dash_vmx/MNCSports3-HD.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 group-title="Sports" tvg-id="Sportstars 4 HD - [Channel 424].id"" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_88.png",Sportstars 4 HD
+https://nyanv-live-cdn.mncnow.id/live/eds/Sportstar4/sa_dash_vmx/Sportstar4.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="Soccer Channel HD - [Channel 420].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_101.png" group-title="Sports",Soccer Channel-HD
+https://nyanv-live-cdn.mncnow.id/live/eds/soccerchannel-test/sa_dash_vmx/soccerchannel-test.mpd
+
+#EXTINF:-1 tvg-id= "SPOTV HD - [Channel 427].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://static.mncnow.id/images/channel/9e11438e/f5ad_r32.jpg" group-title="Sports",SpoTV
+http://103.113.116.150:25461/mtm1/12345/142
+
+#EXTINF:-1 tvg-id="SPOTV 2 HD - [Channel 428].id"tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://static.mncnow.id/images/channel/9c1465ab/79a6_r32.jpg" group-title="Sports",SpoTV 2
+http://103.113.116.150:25461/mtm1/12345/143
+
+#EXTINF:-1 tvg-id="SPOTV 2 HD - [Channel 428].id"tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://static.mncnow.id/images/channel/9c1465ab/79a6_r32.jpg" group-title="Sports",SpoTV 2
+#http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch3300%29/index.m3u8
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="Soccer Channel HD - [Channel 420].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_101.png" group-title="Sports",Soccer Channel-HD
+#https://nyanv-live-cdn.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel-HD.mpd
+
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-id="Fight Sports - [Channel 304].id" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://www.mncvision.id/userfiles/image/channel/150x150fightsport.jpg" group-title="Sports",Fight Sports
+https://nyanv-live-cdn.mncnow.id/live/eds/FightSports/sa_dash_vmx/FightSports.mpd
+
+#EXTINF:-1 tvg-id="" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://w7.pngwing.com/pngs/1003/693/png-transparent-eurosport-2-television-channel-logo-live-stream-miscellaneous-television-blue.png" group-title="Sports",Eurosports
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch21%29/index.m3u8
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.clipartmax.com/png/middle/439-4397957_download-now-motorvision-tv.png",MOTORVISION
+http://210.210.155.37/uq2663/h/h09/index.m3u8
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/1121px-WWE_Logo.svg.png",WWE
+http://fortv.cc:8080/live/PyRR3Hy/DthK0fv/11645.ts
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://seeklogo.com/images/B/bein-sports-1-logo-4E5E4AE6B8-seeklogo.com.png",BeinSport 1
+http://103.113.116.150:25461/mtm1/12345/75
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://seeklogo.com/images/B/bein-sports-3-logo-42227D7D66-seeklogo.com.png",BeinSport 3
+http://103.113.116.150:25461/mtm1/12345/76
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://seeklogo.com/images/B/bein-sports-1-logo-4E5E4AE6B8-seeklogo.com.png",BeinSport 1
+http://103.113.116.150:25461/mtm1/12345/147
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://seeklogo.com/images/B/bein-sports-3-logo-42227D7D66-seeklogo.com.png",BeinSport 3
+http://103.113.116.150:25461/mtm1/12345/148
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/Astro_ASSP1.png",Astro Super Sport
+http://103.113.116.150:25461/mtm1/12345/47
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6b/Astro_SuperSport_2.png",Astro Super Sport 2
+http://103.113.116.150:25461/mtm1/12345/48
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/37/Astro_ASSP3.png",Astro Super Sport 3
+http://103.113.116.150:25461/mtm1/12345/49
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Astro_ASSP4.png",Astro Super Sport 4
+http://103.113.116.150:25461/mtm1/12345/50
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://e7.pngegg.com/pngimages/672/288/png-clipart-ufc-logo-ufc-1-the-beginning-ufc-197-jones-vs-saint-preux-mixed-martial-arts-the-joe-rogan-experience-logo-mma-event-angle-emblem-thumbnail.png",UFC TV
+http://103.113.116.150:25461/mtm1/12345/51
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/11/Optussport_app.png",Optus Sport 1
+http://103.113.116.150:25461/mtm1/12345/52
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/11/Optussport_app.png",Optus Sport 2
+http://103.113.116.150:25461/mtm1/12345/53
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/11/Optussport_app.png",Optus Sport 3
+http://103.113.116.150:25461/mtm1/12345/54
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://images.supersport.com/media/uuwd4z2n/fa_cup_logo.png",SuperSport Emirates FA CUP
+http://103.113.116.150:25461/mtm1/12345/55
+http://103.113.116.150:25461/mtm1/12345/63
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/7lxofw1656964140.png",SuperSport FootBall
+http://103.113.116.150:25461/mtm1/12345/56
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://images.supersport.com/media/ngsfbrab/laliga.png",SuperSport Laliga
+http://103.113.116.150:25461/mtm1/12345/57
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://saeseries.com/wp-content/uploads/2023/12/Motorsportpng_-1024x275.png",SuperSport Motorsport
+http://103.113.116.150:25461/mtm1/12345/58
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://archive.org/download/supersport-tennis/supersport-tennis.png",SuperSport Tennis
+http://103.113.116.150:25461/mtm1/12345/59
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://images.supersport.com/media/krybzs0y/action-1.png",SuperSport Action
+http://103.113.116.150:25461/mtm1/12345/60
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/srtijz1643382350.png",SuperSport Cricket
+http://103.113.116.150:25461/mtm1/12345/61
+http://103.113.116.150:25461/mtm1/12345/62
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/1200px-TNT_Sports_2021_logo.svg.png",TNT Sports 1
+http://103.113.116.150:25461/mtm1/12345/80
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/1200px-TNT_Sports_2021_logo.svg.png",TNT Sports 2
+http://103.113.116.150:25461/mtm1/12345/81
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/1200px-TNT_Sports_2021_logo.svg.png",TNT Sports 3
+http://103.113.116.150:25461/mtm1/12345/82
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/1200px-TNT_Sports_2021_logo.svg.png",TNT Sports 4
+http://103.113.116.150:25461/mtm1/12345/82
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.nicepng.com/png/full/213-2133982_sky-sports-logo-png.png",SkySport Premiere League
+http://103.113.116.150:25461/mtm1/12345/128
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Sky-sports-main-event.jpg",SkySport Main Event
+http://103.113.116.150:25461/mtm1/12345/129
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/1280px-Sky_Sport_F1_-_Logo_2020.svg.png",SkySport F1
+http://103.113.116.150:25461/mtm1/12345/130
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://archive.org/download/SkySportsCricket_201708/sky%20sports%20cricket.png",SkySport Cricket
+http://103.113.116.150:25461/mtm1/12345/131
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://miro.medium.com/v2/resize:fit:1400/1*3VpvBBTGB77-qqhe5Ki_AQ.png",SkySport NFL
+http://103.113.116.150:25461/mtm1/12345/132
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_Arena_-_Logo_2020.svg/1280px-Sky_Sport_Arena_-_Logo_2020.svg.png",SkySport Arena
+http://103.113.116.150:25461/mtm1/12345/162
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sky_Sport_Golf_-_Logo_2018.svg/2560px-Sky_Sport_Golf_-_Logo_2018.svg.png",SkySport Golf
+http://103.113.116.150:25461/mtm1/12345/132
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qoerty1659622111.png",Hub Premiere 1
+http://103.113.116.150:25461/mtm1/12345/149
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/sdvs4u1659622094.png",Hub Premiere 2
+http://103.113.116.150:25461/mtm1/12345/150
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/znzwou1659622086.png",Hub Premiere 3
+http://103.113.116.150:25461/mtm1/12345/152
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.liblogo.com/img-logo/fs1293fd53-fs2-logo-fox-sports-saturday-at-the-races-returns-feb-2-with-derby-preps.png",FOX Sport 2
+http://103.113.116.150:25461/mtm1/12345/153
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/f/f6/Eurosport_%281994-2001%29.png",Eurosport 1
+http://103.113.116.150:25461/mtm1/12345/154
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eurosport_2_Logo_%282011-2015%29.svg/2560px-Eurosport_2_Logo_%282011-2015%29.svg.png",Eurosport 2
+http://103.113.116.150:25461/mtm1/12345/155
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.pngkit.com/png/detail/28-288122_eleven-sports-hq-eleven-sports-png.png",DAZN Eleven Sport 1
+http://103.113.116.150:25461/mtm1/12345/163
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.pngkit.com/png/detail/28-288122_eleven-sports-hq-eleven-sports-png.png",DAZN Eleven Sport 2
+http://103.113.116.150:25461/mtm1/12345/164
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.pngkit.com/png/detail/28-288122_eleven-sports-hq-eleven-sports-png.png",DAZN Eleven Sport 3
+http://103.113.116.150:25461/mtm1/12345/165
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.pngkit.com/png/detail/28-288122_eleven-sports-hq-eleven-sports-png.png",DAZN Eleven Sport 4
+http://103.113.116.150:25461/mtm1/12345/166
+
+#EXTINF:-1 group-title="Sports" tvg-id="" tvg-chno="" tvg-logo="https://www.pngkit.com/png/detail/28-288122_eleven-sports-hq-eleven-sports-png.png",DAZN Eleven Sport 5
+http://103.113.116.150:25461/mtm1/12345/167
