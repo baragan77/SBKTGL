@@ -901,6 +901,18 @@ https://cdnjkt4.transvision.co.id:1000/live/master/5/4028c68572841ba301729cc90ac
 https://cdnjkt4.transvision.co.id:1000/live/master/3/4028c6857fe540a1018060b4163a40be/manifest.mpd
 
 
+#########RCTI########
+#EXTINF:-1 group-title="RCTI GROUP",MNCTV✓
+https://liveaneviadev.mncnow.id/live/eds/MNCTV-HD2/sa_hls/MNCTV-HD2.m3u8
+#EXTINF:-1 group-title="RCTI GROUP",MNCTV✓
+https://liveaneviadev.mncnow.id/live/eds/rcti-2/sa_hls/rcti-2.m3u8
+#EXTINF:-1 group-title="RCTI GROUP",MNCTV✓
+https://liveaneviadev.mncnow.id/live/eds/GTV-2/sa_hls/GTV-2.m3u8
+
+
+
+
+
 ############SPORT#########
 #EXTINF:-1 tvg-id="1000009276" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="SPORT",Sony TEN 1 HD
 https://dai.google.com/ssai/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8
