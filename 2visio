@@ -13,7 +13,7 @@ https://cors-proxy.cooks.fyi/https://linear.stvacdn.spectrum.com/LIVE/1105/dash/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7481d3e3738c46768f138e208fee9076:e1d428c7f1ca82339a6cfa1d0757428e
-https://d1fk7kbmz4il3.cloudfront.net/CH1/masterCH1.mpd
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2305/default.mpd
 
 #EXTINF:-1  group-title="SKY",FOXSPORT 1 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
