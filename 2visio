@@ -3,6 +3,22 @@
 
 #####   test ####
 
+#EXTINF:-1 tvg-id="Sky Sports Main Event" tvg-logo="https://w7.pngwing.com/pngs/891/874/png-transparent-zombie-infant-child-horror-europe-zombie-child-infant-snout.png" group-title="SKY", SKY SPORTS MAIN EVENT
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"AAU8uqQwHMmZPmj9S2zmcQ","k":"Ko4AhZekVgLcTznwbhGWMA"}]}
+https://linear007-gb-dash1-prd-ak.cdn.skycdp.com/100e/Content/DASH_003_sm/Live/channel(skysportsmainevent)/manifest_hd.mpd
+
+#EXTINF:-1 tvg-id="Sky Sports Premier League" tvg-logo="https://w7.pngwing.com/pngs/891/874/png-transparent-zombie-infant-child-horror-europe-zombie-child-infant-snout.png" group-title="SKY", SKY SPORTS PREMIERE LEAGUE
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"AAMHWsFUs+4g76JLXWj5dQ","k":"Vam6lNKD/bjhI5ldfYegpA"}]}
+https://linear002-gb-dash1-prd-ak.cdn.skycdp.com/100e/Content/DASH_003_sm/Live/channel(skysportspremierleague)/manifest_hd.mpd
+
+
+
 EXTINF:-1 tvg-logo="http://www.thedesignpartnership.co.uk/logos/SKY/truepremier2.png" group-title="SKY",True Premier 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
 #EXTVLCOPT:http-referrer=https://www.movie87hd.com/
