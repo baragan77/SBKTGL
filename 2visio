@@ -7,17 +7,6 @@
 #EXTVLCOPT:http-referrer=https://roketmotor.nontonx.com/mgpplayer1
 https://livestreamf1.com/aHR0cDovLzE0OC4yNTEuNi4yMDc6ODA4OC9obHMvc3RyZWFtLm0zdTg=.m3u8
 
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",LIVE ONLY (CALCIO)
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036e5d0e88dfb087f1791da6150ced9:0bc653d830837dceb13bd17169f0f8e2
-https://linear301-it-dash1-prd-akp1.cdn13.skycdp.com/016a/31209/FHD/skysportseriea/master.mpd
-
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",LIVE ONLY (ENGLISH)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://footybite.gg/soccer/event/11873897
-https://cickajnc.azureedge.net/live/SuperSportPremier/playlist.m3u8
 
 #EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",LIVE ONLY 2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -26,30 +15,18 @@ https://cickajnc.azureedge.net/live/SuperSportPremier/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_key=0aeffa7753674e77b99443fac7757b8a:b8c8a462008a40aa91823e0b02e8dd31
 https://ubn-streamer1.cdn.3bbtv.com:8443/3bb/live/36/36.mpd
 
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",LIVE ONLY 3
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5d9937d586414096948337ac314d79c1:22ca2e250b729982c97209e0ff3f7e9b
-https://wp2-obc1112-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV09212/manifest.mpd
-
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",LIVE ONLY 3
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036e5d0e88dfb087f1791da6150ced9:0bc653d830837dceb13bd17169f0f8e2
-https://wp1-obc1112-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV09091/manifest.mpd
 
 
 
 #EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",TSN 1
-#EXTVLCOPT:http-referrer=https://claplivehdplay.ru/ 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 
-https://webhdrunns.onlinehdhls.ru/lb/premium111/index.m3u8|Origin=https://claplivehdplay.ru
+http://xlbh-a36-ul29-30-lvnvcolox.dns-online.network:70/TSN1/index.m3u8
 
+#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",TSN 4
+http://45.41.213.34:70/TSN4/index.m3u8
 #EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",CCTV 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 https://node3.olelive.com:6443/live/CCTV5HD/hls.m3u8
+
 #EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",CCTV 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 https://node3.olelive.com:6443/live/CCTV5PHD/hls.m3u8
