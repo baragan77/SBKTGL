@@ -812,6 +812,24 @@ http://fls-node2.dns-online.network:70/TSN2/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=7757d3fa8cdab673a2dd9f3ed7b41360:96e498b70eeecfc0164ed4e0a78e36f3
 https://p7s1-live-001-prod.akamaized.net/45371d5a/t_009/zdf-de-hd/cenc-default.mpd
 
+#EXTINF:0 group-title="SPORTS" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",BBC EURO
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6401e1fead9d4f43910aaad360f46dd0:598f5e4f10d4e040d25579478cadc4ee
+https://da-3efc67472a028801000600020000000000000007.id.cdn.upcbroadband.com/wp/wp1-obc1112-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV09091/manifest.mpd
+
+#EXTINF:0 group-title="SPORTS" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",SKYSPORT251 EURO
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00368000eaecbeeafd84c05b3b8243af:8f84185910e18ae0ca8a45004625a000
+https://linear311-it-dash1-prd-akp2.cdn13.skycdp.com/31917/FHD/skysport251/master.mpd
+
+#EXTINF:0 group-title="SPORTS" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",QAZSPORT EURO
+https://cors-proxy.cooks.fyi/https://bkm.beetv.kz/btv/live/hls/000003038.m3u8
+
+
 
 ############## DENSTV ###############
 #EXTM3U
