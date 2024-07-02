@@ -836,9 +836,10 @@ https://linear-381.frequency.stream/mt/studio/381/hls/master/playlist_1024x576.m
 https://katanaboss.online/chunklist/hlsch1.m3u8
 #EXTINF:0 group-title="SPORTS",SPORT2 EURO
 https://katanaboss.online/chunklist/hlsch2.m3u8
-#EXTINF:0 group-title="SPORTS",uruguai vs bolivia
+#EXTINF:0 group-title="SPORTS",COPA AMERICA 
 https://di-j16ei4yq.vo.lswcdn.net/sportitalia/smil:sihd.smil/master.m3u8
-
+#EXTINF:0 group-title="SPORTS",COPA AMERICA 2
+http://iptvtree.net:8080/live/one-day-test-89fc/54CbToqS2c/162138.ts
 ############## DENSTV ###############
 
 
