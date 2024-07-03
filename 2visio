@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/id/mncvision.id.epg.xml, https://iptv-org.github.io/epg/guides/id/vidio.com.epg.xml, https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml, https://macan.tv/xmltv.php?username=epg&password=epg, http://ppmk.my.id/epg/epg.xml"  refresh="3600"
 
 ######EROPAH#####
+#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",undosiar
+http://103.155.250.139:25461/live/v3/Ub5dHa4TJp/228.ts
 
 #EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",LIVE ONLY 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
