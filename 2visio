@@ -1,9 +1,102 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/id/mncvision.id.epg.xml, https://iptv-org.github.io/epg/guides/id/vidio.com.epg.xml, https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml, https://macan.tv/xmltv.php?username=epg&password=epg, http://ppmk.my.id/epg/epg.xml"  refresh="3600"
 
-######EROPAH#####
+######TV#####
 
 
+Connect Technology:
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/sscnews.jpg" group-title="tv",SSC-NEWS
+http://5.62.130.10:80/iptv/iptv/1.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/extra1.png" group-title="tv",SSC-EXTRA 1 1080
+http://5.62.130.10:80/iptv/iptv/2.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/extra2.png" group-title="tv",SSC-EXTRA 2 1080
+http://5.62.130.10:80/iptv/iptv/3.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/extra3.png" group-title="tv",SSC-EXTRA 3 1080
+http://5.62.130.10:80/iptv/iptv/4.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/extra1.png" group-title="tv",SSC-EXTRA 1  720
+http://5.62.130.10:80/iptv/iptv/5.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/extra2.png" group-title="tv",SSC-EXTRA 2 720
+http://5.62.130.10:80/iptv/iptv/6.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/extra3.png" group-title="tv",SSC-EXTRA 3 720
+http://5.62.130.10:80/iptv/iptv/7.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/extra1.png" group-title="tv",SSC-EXTRA 1  sd
+http://5.62.130.10:80/iptv/iptv/8.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/extra2.png" group-title="tv",SSC-EXTRA 2 sd
+http://5.62.130.10:80/iptv/iptv/9.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/extra3.png" group-title="tv",SSC-EXTRA 3 sd
+http://5.62.130.10:80/iptv/iptv/10.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc1.png" group-title="tv",SSC-1 1080
+http://5.62.130.10:80/iptv/iptv/11.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc2.png" group-title="tv",SSC-2 1080
+http://5.62.130.10:80/iptv/iptv/12.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc3.png" group-title="tv",SSC-3 1080
+http://5.62.130.10:80/iptv/iptv/13.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc4.png" group-title="tv",SSC-4 1080
+http://5.62.130.10:80/iptv/iptv/14.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc5.png" group-title="tv",SSC-5 1080
+http://5.62.130.10:80/iptv/iptv/15.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc1.png" group-title="tv",SSC-1 720
+http://5.62.130.10:80/iptv/iptv/16.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc2.png" group-title="tv",SSC-2 720
+http://5.62.130.10:80/iptv/iptv/17.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc3.png" group-title="tv",SSC-3 720
+http://5.62.130.10:80/iptv/iptv/18.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc4.png" group-title="tv",SSC-4 720
+http://5.62.130.10:80/iptv/iptv/19.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc5.png" group-title="tv",SSC-5 720
+http://5.62.130.10:80/iptv/iptv/20.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc1.png" group-title="tv",SSC-1 sd
+http://5.62.130.10:80/iptv/iptv/21.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc2.png" group-title="tv",SSC-2 sd
+http://5.62.130.10:80/iptv/iptv/22.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc3.png" group-title="tv",SSC-3 sd
+http://5.62.130.10:80/iptv/iptv/23.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc4.png" group-title="tv",SSC-4 sd
+http://5.62.130.10:80/iptv/iptv/24.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/ssc5.png" group-title="tv",SSC-5 sd
+http://5.62.130.10:80/iptv/iptv/25.ts
 
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/beinsport.png" group-title="tv",Bein Sport
+http://5.62.130.10:80/iptv/iptv/26.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/beinnews.jpg" group-title="tv",Bein News
+http://5.62.130.10:80/iptv/iptv/27.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein1.png" group-title="tv",beIN SPORT 01 HD
+http://5.62.130.10:80/iptv/iptv/28.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein2.png" group-title="tv",beIN SPORT 02 HD
+http://5.62.130.10:80/iptv/iptv/29.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein1.png" group-title="tv",beIN SPORT 01 SD
+
+http://5.62.130.10:80/iptv/iptv/30.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein2.png" group-title="tv",beIN SPORT 02 SD
+http://5.62.130.10:80/iptv/iptv/31.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein3.png" group-title="tv",beIN SPORT 03 HD
+http://5.62.130.10:80/iptv/iptv/32.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein4.png" group-title="tv",beIN SPORT 04 HD
+http://5.62.130.10:80/iptv/iptv/33.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein5.png" group-title="tv",beIN SPORT 05 HD
+http://5.62.130.10:80/iptv/iptv/34.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein6.png" group-title="tv",beIN SPORT 06 HD
+http://5.62.130.10:80/iptv/iptv/35.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein7.png" group-title="tv",beIN SPORT 07 HD
+http://5.62.130.10:80/iptv/iptv/36.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein8.png" group-title="tv",beIN SPORT 08 HD
+http://5.62.130.10:80/iptv/iptv/37.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein9.png" group-title="tv",beIN SPORT 09 HD
+http://5.62.130.10:80/iptv/iptv/38.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein3.png" group-title="tv",beIN SPORT 03 SD
+http://5.62.130.10:80/iptv/iptv/39.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein4.png" group-title="tv",beIN SPORT 04 SD
+http://5.62.130.10:80/iptv/iptv/40.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein5.png" group-title="tv",beIN SPORT 05 SD
+http://5.62.130.10:80/iptv/iptv/41.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein6.png" group-title="tv",beIN SPORT 06 SD
+http://5.62.130.10:80/iptv/iptv/42.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein7.png" group-title="tv",beIN SPORT 07 SD
+http://5.62.130.10:80/iptv/iptv/43.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein8.png" group-title="tv",beIN SPORT 08 SD
+http://5.62.130.10:80/iptv/iptv/44.ts
+#EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/bein9.png" group-title="tv",beIN SPORT 09 SD
+http://5.62.130.10:80/iptv/iptv/45.ts
 
 ##########################NATIONAL TV##########################
 
