@@ -1,53 +1,99 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/id/mncvision.id.epg.xml, https://iptv-org.github.io/epg/guides/id/vidio.com.epg.xml, https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml, https://macan.tv/xmltv.php?username=epg&password=epg, http://ppmk.my.id/epg/epg.xml"  refresh="3600"
 
 ######EROPAH#####
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",copa
-https://katanaboss.online/chunklist/hlsch1.m3u8?7
 
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/sscnews.jpg" group-title="EROPAH",SSC-NEWS
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/1.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/extra1.png" group-title="EROPAH",SSC-EXTRA 1 1080
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/2.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/extra2.png" group-title="EROPAH",SSC-EXTRA 2 1080
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/3.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/extra3.png" group-title="EROPAH",SSC-EXTRA 3 1080
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/4.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/extra1.png" group-title="EROPAH",SSC-EXTRA 1  720
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/5.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/extra2.png" group-title="EROPAH",SSC-EXTRA 2 720
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/6.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/extra3.png" group-title="EROPAH",SSC-EXTRA 3 720
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/7.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/extra1.png" group-title="EROPAH",SSC-EXTRA 1  sd
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/8.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/extra2.png" group-title="EROPAH",SSC-EXTRA 2 sd
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/9.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/extra3.png" group-title="EROPAH",SSC-EXTRA 3 sd
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/10.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc1.png" group-title="EROPAH",SSC-1 1080
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/11.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc2.png" group-title="EROPAH",SSC-2 1080
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/12.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc3.png" group-title="EROPAH",SSC-3 1080
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/13.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc4.png" group-title="EROPAH",SSC-4 1080
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/14.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc5.png" group-title="EROPAH",SSC-5 1080
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/15.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc1.png" group-title="EROPAH",SSC-1 720
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/16.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc2.png" group-title="EROPAH",SSC-2 720
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/17.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc3.png" group-title="EROPAH",SSC-3 720
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/18.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc4.png" group-title="EROPAH",SSC-4 720
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/19.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc5.png" group-title="EROPAH",SSC-5 720
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/20.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc1.png" group-title="EROPAH",SSC-1 sd
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/21.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc2.png" group-title="EROPAH",SSC-2 sd
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/22.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc3.png" group-title="EROPAH",SSC-3 sd
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/23.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc4.png" group-title="EROPAH",SSC-4 sd
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/24.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/ssc5.png" group-title="EROPAH",SSC-5 sd
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/25.ts
 
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",copa2
-https://liveh12.vtvcab.vn/hls/ONVTC1_CL/index.m3u8
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",LIVE ONLY 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-#EXTVLCOPT:http-referrer=https://roketmotor.nontonx.com/mgpplayer1
-https://node3.olelive.com:6443/live/CCTV5HD/hls.m3u8
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/beinsport.png" group-title="EROPAH",Bein Sport
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/26.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/beinnews.jpg" group-title="EROPAH",Bein News
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/27.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein1.png" group-title="EROPAH",beIN SPORT 01 HD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/28.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein2.png" group-title="EROPAH",beIN SPORT 02 HD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/29.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein1.png" group-title="EROPAH",beIN SPORT 01 SD
 
-
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",LIVE ONLY 2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0aeffa7753674e77b99443fac7757b8a:b8c8a462008a40aa91823e0b02e8dd31
-https://ubn-streamer1.cdn.3bbtv.com:8443/3bb/live/36/36.mpd
-
-
-
-
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",TSN 1
-http://xlbh-a36-ul29-30-lvnvcolox.dns-online.network:70/TSN1/index.m3u8
-
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",TSN 4
-http://45.41.213.34:70/TSN4/index.m3u8
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",CCTV 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-https://node3.olelive.com:6443/live/CCTV5HD/hls.m3u8
-
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",CCTV 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-https://node3.olelive.com:6443/live/CCTV5PHD/hls.m3u8
-
-
-#EXTINF:0 group-title="EROPAH" tvg-logo="https://logowik.com/content/uploads/images/uefa-euro-2024-germany6931.jpg",LIVE TEST
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sport.tipiku.my.id/
-https://linearjitp02-playback.astro.com.my/dash-wv/dashiso/5148/default.mpd
-
-
-
-#####   test ####
-
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/30.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein2.png" group-title="EROPAH",beIN SPORT 02 SD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/31.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein3.png" group-title="EROPAH",beIN SPORT 03 HD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/32.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein4.png" group-title="EROPAH",beIN SPORT 04 HD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/33.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein5.png" group-title="EROPAH",beIN SPORT 05 HD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/34.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein6.png" group-title="EROPAH",beIN SPORT 06 HD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/35.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein7.png" group-title="EROPAH",beIN SPORT 07 HD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/36.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein8.png" group-title="EROPAH",beIN SPORT 08 HD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/37.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein9.png" group-title="EROPAH",beIN SPORT 09 HD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/38.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein3.png" group-title="EROPAH",beIN SPORT 03 SD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/39.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein4.png" group-title="EROPAH",beIN SPORT 04 SD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/40.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein5.png" group-title="EROPAH",beIN SPORT 05 SD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/41.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein6.png" group-title="EROPAH",beIN SPORT 06 SD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/42.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein7.png" group-title="EROPAH",beIN SPORT 07 SD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/43.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein8.png" group-title="EROPAH",beIN SPORT 08 SD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/44.ts
+#EXTINF:-1 EROPAHg-logo="http://5.62.130.10:80/images/bein9.png" group-title="EROPAH",beIN SPORT 09 SD
+http://5.62.130.10:80/ipEROPAH/ipEROPAH/45.ts
 
 
 
