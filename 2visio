@@ -3,8 +3,7 @@
 ######TV#####
 
 
-Connect Technology:
-#EXTM3U
+
 #EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/sscnews.jpg" group-title="tv",SSC-NEWS
 http://5.62.130.10:80/iptv/iptv/1.ts
 #EXTINF:-1 tvg-logo="http://5.62.130.10:80/images/extra1.png" group-title="tv",SSC-EXTRA 1 1080
