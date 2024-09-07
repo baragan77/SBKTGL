@@ -1,7 +1,11 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/id/mncvision.id.epg.xml, https://iptv-org.github.io/epg/guides/id/vidio.com.epg.xml, https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml, https://macan.tv/xmltv.php?username=epg&password=epg, http://ppmk.my.id/epg/epg.xml"  refresh="3600"
 
-######TV#####
+######vod#####
 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=35c46b4b36d53f9c9e74eb061e8bd8f9:e9fd1a90aa43a31db7c1007e9165d70a
+#EXTINF:-1  group-title="VOD HBO", TEST 1
+https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/65454719d940521074e79cab_hbovodhd/dash0/MYS_DOLBY_index.mpd
 
 
 
