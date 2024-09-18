@@ -1,4 +1,4 @@
-#EXTINF M3U
+#EXTM3U
 #EXTINF:0  group-title="SPORTTV", SPORTTV1
 https://v5.sportsonline.si/channels/pt/sporttv1.php
 #EXTINF:0  group-title="SPORTTV", SPORTTV2
