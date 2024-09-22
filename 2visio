@@ -17,48 +17,6 @@ https://a3.cdnlive.online/hls/1/stream.m3u8
 https://a4.cdnlive.online/hls/1/stream.m3u8
 #EXTINF:-1 group-title="BeINSPORT",AR| a4.0
 https://a4.cdnlive.online/hls/0/stream.m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 1 SD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192754&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| BEIN SPORTS 2 FHD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=59307&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 2 HD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192766&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 2 SD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192753&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| BEIN SPORTS 3 FHD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=59308&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 3 HD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192765&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 3 SD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192752&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| BEIN SPORTS 4 FHD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=59309&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 4 HD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192764&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 4 SD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192751&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| BEIN SPORTS 5 FHD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=59310&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 5 HD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192763&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 5 SD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192750&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| BEIN SPORTS 6 FHD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=59311&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 6 HD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192762&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 6 SD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192749&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| BEIN SPORTS 7 FHD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=59312&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 7 HD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192761&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 7 SD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192748&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 8 HD
-http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192760&extension=m3u8
-#EXTINF:-1 group-title="BeINSPORT",AR| Bein Sport Premium 1 FHD
-
 
 /========================================================================
 
