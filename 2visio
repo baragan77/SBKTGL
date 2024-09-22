@@ -1,5 +1,16 @@
 #EXTM3U
-
+#EXTINF:-1 group-title="BeINSPORT",BeinSport1
+https://live.moviball.online/BeinSport1/video.m3u8?token=PqskwQ2cvX9XL3
+#EXTINF:-1 group-title="BeINSPORT",BeinSport2
+https://live.moviball.online/BeinSport2/video.m3u8?token=PqskwQ2cvX9XL3
+#EXTINF:-1 group-title="BeINSPORT",BeinSport3
+https://live.moviball.online/BeinSport3/video.m3u8?token=PqskwQ2cvX9XL3
+#EXTINF:-1 group-title="BeINSPORT",BeinSport4
+https://live.moviball.online/BeinSport4/video.m3u8?token=PqskwQ2cvX9XL3
+#EXTINF:-1 group-title="BeINSPORT",BeinSport5
+https://live.moviball.online/BeinSport5/video.m3u8?token=PqskwQ2cvX9XL3
+#EXTINF:-1 group-title="BeINSPORT",BeinSport6
+https://live.moviball.online/BeinSport6/video.m3u8?token=PqskwQ2cvX9XL3
 #EXTINF:-1 group-title="BeINSPORT",AR| a1.0
 https://a1.cdnlive.online/hls/0/stream.m3u8
 #EXTINF:-1 group-title="BeINSPORT",AR| a1.1
