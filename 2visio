@@ -1,8 +1,20 @@
 #EXTM3U
 
-#EXTM3U
-#EXTINF:-1 group-title="BeINSPORT",AR| BEIN SPORTS 1 eng
-http://dns20.xyz/play/live.php?mac=00:1A:79:80:FC:5D&stream=296894&extension=m3u8
+#EXTINF:-1 group-title="BeINSPORT",AR| a1.0
+https://a1.cdnlive.online/hls/0/stream.m3u8
+#EXTINF:-1 group-title="BeINSPORT",AR| a1.1
+https://a1.cdnlive.online/hls/1/stream.m3u8
+#EXTINF:-1 group-title="BeINSPORT",AR| a2.0
+https://a2.cdnlive.online/hls/0/stream.m3u8
+#EXTINF:-1 group-title="BeINSPORT",AR| a2.1
+https://a2.cdnlive.online/hls/1/stream.m3u8
+#EXTINF:-1 group-title="BeINSPORT",AR| a3.0
+https://a3.cdnlive.online/hls/0/stream.m3u8
+#EXTINF:-1 group-title="BeINSPORT",AR| a3.1
+https://a3.cdnlive.online/hls/1/stream.m3u8
+
+#EXTINF:-1 group-title="BeINSPORT",AR| a4.1
+https://a4.cdnlive.online/hls/1/stream.m3u8
 #EXTINF:-1 group-title="BeINSPORT",AR| a4.0
 https://a4.cdnlive.online/hls/0/stream.m3u8
 #EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 1 SD
@@ -46,7 +58,6 @@ http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192748&exte
 #EXTINF:-1 group-title="BeINSPORT",AR| beIN SPORTS 8 HD
 http://pdata.ddns.me:8080/play/live.php?mac=00:1A:79:FB:04:07&stream=192760&extension=m3u8
 #EXTINF:-1 group-title="BeINSPORT",AR| Bein Sport Premium 1 FHD
-
 
 
 /========================================================================
