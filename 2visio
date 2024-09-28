@@ -1,8 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="musantv" group-title="LIVE NOW Premier League",LAPANGAN PANJI
-#EXTVLCOPT:http-referrer=https://live-streamfootball.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://desah.combilolo.my.id/play.m3u8?ch=eyJ1c2VyX3Rva2VuIjoiVXY0ejVGbWIiLCJyZWZyZXNoX3Rva2VuIjoiY25xdlhQRnBkUTN2MDgzN3dJcFIybWI2aXJVRFNDSkFNbm9OVGhpXC9DclJjeDBzN3VpXC9UdXFVUjdHK1EzQm9yS2owa0xzeU9CUFlxNk9GN3ExdkZqUlB5M2hzQUo2c2VlcHlkS1o2UFRRS0I4eU1UOFZsQTl0UHhBczZzVFZcLzR4NGVsSHFvM3RQQXg3enRQRE9cL2F0YUFEZ1M4SmdlXC8rd1lYaHAwSWxaTzVJR2VHYWJBTXFibjVTak51S0x6UVF4RTRkajVKcXNOS3RlNVJvR3lXeitzQ1RtaHlnYjNqMklnWVpCMW01MEU5eXN1enVEUDRzaXU4dnZscjZaNFdhTFk0Q0tUSUNqU1N4cmUwaHdBcVdaQVdoTkZFcXhKMHZjUXRcL3puNTR5cUxyS0hlZkJ3MFNnZDAxTGZZbUFxdDVoZm9qMTBGY0ViZFdQWnBhS3FnTnc3V1paYVoyeEg1ajZud3pvT0xxUk9XK0t1Skp0ekloa2hPMHBQVGFJbDVzIn0=
+#EXTINF:-1  group-title="PANJI",DAZN 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
+https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd
+
+#EXTINF:-1  group-title="PANJI",DAZN 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0eab5a3f3e3b4ba5d42d40ca30d17571:f3f061ded9b70e8160590d5802ecda6d
+https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/xnk4m9bnxt/out/v1/4ced7b7329a54652b9bb0521ed38bd4d/cenc.mpd
 
 /========================================================================
 
