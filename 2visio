@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1  group-title="PANJI",RCTIPLUS
+https://output.unregister.xyz/euro/indovsbahrain2024_hd/index.m3u8
 #EXTINF:-1  group-title="PANJI",DAZN 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
