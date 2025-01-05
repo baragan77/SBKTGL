@@ -1,12 +1,12 @@
 #EXTM3U
 #EXTINF:0  group-title="SPORTTV", SPORTTV1
-https://v5.sportsonline.si/channels/pt/sporttv1.php
+https://v3.sportsonline.ps/channels/pt/sporttv1.php
 #EXTINF:0  group-title="SPORTTV", SPORTTV2
-https://v5.sportsonline.si/channels/pt/sporttv2.php
+https://v3.sportsonline.ps/channels/pt/sporttv2.php
 #EXTINF:0  group-title="SPORTTV", SPORTTV3
-https://v5.sportsonline.si/channels/pt/sporttv3.php
+https://v3.sportsonline.ps/channels/pt/sporttv3.php
 #EXTINF:0  group-title="BR",BR1
-https://v5.sportsonline.si/channels/bra/br1.php
+https://v3.sportsonline.ps/channels/bra/br1.php
 #EXTINF:0  group-title="BR",BR2
 https://v5.sportsonline.si/channels/bra/br2.php
 #EXTINF:0  group-title="BR",BR3
