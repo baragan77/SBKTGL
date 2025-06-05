@@ -932,7 +932,7 @@ https://cdnjkt913.transvision.co.id:1000/live/master/5/4028c68572841ba301729cc46
 Sports
 //========================================================================
 
-#EXTINF:-1 group-title="Sports", Wendy Sportstar 2 
+#EXTINF:-1 group-title="Sports", Wendy sportstar 2
 https://wahyu1ptv.pages.dev/SportStars2-HD.m3u8
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
