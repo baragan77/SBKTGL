@@ -936,14 +936,10 @@ Sports
 https://raw.githubusercontent.com/embedplay/linkplay/4d67484f34900e2561615c7797e6af6b8a1f739b/Streams/SPORTV.m3u8
 
 #EXTINF:-1 group-title="Sports", Panji sports 2
-http://185.236.183.117:14646
-http://185.236.183.117:14648
-http://185.236.183.117:14649
+https://raw.githubusercontent.com/embedplay/linkplay/refs/heads/main/Streams/SPORTV2.m3u8
 
-#EXTINF:-1 group-title="Sports", Panji sports 2
-http://185.236.183.117:14650
-http://185.236.183.117:14651
-http://185.236.183.117:14653
+#EXTINF:-1 group-title="Sports", Panji sports 3
+https://raw.githubusercontent.com/embedplay/linkplay/refs/heads/main/Streams/SPORTV3.m3u8
 
 EXTINF:-1 group-title="Sports", mejaguran
 http://185.236.183.117:14122
