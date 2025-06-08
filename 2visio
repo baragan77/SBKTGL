@@ -942,37 +942,24 @@ https://raw.githubusercontent.com/embedplay/linkplay/refs/heads/main/Streams/SPO
 https://raw.githubusercontent.com/embedplay/linkplay/refs/heads/main/Streams/SPORTV3.m3u8
 
 EXTINF:-1 group-title="Sports", mejaguran
-http://185.236.183.117:14122
-http://185.236.183.117:14123
-http://185.236.183.117:14124
+https://raw.githubusercontent.com/embedplay/linkplay/refs/heads/main/Streams/CANALCOMBATE.m3u8
 
 EXTINF:-1 group-title="Sports", ESPN
-http://185.236.183.118:14177
-http://185.236.183.118:14178
-http://185.236.183.118:14179
+https://raw.githubusercontent.com/embedplay/linkplay/refs/heads/main/Streams/ESPN.m3u8
 
 EXTINF:-1 group-title="Sports", ESPN 2
-http://185.236.183.118:14181
-http://185.236.183.118:14182
-http://185.236.183.118:14183
+https://raw.githubusercontent.com/embedplay/linkplay/refs/heads/main/Streams/ESPN2.m3u8
+
 EXTINF:-1 group-title="Sports", ESPN 3
-http://185.236.183.118:14185
-http://185.236.183.118:14186
-http://185.236.183.118:14187
+https://raw.githubusercontent.com/embedplay/linkplay/refs/heads/main/Streams/ESPN3.m3u8
 
 EXTINF:-1 group-title="Sports", ESPN 4
-http://185.236.183.118:14189
-http://185.236.183.118:14190
-http://185.236.183.118:14191
+https://raw.githubusercontent.com/embedplay/linkplay/refs/heads/main/Streams/ESPN4.m3u8
 EXTINF:-1 group-title="Sports", ESPN 5
-http://185.236.183.118:14212
-http://185.236.183.118:14213
-http://185.236.183.118:14214
+https://raw.githubusercontent.com/embedplay/linkplay/refs/heads/main/Streams/ESPN5.m3u8
 
 EXTINF:-1 group-title="Sports", ESPN 6
-http://185.236.183.118:14193
-http://185.236.183.118:14194
-http://185.236.183.118:14195
+https://raw.githubusercontent.com/embedplay/linkplay/refs/heads/main/Streams/ESPN6.m3u8
 
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
