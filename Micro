@@ -1,0 +1,2804 @@
+
+/interface bridge
+
+add disabled=yes name=bridge1
+
+
+/interface ethernet
+
+set [ find default-name=ether3 ] name=E3-WLAN
+
+set [ find default-name=ether2 ] comment=WAN name=Internet
+
+
+
+/ip firewall layer7-protocol
+
+add name=files regexp="^.*get.+\\.(exe|rar|zip|7z|cab|asf|mov|wmv|mpg|mpeg|mkv\
+
+    |avi|flv|pdf|wav|rm|mp3|mp4|ram|rmvb|dat|daa|iso|nrg|bin|vcd|mp2|3gp|mpe|q\
+
+    t|raw|wma|ogg|doc|deb|tar|bzip|gzip|gzip2|0[0-9][0-9]).*\$"
+
+add comment="LAYER 7 MANAGEMENT" name=streaming regexp="^.+(c.youtube.com|goog\
+
+    levideo.com|catchplay.com|iflix.com|cdn.dailymotion.com|metacafe.com|mccon\
+
+    t.com|fbcdn-video-a.akamaihd.net|youtu.be|netflix.com|vimeo.com|screen.yah\
+
+    oo.com|hulu.com|twitch.tv|liveleak.com|vine.co|break.com|tv.com|viewster.c\
+
+    om).*\$"
+
+add name=media regexp="^.*get.+\\.(mov|wmv|mpg|mpeg|mkv|avi|flv|wav|mp3|mp4|vc\
+
+    d|mp2|3gp|mpe|wma|wv|vox|tta|sln|raw|ra|rm|opus|ogg|oga|msv|mpc|mmf|ivs|ik\
+
+    lax|gsm|dvf|dss|dct|awb|au|amr|acc|aiff|act).*\$"
+
+add name=speedtest regexp="^.+(speedtest).*\$"
+
+add name="game web" regexp="^.+(friv.com|agar.io|sliter.io|poker|commander|rob\
+
+    lox.com|agarx.biz).*\$"
+
+add name=bittorrent regexp="^(bittorrent protocol|azver1\$|get /scrape\\\?info\
+
+    _hash=)|d1:ad2:id20:|8'7P\\)[RP]"
+
+add name=torrent-wws regexp="^.*(get|GET).+(torrent|info_hash|thepiratebay|iso\
+
+    hunt|entertane|demonoid|btjunkie|mininova|flixflux|vertor|h33t|zoozle|bitn\
+
+    ova|bitsoup|meganova|fulldls|btbot|fenopy|gpirate|commonbits).*\$"
+
+add name=torrent-www regexp="^.+(torrent|thepiratebay|isohunt|entertane|demono\
+
+    id|btjunkie|mininova|flixflux|vertor|h33t|zoozle|bitnova|bitsoup|meganova|\
+
+    fulldls|btbot|fenopy|gpirate|commonbits).*\$"
+
+add name=sosmed regexp="^.+(facebook.com|fbcdn.net|twiiter.com|instagram.com|t\
+
+    elegram.org|line.me|whatsapp.com|plus.google.com|path.com).*\$"
+
+add name=patch regexp="^.+(gxxsvc.exe|garena|garenanow|steam|steampowered|valv\
+
+    e|epicgames|gemscool|origin|tencent|mobilelegends|megaxus|lyto|pointblank|\
+
+    wargaming|pubg|patch|cheat|cdgame|blizzard|zepetto).*\$"
+
+add name=video regexp=videoplayback|streaming|video|videos|mp4|loading|watch
+
+
+/ip hotspot profile
+
+add dns-name=patungandata.net hotspot-address=192.168.10.1 html-directory=\
+
+    "17 Agustus" login-by=mac,cookie,http-chap,https,http-pap,mac-cookie \
+
+    mac-auth-password=aaaa11112 name=hsprof1 use-radius=yes
+
+
+/ip hotspot user profile
+
+set [ find default=yes ] transparent-proxy=yes
+
+add name=Keluarga on-login=":put (\",,0,,,noexp,Enable,\"); [:local mac \$\"ma\
+
+    c-address\"; /ip hotspot user set mac-address=\$mac [find where name=\$use\
+
+    r]]" on-logout="/queue simple remove [find name=\"\$address\"] ;\r\
+
+    \n" parent-queue=none rate-limit=1M/2M transparent-proxy=yes
+
+
+/ip pool
+
+add name=hs-pool-3 ranges=192.168.10.26-192.168.11.254
+
+add name=pool_PPPoE ranges=192.168.100.3-192.168.100.200
+
+
+/ip dhcp-server
+
+add add-arp=yes address-pool=hs-pool-3 disabled=no interface=E3-WLAN \
+
+    lease-time=1h name=dhcp1
+
+
+/ip hotspot
+
+add address-pool=hs-pool-3 disabled=no interface=E3-WLAN name=hotspot1 \
+
+    profile=hsprof1
+
+
+/ip hotspot user profile
+
+add address-pool=hs-pool-3 name=PAKET-1-HARI on-login=":put (\",remc,3000,1d,0\
+
+    ,,Enable,\"); {:local date [ /system clock get date ];:local year [ :pick \
+
+    \$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotsp\
+
+    ot user get [/ip hotspot user find where name=\"\$user\"] comment]; :local\
+
+    \_ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or\
+
+    \_\$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-dat\
+
+    e=\$date interval=\"1d\"; :delay 2s; :local exp [ /sys sch get [ /sys sch \
+
+    find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\$g\
+
+    etxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; :lo\
+
+    cal s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set com\
+
+    ment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip hots\
+
+    pot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :if \
+
+    (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name=\"\
+
+    \$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \$\"\
+
+    mac-address\"; :local time [/system clock get time ]; /system script add n\
+
+    ame=\"\$date-|-\$time-|-\$user-|-3000-|-\$address-|-\$mac-|-1d-|-PAKET-1-H\
+
+    ARI-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhmon; [\
+
+    :local mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac [find\
+
+    \_where name=\$user]]}}" parent-queue=none rate-limit=1M/2M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=PAKET-2-HARI on-login=":put (\",remc,5000,2d,0\
+
+    ,,Enable,\"); {:local date [ /system clock get date ];:local year [ :pick \
+
+    \$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotsp\
+
+    ot user get [/ip hotspot user find where name=\"\$user\"] comment]; :local\
+
+    \_ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or\
+
+    \_\$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-dat\
+
+    e=\$date interval=\"2d\"; :delay 2s; :local exp [ /sys sch get [ /sys sch \
+
+    find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\$g\
+
+    etxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; :lo\
+
+    cal s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set com\
+
+    ment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip hots\
+
+    pot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :if \
+
+    (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name=\"\
+
+    \$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \$\"\
+
+    mac-address\"; :local time [/system clock get time ]; /system script add n\
+
+    ame=\"\$date-|-\$time-|-\$user-|-5000-|-\$address-|-\$mac-|-2d-|-PAKET-2-H\
+
+    ARI-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhmon; [\
+
+    :local mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac [find\
+
+    \_where name=\$user]]}}" on-logout="\r\
+
+    \n" parent-queue=none rate-limit=1M/2M transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=AKTIF-1-BULAN on-login=":put (\",remc,50000,30\
+
+    d,0,,Enable,\"); {:local date [ /system clock get date ];:local year [ :pi\
+
+    ck \$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip ho\
+
+    tspot user get [/ip hotspot user find where name=\"\$user\"] comment]; :lo\
+
+    cal ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" \
+
+    or \$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-da\
+
+    te=\$date interval=\"30d\"; :delay 2s; :local exp [ /sys sch get [ /sys sc\
+
+    h find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\
+
+    \$getxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; \
+
+    :local s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set \
+
+    comment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip h\
+
+    otspot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :\
+
+    if (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name\
+
+    =\"\$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \
+
+    \$\"mac-address\"; :local time [/system clock get time ]; /system script a\
+
+    dd name=\"\$date-|-\$time-|-\$user-|-50000-|-\$address-|-\$mac-|-30d-|-AKT\
+
+    IF-1-BULAN-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mik\
+
+    hmon; [:local mac \$\"mac-address\"; /ip hotspot user set mac-address=\$ma\
+
+    c [find where name=\$user]]}}" parent-queue=none rate-limit=1M/2M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=PAKET-10-JAM on-login=":put (\",remc,2000,10h,\
+
+    0,,Enable,\"); {:local date [ /system clock get date ];:local year [ :pick\
+
+    \_\$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hot\
+
+    spot user get [/ip hotspot user find where name=\"\$user\"] comment]; :loc\
+
+    al ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" o\
+
+    r \$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-dat\
+
+    e=\$date interval=\"10h\"; :delay 2s; :local exp [ /sys sch get [ /sys sch\
+
+    \_find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\
+
+    \$getxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; \
+
+    :local s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set \
+
+    comment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip h\
+
+    otspot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :\
+
+    if (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name\
+
+    =\"\$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \
+
+    \$\"mac-address\"; :local time [/system clock get time ]; /system script a\
+
+    dd name=\"\$date-|-\$time-|-\$user-|-2000-|-\$address-|-\$mac-|-10h-|-PAKE\
+
+    T-10-JAM-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhm\
+
+    on; [:local mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac \
+
+    [find where name=\$user]]}}" parent-queue=none rate-limit=1M/2M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=coba on-login=":put (\",rem,0,30d,0,,Enable,\"\
+
+    ); {:local date [ /system clock get date ];:local year [ :pick \$date 7 11\
+
+    \_];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotspot user ge\
+
+    t [/ip hotspot user find where name=\"\$user\"] comment]; :local ucode [:p\
+
+    ic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or \$comment \
+
+    = \"\") do={ /sys sch add name=\"\$user\" disable=no start-date=\$date int\
+
+    erval=\"30d\"; :delay 2s; :local exp [ /sys sch get [ /sys sch find where \
+
+    name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\$getxp = 15) \
+
+    do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; :local s (\"/\
+
+    \"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set comment=\$exp\
+
+    \_[find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip hotspot user \
+
+    set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :if (\$getxp \
+
+    > 15) do={ /ip hotspot user set comment=\$exp [find where name=\"\$user\"]\
+
+    ;}; /sys sch remove [find where name=\"\$user\"]; [:local mac \$\"mac-addr\
+
+    ess\"; /ip hotspot user set mac-address=\$mac [find where name=\$user]]}}" \
+
+    parent-queue=none rate-limit=1M/2M transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=KAT-1-Hari on-login=":put (\",remc,4000,24h,0,\
+
+    ,Enable,\"); {:local date [ /system clock get date ];:local year [ :pick \
+
+    \$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotsp\
+
+    ot user get [/ip hotspot user find where name=\"\$user\"] comment]; :local\
+
+    \_ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or\
+
+    \_\$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-dat\
+
+    e=\$date interval=\"24h\"; :delay 2s; :local exp [ /sys sch get [ /sys sch\
+
+    \_find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\
+
+    \$getxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; \
+
+    :local s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set \
+
+    comment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip h\
+
+    otspot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :\
+
+    if (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name\
+
+    =\"\$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \
+
+    \$\"mac-address\"; :local time [/system clock get time ]; /system script a\
+
+    dd name=\"\$date-|-\$time-|-\$user-|-4000-|-\$address-|-\$mac-|-24h-|-KAT-\
+
+    1-Hari-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhmon\
+
+    ; [:local mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac [f\
+
+    ind where name=\$user]]}}" parent-queue=none rate-limit=1M/1M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=EHA-2-HARI on-login=":put (\",remc,5000,2d,0,,\
+
+    Enable,\"); {:local date [ /system clock get date ];:local year [ :pick \$\
+
+    date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotspot\
+
+    \_user get [/ip hotspot user find where name=\"\$user\"] comment]; :local \
+
+    ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or \
+
+    \$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-date=\
+
+    \$date interval=\"2d\"; :delay 2s; :local exp [ /sys sch get [ /sys sch fi\
+
+    nd where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\$get\
+
+    xp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; :loca\
+
+    l s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set comme\
+
+    nt=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip hotspo\
+
+    t user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :if (\
+
+    \$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name=\"\
+
+    \$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \$\"\
+
+    mac-address\"; :local time [/system clock get time ]; /system script add n\
+
+    ame=\"\$date-|-\$time-|-\$user-|-5000-|-\$address-|-\$mac-|-2d-|-EHA-2-HAR\
+
+    I-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhmon; [:l\
+
+    ocal mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac [find w\
+
+    here name=\$user]]}}" parent-queue=none rate-limit=1M/1M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=EHA-1-Hari on-login=":put (\",remc,3000,24h,0,\
+
+    ,Enable,\"); {:local date [ /system clock get date ];:local year [ :pick \
+
+    \$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotsp\
+
+    ot user get [/ip hotspot user find where name=\"\$user\"] comment]; :local\
+
+    \_ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or\
+
+    \_\$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-dat\
+
+    e=\$date interval=\"24h\"; :delay 2s; :local exp [ /sys sch get [ /sys sch\
+
+    \_find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\
+
+    \$getxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; \
+
+    :local s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set \
+
+    comment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip h\
+
+    otspot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :\
+
+    if (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name\
+
+    =\"\$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \
+
+    \$\"mac-address\"; :local time [/system clock get time ]; /system script a\
+
+    dd name=\"\$date-|-\$time-|-\$user-|-3000-|-\$address-|-\$mac-|-24h-|-EHA-\
+
+    1-Hari-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhmon\
+
+    ; [:local mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac [f\
+
+    ind where name=\$user]]}}" parent-queue=none rate-limit=1M/2M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=AMU-1-Hari on-login=":put (\",remc,3000,1d,0,,\
+
+    Enable,\"); {:local date [ /system clock get date ];:local year [ :pick \$\
+
+    date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotspot\
+
+    \_user get [/ip hotspot user find where name=\"\$user\"] comment]; :local \
+
+    ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or \
+
+    \$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-date=\
+
+    \$date interval=\"1d\"; :delay 2s; :local exp [ /sys sch get [ /sys sch fi\
+
+    nd where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\$get\
+
+    xp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; :loca\
+
+    l s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set comme\
+
+    nt=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip hotspo\
+
+    t user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :if (\
+
+    \$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name=\"\
+
+    \$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \$\"\
+
+    mac-address\"; :local time [/system clock get time ]; /system script add n\
+
+    ame=\"\$date-|-\$time-|-\$user-|-3000-|-\$address-|-\$mac-|-1d-|-AMU-1-Har\
+
+    i-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhmon; [:l\
+
+    ocal mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac [find w\
+
+    here name=\$user]]}}" parent-queue=none rate-limit=1M/2M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=AMU-2-Hari on-login=":put (\",remc,5000,2d,0,,\
+
+    Enable,\"); {:local date [ /system clock get date ];:local year [ :pick \$\
+
+    date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotspot\
+
+    \_user get [/ip hotspot user find where name=\"\$user\"] comment]; :local \
+
+    ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or \
+
+    \$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-date=\
+
+    \$date interval=\"2d\"; :delay 2s; :local exp [ /sys sch get [ /sys sch fi\
+
+    nd where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\$get\
+
+    xp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; :loca\
+
+    l s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set comme\
+
+    nt=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip hotspo\
+
+    t user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :if (\
+
+    \$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name=\"\
+
+    \$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \$\"\
+
+    mac-address\"; :local time [/system clock get time ]; /system script add n\
+
+    ame=\"\$date-|-\$time-|-\$user-|-5000-|-\$address-|-\$mac-|-2d-|-AMU-2-Har\
+
+    i-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhmon; [:l\
+
+    ocal mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac [find w\
+
+    here name=\$user]]}}" parent-queue=none rate-limit=1M/2M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=Lintang-1-Hari on-login=":put (\",remc,3000,24\
+
+    h,0,,Enable,\"); {:local date [ /system clock get date ];:local year [ :pi\
+
+    ck \$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip ho\
+
+    tspot user get [/ip hotspot user find where name=\"\$user\"] comment]; :lo\
+
+    cal ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" \
+
+    or \$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-da\
+
+    te=\$date interval=\"24h\"; :delay 2s; :local exp [ /sys sch get [ /sys sc\
+
+    h find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\
+
+    \$getxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; \
+
+    :local s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set \
+
+    comment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip h\
+
+    otspot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :\
+
+    if (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name\
+
+    =\"\$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \
+
+    \$\"mac-address\"; :local time [/system clock get time ]; /system script a\
+
+    dd name=\"\$date-|-\$time-|-\$user-|-3000-|-\$address-|-\$mac-|-24h-|-Lint\
+
+    ang-1-Hari-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mik\
+
+    hmon; [:local mac \$\"mac-address\"; /ip hotspot user set mac-address=\$ma\
+
+    c [find where name=\$user]]}}" parent-queue=none rate-limit=1M/2M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=Lintang-2-Hari on-login=":put (\",remc,5000,2d\
+
+    ,0,,Enable,\"); {:local date [ /system clock get date ];:local year [ :pic\
+
+    k \$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hot\
+
+    spot user get [/ip hotspot user find where name=\"\$user\"] comment]; :loc\
+
+    al ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" o\
+
+    r \$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-dat\
+
+    e=\$date interval=\"2d\"; :delay 2s; :local exp [ /sys sch get [ /sys sch \
+
+    find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\$g\
+
+    etxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; :lo\
+
+    cal s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set com\
+
+    ment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip hots\
+
+    pot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :if \
+
+    (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name=\"\
+
+    \$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \$\"\
+
+    mac-address\"; :local time [/system clock get time ]; /system script add n\
+
+    ame=\"\$date-|-\$time-|-\$user-|-5000-|-\$address-|-\$mac-|-2d-|-Lintang-2\
+
+    -Hari-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhmon;\
+
+    \_[:local mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac [f\
+
+    ind where name=\$user]]}}" parent-queue=none rate-limit=1M/2M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=FATMA-2-Hari on-login=":put (\",remc,5000,2d,0\
+
+    ,,Enable,\"); {:local date [ /system clock get date ];:local year [ :pick \
+
+    \$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotsp\
+
+    ot user get [/ip hotspot user find where name=\"\$user\"] comment]; :local\
+
+    \_ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or\
+
+    \_\$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-dat\
+
+    e=\$date interval=\"2d\"; :delay 2s; :local exp [ /sys sch get [ /sys sch \
+
+    find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\$g\
+
+    etxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; :lo\
+
+    cal s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set com\
+
+    ment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip hots\
+
+    pot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :if \
+
+    (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name=\"\
+
+    \$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \$\"\
+
+    mac-address\"; :local time [/system clock get time ]; /system script add n\
+
+    ame=\"\$date-|-\$time-|-\$user-|-5000-|-\$address-|-\$mac-|-2d-|-FATMA-2-H\
+
+    ari-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhmon; [\
+
+    :local mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac [find\
+
+    \_where name=\$user]]}}" parent-queue=none rate-limit=1M/2M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=BASRI-1-HARI on-login=":put (\",rem,3000,1d,0,\
+
+    ,Enable,\"); {:local date [ /system clock get date ];:local year [ :pick \
+
+    \$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotsp\
+
+    ot user get [/ip hotspot user find where name=\"\$user\"] comment]; :local\
+
+    \_ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or\
+
+    \_\$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-dat\
+
+    e=\$date interval=\"1d\"; :delay 2s; :local exp [ /sys sch get [ /sys sch \
+
+    find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\$g\
+
+    etxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; :lo\
+
+    cal s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set com\
+
+    ment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip hots\
+
+    pot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :if \
+
+    (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name=\"\
+
+    \$user\"];}; /sys sch remove [find where name=\"\$user\"]; [:local mac \$\
+
+    \"mac-address\"; /ip hotspot user set mac-address=\$mac [find where name=\
+
+    \$user]]}}" parent-queue=none rate-limit=1M/2M transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=BASRI-2-HARI on-login=":put (\",rem,5000,2d,0,\
+
+    ,Enable,\"); {:local date [ /system clock get date ];:local year [ :pick \
+
+    \$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotsp\
+
+    ot user get [/ip hotspot user find where name=\"\$user\"] comment]; :local\
+
+    \_ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or\
+
+    \_\$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-dat\
+
+    e=\$date interval=\"2d\"; :delay 2s; :local exp [ /sys sch get [ /sys sch \
+
+    find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\$g\
+
+    etxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; :lo\
+
+    cal s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set com\
+
+    ment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip hots\
+
+    pot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :if \
+
+    (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name=\"\
+
+    \$user\"];}; /sys sch remove [find where name=\"\$user\"]; [:local mac \$\
+
+    \"mac-address\"; /ip hotspot user set mac-address=\$mac [find where name=\
+
+    \$user]]}}" parent-queue=none rate-limit=1M/2M transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=FATMA-1-HARI on-login=":put (\",remc,3000,1d,0\
+
+    ,,Enable,\"); {:local date [ /system clock get date ];:local year [ :pick \
+
+    \$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hotsp\
+
+    ot user get [/ip hotspot user find where name=\"\$user\"] comment]; :local\
+
+    \_ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" or\
+
+    \_\$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-dat\
+
+    e=\$date interval=\"1d\"; :delay 2s; :local exp [ /sys sch get [ /sys sch \
+
+    find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\$g\
+
+    etxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; :lo\
+
+    cal s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set com\
+
+    ment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip hots\
+
+    pot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :if \
+
+    (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name=\"\
+
+    \$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \$\"\
+
+    mac-address\"; :local time [/system clock get time ]; /system script add n\
+
+    ame=\"\$date-|-\$time-|-\$user-|-3000-|-\$address-|-\$mac-|-1d-|-FATMA-1-H\
+
+    ARI-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhmon; [\
+
+    :local mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac [find\
+
+    \_where name=\$user]]}}" parent-queue=none rate-limit=1M/2M \
+
+    transparent-proxy=yes
+
+add address-pool=hs-pool-3 name=Fatma-10-Jam on-login=":put (\",remc,2000,10h,\
+
+    0,,Enable,\"); {:local date [ /system clock get date ];:local year [ :pick\
+
+    \_\$date 7 11 ];:local month [ :pick \$date 0 3 ];:local comment [ /ip hot\
+
+    spot user get [/ip hotspot user find where name=\"\$user\"] comment]; :loc\
+
+    al ucode [:pic \$comment 0 2]; :if (\$ucode = \"vc\" or \$ucode = \"up\" o\
+
+    r \$comment = \"\") do={ /sys sch add name=\"\$user\" disable=no start-dat\
+
+    e=\$date interval=\"10h\"; :delay 2s; :local exp [ /sys sch get [ /sys sch\
+
+    \_find where name=\"\$user\" ] next-run]; :local getxp [len \$exp]; :if (\
+
+    \$getxp = 15) do={ :local d [:pic \$exp 0 6]; :local t [:pic \$exp 7 16]; \
+
+    :local s (\"/\"); :local exp (\"\$d\$s\$year \$t\"); /ip hotspot user set \
+
+    comment=\$exp [find where name=\"\$user\"];}; :if (\$getxp = 8) do={ /ip h\
+
+    otspot user set comment=\"\$date \$exp\" [find where name=\"\$user\"];}; :\
+
+    if (\$getxp > 15) do={ /ip hotspot user set comment=\$exp [find where name\
+
+    =\"\$user\"];}; /sys sch remove [find where name=\"\$user\"]; :local mac \
+
+    \$\"mac-address\"; :local time [/system clock get time ]; /system script a\
+
+    dd name=\"\$date-|-\$time-|-\$user-|-2000-|-\$address-|-\$mac-|-10h-|-Fatm\
+
+    a-10-Jam-|-\$comment\" owner=\"\$month\$year\" source=\$date comment=mikhm\
+
+    on; [:local mac \$\"mac-address\"; /ip hotspot user set mac-address=\$mac \
+
+    [find where name=\$user]]}}" parent-queue=none rate-limit=1M/2M \
+
+    transparent-proxy=yes
+
+
+/ppp profile
+
+add dns-server=8.8.8.8,8.8.4.4 local-address=pool_PPPoE name=PPPoE_3M \
+
+    on-down=":log error \"\$user logout\"\r\
+
+    \n:log error \"\$user logout\"\r\
+
+    \n/queue simple remove [find name=\"\$user\"] ;\r\
+
+    \n" on-up=":local address [/ppp active get [/ppp active  find name=\"\$use\
+
+    r\"] address]\r\
+
+    \n:log warning \"\$user login dengan ip \$address\"\r\
+
+    \n:log warning \"\$user login dengan ip \$address\"\r\
+
+    \n:local datetime [/system clock get date];\r\
+
+    \n:local timedate [/system clock get time];\r\
+
+    \n[/queue simple add max-limit=1M/3M name=(\"\$user\") comment=\"user_pppo\
+
+    e\" parent=\"3.USER HOTSPOT&RUMAHAN\" \\ target=\"\$address\"];\r\
+
+    \n" rate-limit=700k/3M remote-address=pool_PPPoE
+
+add dns-server=8.8.8.8,8.8.4.4 local-address=pool_PPPoE name=PPPoE_5M \
+
+    on-down=":log error \"\$user logout\"\r\
+
+    \n:log error \"\$user logout\"\r\
+
+    \n/queue simple remove [find name=\"\$user\"] ;\r\
+
+    \n" on-up=":local address [/ppp active get [/ppp active  find name=\"\$use\
+
+    r\"] address]\r\
+
+    \n:log warning \"\$user login dengan ip \$address\"\r\
+
+    \n:log warning \"\$user login dengan ip \$address\"\r\
+
+    \n:local datetime [/system clock get date];\r\
+
+    \n:local timedate [/system clock get time];\r\
+
+    \n[/queue simple add max-limit=1M/3M name=(\"\$user\") comment=\"user_pppo\
+
+    e\" parent=\"3.USER HOTSPOT&RUMAHAN\" \\ target=\"\$address\"];\r\
+
+    \n" rate-limit=700k/5M remote-address=pool_PPPoE
+
+
+/queue type
+
+set 1 kind=none
+
+add kind=pcq name=B-Up pcq-classifier=src-address pcq-dst-address6-mask=64 \
+
+    pcq-src-address6-mask=64
+
+add kind=pcq name=B-Down pcq-classifier=dst-address pcq-dst-address6-mask=64 \
+
+    pcq-src-address6-mask=64
+
+add kind=pcq name=G-Down pcq-classifier=dst-address pcq-dst-address6-mask=64 \
+
+    pcq-rate=512k pcq-src-address6-mask=64
+
+add kind=pcq name=G-Up pcq-classifier=src-address pcq-dst-address6-mask=64 \
+
+    pcq-rate=512k pcq-src-address6-mask=64
+
+add kind=pfifo name=ICMP-DNS pfifo-limit=100
+
+add kind=pcq name=B-Loss pcq-classifier=dst-address pcq-dst-address6-mask=64 \
+
+    pcq-src-address6-mask=64
+
+add kind=pcq name=B-Download pcq-classifier=dst-address \
+
+    pcq-dst-address6-mask=64 pcq-src-address6-mask=64
+
+add kind=pcq name=G-Up-Loss pcq-classifier=src-address pcq-dst-address6-mask=\
+
+    64 pcq-src-address6-mask=64
+
+add kind=pcq name=G-Down-Loss pcq-classifier=dst-address \
+
+    pcq-dst-address6-mask=64 pcq-src-address6-mask=64
+
+add kind=pcq name=B-Sosmed pcq-classifier=dst-address pcq-dst-address6-mask=\
+
+    64 pcq-src-address6-mask=64
+
+add kind=pcq name=B-Patch pcq-classifier=dst-address pcq-dst-address6-mask=64 \
+
+    pcq-src-address6-mask=64
+
+add kind=pcq name=B-Streaming pcq-classifier=dst-address \
+
+    pcq-dst-address6-mask=64 pcq-src-address6-mask=64
+
+add kind=pcq name=B-Crazy pcq-classifier=dst-address pcq-dst-address6-mask=64 \
+
+    pcq-src-address6-mask=64
+
+
+/queue simple
+
+add name="-> PING DNS GAMES" packet-marks=\
+
+    ping-paket,dns-paket,up-game,game.ol,up-game2,game.ol2 queue=\
+
+    default/default target=192.168.10.0/24 total-queue=default
+
+
+/interface bridge port
+
+add bridge=bridge1 interface=ether1
+
+
+/interface pppoe-server server
+
+add disabled=no interface=E3-WLAN service-name=service_PPPoE
+
+
+/ip address
+
+add address=192.168.1.2/24 interface=Internet network=192.168.1.0
+
+add address=192.168.10.1/23 interface=E3-WLAN network=192.168.10.0
+
+add address=192.168.20.1/23 interface=E3-WLAN network=192.168.20.0
+
+
+/ip dhcp-client
+
+add dhcp-options=hostname,clientid interface=WMS
+
+
+/ip dhcp-server network
+
+add address=192.168.10.0/23 comment="hotspot network" gateway=192.168.10.1
+
+
+/ip dns
+
+set allow-remote-requests=yes servers=8.8.8.8,8.8.4.4
+
+
+/ip firewall address-list
+
+add address=43.240.231.0/24 list=telkom-bgp
+
+add address=45.121.219.0/24 list=telkom-bgp
+
+add address=103.243.51.0/24 list=telkom-bgp
+
+add address=203.207.55.0/24 list=telkom-bgp
+
+add address=66.96.226.0/24 list=telkom-bgp
+
+add address=111.94.248.0/24 list=telkom-bgp
+
+add address=111.95.240.0/24 list=telkom-bgp
+
+add address=112.215.88.0/24 list=telkom-bgp
+
+add address=112.215.183.0/24 list=telkom-bgp
+
+add address=114.4.4.0/24 list=telkom-bgp
+
+add address=114.4.7.0/24 list=telkom-bgp
+
+add address=114.4.160.0/24 list=telkom-bgp
+
+add address=114.120.225.0/24 list=telkom-bgp
+
+add address=114.125.1.0/24 list=telkom-bgp
+
+add address=114.125.33.0/24 list=telkom-bgp
+
+add address=114.125.65.0/24 list=telkom-bgp
+
+add address=114.125.97.0/24 list=telkom-bgp
+
+add address=114.125.161.0/24 list=telkom-bgp
+
+add address=114.125.192.0/24 list=telkom-bgp
+
+add address=118.98.30.0/24 list=telkom-bgp
+
+add address=118.98.36.0/24 list=telkom-bgp
+
+add address=118.98.76.0/23 list=telkom-bgp
+
+add address=118.98.106.0/24 list=telkom-bgp
+
+add address=118.98.109.0/24 list=telkom-bgp
+
+add address=118.98.110.0/23 list=telkom-bgp
+
+add address=117.102.117.0/24 list=telkom-bgp
+
+add address=182.253.80.0/24 list=telkom-bgp
+
+add address=182.253.220.0/24 list=telkom-bgp
+
+add address=110.50.80.0/24 list=telkom-bgp
+
+add address=116.206.29.0/24 list=telkom-bgp
+
+add address=202.67.46.0/24 list=telkom-bgp
+
+add address=119.11.250.0/24 list=telkom-bgp
+
+add address=202.70.50.0/24 list=telkom-bgp
+
+add address=118.98.0.0/17 list=telkom-bgp
+
+add address=118.97.0.0/16 list=telkom-bgp
+
+add address=192.168.10.0/23 list=HOTSPOT
+
+add address=0.0.0.0/8 list=LOCAL-IP
+
+add address=10.0.0.0/8 list=LOCAL-IP
+
+add address=100.64.0.0/10 list=LOCAL-IP
+
+add address=127.0.0.0/8 list=LOCAL-IP
+
+add address=169.254.0.0/16 list=LOCAL-IP
+
+add address=172.16.0.0/12 list=LOCAL-IP
+
+add address=192.0.0.0/24 list=LOCAL-IP
+
+add address=192.0.2.0/24 list=LOCAL-IP
+
+add address=192.168.0.0/16 list=LOCAL-IP
+
+add address=198.18.0.0/15 list=LOCAL-IP
+
+add address=198.51.100.0/24 list=LOCAL-IP
+
+add address=203.0.113.0/24 list=LOCAL-IP
+
+add address=224.0.0.0/4 list=LOCAL-IP
+
+add address=240.0.0.0/4 list=LOCAL-IP
+
+add address=192.168.10.0/23 list=LOCAL-IP
+
+add address=0.0.0.0/8 list=private_lokal
+
+add address=10.0.0.0/8 list=private_lokal
+
+add address=100.64.0.0/10 list=private_lokal
+
+add address=127.0.0.0/8 list=private_lokal
+
+add address=169.254.0.0/16 list=private_lokal
+
+add address=172.16.0.0/12 list=private_lokal
+
+add address=192.0.0.0/24 list=private_lokal
+
+add address=192.0.2.0/24 list=private_lokal
+
+add address=192.168.0.0/16 list=private_lokal
+
+add address=198.168.0.0/15 list=private_lokal
+
+add address=198.51.100.0/24 list=private_lokal
+
+add address=203.0.113.0/24 list=private_lokal
+
+add address=224.0.0.0/3 list=private_lokal
+
+add address=36.64.0.0/16 list=ggc_telkom
+
+add address=36.65.0.0/16 list=ggc_telkom
+
+add address=36.66.0.0/16 list=ggc_telkom
+
+add address=36.67.0.0/16 list=ggc_telkom
+
+add address=36.68.0.0/16 list=ggc_telkom
+
+add address=36.69.0.0/16 list=ggc_telkom
+
+add address=36.70.0.0/16 list=ggc_telkom
+
+add address=36.71.0.0/16 list=ggc_telkom
+
+add address=36.72.0.0/16 list=ggc_telkom
+
+add address=36.73.0.0/16 list=ggc_telkom
+
+add address=36.74.0.0/16 list=ggc_telkom
+
+add address=36.75.0.0/16 list=ggc_telkom
+
+add address=36.76.0.0/16 list=ggc_telkom
+
+add address=36.77.0.0/16 list=ggc_telkom
+
+add address=36.78.0.0/16 list=ggc_telkom
+
+add address=36.79.0.0/16 list=ggc_telkom
+
+add address=36.80.0.0/16 list=ggc_telkom
+
+add address=36.81.0.0/16 list=ggc_telkom
+
+add address=36.82.0.0/16 list=ggc_telkom
+
+add address=36.83.0.0/16 list=ggc_telkom
+
+add address=36.84.0.0/16 list=ggc_telkom
+
+add address=36.85.0.0/16 list=ggc_telkom
+
+add address=36.86.0.0/16 list=ggc_telkom
+
+add address=36.87.0.0/16 list=ggc_telkom
+
+add address=36.88.0.0/16 list=ggc_telkom
+
+add address=36.89.0.0/16 list=ggc_telkom
+
+add address=36.90.0.0/16 list=ggc_telkom
+
+add address=61.5.0.0/17 list=ggc_telkom
+
+add address=61.94.0.0/16 list=ggc_telkom
+
+add address=110.136.0.0/16 list=ggc_telkom
+
+add address=110.137.0.0/16 list=ggc_telkom
+
+add address=110.138.0.0/16 list=ggc_telkom
+
+add address=110.139.0.0/16 list=ggc_telkom
+
+add address=118.96.0.0/16 list=ggc_telkom
+
+add address=118.97.0.0/16 list=ggc_telkom
+
+add address=118.98.0.0/17 list=ggc_telkom
+
+add address=125.160.0.0/16 list=ggc_telkom
+
+add address=125.162.0.0/16 list=ggc_telkom
+
+add address=125.164.0.0/16 list=ggc_telkom
+
+add address=125.165.0.0/16 list=ggc_telkom
+
+add address=125.167.0.0/16 list=ggc_telkom
+
+add address=180.241.0.0/16 list=ggc_telkom
+
+add address=180.242.0.0/16 list=ggc_telkom
+
+add address=180.243.0.0/16 list=ggc_telkom
+
+add address=180.244.0.0/16 list=ggc_telkom
+
+add address=180.245.0.0/16 list=ggc_telkom
+
+add address=180.246.0.0/16 list=ggc_telkom
+
+add address=180.247.0.0/16 list=ggc_telkom
+
+add address=180.248.0.0/16 list=ggc_telkom
+
+add address=180.249.0.0/16 list=ggc_telkom
+
+add address=180.250.0.0/16 list=ggc_telkom
+
+add address=180.251.0.0/16 list=ggc_telkom
+
+add address=180.252.0.0/16 list=ggc_telkom
+
+add address=180.253.0.0/16 list=ggc_telkom
+
+add address=180.254.0.0/16 list=ggc_telkom
+
+add address=222.124.0.0/16 list=ggc_telkom
+
+add address=216.239.32.0/19 list=ggc_telkom
+
+add address=216.58.192.0/19 list=ggc_telkom
+
+add address=172.217.0.0/16 list=ggc_telkom
+
+add address=74.125.0.0/16 list=ggc_telkom
+
+
+/ip firewall filter
+
+add action=passthrough chain=unused-hs-chain comment=\
+
+    "place hotspot rules here" disabled=yes
+
+add action=passthrough chain=unused-hs-chain comment=\
+
+    "place hotspot rules here" disabled=yes
+
+add action=passthrough chain=unused-hs-chain comment=\
+
+    "place hotspot rules here" disabled=yes
+
+
+/ip firewall mangle
+
+add action=change-ttl chain=postrouting new-ttl=set:1 out-interface=E3-WLAN \
+
+    passthrough=yes
+
+add action=mark-connection chain=prerouting comment=\
+
+    "keluar/Masuk Untuk EACH WAN" in-interface=Internet new-connection-mark=\
+
+    cm_in_indihome packet-mark=no-mark passthrough=yes
+
+add action=mark-connection chain=prerouting in-interface=WMS \
+
+    new-connection-mark=cm_in_seamless packet-mark=no-mark passthrough=yes
+
+add action=mark-routing chain=output connection-mark=cm_in_indihome \
+
+    new-routing-mark=via_indihome passthrough=yes
+
+add action=mark-routing chain=output connection-mark=cm_in_seamless \
+
+    new-routing-mark=via_seamless passthrough=yes
+
+add action=jump chain=prerouting comment=\
+
+    "LB NTH JUMPER [!!! only for tcp 80 traffic]" connection-state=new \
+
+    dst-address-list=!private_lokal dst-port=80 in-interface=E3-WLAN \
+
+    jump-target=nth-balancer protocol=tcp
+
+add action=mark-connection chain=nth-balancer comment=\
+
+    "LB NTH BALANCER CLASSIFIER" in-interface=E3-WLAN new-connection-mark=\
+
+    cm_nth_balancer_indihome nth=2,1 passthrough=yes
+
+add action=mark-connection chain=nth-balancer in-interface=E3-WLAN \
+
+    new-connection-mark=cm_nth_balancer_seamless nth=2,2 passthrough=yes
+
+add action=return chain=nth-balancer
+
+add action=mark-routing chain=prerouting comment="LB NTH ROUTE" \
+
+    connection-mark=cm_nth_balancer_indihome in-interface=E3-WLAN \
+
+    new-routing-mark=via_indihome passthrough=no
+
+add action=mark-routing chain=prerouting connection-mark=\
+
+    cm_nth_balancer_seamless in-interface=E3-WLAN new-routing-mark=\
+
+    via_seamless passthrough=no
+
+add action=jump chain=prerouting comment="LB PCC JUMPER [for any traffic]" \
+
+    dst-address-list=!private_lokal in-interface=E3-WLAN jump-target=\
+
+    pcc-balancer protocol=!ospf
+
+add action=jump chain=prerouting dst-address-list=!private_lokal \
+
+    in-interface=E3-WLAN jump-target=pcc-balancer protocol=tcp
+
+add action=jump chain=prerouting dst-address-list=!private_lokal \
+
+    in-interface=E3-WLAN jump-target=pcc-balancer protocol=udp
+
+add action=mark-connection chain=pcc-balancer comment=\
+
+    "LB PCC BALANCER CLASSIFIER" in-interface=E3-WLAN new-connection-mark=\
+
+    cm_pcc_balancer_indihome passthrough=yes per-connection-classifier=\
+
+    dst-address-and-port:2/0
+
+add action=mark-connection chain=pcc-balancer in-interface=E3-WLAN \
+
+    new-connection-mark=cm_pcc_balancer_seamless passthrough=yes \
+
+    per-connection-classifier=src-address-and-port:2/1
+
+add action=return chain=pcc-balancer in-interface=E3-WLAN
+
+add action=mark-routing chain=prerouting comment="GGC TELKOM" \
+
+    dst-address-list=ggc_telkom in-interface=E3-WLAN new-routing-mark=\
+
+    via_rm_youtube passthrough=no
+
+add action=mark-routing chain=prerouting comment=GAME dst-address-list=\
+
+    ip_game in-interface=E3-WLAN new-routing-mark=via_rm_ip_game passthrough=\
+
+    no
+
+add action=mark-routing chain=prerouting comment="LB PCC ROUTE" \
+
+    connection-mark=cm_pcc_balancer_indihome in-interface=E3-WLAN \
+
+    new-routing-mark=via_indihome passthrough=no
+
+add action=mark-routing chain=prerouting connection-mark=\
+
+    cm_pcc_balancer_seamless in-interface=E3-WLAN new-routing-mark=\
+
+    via_seamless passthrough=no
+
+add action=change-ttl chain=postrouting disabled=yes new-ttl=set:1 \
+
+    out-interface=E3-WLAN passthrough=yes
+
+add action=jump chain=prerouting comment="MANGLE MANAGEMENT" disabled=yes \
+
+    jump-target=dartonet-pre
+
+add action=jump chain=postrouting disabled=yes jump-target=dartonet-pos
+
+add action=mark-packet chain=dartonet-pos disabled=yes dscp=4 \
+
+    new-packet-mark=proxy-hit passthrough=no
+
+add action=mark-packet chain=dartonet-pre disabled=yes dst-port=8291,8292 \
+
+    new-packet-mark=winbox passthrough=no protocol=tcp
+
+add action=mark-packet chain=dartonet-pre disabled=yes dst-port=53,5353,33434 \
+
+    new-packet-mark=dns-paket passthrough=no protocol=udp
+
+add action=mark-packet chain=dartonet-pos disabled=yes new-packet-mark=winbox \
+
+    passthrough=no protocol=tcp src-port=8291,8292
+
+add action=mark-packet chain=dartonet-pre disabled=yes new-packet-mark=\
+
+    ping-paket passthrough=no protocol=icmp
+
+add action=mark-packet chain=dartonet-pos disabled=yes new-packet-mark=\
+
+    ping-paket passthrough=no protocol=icmp
+
+add action=mark-packet chain=dartonet-pre disabled=yes dst-port=53,5353,33434 \
+
+    new-packet-mark=dns-paket passthrough=no protocol=tcp
+
+add action=mark-packet chain=dartonet-pos disabled=yes new-packet-mark=\
+
+    dns-paket passthrough=no protocol=tcp src-port=53,5353,33434
+
+add action=mark-packet chain=dartonet-pos disabled=yes new-packet-mark=\
+
+    dns-paket passthrough=no protocol=udp src-port=53,5353,33434
+
+add action=mark-packet chain=dartonet-pre disabled=yes dst-address=\
+
+    192.168.1.1 dst-port=80 new-packet-mark=winbox passthrough=no protocol=\
+
+    tcp
+
+add action=accept chain=dartonet-pre disabled=yes dst-address-list=LOCAL-IP \
+
+    src-address-list=LOCAL-IP
+
+add action=mark-packet chain=dartonet-pos disabled=yes layer7-protocol=\
+
+    speedtest new-packet-mark=speedtest_pkt-up passthrough=no \
+
+    src-address-list=HOTSPOT
+
+add action=mark-packet chain=dartonet-pos disabled=yes dst-address-list=\
+
+    HOTSPOT layer7-protocol=speedtest new-packet-mark=speedtest_pkt-down \
+
+    passthrough=no
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="1002,1818\
+
+    ,2001-2010,2080-2099,2099,3010,4300,5105,5121,5126,5171,5222,5223" \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=tcp
+
+add action=mark-connection chain=dartonet-pre comment=COD disabled=yes \
+
+    dst-port=3013,8085,10000-10011,20000,50000,65010,65050 in-interface=\
+
+    E3-WLAN new-connection-mark=conn-game passthrough=yes protocol=tcp
+
+add action=mark-connection chain=dartonet-pre comment=COD disabled=yes \
+
+    dst-port=7500,7507,7557,7585-7586,7610-7639,8700,10001,17000,20000-20002 \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=udp
+
+add action=mark-connection chain=dartonet-pre comment=PUBG disabled=yes \
+
+    dst-port=3013,10012 in-interface=E3-WLAN new-connection-mark=conn-game \
+
+    passthrough=yes protocol=tcp
+
+add action=mark-connection chain=dartonet-pre comment=PUBG1 disabled=yes \
+
+    dst-port=20000,20001,20002,10109 in-interface=E3-WLAN \
+
+    new-connection-mark=conn-game passthrough=yes protocol=udp
+
+add action=mark-connection chain=dartonet-pre comment=PUBG2 disabled=yes \
+
+    dst-port="10320,10398,10419,10491-10493,10612,11455,12070-12460,13748,1397\
+
+    2,13894,17000,20000-20002" in-interface=E3-WLAN new-connection-mark=\
+
+    conn-game passthrough=yes protocol=udp
+
+add action=mark-connection chain=dartonet-pre comment=ML disabled=yes \
+
+    dst-port=5001-5009,5051-5059,30101 in-interface=E3-WLAN \
+
+    new-connection-mark=conn-game passthrough=yes protocol=tcp
+
+add action=mark-connection chain=dartonet-pre comment=ML disabled=yes \
+
+    dst-port=5001-5009,5051-5059 in-interface=E3-WLAN new-connection-mark=\
+
+    conn-game passthrough=yes protocol=udp
+
+add action=mark-connection chain=dartonet-pre comment=FF disabled=yes \
+
+    dst-port=7006,39779,39698,57846 in-interface=E3-WLAN new-connection-mark=\
+
+    conn-game passthrough=yes protocol=tcp
+
+add action=mark-connection chain=dartonet-pre comment=FF disabled=yes \
+
+    dst-port=7008,10002,10003,10004,42556 in-interface=E3-WLAN \
+
+    new-connection-mark=conn-game passthrough=yes protocol=udp
+
+add action=mark-connection chain=dartonet-pre comment=AOV disabled=yes \
+
+    dst-port=3013,8081-8085,20000,40000,10015 in-interface=E3-WLAN \
+
+    new-connection-mark=conn-game passthrough=yes protocol=tcp
+
+add action=mark-connection chain=dartonet-pre comment=AOV disabled=yes \
+
+    dst-port=17000,10030,10048 in-interface=E3-WLAN new-connection-mark=\
+
+    conn-game passthrough=yes protocol=udp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="5304,5308\
+
+    ,5319,5340-5352,6000-6152,6695-6699,7106,7200,7201-7210,7320-7350" \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=tcp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="7400,7401\
+
+    -7410,7451,7777,7770-7790,7800,7999,8002-8010,8085,8088,8110-8120" \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=tcp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="8230-8250\
+
+    ,8393-8400,9100-9200,9300,9376-9377,9400,9600,9601-9602,9700,9900" \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=tcp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="9000-9999\
+
+    ,10007,10009,10001-10011,10053,10000-10111,10357,10402,10500-10610,10600-1\
+
+    0700" in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=tcp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="11033,110\
+
+    11-11041,11600-11800,12011,12110,13008,13413,14009,14010,14300-14440,14400\
+
+    -14501" in-interface=E3-WLAN new-connection-mark=conn-game passthrough=\
+
+    yes protocol=tcp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="15000-155\
+
+    00,16402-16502,16666,18901-18910,19000,19101,22100,20005-25000,27017-27020\
+
+    " in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=tcp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="27000-270\
+
+    25,27780,27782,27920-27940,28012,28000-28050,28901-28920,29000-29200,32801\
+
+    ,32803" in-interface=E3-WLAN new-connection-mark=conn-game passthrough=\
+
+    yes protocol=tcp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="32801,328\
+
+    03,33000-34000,36567,38111-38125,33000-39000,39100,39110,39190,39220,39311\
+
+    " in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=tcp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="39000-400\
+
+    00,40000-40404,40100-43400,47611,49100,50000-50100,52510,53100-53110,54100\
+
+    ,55100" in-interface=E3-WLAN new-connection-mark=conn-game passthrough=\
+
+    yes protocol=tcp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="9002,1000\
+
+    0-10015,24000-24100,30000-30200,5001,5500-5600,5003,9001,10001-10094" \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=tcp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port=\
+
+    9960-9969,1024-1124,3216,18000,18120,18060,27900,28910,29900 \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=tcp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port=\
+
+    1293,1479,2800-2900,3432,3478,3479,4300,4950,4955,5060,5062,5304,5308 \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=udp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="5000-5500\
+
+    ,5000-6000,6100-6152,6800-6899,7200,7800-7850,7000-7900,7777-7977" \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=udp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="7086-7995\
+
+    ,7000-7999,8001,9002-9999,10087,10000-10111,11100-11125,11235-11335" \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=udp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="11440-114\
+
+    60,11000-12000,12060-12070,12020-12080,12070-12460,14009-14026,15125,15100\
+
+    -15150" in-interface=E3-WLAN new-connection-mark=conn-game passthrough=\
+
+    yes protocol=udp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port=\
+
+    6008,7008,9008,10000-10009,11001-11009 in-interface=E3-WLAN \
+
+    new-connection-mark=conn-game passthrough=yes protocol=udp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="27017-270\
+
+    20,27000-27025,27010-27200,28010-28200,29000-29010,12000-29999,30002,30000\
+
+    -30030" in-interface=E3-WLAN new-connection-mark=conn-game passthrough=\
+
+    yes protocol=udp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="30443,328\
+
+    01-32825,32800-32900,33000-39000,39000,39311,40000-40010,41527,40010-42000\
+
+    " in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=udp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port=\
+
+    42051-42052,42350-42474,42100-43000,47611,49330-49350,50000-50050,62131 \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=udp
+
+add action=mark-connection chain=dartonet-pre disabled=yes dst-port="7080-8000\
+
+    ,24000-24100,9004-9020,10080,17000,1024-1124,18000,29900,37000-40000" \
+
+    in-interface=E3-WLAN new-connection-mark=conn-game passthrough=yes \
+
+    protocol=udp
+
+add action=mark-packet chain=dartonet-pre connection-mark=conn-game \
+
+    connection-rate=0-256k disabled=yes in-interface=E3-WLAN new-packet-mark=\
+
+    up-game passthrough=no src-address-list=HOTSPOT
+
+add action=mark-packet chain=dartonet-pos connection-mark=conn-game \
+
+    connection-rate=0-256k disabled=yes dst-address-list=HOTSPOT \
+
+    new-packet-mark=game.ol out-interface=E3-WLAN passthrough=no
+
+add action=mark-packet chain=dartonet-pre connection-mark=conn-game disabled=\
+
+    yes in-interface=E3-WLAN new-packet-mark=up-game2 passthrough=no \
+
+    src-address-list=HOTSPOT
+
+add action=mark-packet chain=dartonet-pos connection-mark=conn-game disabled=\
+
+    yes dst-address-list=HOTSPOT new-packet-mark=game.ol2 out-interface=\
+
+    E3-WLAN passthrough=no
+
+add action=jump chain=dartonet-pre connection-mark=!conn-game disabled=yes \
+
+    dst-port=!18,20-25,29,37,42,43,47,49,53 in-interface=E3-WLAN jump-target=\
+
+    more-game1 protocol=tcp
+
+add action=jump chain=dartonet-pre connection-mark=!conn-game disabled=yes \
+
+    dst-port=!18,20-25,29,37,42,43,47,49,53 in-interface=E3-WLAN jump-target=\
+
+    more-game1 protocol=udp
+
+add action=mark-connection chain=more-game1 disabled=yes dst-port=\
+
+    !69,70,79,80-81,103,108-109,110,115 in-interface=E3-WLAN \
+
+    new-connection-mark=conn-game1 passthrough=yes protocol=tcp
+
+add action=mark-connection chain=more-game1 disabled=yes dst-port=\
+
+    !69,70,79,80-81,103,108-109,110,115 in-interface=E3-WLAN \
+
+    new-connection-mark=conn-game1 passthrough=yes protocol=udp
+
+add action=jump chain=dartonet-pre connection-mark=conn-game1 disabled=yes \
+
+    dst-port=!118,119,123,137-139,143,150,156,161-162,179,182 in-interface=\
+
+    E3-WLAN jump-target=more-game2 protocol=tcp
+
+add action=jump chain=dartonet-pre connection-mark=conn-game1 disabled=yes \
+
+    dst-port=!118,119,123,137-139,143,150,156,161-162,179,182 in-interface=\
+
+    E3-WLAN jump-target=more-game2 protocol=udp
+
+add action=mark-connection chain=more-game2 disabled=yes dst-port=\
+
+    !190,194,197,282,389,396,443-445,458,465,546-547 in-interface=E3-WLAN \
+
+    new-connection-mark=conn-game2 passthrough=yes protocol=tcp
+
+add action=mark-connection chain=more-game2 disabled=yes dst-port=\
+
+    !190,194,197,282,389,396,443-445,458,465,546-547 in-interface=E3-WLAN \
+
+    new-connection-mark=conn-game2 passthrough=yes protocol=udp
+
+add action=jump chain=dartonet-pre connection-mark=conn-game2 disabled=yes \
+
+    dst-port=!554,563,569,587,636,989,990,993,1080,1194,1468 in-interface=\
+
+    E3-WLAN jump-target=more-game3 protocol=tcp
+
+add action=jump chain=dartonet-pre connection-mark=conn-game2 disabled=yes \
+
+    dst-port=!554,563,569,587,636,989,990,993,1080,1194,1468 in-interface=\
+
+    E3-WLAN jump-target=more-game3 protocol=udp
+
+add action=mark-connection chain=more-game3 disabled=yes dst-port=\
+
+    !1701,1723,2464,1935,3128,5938,8080,8081,8181,8383 in-interface=E3-WLAN \
+
+    new-connection-mark=conn-game3 passthrough=yes protocol=tcp
+
+add action=mark-connection chain=more-game3 disabled=yes dst-port=\
+
+    !1701,1723,2464,1935,3128,5938,8080,8081,8181,8383 in-interface=E3-WLAN \
+
+    new-connection-mark=conn-game3 passthrough=yes protocol=udp
+
+add action=mark-packet chain=dartonet-pre connection-mark=conn-game3 \
+
+    connection-rate=0-256k disabled=yes in-interface=E3-WLAN new-packet-mark=\
+
+    up-game passthrough=no src-address-list=HOTSPOT
+
+add action=mark-packet chain=dartonet-pos connection-mark=conn-game3 \
+
+    connection-rate=0-256k disabled=yes dst-address-list=HOTSPOT \
+
+    new-packet-mark=game.ol out-interface=E3-WLAN passthrough=no
+
+add action=mark-packet chain=dartonet-pre connection-mark=conn-game3 \
+
+    disabled=yes in-interface=E3-WLAN new-packet-mark=up-game2 passthrough=no \
+
+    src-address-list=HOTSPOT
+
+add action=mark-packet chain=dartonet-pos connection-mark=conn-game3 \
+
+    disabled=yes dst-address-list=HOTSPOT new-packet-mark=game.ol2 \
+
+    out-interface=E3-WLAN passthrough=no
+
+add action=mark-connection chain=dartonet-pre connection-mark=!conn-game \
+
+    disabled=yes in-interface=E3-WLAN layer7-protocol="game web" \
+
+    new-connection-mark=conn-gameweb passthrough=yes src-address-list=HOTSPOT
+
+add action=mark-connection chain=dartonet-pre connection-mark=!conn-game \
+
+    disabled=yes in-interface=E3-WLAN layer7-protocol=patch \
+
+    new-connection-mark=conn-patch passthrough=yes src-address-list=HOTSPOT
+
+add action=mark-connection chain=dartonet-pre connection-mark=!conn-game \
+
+    disabled=yes in-interface=E3-WLAN layer7-protocol=video \
+
+    new-connection-mark=conn-streaming passthrough=yes src-address-list=\
+
+    HOTSPOT
+
+add action=mark-connection chain=dartonet-pre connection-mark=!conn-game \
+
+    disabled=yes in-interface=E3-WLAN layer7-protocol=sosmed \
+
+    new-connection-mark=conn-sosmed passthrough=yes src-address-list=HOTSPOT
+
+add action=mark-connection chain=dartonet-pre connection-mark=!conn-game \
+
+    disabled=yes in-interface=E3-WLAN layer7-protocol=streaming \
+
+    new-connection-mark=conn-streaming passthrough=yes src-address-list=\
+
+    HOTSPOT
+
+add action=mark-packet chain=dartonet-pre connection-bytes=256000-0 \
+
+    connection-mark=!conn-game disabled=yes in-interface=E3-WLAN \
+
+    new-packet-mark=up-browsing-b passthrough=no src-address-list=HOTSPOT
+
+add action=mark-packet chain=dartonet-pre connection-mark=!conn-game \
+
+    disabled=yes in-interface=E3-WLAN new-packet-mark=up-browsing-s \
+
+    passthrough=no src-address-list=HOTSPOT
+
+add action=mark-packet chain=dartonet-pos connection-bytes=512000-0 \
+
+    connection-mark=conn-patch disabled=yes dst-address-list=HOTSPOT \
+
+    new-packet-mark=down-patch-game out-interface=E3-WLAN passthrough=no
+
+add action=mark-packet chain=dartonet-pos connection-mark=conn-patch \
+
+    disabled=yes dst-address-list=HOTSPOT new-packet-mark=down-loading \
+
+    out-interface=E3-WLAN passthrough=no
+
+add action=mark-packet chain=dartonet-pos connection-mark=conn-gameweb \
+
+    connection-rate=0-512k disabled=yes dst-address-list=HOTSPOT \
+
+    new-packet-mark=down-playgameweb out-interface=E3-WLAN passthrough=no
+
+add action=mark-packet chain=dartonet-pos connection-mark=conn-gameweb \
+
+    disabled=yes dst-address-list=HOTSPOT new-packet-mark=down-loading \
+
+    out-interface=E3-WLAN passthrough=no
+
+add action=mark-packet chain=dartonet-pos connection-bytes=512000-0 \
+
+    connection-mark=conn-sosmed disabled=yes dst-address-list=HOTSPOT \
+
+    new-packet-mark=down-sosmed out-interface=E3-WLAN passthrough=no
+
+add action=mark-packet chain=dartonet-pos connection-mark=conn-sosmed \
+
+    disabled=yes dst-address-list=HOTSPOT new-packet-mark=down-http.https \
+
+    out-interface=E3-WLAN passthrough=no
+
+add action=mark-packet chain=dartonet-pos connection-bytes=512000-0 \
+
+    connection-mark=conn-streaming disabled=yes dst-address-list=HOTSPOT \
+
+    new-packet-mark=down-streaming out-interface=E3-WLAN passthrough=no
+
+add action=mark-packet chain=dartonet-pos connection-mark=conn-streaming \
+
+    disabled=yes dst-address-list=HOTSPOT new-packet-mark=down-http.https \
+
+    out-interface=E3-WLAN passthrough=no
+
+add action=mark-packet chain=dartonet-pos connection-bytes=512000-0 \
+
+    connection-mark=!conn-game disabled=yes dst-address-list=HOTSPOT \
+
+    new-packet-mark=down-paket out-interface=E3-WLAN passthrough=no
+
+add action=mark-packet chain=dartonet-pos connection-mark=!conn-game \
+
+    disabled=yes dst-address-list=HOTSPOT new-packet-mark=down-http.https \
+
+    out-interface=E3-WLAN passthrough=no
+
+
+/ip firewall nat
+
+add action=passthrough chain=unused-hs-chain comment=\
+
+    "place hotspot rules here" disabled=yes
+
+add action=masquerade chain=srcnat out-interface=Internet
+
+add action=masquerade chain=srcnat comment="masquerade hotspot network" \
+
+    src-address=192.168.10.0/23
+
+add action=masquerade chain=srcnat out-interface=WMS
+
+add action=passthrough chain=unused-hs-chain comment=\
+
+    "place hotspot rules here" disabled=yes
+
+add action=masquerade chain=srcnat out-interface=Internet
+
+add action=masquerade chain=srcnat comment="masquerade hotspot network" \
+
+    src-address=192.168.10.0/23
+
+
+/ip firewall raw
+
+add action=add-dst-to-address-list address-list=ip_game address-list-timeout=\
+
+    5m chain=prerouting comment="Free Fire" dst-address-list=!private_lokal \
+
+    dst-port=7006,39779,39698,57846 protocol=tcp
+
+add action=add-dst-to-address-list address-list=ip_game address-list-timeout=\
+
+    5m chain=prerouting dst-address-list=!private_lokal dst-port=\
+
+    7008,10002,10003,10004,42556 protocol=udp
+
+add action=add-dst-to-address-list address-list=ip_game address-list-timeout=\
+
+    5m chain=prerouting comment="Mobile Legends" dst-address-list=\
+
+    !private_lokal dst-port=\
+
+    5000-5508,5551-5558,5601-5608,5651-5658,30097-30147 protocol=tcp
+
+add action=add-dst-to-address-list address-list=ip_game address-list-timeout=\
+
+    5m chain=prerouting dst-address-list=!private_lokal dst-port=\
+
+    5000-5300,5500-5700,9000-9005,30000-30300,5001-5009,5051-5059,30101 \
+
+    protocol=tcp
+
+add action=add-dst-to-address-list address-list=ip_game address-list-timeout=\
+
+    5m chain=prerouting dst-address-list=!private_lokal dst-port=5000-5200 \
+
+    protocol=udp
+
+add action=add-dst-to-address-list address-list=ip_game address-list-timeout=\
+
+    5m chain=prerouting comment="Battle Royale Mobile" dst-address-list=\
+
+    !private_lokal dst-port=14000,17000,17500 protocol=tcp
+
+add action=add-dst-to-address-list address-list=ip_game address-list-timeout=\
+
+    5m chain=prerouting dst-address-list=!private_lokal dst-port=\
+
+    7000-8700,10010-11455,12235-13972,17000,20000-20002 protocol=udp
+
+add action=add-dst-to-address-list address-list=ip_game address-list-timeout=\
+
+    5m chain=prerouting comment="Call Of Duty" dst-address-list=\
+
+    !private_lokal dst-port=7500-8000,17000,20000-20002,65050 protocol=udp
+
+add action=add-dst-to-address-list address-list=ip_game address-list-timeout=\
+
+    5m chain=prerouting dst-address-list=!private_lokal dst-port=65010,65050 \
+
+    protocol=tcp
+
+add action=add-dst-to-address-list address-list=ip_game address-list-timeout=\
+
+    5m chain=prerouting comment="PUBG Mobile" dst-address-list=!private_lokal \
+
+    dst-port=20000,20001,20002,10109 protocol=udp
+
+add action=add-dst-to-address-list address-list=ip_game address-list-timeout=\
+
+    5m chain=prerouting dst-address-list=!private_lokal dst-port="10320,10398,\
+
+    10419,10491-10493,10612,11455,12070-12460,13748,13972,13894,17000,20000-20\
+
+    002" protocol=udp
+
+
+/ip hotspot ip-binding
+
+add disabled=yes mac-address=D4:58:00:28:D8:99 type=bypassed
+
+add disabled=yes mac-address=34:E9:11:34:84:91 server=hotspot1 type=bypassed
+
+
+
+/ip hotspot user
+
+add comment=Susan mac-address=88:D5:0C:1B:99:18 name=88:D5:0C:1B:99:18 \
+
+    password=aaaa11112 profile=Keluarga
+
+
+
+
+
+
+
+
+
+
+
+/ip route
+
+add check-gateway=ping distance=1 gateway=192.168.1.1 routing-mark=\
+
+    via_indihome
+
+add check-gateway=ping distance=1 gateway=192.168.2.1 routing-mark=\
+
+    via_seamless
+
+add check-gateway=ping disabled=yes distance=1 gateway=WMS routing-mark=\
+
+    via_seamless
+
+add check-gateway=ping distance=1 gateway=192.168.2.1 routing-mark=\
+
+    via_rm_youtube
+
+add check-gateway=ping distance=1 gateway=192.168.1.1 routing-mark=\
+
+    via_rm_ip_game
+
+add distance=1 gateway=192.168.1.1
+
+add distance=2 gateway=192.168.2.1
+
+add disabled=yes distance=2 gateway=192.168.1.1
+
+/ppp secret
+
+add name=salma123 password=wahab321 profile=PPPoE_3M service=pppoe
+
+add disabled=yes name=bunda password=ayah profile=PPPoE_5M service=pppoe
+
+/radius
+
+add address=127.0.0.1 secret=bakarsalju service=hotspot
+
+/system clock
+
+set time-zone-name=Asia/Makassar
+
+/system identity
+
+set name="D@Ta Network"
+
+/system logging
+
+add action=disk prefix=-> topics=hotspot,info,debug
+
+/system ntp client
+
+set enabled=yes primary-ntp=203.160.128.59 secondary-ntp=162.159.200.123
+
+/system package update
+
+set channel=long-term
+
+/system scheduler
+
+add comment="Monitor Profile PAKET-1-HARI" interval=2m11s name=PAKET-1-HARI \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"PAKET-\
+
+    1-HARI\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local\
+
+    \_name [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12\
+
+    \_20]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do=\
+
+    {:local expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime]\
+
+    \_; :if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today an\
+
+    d \$expt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [\
+
+    \_/ip hotspot user remove \$i ]; [ /ip hotspot active remove [find where u\
+
+    ser=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=feb/06/2020 start-time=01:10:54
+
+add name="del pppoe" on-event=\
+
+    "/queue simple remove [find where comment=\"user_pppoe\"]" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-time=startup
+
+add name="deluser-startup hotspot" on-event=\
+
+    "/queue simple remove [find where comment=\"user_hotspot\"]" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-time=startup
+
+add comment="Monitor Profile PAKET-2-HARI" interval=2m55s name=PAKET-2-HARI \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"PAKET-\
+
+    2-HARI\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local\
+
+    \_name [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12\
+
+    \_20]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do=\
+
+    {:local expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime]\
+
+    \_; :if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today an\
+
+    d \$expt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [\
+
+    \_/ip hotspot user remove \$i ]; [ /ip hotspot active remove [find where u\
+
+    ser=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=feb/09/2020 start-time=05:52:11
+
+add comment="Monitor Profile AKTIF-1-BULAN" interval=2m21s name=AKTIF-1-BULAN \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"AKTIF-\
+
+    1-BULAN\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :loca\
+
+    l name [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12\
+
+    \_20]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do=\
+
+    {:local expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime]\
+
+    \_; :if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today an\
+
+    d \$expt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [\
+
+    \_/ip hotspot user remove \$i ]; [ /ip hotspot active remove [find where u\
+
+    ser=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=feb/09/2020 start-time=05:30:32
+
+add comment="Monitor Profile PAKET-10-JAM" interval=2m39s name=PAKET-10-JAM \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"PAKET-\
+
+    10-JAM\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local\
+
+    \_name [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12\
+
+    \_20]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do=\
+
+    {:local expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime]\
+
+    \_; :if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today an\
+
+    d \$expt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [\
+
+    \_/ip hotspot user remove \$i ]; [ /ip hotspot active remove [find where u\
+
+    ser=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=mar/05/2020 start-time=01:36:16
+
+add comment="Monitor Profile coba" interval=2m24s name=coba on-event=":local d\
+
+    ateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\"apr\",\"may\",\"j\
+
+    un\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );:local days [ :pick\
+
+    \_\$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [ :pick \$d 7 11 ];\
+
+    :local monthint ([ :find \$montharray \$month]);:local month (\$monthint +\
+
+    \_1);:if ( [len \$month] = 1) do={:local zero (\"0\");:return [:tonum (\"\
+
+    \$year\$zero\$month\$days\")];} else={:return [:tonum (\"\$year\$month\$da\
+
+    ys\")];}}; :local timeint do={ :local hours [ :pick \$t 0 2 ]; :local minu\
+
+    tes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes) ; }; :local date\
+
+    \_[ /system clock get date ]; :local time [ /system clock get time ]; :loc\
+
+    al today [\$dateint d=\$date] ; :local curtime [\$timeint t=\$time] ; :for\
+
+    each i in [ /ip hotspot user find where profile=\"coba\" ] do={ :local com\
+
+    ment [ /ip hotspot user get \$i comment]; :local name [ /ip hotspot user g\
+
+    et \$i name]; :local gettime [:pic \$comment 12 20]; :if ([:pic \$comment \
+
+    3] = \"/\" and [:pic \$comment 6] = \"/\") do={:local expd [\$dateint d=\$\
+
+    comment] ; :local expt [\$timeint t=\$gettime] ; :if ((\$expd < \$today an\
+
+    d \$expt < \$curtime) or (\$expd < \$today and \$expt > \$curtime) or (\$e\
+
+    xpd = \$today and \$expt < \$curtime)) do={ [ /ip hotspot user remove \$i \
+
+    ]; [ /ip hotspot active remove [find where user=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=mar/11/2020 start-time=01:23:38
+
+add comment="Monitor Profile KAT-1-Hari" interval=2m14s name=KAT-1-Hari \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"KAT-1-\
+
+    Hari\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local n\
+
+    ame [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12 20\
+
+    ]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do={:lo\
+
+    cal expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime] ; :\
+
+    if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today and \$e\
+
+    xpt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [ /ip \
+
+    hotspot user remove \$i ]; [ /ip hotspot active remove [find where user=\$\
+
+    name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=apr/16/2020 start-time=02:26:33
+
+add comment="Monitor Profile EHA-2-HARI" interval=2m20s name=EHA-2-HARI \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"EHA-2-\
+
+    HARI\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local n\
+
+    ame [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12 20\
+
+    ]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do={:lo\
+
+    cal expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime] ; :\
+
+    if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today and \$e\
+
+    xpt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [ /ip \
+
+    hotspot user remove \$i ]; [ /ip hotspot active remove [find where user=\$\
+
+    name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=may/03/2020 start-time=03:53:43
+
+add comment="Monitor Profile EHA-1-Hari" interval=2m47s name=EHA-1-Hari \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"EHA-1-\
+
+    Hari\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local n\
+
+    ame [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12 20\
+
+    ]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do={:lo\
+
+    cal expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime] ; :\
+
+    if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today and \$e\
+
+    xpt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [ /ip \
+
+    hotspot user remove \$i ]; [ /ip hotspot active remove [find where user=\$\
+
+    name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=may/13/2020 start-time=05:11:39
+
+add comment="Monitor Profile AMU-1-Hari" interval=2m10s name=AMU-1-Hari \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"AMU-1-\
+
+    Hari\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local n\
+
+    ame [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12 20\
+
+    ]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do={:lo\
+
+    cal expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime] ; :\
+
+    if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today and \$e\
+
+    xpt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [ /ip \
+
+    hotspot user remove \$i ]; [ /ip hotspot active remove [find where user=\$\
+
+    name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=may/16/2020 start-time=03:41:15
+
+add comment="Monitor Profile AMU-2-Hari" interval=2m11s name=AMU-2-Hari \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"AMU-2-\
+
+    Hari\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local n\
+
+    ame [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12 20\
+
+    ]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do={:lo\
+
+    cal expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime] ; :\
+
+    if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today and \$e\
+
+    xpt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [ /ip \
+
+    hotspot user remove \$i ]; [ /ip hotspot active remove [find where user=\$\
+
+    name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=may/16/2020 start-time=02:37:42
+
+add comment="Monitor Profile Lintang-1-Hari" interval=2m31s name=\
+
+    Lintang-1-Hari on-event=":local dateint do={:local montharray ( \"jan\",\"\
+
+    feb\",\"mar\",\"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"no\
+
+    v\",\"dec\" );:local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ]\
+
+    ;:local year [ :pick \$d 7 11 ];:local monthint ([ :find \$montharray \$mo\
+
+    nth]);:local month (\$monthint + 1);:if ( [len \$month] = 1) do={:local ze\
+
+    ro (\"0\");:return [:tonum (\"\$year\$zero\$month\$days\")];} else={:retur\
+
+    n [:tonum (\"\$year\$month\$days\")];}}; :local timeint do={ :local hours \
+
+    [ :pick \$t 0 2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60\
+
+    \_+ \$minutes) ; }; :local date [ /system clock get date ]; :local time [ \
+
+    /system clock get time ]; :local today [\$dateint d=\$date] ; :local curti\
+
+    me [\$timeint t=\$time] ; :foreach i in [ /ip hotspot user find where prof\
+
+    ile=\"Lintang-1-Hari\" ] do={ :local comment [ /ip hotspot user get \$i co\
+
+    mment]; :local name [ /ip hotspot user get \$i name]; :local gettime [:pic\
+
+    \_\$comment 12 20]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6]\
+
+    \_= \"/\") do={:local expd [\$dateint d=\$comment] ; :local expt [\$timein\
+
+    t t=\$gettime] ; :if ((\$expd < \$today and \$expt < \$curtime) or (\$expd\
+
+    \_< \$today and \$expt > \$curtime) or (\$expd = \$today and \$expt < \$cu\
+
+    rtime)) do={ [ /ip hotspot user remove \$i ]; [ /ip hotspot active remove \
+
+    [find where user=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=jun/01/2020 start-time=04:25:46
+
+add comment="Monitor Profile Lintang-2-Hari" interval=2m52s name=\
+
+    Lintang-2-Hari on-event=":local dateint do={:local montharray ( \"jan\",\"\
+
+    feb\",\"mar\",\"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"no\
+
+    v\",\"dec\" );:local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ]\
+
+    ;:local year [ :pick \$d 7 11 ];:local monthint ([ :find \$montharray \$mo\
+
+    nth]);:local month (\$monthint + 1);:if ( [len \$month] = 1) do={:local ze\
+
+    ro (\"0\");:return [:tonum (\"\$year\$zero\$month\$days\")];} else={:retur\
+
+    n [:tonum (\"\$year\$month\$days\")];}}; :local timeint do={ :local hours \
+
+    [ :pick \$t 0 2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60\
+
+    \_+ \$minutes) ; }; :local date [ /system clock get date ]; :local time [ \
+
+    /system clock get time ]; :local today [\$dateint d=\$date] ; :local curti\
+
+    me [\$timeint t=\$time] ; :foreach i in [ /ip hotspot user find where prof\
+
+    ile=\"Lintang-2-Hari\" ] do={ :local comment [ /ip hotspot user get \$i co\
+
+    mment]; :local name [ /ip hotspot user get \$i name]; :local gettime [:pic\
+
+    \_\$comment 12 20]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6]\
+
+    \_= \"/\") do={:local expd [\$dateint d=\$comment] ; :local expt [\$timein\
+
+    t t=\$gettime] ; :if ((\$expd < \$today and \$expt < \$curtime) or (\$expd\
+
+    \_< \$today and \$expt > \$curtime) or (\$expd = \$today and \$expt < \$cu\
+
+    rtime)) do={ [ /ip hotspot user remove \$i ]; [ /ip hotspot active remove \
+
+    [find where user=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=jun/01/2020 start-time=01:34:19
+
+add comment="Monitor Profile FATMA-2-Hari" interval=2m13s name=FATMA-2-Hari \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"FATMA-\
+
+    2-Hari\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local\
+
+    \_name [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12\
+
+    \_20]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do=\
+
+    {:local expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime]\
+
+    \_; :if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today an\
+
+    d \$expt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [\
+
+    \_/ip hotspot user remove \$i ]; [ /ip hotspot active remove [find where u\
+
+    ser=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=jun/02/2020 start-time=01:49:44
+
+add comment="Monitor Profile BASRI-1-HARI" interval=2m43s name=BASRI-1-HARI \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"BASRI-\
+
+    1-HARI\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local\
+
+    \_name [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12\
+
+    \_20]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do=\
+
+    {:local expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime]\
+
+    \_; :if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today an\
+
+    d \$expt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [\
+
+    \_/ip hotspot user remove \$i ]; [ /ip hotspot active remove [find where u\
+
+    ser=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=jun/09/2020 start-time=05:53:39
+
+add comment="Monitor Profile BASRI-2-HARI" interval=2m43s name=BASRI-2-HARI \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"BASRI-\
+
+    2-HARI\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local\
+
+    \_name [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12\
+
+    \_20]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do=\
+
+    {:local expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime]\
+
+    \_; :if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today an\
+
+    d \$expt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [\
+
+    \_/ip hotspot user remove \$i ]; [ /ip hotspot active remove [find where u\
+
+    ser=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=jun/09/2020 start-time=04:28:33
+
+add comment="Monitor Profile FATMA-1-HARI" interval=2m45s name=FATMA-1-HARI \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"FATMA-\
+
+    1-HARI\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local\
+
+    \_name [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12\
+
+    \_20]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do=\
+
+    {:local expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime]\
+
+    \_; :if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today an\
+
+    d \$expt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [\
+
+    \_/ip hotspot user remove \$i ]; [ /ip hotspot active remove [find where u\
+
+    ser=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=jun/21/2020 start-time=05:35:48
+
+add comment="Monitor Profile Fatma-10-Jam" interval=2m57s name=Fatma-10-Jam \
+
+    on-event=":local dateint do={:local montharray ( \"jan\",\"feb\",\"mar\",\
+
+    \"apr\",\"may\",\"jun\",\"jul\",\"aug\",\"sep\",\"oct\",\"nov\",\"dec\" );\
+
+    :local days [ :pick \$d 4 6 ];:local month [ :pick \$d 0 3 ];:local year [\
+
+    \_:pick \$d 7 11 ];:local monthint ([ :find \$montharray \$month]);:local \
+
+    month (\$monthint + 1);:if ( [len \$month] = 1) do={:local zero (\"0\");:r\
+
+    eturn [:tonum (\"\$year\$zero\$month\$days\")];} else={:return [:tonum (\"\
+
+    \$year\$month\$days\")];}}; :local timeint do={ :local hours [ :pick \$t 0\
+
+    \_2 ]; :local minutes [ :pick \$t 3 5 ]; :return (\$hours * 60 + \$minutes\
+
+    ) ; }; :local date [ /system clock get date ]; :local time [ /system clock\
+
+    \_get time ]; :local today [\$dateint d=\$date] ; :local curtime [\$timein\
+
+    t t=\$time] ; :foreach i in [ /ip hotspot user find where profile=\"Fatma-\
+
+    10-Jam\" ] do={ :local comment [ /ip hotspot user get \$i comment]; :local\
+
+    \_name [ /ip hotspot user get \$i name]; :local gettime [:pic \$comment 12\
+
+    \_20]; :if ([:pic \$comment 3] = \"/\" and [:pic \$comment 6] = \"/\") do=\
+
+    {:local expd [\$dateint d=\$comment] ; :local expt [\$timeint t=\$gettime]\
+
+    \_; :if ((\$expd < \$today and \$expt < \$curtime) or (\$expd < \$today an\
+
+    d \$expt > \$curtime) or (\$expd = \$today and \$expt < \$curtime)) do={ [\
+
+    \_/ip hotspot user remove \$i ]; [ /ip hotspot active remove [find where u\
+
+    ser=\$name] ];}}}" policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+
+    start-date=aug/16/2020 start-time=04:55:59
+
+
+/system script
+
+add comment=mikhmon dont-require-permissions=no name="aug/01/2020-|-05:37:24-|\
+
+    -FfMbSmt-|-3000-|-192.168.10.150-|-54:0E:2D:E2:36:F1-|-1d-|-FATMA-1-HARI-|\
+
+    -vc-545-06.27.20-" owner=aug2020 policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source=\
+
+    aug/01/2020
+
+add comment=mikhmon dont-require-permissions=no name="aug/01/2020-|-06:44:14-|\
+
+    -uPFrKyj-|-5000-|-192.168.10.225-|-00:27:15:70:98:8A-|-2d-|-PAKET-2-HARI-|\
+
+    -vc-945-07.26.20-" owner=aug2020 policy=\
+
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source=\
+
+    aug/01/2020
+
