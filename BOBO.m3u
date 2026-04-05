@@ -40,7 +40,11 @@ https://v3.sportsonline.ps/channels/hd/hd10.php
 https://v3.sportsonline.ps/channels/hd/hd11.php
 #EXTINF:0  group-title="ELEVEN",ELEVEN 1
 https://v2.sportsonline.si/channels/pt/eleven1.php
-
-
+#EXTINF:0  group-title="ELEVEN",DAZN 1
+https://v3.sportsonline.sx/channels/pt/eleven1.php
+#EXTINF:0  group-title="ELEVEN",DAZN 2
+https://v3.sportsonline.sx/channels/pt/eleven2.php
+#EXTINF:0  group-title="ELEVEN",DAZN3
+https://v3.sportsonline.sx/channels/pt/eleven3.php
 
 
