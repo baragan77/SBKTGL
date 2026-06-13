@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>KUCIT SPORTS</title>
+  
+  <style>
+    /* --- RESET & BASIC STYLE --- */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #000000;
+      color: white;
+      /* Biarkan tinggi otomatis agar bisa di-scroll normal */
+      height: auto; 
+      width: 100%;
+      overflow-x: hidden; /* Mencegah geser kanan-kiri yang tidak sengaja */
+    }
+
+    /* --- SECURITY & NO-DRAG CSS --- */
+    .logo-item img, .logo-item span {
+      user-select: none !important;
+      -webkit-user-select: none !important;
+      -webkit-user-drag: none !important;
+      pointer-events: none; /* Supaya klik fokus ke tag <a> */
+    }
+
+    /* --- LAYOUT GRID (UTAMA) --- */
+    .container {
+      display: grid;
+      /* Mengunci tampilan agar selalu kotak-kotak (Grid) menyamping */
+      /* Min 150px untuk ukuran kotak paling kecil */
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      
+      gap: 12px; 
+      padding: 15px; 
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    /* --- LOGO ITEM (LINK) --- */
+    .logo-item {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #111;
+      padding: 10px;
+      border-radius: 12px;
+      border: 2px solid #222;
+      transition: all 0.2s ease;
+      outline: none; /* Menghapus garis biru default browser */
+    }
+
+    /* EFEK FOKUS REMOTE & HOVER MOUSE */
+    .logo-item:focus, .logo-item:hover {
+      border-color: #ffcc00; /* Warna highlight saat dipilih remote STB */
+      background: #222;
+      transform: scale(1.05);
+      box-shadow: 0 5px 15px rgba(255, 204, 0, 0.3);
+    }
+
+    /* --- GAMBAR LANDSCAPE --- */
+    .logo-item img {
+      width: 100%;
+      /* Menggunakan aspect ratio agar proporsional di TV (16:9) */
+      aspect-ratio: 16 / 9;
+      object-fit: contain; 
+      background-color: #000;
+      border-radius: 8px;
+    }
+
+  /* --- TEKS --- */
+    .logo-item span {
+      display: block;
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 13px;
+      text-align: center;
+      width: 100%;
+      
+      color: #ffffff !important; /* <--- TAMBAHKAN BARIS INI */
+      
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Penyesuaian untuk layar HP sangat kecil */
+    @media (max-width: 400px) {
+      .container {
+        grid-template-columns: repeat(2, 1fr); /* Tetap 2 kolom di HP kecil */
+      }
+    }
+  </style>
+  <script>
+    /* --- PROTEKSI JAVASCRIPT --- */
+
+    // 1. Blokir Klik Kanan (Context Menu)
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    // 2. Blokir Shortcut Keyboard (F12, Ctrl+Shift+I, Ctrl+U, dll)
+    document.onkeydown = function(e) {
+      if (e.keyCode == 123) { return false; } // F12
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; } // Inspect
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { return false; } // Inspect
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; } // Console
+      if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; } // View Source
+      if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) { return false; } // Save
+    };
+
+    // 3. Blokir Drag-and-Drop
+    document.addEventListener('dragstart', function(e) {
+      e.preventDefault();
+    });
+  </script>
+</head>
+<body>
+
+  <iframe id="hidden-frame" style="display:none;"></iframe>
+
+<div class="logo-item">
+    <a href="https://a162aivottevtad-a.akamaihd.net/IAD/83926f460d3441c0981f73bd62d7abab/v1/dash/091788724010/univision_vix_linear_amzn1_dv_live_csid_38f331a6-f6dd-4396-9193-4c0d5b6678b4_us-east-1_iad_dash_h264_none_stereo/live/clients/dash/enc/8u9cregwlt/out/v1/687f6b2a559943549be271504a948ffd/cenc.mpd?aws.sessionId=bac94a06-9cdd-4392-a494-8e68c98055ae&amznDtid=AOAGZA014O5RE&encoding=segmentBase|drmScheme=clearkey&amp;drmLicense=955574ee2b674f0fbbad818fb384c233:51d2893619bdd062fb4c0cdaafefbf27" class="play-link">
+        <img src="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" alt="Logo 2">
+        <span>TUDN</span>
+    </a>
+</div>
+
+
+  <div class="logo-item">
+    <a href="http://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd?id=555|referer=https://www.visionplus.id/|drmScheme=clearkey&amp;drmLicense=78477d2156944b7cb35762a47973aa9c:31805b3c0d03080f9ed33411258e5baf" class="play-link">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrssxyMdg7_9zEP9fdcQ7AqA9sDc18EXoi10jum0Wklg&s=10" alt="Logo 2">
+        <span>Trans7</span>
+    </a>
+</div>
+
+<div class="logo-item">
+    <a href="http://stviptv.diskon.cloud/vidiogratis.php/manifest.mpd?id=783&type=dash|referer=https://www.vidio.com/&user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0" class="play-link">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy97Gw-XUJa8z6dM8xCDOF9pfvhRrid7CFd-ebazp2PA&s=10" alt="Logo 2">
+        <span>TVONE</span>
+    </a>
+</div>
+
+<div class="logo-item">
+    <a href="http://stviptv.diskon.cloud/vidiogratis.php/manifest.mpd?id=777&type=dash|referer=https://www.vidio.com/&user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36&user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36|drmScheme=widevine&amp;drmLicense=https://stviptv.my.id/predi/widevine.php?id=205" class="play-link">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0LUvcx9APJPRuiH1Hcwfq8ctPhJwGbGMK9ryJMHJOA&s=10" alt="Logo 2">
+        <span>MetroTV</span>
+    </a>
+</div>
+
+<div class="logo-item">
+    <a href="http://stviptv.diskon.cloud/vidiogratis.php/manifest.mpd?id=206&type=dash|referer=https://www.vidio.com/&user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36|drmScheme=widevine&amp;drmLicense=http://stviptv.diskon.cloud/vidiogratis.php/widevine?id=206&type=drm" class="play-link">
+        <img src="https://thumbor.prod.vidiocdn.com/2fcK2Yn5-6El6-nRsHb_1b5rhDQ=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a19694.jpg" alt="Logo 2">
+        <span>MOJI TV</span>
+    </a>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('.play-link');
+    const hiddenFrame = document.getElementById('hidden-frame');
+
+    links.forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        let originalUrl = this.getAttribute('href').trim();
+        
+        // Normalisasi: pastikan selalu pakai https:// di intent (lebih stabil di kebanyakan player)
+        // Tapi tetap support http:// yang sudah ada
+        let cleanUrl = originalUrl;
+        if (cleanUrl.startsWith('http://')) {
+          cleanUrl = cleanUrl.replace('http://', 'https://'); // optional, kalau player lebih suka https
+        }
+        
+        // Buat intent yang otomatis detect scheme asli (http atau https)
+        // Cara paling reliable: pakai full URL setelah intent:// + scheme sesuai aslinya
+        const scheme = cleanUrl.startsWith('https://') ? 'https' : 'http';
+        const urlWithoutScheme = cleanUrl.replace(/^https?:\/\//, '');
+        
+        const intentString = `intent://${urlWithoutScheme}#Intent;scheme=${scheme};package=com.genuine.leone;end`;
+        
+        console.log('Intent dikirim:', intentString); // buat debug
+        
+        hiddenFrame.src = intentString;
+      });
+    });
+  });
+
+  // Proteksi keyboard tetap sama
+  document.onkeydown = function(e) {
+    if (e.keyCode == 123 || (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 74 || e.keyCode == 67)) || (e.ctrlKey && e.keyCode == 85)) {
+      return false;
+    }
+  };
+</script>
+
+<iframe id="hidden-frame" style="display:none;"></iframe>
